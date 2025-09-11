@@ -1,3 +1,10 @@
+### This is a WORK IN PROGRESS!
+
+---
+
+### Ownership and License
+The contributors are listed in CONTRIB.TXT. 
+
 ### Overview
 
 The EEZ DIB DCP405+ Power module is an improved version of the [DCP405](https://github.com/eez-open/modular-psu/tree/master/dcp405) module that now includes an on-board 32-bit MCU, a more accurate and faster A/D converter for simultaneous voltage and current measurement (and thus more accurate power measurement).
