@@ -1,7 +1,9 @@
 ### Overview
 
 The EEZ DIB DCP405+ Power module is an improved version of the [DCP405](https://github.com/eez-open/modular-psu/tree/master/dcp405) module that now includes an on-board 32-bit MCU, a more accurate and faster A/D converter for simultaneous voltage and current measurement (and thus more accurate power measurement).
-This version features remote current programming in addition to the existing remote voltage programming. Sense inputs are also on 4 mm safety sockets, which now enables widely accessible and affordable Kelvin cable sets (Power/Sense) as for LCR meters.
+This version features remote current programming in addition to the existing remote voltage programming. Sense inputs are also on 4 mm safety sockets, which now enables widely accessible (e.g. AliExpress, eBay, etc.) and affordable Kelvin cable sets (Power/Sense) as for LCR meters (see below)
+
+![Probe set](Images/4-wire_Kelvin_probe_set.jpg)
 
 ### Feature list
 - Power input: 48 Vdc (e.g. Mean Well EPP-150-48 or LRS-150F-48)
@@ -23,3 +25,8 @@ This version features remote current programming in addition to the existing rem
 - Dimensions: 180 x 103.5 mm, 4-layer PCB
 - **CE certified design**
 
+---
+
+This work is financed by [NLnet](https://nlnet.nl/) foundation
+
+![nlnet](Images/nlnet-logo.png)
