@@ -7,8 +7,10 @@ The contributors are listed in CONTRIB.TXT.
 
 ### Overview
 
+![3D model](Images/DCP405plus.jpg)
+
 The EEZ DIB DCP405+ Power module is an improved version of the [DCP405](https://github.com/eez-open/modular-psu/tree/master/dcp405) module that now includes an on-board 32-bit MCU, a more accurate and faster A/D converter for simultaneous voltage and current measurement (and thus more accurate power measurement).
-This version features remote current programming in addition to the existing remote voltage programming. Sense inputs are also on 4 mm safety sockets, which now enables widely accessible (e.g. AliExpress, eBay, etc.) and affordable Kelvin cable sets (Power/Sense) as for LCR meters (see below)
+This version features remote current programming in addition to the existing remote voltage programming. Sense inputs are also on 4 mm safety sockets, which now enables usage of widely available (e.g. AliExpress, eBay, etc.) and affordable Kelvin cable sets (Power/Sense) usually used with LCR meters (see below)
 
 ![Probe set](Images/4-wire_Kelvin_probe_set.jpg)
 
@@ -21,7 +23,7 @@ This version features remote current programming in addition to the existing rem
 - On-board OVP with full range dual crowbar (triac/MOSFET) and 20x5 mm fuse
 - Down-programmer
 - Output enable (OE) circuit with LED indicator combined with coupling indication
-- On-board Ø4 mm safety sockets (19.05 mm/0.75” pitch) for Power outputs and Sense inputs 
+- Ø4 mm sockets (19.05 mm/0.75” pitch) for Power outputs and Sense inputs 
 - Pass-thru connector for power output coupling with other power boards for e.g. doubling output voltage (up to 80 V) or current (up to 10 A)
 - Remote voltage sense with LED indicator and inverse polarity protection
 - Remote voltage and current programming with LED indicator (+2.5 V for full range)
@@ -34,6 +36,6 @@ This version features remote current programming in addition to the existing rem
 
 ---
 
-This work is financed by [NLnet](https://nlnet.nl/) foundation
+This work is financed by [NLnet](https://nlnet.nl/project/BB3-CM5/) foundation
 
 ![nlnet](Images/nlnet-logo.png)
