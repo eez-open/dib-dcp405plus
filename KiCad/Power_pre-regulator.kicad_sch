@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2025-10-22")
+		(date "2025-10-23")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -6246,6 +6246,95 @@
 			(embedded_fonts no)
 		)
 	)
+	(circle
+		(center 34.925 46.99)
+		(radius 0.635)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 255 0 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1f291598-658e-40d0-9390-7c2bbe20dcd3)
+	)
+	(circle
+		(center 34.925 54.61)
+		(radius 0.635)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 255 0 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3e0e3a9e-609a-4c4b-a96f-0ef1271249ff)
+	)
+	(circle
+		(center 34.925 52.07)
+		(radius 0.635)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 255 0 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a585e00e-c6b2-42c7-a3b8-31a10c5ef036)
+	)
+	(circle
+		(center 34.925 49.53)
+		(radius 0.635)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 255 0 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a77df94a-f588-4132-b910-4c8abbeeb739)
+	)
+	(rectangle
+		(start 33.655 45.72)
+		(end 36.195 55.88)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ef113377-0418-4ff5-8c3d-0b0e1b056b8f)
+	)
+	(text "DC- 1"
+		(exclude_from_sim no)
+		(at 33.02 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 255 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "259ca1f2-bb93-46d1-b47e-5cadbf125680")
+	)
+	(text "Reserved 2"
+		(exclude_from_sim no)
+		(at 33.02 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 255 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "2ba606a8-ce5a-433b-a8a4-a53c3a4a64dd")
+	)
 	(text "Low EMI power pre-regulator"
 		(exclude_from_sim no)
 		(at 15.24 17.78 0)
@@ -6259,6 +6348,30 @@
 			(justify left bottom)
 		)
 		(uuid "3d477d39-f621-4719-a008-07ecdc7b4df9")
+	)
+	(text "DC+"
+		(exclude_from_sim no)
+		(at 33.02 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 255 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "4d754241-fd9a-4b4b-a54f-ceda7df0acc6")
+	)
+	(text "Reserved 3"
+		(exclude_from_sim no)
+		(at 33.02 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 255 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "75478554-2b9e-408c-81a8-db5f7a7ac21d")
 	)
 	(text "DC in (max. 50 V)"
 		(exclude_from_sim no)
@@ -6311,6 +6424,20 @@
 			(justify left bottom)
 		)
 		(uuid "dee1afcc-e3bd-4fe5-bfaf-6f9ab75e96de")
+	)
+	(text "DC power input connector"
+		(exclude_from_sim no)
+		(at 34.925 45.085 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.3048)
+				(bold yes)
+				(color 255 0 255 1)
+			)
+			(justify bottom)
+		)
+		(uuid "f95ca0b3-d72f-4378-a8fa-49593c2d9723")
 	)
 	(text "100u"
 		(exclude_from_sim no)

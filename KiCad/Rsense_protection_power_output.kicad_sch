@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2025-10-22")
+		(date "2025-10-23")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -8366,33 +8366,7 @@
 		)
 	)
 	(circle
-		(center 262.89 78.74)
-		(radius 0.635)
-		(stroke
-			(width 0.1524)
-			(type solid)
-			(color 255 0 255 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 02eb371f-989c-43b7-a088-e2b9da43e1a7)
-	)
-	(circle
-		(center 260.35 81.28)
-		(radius 0.635)
-		(stroke
-			(width 0.1524)
-			(type solid)
-			(color 255 0 255 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 082cc988-7bed-427c-809b-babf2bb501a2)
-	)
-	(circle
-		(center 260.35 60.96)
+		(center 262.89 59.055)
 		(radius 0.635)
 		(stroke
 			(width 0.1524)
@@ -8405,7 +8379,7 @@
 		(uuid 1680a17e-8a51-4220-81f9-b61b5cb7acb6)
 	)
 	(circle
-		(center 260.35 53.34)
+		(center 262.89 51.435)
 		(radius 0.635)
 		(stroke
 			(width 0.1524)
@@ -8444,7 +8418,7 @@
 		(uuid 29fdf2c1-db1d-4895-81f4-3033540f4261)
 	)
 	(circle
-		(center 262.89 53.34)
+		(center 265.43 51.435)
 		(radius 0.635)
 		(stroke
 			(width 0.1524)
@@ -8457,7 +8431,7 @@
 		(uuid 2f5bd52f-6b63-484f-bd96-be4939250fba)
 	)
 	(circle
-		(center 260.35 55.88)
+		(center 262.89 53.975)
 		(radius 0.635)
 		(stroke
 			(width 0.1524)
@@ -8470,7 +8444,7 @@
 		(uuid 30ab8a7d-01e2-4058-aa0b-e8607fafd9f7)
 	)
 	(circle
-		(center 260.35 73.66)
+		(center 262.89 71.755)
 		(radius 0.635)
 		(stroke
 			(width 0.1524)
@@ -8483,7 +8457,7 @@
 		(uuid 3da5b2b4-81f2-419f-96e0-5c63c526ef45)
 	)
 	(circle
-		(center 260.35 76.2)
+		(center 262.89 74.295)
 		(radius 0.635)
 		(stroke
 			(width 0.1524)
@@ -8496,7 +8470,7 @@
 		(uuid 404c4600-abe7-4e9e-96c9-334b1e988ca7)
 	)
 	(circle
-		(center 262.89 76.2)
+		(center 265.43 74.295)
 		(radius 0.635)
 		(stroke
 			(width 0.1524)
@@ -8509,7 +8483,7 @@
 		(uuid 52ac514b-efe1-4532-9a50-c86517464631)
 	)
 	(circle
-		(center 262.89 60.96)
+		(center 265.43 59.055)
 		(radius 0.635)
 		(stroke
 			(width 0.1524)
@@ -8522,7 +8496,7 @@
 		(uuid 596fb584-781f-4a21-bcb1-bec0d3e15712)
 	)
 	(circle
-		(center 260.35 68.58)
+		(center 262.89 66.675)
 		(radius 0.635)
 		(stroke
 			(width 0.1524)
@@ -8535,7 +8509,7 @@
 		(uuid 60c366b3-2663-4bc4-b141-7c8122616f43)
 	)
 	(circle
-		(center 262.89 66.04)
+		(center 265.43 64.135)
 		(radius 0.635)
 		(stroke
 			(width 0.1524)
@@ -8548,33 +8522,7 @@
 		(uuid 666b3dc4-21a4-453a-b62f-494acf057f4a)
 	)
 	(circle
-		(center 260.35 78.74)
-		(radius 0.635)
-		(stroke
-			(width 0.1524)
-			(type solid)
-			(color 255 0 255 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 7a488294-06f7-48f9-9f33-8fdbbc0b0b3f)
-	)
-	(circle
-		(center 262.89 81.28)
-		(radius 0.635)
-		(stroke
-			(width 0.1524)
-			(type solid)
-			(color 255 0 255 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 8fc2aa2f-9e35-4428-a9f8-fee15f01d751)
-	)
-	(circle
-		(center 262.89 63.5)
+		(center 265.43 61.595)
 		(radius 0.635)
 		(stroke
 			(width 0.1524)
@@ -8587,7 +8535,7 @@
 		(uuid a7c4e40d-b4b2-4856-b92a-a42fdfc0ed19)
 	)
 	(circle
-		(center 262.89 58.42)
+		(center 265.43 56.515)
 		(radius 0.635)
 		(stroke
 			(width 0.1524)
@@ -8600,7 +8548,7 @@
 		(uuid abe37aba-ee55-426d-be8a-4342ecd4fe02)
 	)
 	(circle
-		(center 260.35 63.5)
+		(center 262.89 61.595)
 		(radius 0.635)
 		(stroke
 			(width 0.1524)
@@ -8613,7 +8561,7 @@
 		(uuid b2e738c6-5c94-4997-835b-029817d80ec2)
 	)
 	(circle
-		(center 262.89 55.88)
+		(center 265.43 53.975)
 		(radius 0.635)
 		(stroke
 			(width 0.1524)
@@ -8626,8 +8574,8 @@
 		(uuid b3052303-3afc-446e-9b4f-9e78736e2f4b)
 	)
 	(rectangle
-		(start 259.08 52.07)
-		(end 264.16 82.55)
+		(start 261.62 50.165)
+		(end 266.7 75.565)
 		(stroke
 			(width 0)
 			(type default)
@@ -8639,7 +8587,7 @@
 		(uuid be9a7d65-7726-4798-a460-fe6b8bf9c092)
 	)
 	(circle
-		(center 260.35 58.42)
+		(center 262.89 56.515)
 		(radius 0.635)
 		(stroke
 			(width 0.1524)
@@ -8652,7 +8600,7 @@
 		(uuid bf668d2e-9a95-4a72-8703-4c606a27760a)
 	)
 	(circle
-		(center 260.35 66.04)
+		(center 262.89 64.135)
 		(radius 0.635)
 		(stroke
 			(width 0.1524)
@@ -8665,7 +8613,7 @@
 		(uuid c6d2ef23-5363-4c08-955a-c25577071a13)
 	)
 	(circle
-		(center 262.89 68.58)
+		(center 265.43 66.675)
 		(radius 0.635)
 		(stroke
 			(width 0.1524)
@@ -8678,7 +8626,7 @@
 		(uuid c9b41452-a080-4736-ba52-ebc44980f204)
 	)
 	(circle
-		(center 260.35 71.12)
+		(center 262.89 69.215)
 		(radius 0.635)
 		(stroke
 			(width 0.1524)
@@ -8691,7 +8639,7 @@
 		(uuid cbe7ada7-c9b3-4bac-bbd8-fe6824c85ce5)
 	)
 	(circle
-		(center 262.89 71.12)
+		(center 265.43 69.215)
 		(radius 0.635)
 		(stroke
 			(width 0.1524)
@@ -8717,7 +8665,7 @@
 		(uuid e490afd1-8855-4e90-94a2-71e43642d359)
 	)
 	(circle
-		(center 262.89 73.66)
+		(center 265.43 71.755)
 		(radius 0.635)
 		(stroke
 			(width 0.1524)
@@ -8744,7 +8692,7 @@
 	)
 	(text "8 POST_OUT+"
 		(exclude_from_sim no)
-		(at 265.43 62.23 0)
+		(at 267.97 60.325 0)
 		(effects
 			(font
 				(size 1.4224 1.209)
@@ -8754,19 +8702,7 @@
 		)
 		(uuid "1129f924-4dde-42be-bbc8-a5cd526f5b3f")
 	)
-	(text "SENSE- 21"
-		(exclude_from_sim no)
-		(at 257.81 80.01 0)
-		(effects
-			(font
-				(size 1.4224 1.209)
-				(color 255 0 255 1)
-			)
-			(justify right bottom)
-		)
-		(uuid "11df3397-744a-4d30-9a69-8660774af8da")
-	)
-	(text "PE"
+	(text "PE 3"
 		(exclude_from_sim no)
 		(at 34.925 182.245 0)
 		(effects
@@ -8780,7 +8716,7 @@
 	)
 	(text "16 OUTC-"
 		(exclude_from_sim no)
-		(at 265.43 72.39 0)
+		(at 267.97 70.485 0)
 		(effects
 			(font
 				(size 1.4224 1.209)
@@ -8792,7 +8728,7 @@
 	)
 	(text "POST_OUT- 11"
 		(exclude_from_sim no)
-		(at 257.81 67.31 0)
+		(at 260.35 65.405 0)
 		(effects
 			(font
 				(size 1.4224 1.209)
@@ -8804,7 +8740,7 @@
 	)
 	(text "12 POST_OUT-"
 		(exclude_from_sim no)
-		(at 265.43 67.31 0)
+		(at 267.97 65.405 0)
 		(effects
 			(font
 				(size 1.4224 1.209)
@@ -8830,7 +8766,7 @@
 	)
 	(text "POST_OUT+ 9"
 		(exclude_from_sim no)
-		(at 257.81 64.77 0)
+		(at 260.35 62.865 0)
 		(effects
 			(font
 				(size 1.4224 1.209)
@@ -8840,21 +8776,9 @@
 		)
 		(uuid "2a0809e9-d591-4fdc-8312-0d12197fc796")
 	)
-	(text "24 PE"
-		(exclude_from_sim no)
-		(at 265.43 82.55 0)
-		(effects
-			(font
-				(size 1.4224 1.209)
-				(color 255 0 255 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "2b402351-4aab-4829-a90a-460f3068ecc3")
-	)
 	(text "OUTC- 17"
 		(exclude_from_sim no)
-		(at 257.81 74.93 0)
+		(at 260.35 73.025 0)
 		(effects
 			(font
 				(size 1.4224 1.209)
@@ -8880,7 +8804,7 @@
 	)
 	(text "POST_OUT- 13"
 		(exclude_from_sim no)
-		(at 257.81 69.85 0)
+		(at 260.35 67.945 0)
 		(effects
 			(font
 				(size 1.4224 1.209)
@@ -8906,7 +8830,7 @@
 	)
 	(text "10 POST_OUT+"
 		(exclude_from_sim no)
-		(at 265.43 64.77 0)
+		(at 267.97 62.865 0)
 		(effects
 			(font
 				(size 1.4224 1.209)
@@ -8918,7 +8842,7 @@
 	)
 	(text "4 OUTC+"
 		(exclude_from_sim no)
-		(at 265.43 57.15 0)
+		(at 267.97 55.245 0)
 		(effects
 			(font
 				(size 1.4224 1.209)
@@ -8930,7 +8854,7 @@
 	)
 	(text "6 POST_OUT+"
 		(exclude_from_sim no)
-		(at 265.43 59.69 0)
+		(at 267.97 57.785 0)
 		(effects
 			(font
 				(size 1.4224 1.209)
@@ -8942,7 +8866,7 @@
 	)
 	(text "2 OUTC+"
 		(exclude_from_sim no)
-		(at 265.43 54.61 0)
+		(at 267.97 52.705 0)
 		(effects
 			(font
 				(size 1.4224 1.209)
@@ -8954,7 +8878,7 @@
 	)
 	(text "OUTC+ 5"
 		(exclude_from_sim no)
-		(at 257.81 59.69 0)
+		(at 260.35 57.785 0)
 		(effects
 			(font
 				(size 1.4224 1.209)
@@ -8966,7 +8890,7 @@
 	)
 	(text "14 POST_OUT-"
 		(exclude_from_sim no)
-		(at 265.43 69.85 0)
+		(at 267.97 67.945 0)
 		(effects
 			(font
 				(size 1.4224 1.209)
@@ -8978,7 +8902,7 @@
 	)
 	(text "18 OUTC-"
 		(exclude_from_sim no)
-		(at 265.43 74.93 0)
+		(at 267.97 73.025 0)
 		(effects
 			(font
 				(size 1.4224 1.209)
@@ -8990,7 +8914,7 @@
 	)
 	(text "POST_OUT+ 7"
 		(exclude_from_sim no)
-		(at 257.81 62.23 0)
+		(at 260.35 60.325 0)
 		(effects
 			(font
 				(size 1.4224 1.209)
@@ -9002,7 +8926,7 @@
 	)
 	(text "OUTC+ 1"
 		(exclude_from_sim no)
-		(at 257.81 54.61 0)
+		(at 260.35 52.705 0)
 		(effects
 			(font
 				(size 1.4224 1.209)
@@ -9012,7 +8936,7 @@
 		)
 		(uuid "91e07bb8-59be-4382-89ad-e5f39096aab8")
 	)
-	(text "RProg+"
+	(text "RProg+ 1"
 		(exclude_from_sim no)
 		(at 34.925 177.165 0)
 		(effects
@@ -9024,9 +8948,9 @@
 		)
 		(uuid "95a10fad-5b37-4455-ad16-f0d7a3e146cc")
 	)
-	(text "20 OUTC-"
+	(text "20 SENSE+"
 		(exclude_from_sim no)
-		(at 265.43 77.47 0)
+		(at 267.97 75.565 0)
 		(effects
 			(font
 				(size 1.4224 1.209)
@@ -9035,18 +8959,6 @@
 			(justify left bottom)
 		)
 		(uuid "9717087b-7c30-4841-bc7c-47ac497fdde8")
-	)
-	(text "PE 23"
-		(exclude_from_sim no)
-		(at 257.81 82.55 0)
-		(effects
-			(font
-				(size 1.4224 1.209)
-				(color 255 0 255 1)
-			)
-			(justify right bottom)
-		)
-		(uuid "a1a54351-27ab-43fd-9146-9080f3765fec")
 	)
 	(text "Front panel 3-pin connector"
 		(exclude_from_sim no)
@@ -9064,7 +8976,7 @@
 	)
 	(text "OUTC+ 3"
 		(exclude_from_sim no)
-		(at 257.81 57.15 0)
+		(at 260.35 55.245 0)
 		(effects
 			(font
 				(size 1.4224 1.209)
@@ -9086,7 +8998,7 @@
 		)
 		(uuid "b74dd899-5364-41b2-abd4-a88028c1ab77")
 	)
-	(text "RProg-"
+	(text "RProg- 2"
 		(exclude_from_sim no)
 		(at 34.925 179.705 0)
 		(effects
@@ -9126,9 +9038,9 @@
 		)
 		(uuid "f0bdde46-6b63-4d4f-8955-c0e706f1e941")
 	)
-	(text "OUTC- 19"
+	(text "SENSE- 19"
 		(exclude_from_sim no)
-		(at 257.81 77.47 0)
+		(at 260.35 75.565 0)
 		(effects
 			(font
 				(size 1.4224 1.209)
@@ -9140,7 +9052,7 @@
 	)
 	(text "POST_OUT- 15"
 		(exclude_from_sim no)
-		(at 257.81 72.39 0)
+		(at 260.35 70.485 0)
 		(effects
 			(font
 				(size 1.4224 1.209)
@@ -9150,9 +9062,9 @@
 		)
 		(uuid "f8d8b7b8-734e-4c1e-9fc1-87be9df0cc21")
 	)
-	(text "24-pin DIB 1.3 power socket"
+	(text "20-pin DIB 2.0 power socket"
 		(exclude_from_sim no)
-		(at 261.62 51.435 0)
+		(at 264.16 49.53 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -9163,18 +9075,6 @@
 			(justify bottom)
 		)
 		(uuid "fa31b10a-33ec-4049-badc-6dc89987f2be")
-	)
-	(text "22 SENSE+"
-		(exclude_from_sim no)
-		(at 265.43 80.01 0)
-		(effects
-			(font
-				(size 1.4224 1.209)
-				(color 255 0 255 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "fb6253a8-06fb-4dca-a8d9-c9960cbfb8b0")
 	)
 	(junction
 		(at 167.64 154.94)
