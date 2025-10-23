@@ -1,4 +1,4 @@
-### Footprint positions - created on 2025-10-22T17:55:20+0200 ###
+### Footprint positions - created on 2025-10-23T10:04:08+0200 ###
 ### Printed by KiCad version 9.0.5-9.0.5~ubuntu24.04.1
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -187,8 +187,8 @@ IC26      MAX9141ESA                       SOIC127P600X173-8N            139.006
 J1        572-0500                         572-0X00                       83.5000  -111.9500  180.0000  top
 J2        572-0100                         572-0X00                       83.5000  -131.0000  180.0000  top
 JP4       ~                                M22-2010246                   184.5658   -75.1840  180.0000  top
-JP5       ~                                JP3_shorted_(0603)_2-3        191.0842  -112.0648  -90.0000  top
-JP6       ~                                JP3_shorted_(0603)_2-3        195.7832   -88.5698  -90.0000  top
+JP5       ~                                JP3_shorted_(0603)            191.0715  -112.8475  -90.0000  top
+JP6       ~                                JP3_shorted_(0603)            195.7705   -89.3150  -90.0000  top
 JP7       ~                                M22-2010246                   203.7588   -75.1840  180.0000  top
 K1        FTR-C1GA012G-B05_or_EE2-12NU-L   FTR-C1                         96.2025  -130.1115  -90.0000  top
 KK1       PCB-MB-01                        PCB-MB-01                      69.5000   -63.0000    0.0000  top

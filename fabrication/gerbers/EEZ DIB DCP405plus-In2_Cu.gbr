@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,9.0.5-9.0.5~ubuntu24.04.1*%
-%TF.CreationDate,2025-10-22T17:54:56+02:00*%
+%TF.CreationDate,2025-10-23T10:03:55+02:00*%
 %TF.ProjectId,EEZ DIB DCP405plus,45455a20-4449-4422-9044-435034303570,r4B2*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Copper,L3,Inr*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 9.0.5-9.0.5~ubuntu24.04.1) date 2025-10-22 17:54:56*
+G04 Created by KiCad (PCBNEW 9.0.5-9.0.5~ubuntu24.04.1) date 2025-10-23 10:03:55*
 %MOMM*%
 %LPD*%
 G01*
@@ -403,6 +403,8 @@ X60600000Y-131000000D03*
 X83500000Y-131000000D03*
 %TD*%
 D31*
+%TO.N,+VNR*%
+X201231500Y-95758000D03*
 %TO.N,PE*%
 X123190000Y-142550000D03*
 X228850200Y-123451000D03*
