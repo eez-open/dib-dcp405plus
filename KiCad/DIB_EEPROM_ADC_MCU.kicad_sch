@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-01-03")
+		(date "2026-01-06")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -4393,10 +4393,10 @@
 						(type none)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -5.08 -2.54 0)
 					(length 5.08)
-					(name "+12V"
+					(name "PE"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -4465,7 +4465,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at -5.08 -12.7 0)
 					(length 5.08)
 					(name "+5V"
@@ -4483,7 +4483,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at -5.08 -15.24 0)
 					(length 5.08)
 					(name "+5V"
@@ -4519,13 +4519,13 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -5.08 -20.32 0)
 					(length 5.08)
-					(name "PE"
+					(name "~{SHUTDOWN}"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 0.889 0.889)
 							)
 						)
 					)
@@ -4555,7 +4555,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -5.08 -25.4 0)
 					(length 5.08)
 					(name "SCL/SMBCLK"
@@ -4609,7 +4609,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -5.08 -35.56 0)
 					(length 5.08)
 					(name "QSPI_CLK"
@@ -4699,7 +4699,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -5.08 -48.26 0)
 					(length 5.08)
 					(name "QSPI_NCS"
@@ -4753,7 +4753,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -5.08 -55.88 0)
 					(length 5.08)
 					(name "SCLK"
@@ -4771,7 +4771,7 @@
 						)
 					)
 				)
-				(pin tri_state line
+				(pin passive line
 					(at -5.08 -58.42 0)
 					(length 5.08)
 					(name "MOSI"
@@ -4789,7 +4789,7 @@
 						)
 					)
 				)
-				(pin tri_state line
+				(pin passive line
 					(at -5.08 -60.96 0)
 					(length 5.08)
 					(name "MISO"
@@ -4807,7 +4807,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin passive line
 					(at -5.08 -63.5 0)
 					(length 5.08)
 					(name "~{IRQ}"
@@ -4825,7 +4825,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -5.08 -66.04 0)
 					(length 5.08)
 					(name "~{CSA}"
@@ -4843,7 +4843,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -5.08 -68.58 0)
 					(length 5.08)
 					(name "~{CSB}"
@@ -5095,7 +5095,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 22.86 -20.32 180)
 					(length 5.08)
 					(name "~{RESET}"
@@ -5203,7 +5203,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 22.86 -38.1 180)
 					(length 5.08)
 					(name "AC_FREQ"
@@ -5311,7 +5311,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 22.86 -53.34 180)
 					(length 5.08)
 					(name "BOOT"
@@ -5509,7 +5509,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 22.86 -81.28 180)
 					(length 5.08)
 					(name "GND"
@@ -5527,7 +5527,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 22.86 -83.82 180)
 					(length 5.08)
 					(name "ETH_SYNC"
@@ -9424,6 +9424,10 @@
 		(uuid "5338ef3c-4b55-479a-a716-71eafc7a2e7f")
 	)
 	(no_connect
+		(at 35.56 38.1)
+		(uuid "563d90be-7129-421a-98ff-37532dae8212")
+	)
+	(no_connect
 		(at 63.5 60.96)
 		(uuid "5848d61a-ab31-4a11-9e66-6436d9399661")
 	)
@@ -9478,10 +9482,6 @@
 	(no_connect
 		(at 208.28 127)
 		(uuid "a77a3eef-6ba5-431e-983b-91c269579ac8")
-	)
-	(no_connect
-		(at 35.56 20.32)
-		(uuid "ae282e37-f90b-4466-8a3c-aa417a218621")
 	)
 	(no_connect
 		(at 63.5 86.36)
@@ -9598,6 +9598,16 @@
 			(type default)
 		)
 		(uuid "05283f88-31cd-43e4-b0e6-dd20e09f59b5")
+	)
+	(wire
+		(pts
+			(xy 27.94 22.86) (xy 27.94 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "056e5dc0-3f72-4f95-9b7f-a2c5e83265dc")
 	)
 	(wire
 		(pts
@@ -9988,16 +9998,6 @@
 			(type default)
 		)
 		(uuid "291cd592-00df-4ea0-835e-380d89d81478")
-	)
-	(wire
-		(pts
-			(xy 30.48 38.1) (xy 35.56 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2968e615-840f-425f-b6dd-6137800cd5f1")
 	)
 	(wire
 		(pts
@@ -10914,6 +10914,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 20.32) (xy 35.56 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63aca541-db4a-417c-b314-5b3a967aa7ac")
+	)
+	(wire
+		(pts
 			(xy 248.92 68.58) (xy 251.46 68.58)
 		)
 		(stroke
@@ -11624,16 +11634,6 @@
 			(type default)
 		)
 		(uuid "9008076a-daa7-44ee-abeb-387105409456")
-	)
-	(wire
-		(pts
-			(xy 25.4 33.02) (xy 30.48 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90d2cae3-85dc-4152-af09-63ec1535fffc")
 	)
 	(wire
 		(pts
@@ -12825,16 +12825,6 @@
 			(type solid)
 		)
 		(uuid "e2a920e1-3df5-48a8-8674-b4744bc513f2")
-	)
-	(wire
-		(pts
-			(xy 30.48 33.02) (xy 30.48 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2b8cdf8-6217-48d7-8e07-a2a58c745859")
 	)
 	(wire
 		(pts
@@ -21203,7 +21193,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_symbols:PE")
-		(at 25.4 35.56 0)
+		(at 27.94 25.4 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21212,7 +21202,7 @@
 		(dnp no)
 		(uuid "8b78fc00-4d49-4df9-b87e-43bee076fe3a")
 		(property "Reference" "#PE01"
-			(at 25.4 35.56 0)
+			(at 27.94 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21221,7 +21211,7 @@
 			)
 		)
 		(property "Value" "PE"
-			(at 22.86 36.195 0)
+			(at 25.4 26.035 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21230,7 +21220,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 35.56 0)
+			(at 27.94 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21239,7 +21229,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 35.56 0)
+			(at 27.94 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21248,7 +21238,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 25.4 35.56 0)
+			(at 27.94 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21257,7 +21247,7 @@
 			)
 		)
 		(property "DigiKey" ""
-			(at 25.4 35.56 0)
+			(at 27.94 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21266,7 +21256,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 25.4 35.56 0)
+			(at 27.94 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21275,7 +21265,7 @@
 			)
 		)
 		(property "TME" ""
-			(at 25.4 35.56 0)
+			(at 27.94 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21284,7 +21274,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 25.4 35.56 0)
+			(at 27.94 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24715,21 +24705,18 @@
 		(dnp no)
 		(uuid "eddf5bf3-2889-4d5e-8dad-3b2bd3406b26")
 		(property "Reference" "X1"
-			(at 40.64 17.145 0)
-			(do_not_autoplace yes)
+			(at 42.545 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "Value" "Edge connector"
+		(property "Value" "10018783-10101TLF"
 			(at 40.64 104.775 0)
-			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left top)
 			)
@@ -24762,7 +24749,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "609-1969-ND"
+		(property "DigiKey" ""
 			(at 40.64 111.76 0)
 			(show_name yes)
 			(effects
@@ -24772,7 +24759,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "649-18783-10101TLF"
+		(property "Mouser" ""
 			(at 40.64 114.3 0)
 			(show_name yes)
 			(effects
@@ -24782,7 +24769,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" "1001878310101T-0"
+		(property "TME" ""
 			(at 40.64 116.84 0)
 			(show_name yes)
 			(effects
@@ -24792,7 +24779,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C4494856"
+		(property "LCSC" ""
 			(at 40.64 119.38 0)
 			(show_name yes)
 			(effects
