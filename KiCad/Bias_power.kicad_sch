@@ -7019,7 +7019,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "PCM_EEZ_passives:C_1206_3216Metric"
+		(property "Footprint" "PCM_EEZ_passives:C_0805_2012Metric"
 			(at 121.92 40.64 0)
 			(effects
 				(font
@@ -7046,7 +7046,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "1276-2970-1-ND"
+		(property "DigiKey" "1276-1244-1-ND"
 			(at 121.92 43.18 0)
 			(effects
 				(font
@@ -7055,7 +7055,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "963-EMK316B7475ML-T"
+		(property "Mouser" "187-CL21A475KAQNNNE"
 			(at 121.92 43.18 0)
 			(effects
 				(font
@@ -7064,7 +7064,16 @@
 				(hide yes)
 			)
 		)
-		(property "TME" "GCM31CR71E475KA55L"
+		(property "TME" "CL21A475KAQNNNE"
+			(at 121.92 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1779"
 			(at 121.92 43.18 0)
 			(effects
 				(font
@@ -7562,7 +7571,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "PCM_EEZ_passives:C_1206_3216Metric"
+		(property "Footprint" "PCM_EEZ_passives:C_0805_2012Metric"
 			(at 147.32 73.66 0)
 			(effects
 				(font
@@ -7589,7 +7598,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "1276-2970-1-ND"
+		(property "DigiKey" "1276-1244-1-ND"
 			(at 147.32 76.2 0)
 			(effects
 				(font
@@ -7598,7 +7607,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "963-EMK316B7475ML-T"
+		(property "Mouser" "187-CL21A475KAQNNNE"
 			(at 147.32 76.2 0)
 			(effects
 				(font
@@ -7607,7 +7616,16 @@
 				(hide yes)
 			)
 		)
-		(property "TME" "GCM31CR71E475KA55L"
+		(property "TME" "CL21A475KAQNNNE"
+			(at 147.32 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1779"
 			(at 147.32 76.2 0)
 			(effects
 				(font
@@ -10069,7 +10087,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "PCM_EEZ_passives:C_1206_3216Metric"
+		(property "Footprint" "PCM_EEZ_passives:C_0805_2012Metric"
 			(at 139.7 40.64 0)
 			(effects
 				(font
@@ -10096,7 +10114,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "1276-2970-1-ND"
+		(property "DigiKey" "1276-1244-1-ND"
 			(at 139.7 43.18 0)
 			(effects
 				(font
@@ -10105,7 +10123,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "963-EMK316B7475ML-T"
+		(property "Mouser" "187-CL21A475KAQNNNE"
 			(at 139.7 43.18 0)
 			(effects
 				(font
@@ -10114,7 +10132,16 @@
 				(hide yes)
 			)
 		)
-		(property "TME" "GCM31CR71E475KA55L"
+		(property "TME" "CL21A475KAQNNNE"
+			(at 139.7 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1779"
 			(at 139.7 43.18 0)
 			(effects
 				(font

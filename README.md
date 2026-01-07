@@ -5,6 +5,10 @@
 ### Ownership and License
 The contributors are listed in CONTRIB.TXT. 
 
+Licenses | OSHWA UID
+--|--
+![osl](Images/osl.png) | [![OSHW-HR000120](Images/OSHW_UID_HR120.svg)](https://certification.oshwa.org/hr000120.html)
+
 ### Overview
 
 ![3D model](Images/DCP405plus.jpg)
