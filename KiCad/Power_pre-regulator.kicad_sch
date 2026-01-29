@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-01-06")
+		(date "2026-01-13")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -6670,7 +6670,7 @@
 	)
 	(text "100% Duty"
 		(exclude_from_sim no)
-		(at 195.58 33.02 0)
+		(at 193.04 33.02 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -7478,6 +7478,16 @@
 			(type solid)
 		)
 		(uuid "0e9b7bab-dbda-48bc-b3c7-7d08f67dfc1e")
+	)
+	(wire
+		(pts
+			(xy 203.2 35.56) (xy 203.2 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0faa706e-be32-4e68-80f9-25b12d9e9933")
 	)
 	(wire
 		(pts
@@ -8742,7 +8752,7 @@
 	)
 	(polyline
 		(pts
-			(xy 238.76 27.94) (xy 193.04 27.94)
+			(xy 238.76 27.94) (xy 190.5 27.94)
 		)
 		(stroke
 			(width 0.1524)
@@ -9334,7 +9344,7 @@
 	)
 	(polyline
 		(pts
-			(xy 238.76 73.66) (xy 193.04 73.66)
+			(xy 238.76 73.66) (xy 190.5 73.66)
 		)
 		(stroke
 			(width 0.1524)
@@ -9786,7 +9796,7 @@
 	)
 	(polyline
 		(pts
-			(xy 193.04 27.94) (xy 193.04 73.66)
+			(xy 190.5 27.94) (xy 190.5 73.66)
 		)
 		(stroke
 			(width 0.1524)
@@ -10281,7 +10291,7 @@
 				)
 			)
 		)
-		(property "Value" "DMP6023LFG-7"
+		(property "Value" "SQJ457EP-T1_BE3"
 			(at 227.965 40.64 90)
 			(effects
 				(font
@@ -10289,7 +10299,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_EEZ_SMD:TRANS_FDMC8010"
+		(property "Footprint" "PCM_EEZ_SMD:PowerPAK SO-8"
 			(at 211.455 38.1 0)
 			(effects
 				(font
@@ -10316,7 +10326,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "DMP6023LFG-7DICT-ND"
+		(property "DigiKey" "742-SQJ457EP-T1_BE3CT-ND"
 			(at 223.52 38.1 0)
 			(effects
 				(font
@@ -10325,7 +10335,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "621-DMP6023LFG-7"
+		(property "Mouser" "78-SQJ457EP-T1_BE3"
 			(at 223.52 38.1 0)
 			(effects
 				(font
@@ -10343,7 +10353,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C526579"
+		(property "LCSC" "C7364386"
 			(at 223.52 38.1 0)
 			(effects
 				(font
@@ -11843,7 +11853,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2bc92f30-c702-4655-87e8-cbec7bcd6e2b")
-		(property "Reference" "C80"
+		(property "Reference" "C79"
 			(at 202.565 96.52 0)
 			(effects
 				(font
@@ -11924,7 +11934,7 @@
 		(instances
 			(project "EEZ DIB DCP405"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/55df2794-308a-4204-a97c-7cdafc416b78"
-					(reference "C80")
+					(reference "C79")
 					(unit 1)
 				)
 			)
@@ -11990,111 +12000,6 @@
 			(project "EEZ DIB DCP405"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/55df2794-308a-4204-a97c-7cdafc416b78"
 					(reference "#FLG015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_EEZ_passives:C-EU")
-		(at 203.2 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(uuid "2dae25eb-63c2-426f-9882-9c862f1dfa4e")
-		(property "Reference" "C79"
-			(at 203.2 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "10n"
-			(at 203.2 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "PCM_EEZ_passives:C_0805_2012Metric"
-			(at 203.2 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 203.2 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey" "490-7194-1-ND "
-			(at 203.2 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "710-885012207122"
-			(at 203.2 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TME" "CC0805KRX7R9103"
-			(at 203.2 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 203.2 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6776940c-9780-4064-b76f-fbd3504ae7c9")
-		)
-		(pin "2"
-			(uuid "986868ed-c5f6-4220-957d-671e36d172fd")
-		)
-		(instances
-			(project "EEZ DIB DCP405plus"
-				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/55df2794-308a-4204-a97c-7cdafc416b78"
-					(reference "C79")
 					(unit 1)
 				)
 			)
@@ -12838,7 +12743,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "436d903c-55cf-402a-b4c3-cb0b0e1cea2a")
-		(property "Reference" "C82"
+		(property "Reference" "C81"
 			(at 223.901 146.939 90)
 			(effects
 				(font
@@ -12919,7 +12824,7 @@
 		(instances
 			(project "EEZ DIB DCP405"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/55df2794-308a-4204-a97c-7cdafc416b78"
-					(reference "C82")
+					(reference "C81")
 					(unit 1)
 				)
 			)
@@ -14154,6 +14059,111 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_EEZ_discretes:DIODE_ZENER")
+		(at 203.2 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "89b051d5-5bb3-4a48-8cb0-5299a5da3345")
+		(property "Reference" "ZD3"
+			(at 201.295 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "BZX384-C15"
+			(at 201.422 42.545 90)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "PCM_EEZ_SMD:SOD-323_1P8X1P35_ONS-M"
+			(at 206.375 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "1727-4986-1-ND"
+			(at 203.2 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C454989"
+			(at 203.2 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "78-BZX384C15-E3-08"
+			(at 203.2 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "BZX384-C15.115"
+			(at 203.2 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "451feb87-c4c8-49b8-a711-898b14db7fd5")
+		)
+		(pin "C"
+			(uuid "4022151d-757f-450f-ab4f-6847fe9c8d28")
+		)
+		(instances
+			(project "EEZ DIB DCP405plus"
+				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/55df2794-308a-4204-a97c-7cdafc416b78"
+					(reference "ZD3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "R-EU_7")
 		(lib_id "PCM_EEZ_passives:R-EU")
 		(at 53.34 172.72 90)
@@ -14269,7 +14279,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "92155156-ea21-42bd-b643-896c459685ea")
-		(property "Reference" "C84"
+		(property "Reference" "C83"
 			(at 241.935 99.06 0)
 			(effects
 				(font
@@ -14350,7 +14360,7 @@
 		(instances
 			(project "EEZ DIB DCP405"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/55df2794-308a-4204-a97c-7cdafc416b78"
-					(reference "C84")
+					(reference "C83")
 					(unit 1)
 				)
 			)
@@ -15733,7 +15743,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c15b3e67-18c9-4127-8ce4-090683fffe04")
-		(property "Reference" "C81"
+		(property "Reference" "C80"
 			(at 211.455 95.885 0)
 			(effects
 				(font
@@ -15814,7 +15824,7 @@
 		(instances
 			(project "EEZ DIB DCP405"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/55df2794-308a-4204-a97c-7cdafc416b78"
-					(reference "C81")
+					(reference "C80")
 					(unit 1)
 				)
 			)
@@ -17036,7 +17046,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e6f4c6da-3709-4139-83f6-b39409672270")
-		(property "Reference" "C83"
+		(property "Reference" "C82"
 			(at 235.585 98.425 0)
 			(effects
 				(font
@@ -17117,7 +17127,7 @@
 		(instances
 			(project "EEZ DIB DCP405"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/55df2794-308a-4204-a97c-7cdafc416b78"
-					(reference "C83")
+					(reference "C82")
 					(unit 1)
 				)
 			)
