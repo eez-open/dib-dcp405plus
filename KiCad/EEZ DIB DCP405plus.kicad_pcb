@@ -41832,7 +41832,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "535-14398-1-ND"
+		(property "DigiKey" "535-9676-1-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41845,7 +41845,7 @@
 				)
 			)
 		)
-		(property "Mouser" "815-ABM825MHZD2XT"
+		(property "Mouser" "520-CS163841033JGNTR"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41871,7 +41871,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1986777"
+		(property "LCSC" "C17254510"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -112777,7 +112777,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "IAUZ40N06S5N050ATMA1"
+		(property "Value" "PSMN0R9-25YLC"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "0399d0fe-68d2-4bbe-9539-c5affde2ef4d")
@@ -112813,7 +112813,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "448-IAUZ40N06S5N050ATMA1CT-ND"
+		(property "DigiKey" "1727-5292-1-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -112826,7 +112826,7 @@
 				)
 			)
 		)
-		(property "Mouser" "726-IAUZ40N06S5N050A "
+		(property "Mouser" "771-PSMN0R925YLC115"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -112839,7 +112839,7 @@
 				)
 			)
 		)
-		(property "TME" "-"
+		(property "TME" "PSMN0R9-25YLC.115"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -112852,7 +112852,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C3289320"
+		(property "LCSC" "C179450"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -121146,7 +121146,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "IAUZ40N06S5N050ATMA1"
+		(property "Value" "PSMN0R9-25YLC"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "cfb570ea-8b6d-491b-a8e4-ef6eec4e5c31")
@@ -121182,7 +121182,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "448-IAUZ40N06S5N050ATMA1CT-ND"
+		(property "DigiKey" "1727-5292-1-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -121195,7 +121195,7 @@
 				)
 			)
 		)
-		(property "Mouser" "726-IAUZ40N06S5N050A "
+		(property "Mouser" "771-PSMN0R925YLC115"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -121208,7 +121208,7 @@
 				)
 			)
 		)
-		(property "TME" "-"
+		(property "TME" "PSMN0R9-25YLC.115"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -121221,7 +121221,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C3289320"
+		(property "LCSC" "C179450"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -143308,7 +143308,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "SK96/84"
+		(property "Value" "SK96/84SA"
 			(at 35.56 -2.54 180)
 			(layer "F.Fab")
 			(uuid "80ff2626-1439-4f7b-8d57-58e6a85dd79c")
@@ -143447,9 +143447,9 @@
 				)
 			)
 		)
-		(path "/34bb83a5-d559-4d80-b3e4-82ef079c17b9/99cea694-303f-4131-828d-da49e7062e14")
-		(sheetname "/Post-regulator/")
-		(sheetfile "Post-regulator.kicad_sch")
+		(path "/99cea694-303f-4131-828d-da49e7062e14")
+		(sheetname "/")
+		(sheetfile "EEZ DIB DCP405plus.kicad_sch")
 		(fp_line
 			(start 84 0)
 			(end 84 -8)
@@ -145716,7 +145716,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "3307,1 mils"
+		(gr_text "84,0 mm"
 			(at 52.65 105 90)
 			(layer "User.1")
 			(uuid "4e09adfd-d181-4ab5-b120-bf2ea93c5e40")
@@ -145753,7 +145753,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "7086,6 mils"
+		(gr_text "180,0 mm"
 			(at 148.5 154.52 0)
 			(layer "User.1")
 			(uuid "55eb0914-3d54-4f92-a13e-9bf4ab4357e8")
@@ -145790,7 +145790,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "3110,2 mils"
+		(gr_text "79,0 mm"
 			(at 42.25 120.5 90)
 			(layer "User.1")
 			(uuid "856176d1-4e12-49de-b39a-5bde7127539c")
@@ -145827,7 +145827,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "2322,8 mils"
+		(gr_text "59,0 mm"
 			(at 47.75 130.5 90)
 			(layer "User.1")
 			(uuid "88c68aa1-53a0-45d5-b853-dff85db353a5")
@@ -145864,7 +145864,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "3385,8 mils"
+		(gr_text "86,0 mm"
 			(at 39.85 117 90)
 			(layer "User.1")
 			(uuid "9cf91f1e-8207-4873-a19b-a5bfeb5c7db1")
@@ -145901,7 +145901,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "3740,2 mils"
+		(gr_text "95,0 mm"
 			(at 240.31 96.5 90)
 			(layer "User.1")
 			(uuid "9eec77fc-4c95-4eea-bab4-af175ec9cff0")
@@ -145938,7 +145938,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "2736,2 mils"
+		(gr_text "69,5 mm"
 			(at 44.85 125.25 90)
 			(layer "User.1")
 			(uuid "dcdaab1f-f6e6-48fb-846a-edf94209d7db")
@@ -145975,7 +145975,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "1141,7 mils"
+		(gr_text "29,0 mm"
 			(at 50.05 145.5 90)
 			(layer "User.1")
 			(uuid "e52037af-645b-4fa7-8bf4-003d9c1b8a1c")
@@ -146012,7 +146012,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "511,8 mils"
+		(gr_text "13,0 mm"
 			(at 52.65 153.5 90)
 			(layer "User.1")
 			(uuid "ea01a946-4ea4-4bd4-b5c6-42c8ffc1c9d0")
@@ -146049,7 +146049,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "750,00 mils"
+		(gr_text "19,05 mm"
 			(at 50.05 121.475 90)
 			(layer "User.1")
 			(uuid "eb9de5ba-69ca-45c3-aa2d-b96c5bc658b3")
@@ -146086,7 +146086,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "23,6 mils"
+		(gr_text "0,6 mm"
 			(at 58.2 157.05 0)
 			(layer "User.1")
 			(uuid "ffdbf35a-b743-4234-b75e-c04c19c2a444")
@@ -146124,7 +146124,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "1681,1 mils"
+		(gr_text "42,7 mm"
 			(at 77.65 161.15 0)
 			(layer "User.2")
 			(uuid "83d9d39d-15dc-46eb-8195-2fc129d5a9da")
@@ -146161,7 +146161,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "63,0 mils"
+		(gr_text "1,6 mm"
 			(at 57.1 167.45 0)
 			(layer "User.2")
 			(uuid "ae45527b-e525-4966-a46f-d752b8805358")
@@ -146199,7 +146199,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "2810,9 mils"
+		(gr_text "71,4 mm"
 			(at 91.99865 164.25 0)
 			(layer "User.2")
 			(uuid "bc1439c8-fba5-4e1d-b949-b2359a3bcd2b")

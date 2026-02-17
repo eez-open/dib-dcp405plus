@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-01-13")
+		(date "2026-02-12")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -22315,7 +22315,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "535-14398-1-ND"
+		(property "DigiKey" "535-9676-1-ND"
 			(at 149.86 180.34 0)
 			(show_name yes)
 			(effects
@@ -22325,7 +22325,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "815-ABM825MHZD2XT"
+		(property "Mouser" "520-CS163841033JGNTR"
 			(at 152.4 180.34 0)
 			(show_name yes)
 			(effects
@@ -22345,7 +22345,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1986777"
+		(property "LCSC" "C17254510"
 			(at 142.24 180.34 0)
 			(effects
 				(font
