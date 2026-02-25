@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-02-12")
+		(date "2026-02-25")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -9973,7 +9973,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "6K2"
+		(property "Value" "7K5"
 			(at 133.35 93.345 0)
 			(effects
 				(font
