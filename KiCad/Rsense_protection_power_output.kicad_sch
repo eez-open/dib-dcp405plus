@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-02-25")
+		(date "2026-03-01")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -9229,12 +9229,6 @@
 		(uuid "137367c5-a2dd-4a79-9961-1cb73db357dd")
 	)
 	(junction
-		(at 187.96 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "13d60473-d4ee-4d5b-bdcc-ca014cef233e")
-	)
-	(junction
 		(at 177.8 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9403,6 +9397,12 @@
 		(uuid "7384799c-c612-4071-98da-172b414d83db")
 	)
 	(junction
+		(at 187.96 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "764cb451-6869-4fd3-bc62-fdb35105f77b")
+	)
+	(junction
 		(at 45.72 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9541,6 +9541,12 @@
 		(uuid "aaf4897c-bd13-4212-9fc6-ba7771b4d6b8")
 	)
 	(junction
+		(at 208.28 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b20da7f1-4e1a-4621-91cb-e42cac5323df")
+	)
+	(junction
 		(at 180.34 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9605,6 +9611,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d75af84f-5f30-4232-bc6d-d063629375f8")
+	)
+	(junction
+		(at 187.96 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9480df3-8232-492a-9cb2-583254244b8f")
 	)
 	(junction
 		(at 101.6 149.86)
@@ -9996,6 +10008,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 134.62) (xy 187.96 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16b6dddb-b84e-4fee-87a0-e8427f06a636")
+	)
+	(wire
+		(pts
 			(xy 142.24 83.82) (xy 172.72 83.82)
 		)
 		(stroke
@@ -10204,6 +10226,16 @@
 			(type default)
 		)
 		(uuid "2a289f4e-3f5a-4710-9760-acafbc549d05")
+	)
+	(wire
+		(pts
+			(xy 187.96 134.62) (xy 195.58 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2afb045c-dbf3-4abd-a8c5-91f084ca498f")
 	)
 	(wire
 		(pts
@@ -11450,7 +11482,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 132.08) (xy 187.96 132.08)
+			(xy 190.5 129.54) (xy 187.96 129.54)
 		)
 		(stroke
 			(width 0.1524)
@@ -11460,7 +11492,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 132.08) (xy 203.2 132.08)
+			(xy 200.66 129.54) (xy 208.28 129.54)
 		)
 		(stroke
 			(width 0.1524)
@@ -11760,7 +11792,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 132.08) (xy 203.2 134.62)
+			(xy 208.28 129.54) (xy 208.28 134.62)
 		)
 		(stroke
 			(width 0.1524)
@@ -11850,7 +11882,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 132.08) (xy 187.96 137.16)
+			(xy 187.96 129.54) (xy 187.96 134.62)
 		)
 		(stroke
 			(width 0)
@@ -11860,7 +11892,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 127) (xy 187.96 132.08)
+			(xy 187.96 127) (xy 187.96 129.54)
 		)
 		(stroke
 			(width 0)
@@ -11877,6 +11909,16 @@
 			(type solid)
 		)
 		(uuid "bd7c03ce-0f2b-427a-bd78-091d5cc5083c")
+	)
+	(wire
+		(pts
+			(xy 205.74 134.62) (xy 208.28 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdb26b11-0ff7-4bdf-a1f9-ecec4a29a2cc")
 	)
 	(wire
 		(pts
@@ -13912,7 +13954,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "1K2"
+		(property "Value" "1K"
 			(at 255.27 130.81 0)
 			(effects
 				(font
@@ -14279,6 +14321,103 @@
 			(project "EEZ DIB DCP405"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/5ecda23e-3d86-4b9b-8d83-de3653395b33"
 					(reference "R112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_EEZ_passives:R-EU")
+		(at 200.66 134.62 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1fc7f5c5-268d-474d-a296-79cd6337406b")
+		(property "Reference" "R144"
+			(at 200.66 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "220R"
+			(at 200.66 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" "PCM_EEZ_passives:R_0805_2012Metric"
+			(at 200.66 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "311-470CRCT-ND"
+			(at 200.66 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "71-CRCW0805470RFKEB"
+			(at 200.66 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "RC0805FR-07470R"
+			(at 200.66 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f361f40b-ac8b-4f5e-9f35-b5d077532753")
+		)
+		(pin "2"
+			(uuid "74812dde-4951-4086-a29b-f60b2a2d5969")
+		)
+		(instances
+			(project "EEZ DIB DCP405plus"
+				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/5ecda23e-3d86-4b9b-8d83-de3653395b33"
+					(reference "R144")
 					(unit 1)
 				)
 			)
@@ -14870,8 +15009,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_symbols:GND")
-		(at 203.2 137.16 0)
-		(mirror y)
+		(at 208.28 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14879,7 +15017,7 @@
 		(dnp no)
 		(uuid "34d2a321-0b33-4c49-9276-b15869b7284e")
 		(property "Reference" "#SUPPLY066"
-			(at 203.2 137.16 0)
+			(at 208.28 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14888,7 +15026,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 201.295 138.43 0)
+			(at 210.185 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14897,7 +15035,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 137.16 0)
+			(at 208.28 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14906,7 +15044,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 137.16 0)
+			(at 208.28 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14915,7 +15053,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 203.2 137.16 0)
+			(at 208.28 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17287,7 +17425,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_passives:R-EU")
-		(at 195.58 132.08 90)
+		(at 195.58 129.54 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17296,7 +17434,7 @@
 		(dnp no)
 		(uuid "7dfe3472-2b2b-4676-9962-b4d49921dd9d")
 		(property "Reference" "R119"
-			(at 195.58 130.81 90)
+			(at 195.58 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17304,8 +17442,8 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "470R"
-			(at 195.58 133.35 90)
+		(property "Value" "330R"
+			(at 195.58 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17314,7 +17452,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_passives:R_0805_2012Metric"
-			(at 195.58 132.08 0)
+			(at 195.58 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17323,7 +17461,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 132.08 0)
+			(at 195.58 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17332,7 +17470,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 195.58 132.08 0)
+			(at 195.58 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17341,7 +17479,7 @@
 			)
 		)
 		(property "DigiKey" "311-470CRCT-ND"
-			(at 195.58 132.08 0)
+			(at 195.58 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17350,7 +17488,7 @@
 			)
 		)
 		(property "Mouser" "71-CRCW0805470RFKEB"
-			(at 195.58 132.08 0)
+			(at 195.58 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17359,7 +17497,7 @@
 			)
 		)
 		(property "TME" "RC0805FR-07470R"
-			(at 195.58 132.08 0)
+			(at 195.58 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)

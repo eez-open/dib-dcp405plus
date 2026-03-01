@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-02-25")
+		(date "2026-03-01")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -7616,6 +7616,101 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_EEZ_unsorted:PCB test point"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "PCM_EEZ_THT:Testhole 24_50mils"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PCB test point_1_0"
+				(polyline
+					(pts
+						(xy 0 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.635 0)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 0)
+					(name "P$1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "R-EU_1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -8789,6 +8884,12 @@
 		(uuid "29d71fbf-fbcb-48c5-ba2d-9de9982a2a82")
 	)
 	(junction
+		(at 149.86 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a7867ed-da7e-46cf-9c21-6717ad5f894e")
+	)
+	(junction
 		(at 66.04 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9153,6 +9254,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2c449f9-3834-4929-a258-2a6ca9ce7c2a")
+	)
+	(junction
+		(at 68.58 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dbb2bab9-0d6e-4915-9acc-2be7edb08bb4")
 	)
 	(junction
 		(at 241.3 43.18)
@@ -9598,6 +9705,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 53.34) (xy 78.74 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14e7bdae-663b-4828-8142-d48ea7783e39")
+	)
+	(wire
+		(pts
 			(xy 256.54 147.32) (xy 256.54 149.86)
 		)
 		(stroke
@@ -9755,6 +9872,16 @@
 			(type solid)
 		)
 		(uuid "2161ac2f-eda6-46ec-982e-7674b611e517")
+	)
+	(wire
+		(pts
+			(xy 149.86 43.18) (xy 142.24 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2215bd34-1238-4d08-bc53-8453d8cd5a91")
 	)
 	(wire
 		(pts
@@ -9958,7 +10085,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 35.56) (xy 142.24 35.56)
+			(xy 160.02 35.56) (xy 142.24 35.56)
 		)
 		(stroke
 			(width 0)
@@ -10086,16 +10213,6 @@
 			(type default)
 		)
 		(uuid "3454e8e5-544e-461d-a1ab-38bd9f2e8014")
-	)
-	(wire
-		(pts
-			(xy 157.48 43.18) (xy 142.24 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34588246-6f12-4c0b-a27c-6e79a8ec49c5")
 	)
 	(wire
 		(pts
@@ -10530,7 +10647,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 30.48) (xy 142.24 30.48)
+			(xy 160.02 30.48) (xy 142.24 30.48)
 		)
 		(stroke
 			(width 0)
@@ -10832,6 +10949,26 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 50.8) (xy 68.58 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64848ea2-aa99-4224-afe6-09182a14cde0")
+	)
+	(wire
+		(pts
+			(xy 149.86 43.18) (xy 160.02 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64dfc256-2a42-4f4b-a64a-2613f49a2ce2")
+	)
+	(wire
+		(pts
 			(xy 66.04 99.06) (xy 66.04 101.6)
 		)
 		(stroke
@@ -11013,7 +11150,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 101.6) (xy 187.96 101.6)
+			(xy 180.34 101.6) (xy 190.5 101.6)
 		)
 		(stroke
 			(width 0)
@@ -11454,7 +11591,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 38.1) (xy 142.24 38.1)
+			(xy 160.02 38.1) (xy 142.24 38.1)
 		)
 		(stroke
 			(width 0)
@@ -11785,7 +11922,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 53.34) (xy 76.2 53.34)
+			(xy 63.5 53.34) (xy 68.58 53.34)
 		)
 		(stroke
 			(width 0)
@@ -12265,7 +12402,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 40.64) (xy 142.24 40.64)
+			(xy 160.02 40.64) (xy 142.24 40.64)
 		)
 		(stroke
 			(width 0)
@@ -13114,7 +13251,7 @@
 		(uuid "ffd03c11-4dda-40f2-9a65-be1a5a9ba346")
 	)
 	(label "ISO_ADC_SCLK"
-		(at 157.48 35.56 180)
+		(at 160.02 35.56 180)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -13164,7 +13301,7 @@
 		(uuid "10504a7f-5e8e-43ad-bf2a-7a9747e84ccf")
 	)
 	(label "ISO_ADC_MISO"
-		(at 157.48 40.64 180)
+		(at 160.02 40.64 180)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -13214,7 +13351,7 @@
 		(uuid "1b556566-b257-4338-9228-53acfc7f34ec")
 	)
 	(label "DIB_OE_SYNC"
-		(at 76.2 53.34 180)
+		(at 78.74 53.34 180)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -13424,7 +13561,7 @@
 		(uuid "49d5cbcb-28ba-432a-898a-15f2f9dad0b4")
 	)
 	(label "~{ISO_ADC_CS}"
-		(at 157.48 30.48 180)
+		(at 160.02 30.48 180)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -13432,6 +13569,16 @@
 			(justify right bottom)
 		)
 		(uuid "4cf657a6-7f73-4f41-befa-edf65b5fb961")
+	)
+	(label "~{DIB_RESET}"
+		(at 190.5 101.6 180)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right bottom)
+		)
+		(uuid "589f6f79-a93d-4ea7-b19f-2b64ed539ccf")
 	)
 	(label "ISO_ADC_MISO"
 		(at 147.32 165.1 180)
@@ -13552,16 +13699,6 @@
 			(justify right bottom)
 		)
 		(uuid "6e732ea1-b3e3-4f97-8e92-a759885dcae5")
-	)
-	(label "NRST"
-		(at 187.96 101.6 180)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify right bottom)
-		)
-		(uuid "72ee263a-ef66-4df7-9687-b8b3863bba72")
 	)
 	(label "SCL"
 		(at 238.76 33.02 0)
@@ -13814,7 +13951,7 @@
 		(uuid "c3bfe24f-7f98-4b1c-98b3-8c645918511e")
 	)
 	(label "ISO_ADC_MOSI"
-		(at 157.48 38.1 180)
+		(at 160.02 38.1 180)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -13844,7 +13981,7 @@
 		(uuid "ca71850f-46ec-4ca1-be8b-7ad793b31d27")
 	)
 	(label "~{ISO_ADC_IRQ}"
-		(at 157.48 43.18 180)
+		(at 160.02 43.18 180)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -15272,6 +15409,72 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_EEZ_symbols:+3V3")
+		(at 149.86 55.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "14dd1f54-27d1-4e32-8882-04c9486f44eb")
+		(property "Reference" "#+3V031"
+			(at 149.86 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 156.21 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4eebbe0-094b-4abd-ae4b-fa28e2d3a718")
+		)
+		(instances
+			(project "EEZ DIB DCP405plus"
+				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/becc625c-e1bd-41b9-8b5b-ca8fa1d0ce1c"
+					(reference "#+3V031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_EEZ_symbols:GND")
 		(at 104.14 195.58 0)
 		(mirror y)
@@ -15465,6 +15668,119 @@
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/becc625c-e1bd-41b9-8b5b-ca8fa1d0ce1c"
 					(reference "#+3V02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_EEZ_unsorted:PCB test point")
+		(at 68.58 48.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "24319659-632f-4470-a636-374e7f0fc2a5")
+		(property "Reference" "TP15"
+			(at 69.85 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "TEST-PIN_0.9MM"
+			(at 71.12 48.26 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_EEZ_THT:Testhole 24_50mils"
+			(at 71.12 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" ""
+			(at 68.58 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 68.58 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" ""
+			(at 68.58 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 68.58 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Label" ""
+			(at 69.85 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 132 0 132 1)
+				)
+				(justify right top)
+			)
+		)
+		(pin "1"
+			(uuid "fef6e5de-2691-4515-a00b-395ec6feffab")
+		)
+		(instances
+			(project "EEZ DIB DCP405plus"
+				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/becc625c-e1bd-41b9-8b5b-ca8fa1d0ce1c"
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -21991,6 +22307,103 @@
 			(project "EEZ DIB2 DCP426"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/becc625c-e1bd-41b9-8b5b-ca8fa1d0ce1c"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_EEZ_passives:R-EU")
+		(at 149.86 48.26 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a9422098-f8e5-45a4-a026-70a1abf60c25")
+		(property "Reference" "R146"
+			(at 151.13 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "10K"
+			(at 151.13 50.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "PCM_EEZ_passives:R_0805_2012Metric"
+			(at 149.86 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "311-10.0KCRCT-ND"
+			(at 149.86 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "603-RC0805FR-0710KL"
+			(at 149.86 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "RC0805FR-1310KL"
+			(at 149.86 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0fddb081-1740-4b39-8979-7b3fd026fe9d")
+		)
+		(pin "2"
+			(uuid "72fc1c41-ae02-40ce-95e9-f3c4abc395ca")
+		)
+		(instances
+			(project "EEZ DIB DCP405plus"
+				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/becc625c-e1bd-41b9-8b5b-ca8fa1d0ce1c"
+					(reference "R146")
 					(unit 1)
 				)
 			)
