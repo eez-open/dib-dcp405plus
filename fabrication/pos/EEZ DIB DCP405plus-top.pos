@@ -1,4 +1,4 @@
-### Footprint positions - created on 2026-03-01T09:13:52+0100 ###
+### Footprint positions - created on 2026-03-05T15:06:07+0100 ###
 ### Printed by KiCad version 9.0.7-9.0.7~ubuntu24.04.1
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -207,8 +207,8 @@ L3        HPI0630-3R3                      COILCRAFT_HPI0630             232.031
 LED1      WP42WUM/EGW                      L-42WUM-1EGWT                  62.0000  -101.0000    0.0000  top
 LED2      SSF-LXH340LYGID                  SSF-LXH340LYGID                64.2000   -81.0000    0.0000  top
 LED3      WP934MD/LYLID                    WP934MD_2YD                    64.2000   -74.0000    0.0000  top
-Q1        BSS84                            SOT103P240X110-3N             113.3901  -122.1655    0.0000  top
-Q2        BSS84                            SOT103P240X110-3N             113.3901  -125.7850    0.0000  top
+Q1        BSS84                            SOT103P240X110-3N             114.9280  -122.1655    0.0000  top
+Q2        BSS84                            SOT103P240X110-3N             114.9280  -125.7850    0.0000  top
 Q3        BSS84                            SOT103P240X110-3N             152.5377   -77.6012  -90.0000  top
 Q4        BSC117N08NS5ATMA1                TDSON-8                       214.5691   -82.9873  180.0000  top
 Q5        BSC039N06NSATMA1                 TDSON-8                       221.3001   -83.4953   90.0000  top
@@ -384,11 +384,13 @@ R143      10K                              R_0805_2012Metric             136.140
 R144      220R                             R_0805_2012Metric              72.7000   -78.3075  180.0000  top
 R145      10K                              R_0805_2012Metric             158.3400  -117.7425  -90.0000  top
 R146      10K                              R_0805_2012Metric             171.4844  -118.0770  180.0000  top
+R147      47K                              R_0805_2012Metric             112.0185  -122.1655  -90.0000  top
+R148      47K                              R_0805_2012Metric             112.0085  -125.7850  -90.0000  top
 RV1       3214W-1-104E                     TRIM_3214W-1-104E             195.1990   -76.5810  180.0000  top
 RV2       3214W-1-104E                     TRIM_3214W-1-104E             137.4100  -107.8484  180.0000  top
 RV3       3214W-1-104E                     TRIM_3214W-1-104E             144.0158  -107.8484  180.0000  top
 TR1       SRF0703-821M                     SRF0703                       203.8141  -123.9435  -90.0000  top
-X1        10018783-10101TLF                DIB_2.0_edge_card_connector   115.8000  -148.4500    0.0000  top
+X1        PCB_Edge_connector               DIB_2.0_edge_card_connector   115.8000  -148.4500    0.0000  top
 X2        N.C.                             TC2030                        190.7800  -126.1500   90.0000  top
 X3        B4PS-VH_(LF)(SN)                 B4PS-VH                       222.6864  -135.0200   90.0000  top
 X4        TBP03R1-350-03BE                 TBP03R1-350-03BE               64.8000   -87.0000  -90.0000  top
