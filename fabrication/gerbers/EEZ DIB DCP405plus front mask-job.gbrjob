@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "9.0.7-9.0.7~ubuntu24.04.1"
     },
-    "CreationDate": "2026-03-05T14:59:17+01:00"
+    "CreationDate": "2026-03-13T19:27:07+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -43,6 +43,16 @@
       "FilePolarity": "Positive"
     },
     {
+      "Path": "EEZ DIB DCP405plus front mask-F_Paste.gbr",
+      "FileFunction": "SolderPaste,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "EEZ DIB DCP405plus front mask-B_Paste.gbr",
+      "FileFunction": "SolderPaste,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
       "Path": "EEZ DIB DCP405plus front mask-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
@@ -50,6 +60,11 @@
     {
       "Path": "EEZ DIB DCP405plus front mask-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "EEZ DIB DCP405plus front mask-B_Mask.gbr",
+      "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {

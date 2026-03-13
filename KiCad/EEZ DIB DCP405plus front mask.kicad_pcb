@@ -80,7 +80,7 @@
 		(aux_axis_origin 140.5 150)
 		(grid_origin 140.5 150)
 		(pcbplotparams
-			(layerselection 0x00000000_00000000_55555555_57555577)
+			(layerselection 0x00000000_00000000_55555555_5755f57f)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
@@ -5851,25 +5851,49 @@
 	)
 	(gr_rect
 		(start 140.5 38.5)
-		(end 175.4 44)
+		(end 175.4 44.5)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(fill yes)
+		(locked yes)
 		(layer "F.Mask")
 		(uuid "69b91f21-f7d0-4143-9bd0-86ae9c9c34b7")
 	)
 	(gr_rect
-		(start 140.4 144.6)
-		(end 175.5 150.1)
+		(start 140.4 144)
+		(end 175.5 150)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(fill yes)
+		(locked yes)
 		(layer "F.Mask")
 		(uuid "c3c7e6c7-6cad-4997-b3d4-e504d1578acc")
+	)
+	(gr_rect
+		(start 140.5 38.5)
+		(end 175.4 44.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.Mask")
+		(uuid "3de56824-fb16-4b47-946e-3a121be7644f")
+	)
+	(gr_rect
+		(start 140.4 144)
+		(end 175.5 150)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.Mask")
+		(uuid "bd40bf8b-1a79-4b7d-8b57-f3057417f752")
 	)
 	(gr_rect
 		(start 140.5 144)
@@ -5892,6 +5916,28 @@
 		(fill yes)
 		(layer "F.Paste")
 		(uuid "857393f9-7539-4172-bf59-101c41a53856")
+	)
+	(gr_rect
+		(start 140.4 144)
+		(end 175.5 150)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.Paste")
+		(uuid "4ac9b592-2714-4d30-ba6e-a2deff9f9a42")
+	)
+	(gr_rect
+		(start 140.5 38.5)
+		(end 175.4 44.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.Paste")
+		(uuid "afb818cf-368d-4457-93ed-eea36e2cb5e0")
 	)
 	(gr_circle
 		(center 149.3 92)
