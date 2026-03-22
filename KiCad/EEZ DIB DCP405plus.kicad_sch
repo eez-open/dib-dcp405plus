@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-03-05")
+		(date "2026-03-22")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -1765,6 +1765,120 @@
 					)
 					(fill
 						(type outline)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_EEZ_unsorted:B3/BN2842"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board no)
+			(property "Reference" "KK"
+				(at 3.175 0 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "B3/BN2842"
+				(at 3.175 -1.905 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Washer; externally serrated; M3"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DigiKey" "-"
+				(at 0 -5.08 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "-"
+				(at 0 -7.62 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "TME" "B3/BN2842"
+				(at 0 -10.16 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "B3/BN2842_0_1"
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 1.4199)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -3677,6 +3791,102 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_EEZ_unsorted:M3X8/D7985B")
+		(at 78.74 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "866f2dc2-6823-48d1-b8dc-4c8cc11d4f7f")
+		(property "Reference" "KK9"
+			(at 81.28 162.56 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "M3X8/D7985B"
+			(at 81.28 164.465 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Screw; M3x8; 0.5; Head: cheese head; Phillips; PH1; DIN 7985"
+			(at 78.74 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "-"
+			(at 78.74 167.64 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "-"
+			(at 78.74 170.18 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "M3X8/D7985B"
+			(at 78.74 172.72 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "EEZ DIB DCP405plus"
+				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312"
+					(reference "KK9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_EEZ_symbols:FIDUCIAL")
 		(at 154.94 190.5 0)
 		(unit 1)
@@ -4141,6 +4351,101 @@
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312"
 					(reference "KK5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_EEZ_unsorted:B3/BN2842")
+		(at 79.375 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "c3d398a0-3111-4156-b48c-e07ec02e2676")
+		(property "Reference" "KK10"
+			(at 81.28 157.48 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "B3/BN2842"
+			(at 81.28 159.385 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 79.375 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 79.375 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Washer; externally serrated; M3"
+			(at 79.375 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "-"
+			(at 79.375 162.56 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "-"
+			(at 79.375 165.1 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "B3/BN2842"
+			(at 79.375 167.64 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "EEZ DIB DCP405plus"
+				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312"
+					(reference "KK10")
 					(unit 1)
 				)
 			)

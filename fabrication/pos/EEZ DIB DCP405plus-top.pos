@@ -1,4 +1,4 @@
-### Footprint positions - created on 2026-03-05T15:06:07+0100 ###
+### Footprint positions - created on 2026-03-22T11:51:06+0100 ###
 ### Printed by KiCad version 9.0.7-9.0.7~ubuntu24.04.1
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -152,6 +152,7 @@ D20       BAS316                           SOD-323_1P8X1P35_ONS-M         89.281
 D21       BAS316                           SOD-323_1P8X1P35_ONS-M         96.2025  -121.4670    0.0000  top
 D22       BAS316                           SOD-323_1P8X1P35_ONS-M        124.7820  -125.1754    0.0000  top
 D23       BAS316                           SOD-323_1P8X1P35_ONS-M        120.5480  -125.1734    0.0000  top
+D24       BAS316                           SOD-323_1P8X1P35_ONS-M        128.0100  -138.9749    0.0000  top
 F1        ZH32                             ZH32                          106.3625  -122.6100  -90.0000  top
 FB1       BLM18AG102SH1D                   BEAD0603                      184.3922  -125.0950    0.0000  top
 FB2       BLM18AG102SH1D                   BEAD0603                      194.3100  -103.5304   90.0000  top

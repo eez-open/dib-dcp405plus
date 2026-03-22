@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-03-05")
+		(date "2026-03-22")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -5743,6 +5743,133 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_EEZ_discretes:DIODE"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 2.54 0.4826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "???"
+				(at 2.54 -2.3114 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DIODE_1_0"
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "DIODE_1_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_EEZ_discretes:DIODE_LED"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -9382,10 +9509,6 @@
 		(uuid "5338ef3c-4b55-479a-a716-71eafc7a2e7f")
 	)
 	(no_connect
-		(at 35.56 38.1)
-		(uuid "563d90be-7129-421a-98ff-37532dae8212")
-	)
-	(no_connect
 		(at 63.5 60.96)
 		(uuid "5848d61a-ab31-4a11-9e66-6436d9399661")
 	)
@@ -9772,6 +9895,16 @@
 			(type default)
 		)
 		(uuid "1ab2c240-b1f4-48f9-b4b1-1e0ffd05340b")
+	)
+	(wire
+		(pts
+			(xy 20.32 38.1) (xy 35.56 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bc4cd22-8c49-4c54-981f-9cabdc9c555f")
 	)
 	(wire
 		(pts
@@ -10446,6 +10579,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 63.5) (xy 264.16 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45707627-7371-4f15-be12-5cc8a894d6c4")
+	)
+	(wire
+		(pts
 			(xy 88.9 137.16) (xy 93.98 137.16)
 		)
 		(stroke
@@ -10667,6 +10810,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 71.12) (xy 281.94 71.12)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4fada5cb-dcaa-4006-84cc-c0a0d84f9e8a")
+	)
+	(wire
+		(pts
 			(xy 236.22 149.86) (xy 236.22 152.4)
 		)
 		(stroke
@@ -10798,6 +10951,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 63.5) (xy 261.62 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b45c27e-1775-4aff-9eb8-371ab64b5382")
+	)
+	(wire
+		(pts
 			(xy 60.96 177.8) (xy 73.66 177.8)
 		)
 		(stroke
@@ -10885,6 +11048,16 @@
 			(type solid)
 		)
 		(uuid "617c3b37-0078-4153-b451-73c3f814e662")
+	)
+	(wire
+		(pts
+			(xy 281.94 63.5) (xy 269.24 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6201180c-d5bc-493a-a0d1-341dacce0b06")
 	)
 	(wire
 		(pts
@@ -11137,16 +11310,6 @@
 			(type solid)
 		)
 		(uuid "6efc7010-6003-42c6-86f0-03e266d87275")
-	)
-	(wire
-		(pts
-			(xy 261.62 71.12) (xy 276.86 71.12)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "6f07d407-dfbb-43a7-ab55-2247c6a41e97")
 	)
 	(wire
 		(pts
@@ -13280,6 +13443,16 @@
 		)
 		(uuid "00db4ce9-4671-4ec3-bd96-fd7cd2ff5572")
 	)
+	(label "~{DIB_SHUTDOWN}"
+		(at 20.32 38.1 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "07eaf117-71f8-45ba-ab3b-3056838277df")
+	)
 	(label "DIB_UART_TX"
 		(at 198.12 144.78 0)
 		(effects
@@ -13409,6 +13582,16 @@
 			(justify right bottom)
 		)
 		(uuid "28628df2-c109-4123-813b-62036f9d6ba1")
+	)
+	(label "~{DIB_SHUTDOWN}"
+		(at 281.94 63.5 180)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right bottom)
+		)
+		(uuid "2ef8e757-9fc0-4399-a514-8c034cc2151a")
 	)
 	(label "DIB_USB_D+"
 		(at 22.86 88.9 0)
@@ -13891,7 +14074,7 @@
 		(uuid "a794a808-8842-416f-af7d-b9cb11ec15ad")
 	)
 	(label "~{DIB_RESET}"
-		(at 276.86 71.12 180)
+		(at 281.94 71.12 180)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -15469,6 +15652,103 @@
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/becc625c-e1bd-41b9-8b5b-ca8fa1d0ce1c"
 					(reference "#+3V031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_EEZ_discretes:DIODE")
+		(at 266.7 63.5 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "19547dce-06d4-4e58-8c31-81034c939bfc")
+		(property "Reference" "D24"
+			(at 266.7 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "BAS316"
+			(at 266.7 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" "PCM_EEZ_SMD:SOD-323_1P8X1P35_ONS-M"
+			(at 266.7 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 266.7 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "1727-7370-1-ND"
+			(at 266.7 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "771-BAS316-T/R"
+			(at 266.7 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "BAS316,115"
+			(at 266.7 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "945c7bf5-8b74-440c-92de-856bc0dde999")
+		)
+		(pin "C"
+			(uuid "a9c7f633-b89a-4c3e-9e64-742c09d87b9e")
+		)
+		(instances
+			(project "EEZ DIB DCP405plus"
+				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/becc625c-e1bd-41b9-8b5b-ca8fa1d0ce1c"
+					(reference "D24")
 					(unit 1)
 				)
 			)
