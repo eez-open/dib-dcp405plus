@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-03-22")
+		(date "2026-03-23")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -13990,7 +13990,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" ""
+		(property "DigiKey" "RC0805FR-071KL"
 			(at 254 129.54 0)
 			(effects
 				(font
@@ -13999,7 +13999,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" ""
+		(property "Mouser" "603-RC0805FR-071KL"
 			(at 254 129.54 0)
 			(effects
 				(font
@@ -14008,7 +14008,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "RC0805FR-071K"
 			(at 254 129.54 0)
 			(effects
 				(font
@@ -14381,7 +14381,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "311-470CRCT-ND"
+		(property "DigiKey" "RMCF0805FT220RCT-ND"
 			(at 200.66 134.62 0)
 			(effects
 				(font
@@ -14390,7 +14390,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "71-CRCW0805470RFKEB"
+		(property "Mouser" "603-RC0805FR-13220RL"
 			(at 200.66 134.62 0)
 			(effects
 				(font
@@ -14399,7 +14399,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" "RC0805FR-07470R"
+		(property "TME" "0805S8F2200T5E"
 			(at 200.66 134.62 0)
 			(effects
 				(font
@@ -17478,7 +17478,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "311-470CRCT-ND"
+		(property "DigiKey" "A129743CT-ND"
 			(at 195.58 129.54 0)
 			(effects
 				(font
@@ -17487,7 +17487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "71-CRCW0805470RFKEB"
+		(property "Mouser" "652-CR0805FX-3300ELF"
 			(at 195.58 129.54 0)
 			(effects
 				(font
@@ -17496,7 +17496,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" "RC0805FR-07470R"
+		(property "TME" "0805S8F3300T5E"
 			(at 195.58 129.54 0)
 			(effects
 				(font
