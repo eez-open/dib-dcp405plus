@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-03-23")
+		(date "2026-03-27")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -333,320 +333,6 @@
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "ECAP_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 1.143 0.4826 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at 1.143 -4.5974 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "ECAP_1_1_0"
-				(rectangle
-					(start -1.651 -2.54)
-					(end 1.651 -1.651)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0) (xy -1.524 -0.889)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0) (xy 1.524 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -0.889) (xy 1.524 -0.889)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 -0.889) (xy 1.524 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "+"
-					(at -0.5842 0.4064 900)
-					(effects
-						(font
-							(size 1.27 1.0795)
-						)
-						(justify left bottom)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "+"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "-"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "ECAP_2"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 1.143 0.4826 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at 1.143 -4.5974 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "ECAP_2_1_0"
-				(rectangle
-					(start -1.651 -2.54)
-					(end 1.651 -1.651)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0) (xy -1.524 -0.889)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0) (xy 1.524 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -0.889) (xy 1.524 -0.889)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 -0.889) (xy 1.524 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "+"
-					(at -0.5842 0.4064 900)
-					(effects
-						(font
-							(size 1.27 1.0795)
-						)
-						(justify left bottom)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "+"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "-"
-						(effects
-							(font
-								(size 0 0)
 							)
 						)
 					)
@@ -3521,16 +3207,16 @@
 				(at 1.143 0.4826 0)
 				(effects
 					(font
-						(size 1.778 1.5113)
+						(size 1.27 1.27)
 					)
 					(justify left bottom)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "~"
 				(at 1.143 -4.5974 0)
 				(effects
 					(font
-						(size 1.778 1.5113)
+						(size 1.27 1.27)
 					)
 					(justify left bottom)
 				)
@@ -3560,6 +3246,32 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(symbol "ECAP_0_1"
+				(polyline
+					(pts
+						(xy 0.635 1.27) (xy 1.905 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.905) (xy 1.27 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
 				)
 			)
 			(symbol "ECAP_1_0"
@@ -3620,15 +3332,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(text "+"
-					(at -0.5842 0.4064 900)
-					(effects
-						(font
-							(size 1.27 1.0795)
-						)
-						(justify left bottom)
 					)
 				)
 				(pin passive line
@@ -6724,10 +6427,10 @@
 	)
 	(text "100u"
 		(exclude_from_sim no)
-		(at 211.455 103.505 0)
+		(at 211.455 100.965 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.889 0.889)
 				(color 132 0 132 1)
 			)
 			(justify left bottom)
@@ -15744,7 +15447,7 @@
 		(dnp no)
 		(uuid "c15b3e67-18c9-4127-8ce4-090683fffe04")
 		(property "Reference" "C80"
-			(at 211.455 95.885 0)
+			(at 212.725 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15753,7 +15456,7 @@
 			)
 		)
 		(property "Value" "EEEFK1J101P"
-			(at 211.455 100.965 0)
+			(at 212.725 99.06 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -16731,7 +16434,6 @@
 		)
 	)
 	(symbol
-		(lib_name "ECAP_1")
 		(lib_id "PCM_EEZ_passives:ECAP")
 		(at 175.26 43.18 90)
 		(mirror x)
@@ -16742,7 +16444,7 @@
 		(dnp no)
 		(uuid "d8e22a52-e51f-4c9a-8b72-24716a0248d0")
 		(property "Reference" "C76"
-			(at 177.8 42.545 90)
+			(at 178.435 42.545 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16751,10 +16453,10 @@
 			)
 		)
 		(property "Value" "EEEFK1H470P"
-			(at 171.958 46.5074 90)
+			(at 178.435 44.45 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify right bottom)
 			)
@@ -17036,7 +16738,6 @@
 		)
 	)
 	(symbol
-		(lib_name "ECAP_2")
 		(lib_id "PCM_EEZ_passives:ECAP")
 		(at 236.22 99.06 0)
 		(mirror y)
@@ -17047,7 +16748,7 @@
 		(dnp no)
 		(uuid "e6f4c6da-3709-4139-83f6-b39409672270")
 		(property "Reference" "C82"
-			(at 235.585 98.425 0)
+			(at 234.315 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17056,7 +16757,7 @@
 			)
 		)
 		(property "Value" "EEEFK1H470P"
-			(at 235.585 103.505 0)
+			(at 234.315 101.6 0)
 			(effects
 				(font
 					(size 0.889 0.889)

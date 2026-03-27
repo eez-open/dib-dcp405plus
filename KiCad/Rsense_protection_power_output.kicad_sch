@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-03-23")
+		(date "2026-03-27")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -4414,16 +4414,16 @@
 				(at 1.143 0.4826 0)
 				(effects
 					(font
-						(size 1.778 1.5113)
+						(size 1.27 1.27)
 					)
 					(justify left bottom)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "~"
 				(at 1.143 -4.5974 0)
 				(effects
 					(font
-						(size 1.778 1.5113)
+						(size 1.27 1.27)
 					)
 					(justify left bottom)
 				)
@@ -4453,6 +4453,32 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(symbol "ECAP_0_1"
+				(polyline
+					(pts
+						(xy 0.635 1.27) (xy 1.905 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.905) (xy 1.27 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
 				)
 			)
 			(symbol "ECAP_1_0"
@@ -4513,15 +4539,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(text "+"
-					(at -0.5842 0.4064 900)
-					(effects
-						(font
-							(size 1.27 1.0795)
-						)
-						(justify left bottom)
 					)
 				)
 				(pin passive line
@@ -17133,7 +17150,7 @@
 		(dnp no)
 		(uuid "74817dd8-a79d-4ab7-8e13-3e7af70ba561")
 		(property "Reference" "C119"
-			(at 155.575 52.705 0)
+			(at 156.845 55.245 0)
 			(effects
 				(font
 					(size 1.27 1.27)
