@@ -16958,6 +16958,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 60.96 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Label" "Umon"
+			(at 60.96 142.24 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2eec04cd-4b55-4576-b06f-26e60a4133d2")
 		)
@@ -18853,6 +18871,24 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 60.96 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Label" "Uset"
+			(at 60.96 129.54 0)
+			(effects
+				(font
+					(size 0.889 0.889)
 				)
 				(hide yes)
 			)
@@ -22258,6 +22294,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 60.96 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Label" "Imon"
+			(at 60.96 182.88 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "90986c47-091a-43b3-b532-60d6c51119e8")
 		)
@@ -23244,6 +23298,24 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 60.96 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Label" "Iset"
+			(at 60.96 167.64 0)
+			(effects
+				(font
+					(size 0.889 0.889)
 				)
 				(hide yes)
 			)
