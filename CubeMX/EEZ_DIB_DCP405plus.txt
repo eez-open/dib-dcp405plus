@@ -1,6 +1,6 @@
-Configuration	EEZ DIB DCP405plus
-STM32CubeMX 	6.16.0
-Date	12/08/2025
+Configuration	EEZ_DIB_DCP405plus
+STM32CubeMX 	6.17.0
+Date	05/03/2026
 MCU	STM32H503CBTx
 
 
@@ -23,7 +23,6 @@ SPI1	Hardware NSS Input Signal	SPI1_NSS	PA1
 SPI2	Full-Duplex Master	SPI2_MISO	PA7
 SPI2	Full-Duplex Master	SPI2_MOSI	PB1
 SPI2	Full-Duplex Master	SPI2_SCK	PA5
-SPI2	Hardware NSS Output Signal	SPI2_NSS	PA8
 SPI3	Full-Duplex Master	SPI3_MISO	PB15
 SPI3	Full-Duplex Master	SPI3_MOSI	PA3
 SPI3	Full-Duplex Master	SPI3_SCK	PA15(JTDI)
@@ -38,6 +37,7 @@ USB	Device_Only	USB_DP	PA12
 
 Pin Nb	PINs	FUNCTIONs	LABELs
 2	PC13	GPIO_Output	ACT_LED
+4	PC15-OSC32_OUT(OSC32_OUT)	GPIO_Input	TYPE_ID
 5	PH0-OSC_IN(PH0)	RCC_OSC_IN	
 6	PH1-OSC_OUT(PH1)	RCC_OSC_OUT	
 10	PA0	SPI1_MISO	DIB_MISO
@@ -48,15 +48,15 @@ Pin Nb	PINs	FUNCTIONs	LABELs
 15	PA5	SPI2_SCK	ADC_SCLK
 16	PA6	GPIO_EXTI6	IOEXP_IRQ
 17	PA7	SPI2_MISO	ADC_MISO
-18	PB0	GPIO_EXTI0	DIB_IRQ
+18	PB0	GPIO_Output	DIB_IRQ
 19	PB1	SPI2_MOSI	ADC_MOSI
-20	PB2	GPIO_EXTI2	ADC_IRQ
+20	PB2	GPIO_Input	ADC_IRQ
 21	PB10	I2C1_SDA	DIB_SDA
 25	PB12	GPIO_Output	IOEXP_CS
 26	PB13	I2C1_SMBA	DIB_ALERT
 27	PB14	USART1_TX	
 28	PB15	SPI3_MISO	MISO1
-29	PA8	SPI2_NSS	ADC_CS
+29	PA8	GPIO_Output	ADC_CS
 30	PA9	GPIO_Output	DAC_CS
 31	PA10	GPIO_Output	DIB_FAULT
 32	PA11	USB_DM	
@@ -87,7 +87,6 @@ SPI1	Hardware NSS Input Signal	SPI1_NSS	PA1
 SPI2	Full-Duplex Master	SPI2_MISO	PA7
 SPI2	Full-Duplex Master	SPI2_MOSI	PB1
 SPI2	Full-Duplex Master	SPI2_SCK	PA5
-SPI2	Hardware NSS Output Signal	SPI2_NSS	PA8
 SPI3	Full-Duplex Master	SPI3_MISO	PB15
 SPI3	Full-Duplex Master	SPI3_MOSI	PA3
 SPI3	Full-Duplex Master	SPI3_SCK	PA15(JTDI)
@@ -102,6 +101,7 @@ USB	Device_Only	USB_DP	PA12
 
 Pin Nb	PINs	FUNCTIONs	LABELs
 2	PC13	GPIO_Output	ACT_LED
+4	PC15-OSC32_OUT(OSC32_OUT)	GPIO_Input	TYPE_ID
 5	PH0-OSC_IN(PH0)	RCC_OSC_IN	
 6	PH1-OSC_OUT(PH1)	RCC_OSC_OUT	
 10	PA0	SPI1_MISO	DIB_MISO
@@ -112,15 +112,15 @@ Pin Nb	PINs	FUNCTIONs	LABELs
 15	PA5	SPI2_SCK	ADC_SCLK
 16	PA6	GPIO_EXTI6	IOEXP_IRQ
 17	PA7	SPI2_MISO	ADC_MISO
-18	PB0	GPIO_EXTI0	DIB_IRQ
+18	PB0	GPIO_Output	DIB_IRQ
 19	PB1	SPI2_MOSI	ADC_MOSI
-20	PB2	GPIO_EXTI2	ADC_IRQ
+20	PB2	GPIO_Input	ADC_IRQ
 21	PB10	I2C1_SDA	DIB_SDA
 25	PB12	GPIO_Output	IOEXP_CS
 26	PB13	I2C1_SMBA	DIB_ALERT
 27	PB14	USART1_TX	
 28	PB15	SPI3_MISO	MISO1
-29	PA8	SPI2_NSS	ADC_CS
+29	PA8	GPIO_Output	ADC_CS
 30	PA9	GPIO_Output	DAC_CS
 31	PA10	GPIO_Output	DIB_FAULT
 32	PA11	USB_DM	
@@ -139,14 +139,14 @@ Pin Nb	PINs	FUNCTIONs	LABELs
 SOFTWARE PROJECT
 
 Project Settings : 
-Project Name : EEZ DIB DCP405plus
+Project Name : EEZ_DIB_DCP405plus
 Project Folder : /home/denis/git-public/dib-dcp405plus/CubeMX
-Toolchain / IDE : EWARM V9.20
+Toolchain / IDE : STM32CubeIDE
 Firmware Package Name and Version : STM32Cube FW_H5 V1.5.1
 
 
 Code Generation Settings : 
-STM32Cube MCU packages and embedded software packs : Copy all used libraries into the project folder
+STM32Cube MCU packages and embedded software packs : Copy only the necessary library files
 Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
 Backup previously generated files when re-generating : No
 Delete previously generated files when not re-generated : Yes

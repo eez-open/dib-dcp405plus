@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-04-29")
+		(date "2026-04-30")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -12104,6 +12104,11 @@
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/55df2794-308a-4204-a97c-7cdafc416b78"
 					(reference "ZD2")
 					(unit 1)
+					(variant
+						(name "Basic")
+						(dnp yes)
+						(in_bom no)
+					)
 				)
 			)
 		)
@@ -14071,10 +14076,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "598e9ff3-21d6-4294-8a86-0364f963cc4c")
 		(property "Reference" "R34"
 			(at 41.91 29.21 0)
@@ -14164,6 +14169,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 43.18 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bf4f9f53-af1f-484f-bab3-5d6c1cf6a64f")
 		)
@@ -14175,6 +14191,11 @@
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/55df2794-308a-4204-a97c-7cdafc416b78"
 					(reference "R34")
 					(unit 1)
+					(variant
+						(name "Basic")
+						(dnp yes)
+						(in_bom no)
+					)
 				)
 			)
 		)
