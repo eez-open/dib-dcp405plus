@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-04-30")
+		(date "2026-05-10")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -5138,6 +5138,18 @@
 		)
 		(uuid "050c5574-aafd-4475-bb59-dd84ec8f3461")
 	)
+	(text "FS: 124K / 7.5K = 16.534 * 2.5 = 41.34 V\nZero offset: 16.534 * 0.05 = 0.8267 V"
+		(exclude_from_sim no)
+		(at 216.535 99.06 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+				(color 132 0 132 1)
+			)
+			(justify left top)
+		)
+		(uuid "09bb5872-3d26-4cd1-b399-f1d70e6bea07")
+	)
 	(text "11K"
 		(exclude_from_sim no)
 		(at 145.415 149.225 0)
@@ -5316,19 +5328,19 @@
 		)
 		(uuid "e936be95-e151-4939-8a91-baff2efa5f51")
 	)
-	(text "750R / 30K: x40 ... 6.25 A full scale\n750R / 30.1K: x40.133 ... 6.23 A full scale\n750R / 36K: x48 ... 5.208 A full scale"
+	(text "FS: 750R / 30K: x40 = 6.25 A\nFS: 750R / 30.1K: x40.133 = 6.23 A\nFS: 750R / 36K: x48 = 5.208 A\n\nZero offset: 0.75/36 = 0.020834 * 0.05 / 0.01 = 0.1042 V"
 		(exclude_from_sim no)
-		(at 144.78 180.34 0)
+		(at 130.81 178.435 0)
 		(effects
 			(font
 				(size 0.889 0.889)
-				(color 255 0 0 1)
+				(color 132 0 132 1)
 			)
 			(justify left top)
 		)
 		(uuid "ed00a6af-3358-432a-89d8-2160c953911a")
 	)
-	(text "Note 3.1: Q12, Q15 and R79 (if used) mounted on heatsink KK3\nNote 3.2: Use power resistors with the lowest possible TCR (below ± 50 ppm/oC), e.g. GMR100HJBFA10L0"
+	(text "Note 3.1: Q14, Q17 and R77 (if used) mounted on heatsink KK7\nNote 3.2: Use power resistors with the lowest possible TCR (below ± 50 ppm/oC), e.g. GMR100HJBFA10L0"
 		(exclude_from_sim no)
 		(at 17.78 193.04 0)
 		(effects

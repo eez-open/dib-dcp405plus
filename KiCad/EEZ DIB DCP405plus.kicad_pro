@@ -648,6 +648,7 @@
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -754,6 +755,9 @@
     ]
   },
   "pcbnew": {
+    "find_by_properties": {
+      "recent_queries": []
+    },
     "last_paths": {
       "gencad": "",
       "idf": "",
@@ -773,7 +777,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "../fabrication/bom/EEZ DIB DCP405plus.csv",
+    "bom_export_filename": "../fabrication/bom/EEZ DIB DCP405plus (basic).csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",

@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-04-30")
+		(date "2026-05-10")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -22385,6 +22385,21 @@
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/5ecda23e-3d86-4b9b-8d83-de3653395b33"
 					(reference "J1")
 					(unit 1)
+					(variant
+						(name "Basic")
+						(field
+							(name "Mouser")
+							(value "164-6219")
+						)
+						(field
+							(name "TME")
+							(value "571-0500")
+						)
+						(field
+							(name "Value")
+							(value "571-0500")
+						)
+					)
 				)
 			)
 		)
@@ -23429,6 +23444,21 @@
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/5ecda23e-3d86-4b9b-8d83-de3653395b33"
 					(reference "J2")
 					(unit 1)
+					(variant
+						(name "Basic")
+						(field
+							(name "Mouser")
+							(value "164-6218")
+						)
+						(field
+							(name "TME")
+							(value "571-0100")
+						)
+						(field
+							(name "Value")
+							(value "571-0100")
+						)
+					)
 				)
 			)
 		)
