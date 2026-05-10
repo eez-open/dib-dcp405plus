@@ -15080,7 +15080,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C60816"
 			(at 139.7 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -15210,7 +15210,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C109218"
 			(at 116.84 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -16124,6 +16124,7 @@
 					(variant
 						(name "Basic")
 						(dnp yes)
+						(in_bom no)
 					)
 				)
 			)
@@ -17288,7 +17289,7 @@
 				)
 			)
 		)
-		(property "DigiKey" ""
+		(property "DigiKey" "13-RC0805FR-131RLCT-ND"
 			(at 149.86 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -17299,7 +17300,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C7336808"
 			(at 149.86 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -17310,7 +17311,7 @@
 				)
 			)
 		)
-		(property "Mouser" ""
+		(property "Mouser" "603-RC0805FR-131RL"
 			(at 149.86 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -17321,7 +17322,7 @@
 				)
 			)
 		)
-		(property "TME" "-"
+		(property "TME" "RC0805FR-131RL"
 			(at 149.86 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -18264,7 +18265,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C109218"
 			(at 233.68 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -18566,6 +18567,7 @@
 					(variant
 						(name "Basic")
 						(dnp yes)
+						(in_bom no)
 					)
 				)
 			)
@@ -20829,7 +20831,7 @@
 				)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "CL21B222JBANNNC"
 			(at 68.58 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -20840,7 +20842,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C307541"
 			(at 68.58 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -21577,7 +21579,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C60816"
 			(at 142.24 129.54 0)
 			(hide yes)
 			(show_name no)

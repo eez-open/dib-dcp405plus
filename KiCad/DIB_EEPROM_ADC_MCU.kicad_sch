@@ -16346,6 +16346,39 @@
 				)
 			)
 		)
+		(property "DigiKey" "YAG1320CT-ND"
+			(at 88.9 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "LCSC" "C859127"
+			(at 88.9 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Mouser" "603-RC0805FR-0710RP"
+			(at 88.9 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7f141b0f-c08e-48b2-8bb6-b8b6bd1e2db3")
 		)
@@ -16536,6 +16569,17 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C109218"
+			(at 266.7 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -17625,6 +17669,17 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C337877"
+			(at 261.62 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -21733,7 +21788,7 @@
 				)
 			)
 		)
-		(property "DigiKey" ""
+		(property "DigiKey" "311-1.80KCRCT-ND"
 			(at 187.96 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -21744,7 +21799,7 @@
 				)
 			)
 		)
-		(property "Mouser" ""
+		(property "Mouser" "603-RC0805FR-131K8L"
 			(at 187.96 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -21755,7 +21810,7 @@
 				)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "SMD0805-1K8-1%"
 			(at 187.96 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -21766,7 +21821,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C137579"
 			(at 187.96 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -27266,7 +27321,7 @@
 				)
 			)
 		)
-		(property "DigiKey" ""
+		(property "DigiKey" "311-1.80KCRCT-ND"
 			(at 190.5 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -27277,7 +27332,7 @@
 				)
 			)
 		)
-		(property "Mouser" ""
+		(property "Mouser" "603-RC0805FR-131K8L"
 			(at 190.5 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -27288,7 +27343,7 @@
 				)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "SMD0805-1K8-1%"
 			(at 190.5 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -27299,7 +27354,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C137579"
 			(at 190.5 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -28852,7 +28907,7 @@
 				)
 			)
 		)
-		(property "DigiKey" ""
+		(property "DigiKey" "490-16405-1-ND"
 			(at 104.14 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -28863,7 +28918,7 @@
 				)
 			)
 		)
-		(property "Mouser" ""
+		(property "Mouser" "81-GCM188R71C274KA7D"
 			(at 104.14 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -28874,7 +28929,7 @@
 				)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "GCM188R71C274KA37D"
 			(at 104.14 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -28885,7 +28940,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C710684"
 			(at 104.14 190.5 0)
 			(hide yes)
 			(show_name no)

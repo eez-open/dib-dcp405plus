@@ -94,6 +94,14 @@
           ""
         ],
         [
+          "courtyards_overlap|94876909|128350000|4bedf387-8222-48cd-8fad-63b55524135a|6db3f11f-939d-4e21-a69b-9b4e702da839",
+          ""
+        ],
+        [
+          "courtyards_overlap|96550000|128350000|6db3f11f-939d-4e21-a69b-9b4e702da839|c3d2f21e-ae9e-4264-9caa-dc5598960099",
+          ""
+        ],
+        [
           "hole_clearance|215493600|122363800|ca8746ba-8450-415c-95d1-38be970448b0|e172db2b-f301-4cdc-99bf-bbe0c1354888",
           ""
         ],
@@ -178,11 +186,11 @@
           ""
         ],
         [
-          "silk_edge_clearance|58500000|71750000|ae06be37-86e3-40b7-a7f9-f2dfcb4a8d25|5a2c59c6-d662-4077-a900-cafdf838e01f",
+          "silk_edge_clearance|58500000|71750000|ae06be37-86e3-40b7-a7f9-f2dfcb4a8d25|a04bd613-cddc-438d-bb06-b01284ecbd70",
           ""
         ],
         [
-          "silk_edge_clearance|58500000|71750000|ae06be37-86e3-40b7-a7f9-f2dfcb4a8d25|a04bd613-cddc-438d-bb06-b01284ecbd70",
+          "silk_edge_clearance|58500000|74000000|ae06be37-86e3-40b7-a7f9-f2dfcb4a8d25|5a2c59c6-d662-4077-a900-cafdf838e01f",
           ""
         ],
         [
@@ -190,11 +198,11 @@
           ""
         ],
         [
-          "silk_edge_clearance|58500000|78750000|ae06be37-86e3-40b7-a7f9-f2dfcb4a8d25|049d8873-1574-4ad6-b845-ace5561e193a",
+          "silk_edge_clearance|58500000|78750000|ae06be37-86e3-40b7-a7f9-f2dfcb4a8d25|0e99d661-673c-4a32-a8b6-2c88b56869f4",
           ""
         ],
         [
-          "silk_edge_clearance|58500000|78750000|ae06be37-86e3-40b7-a7f9-f2dfcb4a8d25|0e99d661-673c-4a32-a8b6-2c88b56869f4",
+          "silk_edge_clearance|58500000|81000000|ae06be37-86e3-40b7-a7f9-f2dfcb4a8d25|049d8873-1574-4ad6-b845-ace5561e193a",
           ""
         ],
         [
@@ -316,7 +324,7 @@
         "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.6096,
-        "min_text_thickness": 0.1016,
+        "min_text_thickness": 0.0762,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
@@ -777,7 +785,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "../fabrication/bom/EEZ DIB DCP405plus (basic).csv",
+    "bom_export_filename": "../fabrication/bom/EEZ DIB DCP405plus (Basic).csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
