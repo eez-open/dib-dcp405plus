@@ -50,7 +50,23 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.254
+          "border_display_style": 2,
+          "border_hatch_pitch": 0.5,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
+          "fill_mode": 0,
+          "hatch_gap": 1.5,
+          "hatch_orientation": 0.0,
+          "hatch_smoothing_level": 0,
+          "hatch_smoothing_value": 0.1,
+          "hatch_thickness": 1.0,
+          "min_clearance": 0.254,
+          "min_island_area": 10.0,
+          "min_thickness": 0.25,
+          "pad_connection": 1,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -90,6 +106,38 @@
           ""
         ],
         [
+          "clearance|143682500|123716700|21a03c8a-baa9-4390-b3ba-a40e539301bf|d35d626d-5fbe-493f-b00f-f01dba9843a2",
+          ""
+        ],
+        [
+          "clearance|144342900|123716700|c5a00567-a25e-4628-abf8-dd436134c66d|d35d626d-5fbe-493f-b00f-f01dba9843a2",
+          ""
+        ],
+        [
+          "clearance|186924800|94750000|75b19dd9-0974-40c3-bbf0-2640904c8f8d|d31d6ab1-1528-4fc7-b588-76adf66b7f03",
+          ""
+        ],
+        [
+          "clearance|187585200|94750000|8ffaa32f-04b0-4b8d-b055-9db6f0aeb4f4|d31d6ab1-1528-4fc7-b588-76adf66b7f03",
+          ""
+        ],
+        [
+          "clearance|188474800|96640000|c2a978c5-6370-411a-9a70-c37b280e353b|ee0ace55-b2da-4599-82cf-5e8b1999cbbb",
+          ""
+        ],
+        [
+          "clearance|189135200|96640000|e70fcb88-d71d-4eee-9345-30ad58f026fd|ee0ace55-b2da-4599-82cf-5e8b1999cbbb",
+          ""
+        ],
+        [
+          "clearance|69361000|88177000|7514b6fd-68a7-4ed4-8e3f-a11357dae679|808ec62a-4f33-45d5-b870-45b295add65c",
+          ""
+        ],
+        [
+          "clearance|70021400|90145500|0b5b7cfd-d611-49d1-b033-6801e2873671|364b07f1-604e-4f5e-b29b-4794f3003922",
+          ""
+        ],
+        [
           "courtyards_overlap|166643000|62950400|225e07c3-5166-4369-9197-7e539226de6e|fdeaba1f-d780-49f0-9826-5fc9965f4044",
           ""
         ],
@@ -118,35 +166,11 @@
           ""
         ],
         [
-          "shorting_items|143682500|123716700|21a03c8a-baa9-4390-b3ba-a40e539301bf|d35d626d-5fbe-493f-b00f-f01dba9843a2",
-          ""
-        ],
-        [
-          "shorting_items|144342900|123716700|c5a00567-a25e-4628-abf8-dd436134c66d|d35d626d-5fbe-493f-b00f-f01dba9843a2",
-          ""
-        ],
-        [
           "shorting_items|151904354|138150000|197166f3-e19f-4cb2-b939-8216b2573c4e|240a90f9-08e8-4968-afba-5542ea80bbf3",
           ""
         ],
         [
           "shorting_items|152564754|138150000|197166f3-e19f-4cb2-b939-8216b2573c4e|649db965-b58b-4cf5-8db5-587124bbe54d",
-          ""
-        ],
-        [
-          "shorting_items|186924800|94750000|75b19dd9-0974-40c3-bbf0-2640904c8f8d|d31d6ab1-1528-4fc7-b588-76adf66b7f03",
-          ""
-        ],
-        [
-          "shorting_items|187585200|94750000|8ffaa32f-04b0-4b8d-b055-9db6f0aeb4f4|d31d6ab1-1528-4fc7-b588-76adf66b7f03",
-          ""
-        ],
-        [
-          "shorting_items|188474800|96640000|c2a978c5-6370-411a-9a70-c37b280e353b|ee0ace55-b2da-4599-82cf-5e8b1999cbbb",
-          ""
-        ],
-        [
-          "shorting_items|189135200|96640000|e70fcb88-d71d-4eee-9345-30ad58f026fd|ee0ace55-b2da-4599-82cf-5e8b1999cbbb",
           ""
         ],
         [
@@ -158,19 +182,11 @@
           ""
         ],
         [
-          "shorting_items|69361000|88177000|7514b6fd-68a7-4ed4-8e3f-a11357dae679|808ec62a-4f33-45d5-b870-45b295add65c",
-          ""
-        ],
-        [
           "shorting_items|69361000|90145500|364b07f1-604e-4f5e-b29b-4794f3003922|f08b06a4-b22c-4c2a-a8c7-a93da7b34149",
           ""
         ],
         [
           "shorting_items|70021400|88177000|808ec62a-4f33-45d5-b870-45b295add65c|eb7e96bd-7994-4c73-b609-cde90b8a0372",
-          ""
-        ],
-        [
-          "shorting_items|70021400|90145500|0b5b7cfd-d611-49d1-b033-6801e2873671|364b07f1-604e-4f5e-b29b-4794f3003922",
           ""
         ],
         [
@@ -798,7 +814,7 @@
     },
     "bom_presets": [],
     "bom_settings": {
-      "exclude_dnp": false,
+      "exclude_dnp": true,
       "fields_ordered": [
         {
           "group_by": false,
@@ -935,7 +951,7 @@
         "uuid": "65943c0e-8943-4d2a-93dc-fb4938f73312"
       }
     ],
-    "used_designators": "J3-4,JP13-16,R147-151,LOGO7",
+    "used_designators": "#FLG1-16,#+3V1-31,#P+1-8,#GND1-20,R1-151,L1-3,#\\-9V1-2,NT1-3,IC1-27,RV1-3,#P\\-1-3,J1-4,X1-5,#PWR1-10,K1,ZD1-8,LOGO1-7,F1,TP1-15,FB1-3,#SUPPLY1-78,D1-23,#PE1-4,C1-126,FM1-4,KK1-10,TR1,LED1-4,JP1-16,Y1-2,Q1-29",
     "variants": [
       {
         "name": "Basic"
