@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-06-26")
+		(date "2026-06-30")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -9754,7 +9754,7 @@
 		)
 		(uuid "f278629c-8e01-4fb0-a35f-7482a704a1b3")
 	)
-	(text "POST_OUT- 15"
+	(text "OUTC- 15"
 		(exclude_from_sim no)
 		(at 260.35 70.485 0)
 		(effects
