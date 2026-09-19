@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-06-30")
+		(date "2026-09-19")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -5664,11 +5664,11 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_EEZ_connectors:TC2030-IDC"
+		(symbol "PCM_EEZ_connectors:WR-WST REDFIT IDC"
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
-			(in_pos_files yes)
+			(in_pos_files no)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "X"
 				(at 5.08 3.175 0)
@@ -5692,8 +5692,8 @@
 					)
 				)
 			)
-			(property "Footprint" "PCM_EEZ_connectors:TC2030"
-				(at 1.27 -17.78 0)
+			(property "Footprint" "PCM_EEZ_connectors:WR-WST_490107670612_DEBUG"
+				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -5714,8 +5714,8 @@
 					)
 				)
 			)
-			(property "Description" "Tag-Connect Plug-of-Nails connector"
-				(at 5.08 -17.78 0)
+			(property "Description" "SKEDD 2.54mm Pitch 6 Pin"
+				(at 0 -20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -5736,7 +5736,7 @@
 					)
 				)
 			)
-			(symbol "TC2030-IDC_1_0"
+			(symbol "WR-WST REDFIT IDC_1_0"
 				(polyline
 					(pts
 						(xy 5.08 2.54) (xy 5.08 0)
@@ -5858,7 +5858,7 @@
 					)
 				)
 			)
-			(symbol "TC2030-IDC_1_1"
+			(symbol "WR-WST REDFIT IDC_1_1"
 				(rectangle
 					(start 5.08 2.54)
 					(end 15.24 -15.24)
@@ -7811,6 +7811,167 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_EEZ_unsorted:JP2 shorted"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files no)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at -3.175 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_EEZ_SMD:JP2 shorted"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "JP2 shorted_1_0"
+				(arc
+					(start 1.016 -0.508)
+					(mid 0.5102 0)
+					(end 1.016 0.508)
+					(stroke
+						(width 0.0001)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 1.524 0.508)
+					(mid 1.8832 0.3592)
+					(end 2.032 0)
+					(stroke
+						(width 0.0001)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 2.032 0)
+					(mid 1.8832 -0.3592)
+					(end 1.524 -0.508)
+					(stroke
+						(width 0.0001)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 0) (xy 0 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.778 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 270)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 270)
+					(length 0)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_EEZ_unsorted:JP3 shorted"
 			(exclude_from_sim no)
 			(in_bom no)
@@ -9228,7 +9389,7 @@
 	)
 	(text "Digital isolators"
 		(exclude_from_sim no)
-		(at 86.36 17.78 0)
+		(at 88.9 17.78 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -9268,13 +9429,13 @@
 	)
 	(text "3 nRST"
 		(exclude_from_sim no)
-		(at 188.722 87.376 0)
+		(at 182.245 87.63 0)
 		(effects
 			(font
-				(size 1.4224 1.209)
+				(size 1.27 1.27)
 				(color 255 0 255 1)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "2826db5c-fcc5-4fff-8316-04e4e9bd2b06")
 	)
@@ -9283,7 +9444,7 @@
 		(at 175.26 87.63 0)
 		(effects
 			(font
-				(size 1.4224 1.209)
+				(size 1.27 1.27)
 				(color 255 0 255 1)
 			)
 			(justify right bottom)
@@ -9316,15 +9477,15 @@
 		)
 		(uuid "4871ca09-ad36-4143-a11a-a1faff480ae5")
 	)
-	(text "1 +3V3"
+	(text "1 N.C."
 		(exclude_from_sim no)
-		(at 189.23 90.17 0)
+		(at 182.245 90.17 0)
 		(effects
 			(font
-				(size 1.4224 1.209)
+				(size 1.27 1.27)
 				(color 255 0 255 1)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "4c61c0cf-e5e9-4cfa-9e83-1482d6d23ee6")
 	)
@@ -9333,7 +9494,7 @@
 		(at 175.26 85.09 0)
 		(effects
 			(font
-				(size 1.4224 1.209)
+				(size 1.27 1.27)
 				(color 255 0 255 1)
 			)
 			(justify right bottom)
@@ -9366,9 +9527,9 @@
 		)
 		(uuid "6b85a8cb-80c8-4f8c-9fb7-9075bf53566f")
 	)
-	(text "PCB pads for\nTag-Connect TC2030-IDC\n(DigiKey: TC2030-IDC-ND)"
+	(text "PCB pads for\nWR-WST REDFIT IDC"
 		(exclude_from_sim no)
-		(at 167.64 79.375 0)
+		(at 167.64 115.57 0)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -9383,7 +9544,7 @@
 		(at 175.26 90.17 0)
 		(effects
 			(font
-				(size 1.4224 1.209)
+				(size 1.27 1.27)
 				(color 255 0 255 1)
 			)
 			(justify right bottom)
@@ -9392,13 +9553,13 @@
 	)
 	(text "5 GND"
 		(exclude_from_sim no)
-		(at 188.214 84.836 0)
+		(at 182.245 85.09 0)
 		(effects
 			(font
-				(size 1.4224 1.209)
+				(size 1.27 1.27)
 				(color 255 0 255 1)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "94843f17-c428-4211-9434-2a3cdcc9e54e")
 	)
@@ -9547,7 +9708,7 @@
 		(uuid "29d71fbf-fbcb-48c5-ba2d-9de9982a2a82")
 	)
 	(junction
-		(at 149.86 43.18)
+		(at 152.4 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2a7867ed-da7e-46cf-9c21-6717ad5f894e")
@@ -9637,7 +9798,7 @@
 		(uuid "58a592f3-8907-49ac-88b7-09d44f28928b")
 	)
 	(junction
-		(at 144.78 63.5)
+		(at 147.32 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "58cb445e-beca-4a34-a462-315f2cf8f372")
@@ -9709,7 +9870,7 @@
 		(uuid "72e5ca57-c240-4362-8b28-c13e9f6c4f34")
 	)
 	(junction
-		(at 104.14 66.04)
+		(at 106.68 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "77c4339f-4953-455e-9027-0e64ddb6cf56")
@@ -9775,7 +9936,7 @@
 		(uuid "8883a28d-e9ba-483a-962e-8fb091b3e453")
 	)
 	(junction
-		(at 104.14 22.86)
+		(at 106.68 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "909b51a3-0aa9-447e-95f7-98feb5c2eec1")
@@ -9817,7 +9978,7 @@
 		(uuid "a44175a0-8704-46ad-968f-668928e546de")
 	)
 	(junction
-		(at 144.78 20.32)
+		(at 147.32 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a515a072-f18f-4a5f-833e-c8eb7b37a594")
@@ -10130,7 +10291,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 78.74) (xy 238.76 78.74)
+			(xy 236.22 76.2) (xy 238.76 76.2)
 		)
 		(stroke
 			(width 0.1524)
@@ -10190,7 +10351,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 73.66) (xy 142.24 73.66)
+			(xy 149.86 73.66) (xy 144.78 73.66)
 		)
 		(stroke
 			(width 0)
@@ -10320,7 +10481,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 78.74) (xy 106.68 78.74)
+			(xy 93.98 78.74) (xy 109.22 78.74)
 		)
 		(stroke
 			(width 0)
@@ -10330,7 +10491,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 25.4) (xy 144.78 25.4)
+			(xy 144.78 25.4) (xy 147.32 25.4)
 		)
 		(stroke
 			(width 0)
@@ -10420,7 +10581,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 83.82) (xy 106.68 83.82)
+			(xy 93.98 83.82) (xy 109.22 83.82)
 		)
 		(stroke
 			(width 0)
@@ -10560,7 +10721,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 43.18) (xy 142.24 43.18)
+			(xy 152.4 43.18) (xy 144.78 43.18)
 		)
 		(stroke
 			(width 0)
@@ -10680,6 +10841,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 73.66) (xy 236.22 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2abf16a9-ad58-4c75-bdbb-6ac55c3cc213")
+	)
+	(wire
+		(pts
 			(xy 198.12 73.66) (xy 208.28 73.66)
 		)
 		(stroke
@@ -10697,6 +10868,16 @@
 			(type solid)
 		)
 		(uuid "2b12ea35-389e-455b-bb8e-afb9a4aaa811")
+	)
+	(wire
+		(pts
+			(xy 71.12 68.58) (xy 81.28 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b653109-6026-47af-9225-7438978974bd")
 	)
 	(wire
 		(pts
@@ -10740,7 +10921,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 60.96) (xy 91.44 60.96)
+			(xy 86.36 60.96) (xy 93.98 60.96)
 		)
 		(stroke
 			(width 0)
@@ -10750,7 +10931,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 76.2) (xy 91.44 76.2)
+			(xy 109.22 76.2) (xy 93.98 76.2)
 		)
 		(stroke
 			(width 0)
@@ -10760,7 +10941,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 35.56) (xy 142.24 35.56)
+			(xy 162.56 35.56) (xy 144.78 35.56)
 		)
 		(stroke
 			(width 0)
@@ -10800,7 +10981,7 @@
 	)
 	(polyline
 		(pts
-			(xy 81.28 15.24) (xy 81.28 109.22)
+			(xy 83.82 15.24) (xy 83.82 109.22)
 		)
 		(stroke
 			(width 0.1524)
@@ -10831,7 +11012,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 86.36) (xy 142.24 86.36)
+			(xy 149.86 86.36) (xy 144.78 86.36)
 		)
 		(stroke
 			(width 0)
@@ -10851,7 +11032,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 78.74) (xy 142.24 78.74)
+			(xy 149.86 78.74) (xy 144.78 78.74)
 		)
 		(stroke
 			(width 0)
@@ -10921,6 +11102,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 66.04) (xy 81.28 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36785c3c-b88e-4ed8-8ae4-0c57e27eaae0")
+	)
+	(wire
+		(pts
 			(xy 104.14 182.88) (xy 106.68 182.88)
 		)
 		(stroke
@@ -10981,7 +11172,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 66.04) (xy 76.2 66.04)
+			(xy 63.5 66.04) (xy 68.58 66.04)
 		)
 		(stroke
 			(width 0)
@@ -10998,6 +11189,16 @@
 			(type default)
 		)
 		(uuid "3c5a3f64-d508-44b3-9ac2-850403e97e79")
+	)
+	(wire
+		(pts
+			(xy 152.4 53.34) (xy 152.4 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d02f7bf-648f-4cbc-931d-9937f14710df")
 	)
 	(wire
 		(pts
@@ -11161,7 +11362,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 71.12) (xy 91.44 71.12)
+			(xy 86.36 71.12) (xy 93.98 71.12)
 		)
 		(stroke
 			(width 0)
@@ -11219,6 +11420,16 @@
 			(color 194 194 194 1)
 		)
 		(uuid "4858c07b-1acf-4831-97b7-f02b9eabf92c")
+	)
+	(wire
+		(pts
+			(xy 152.4 55.88) (xy 154.94 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4905cc31-f424-4059-969d-bcde88c05fc0")
 	)
 	(wire
 		(pts
@@ -11342,7 +11553,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 30.48) (xy 142.24 30.48)
+			(xy 162.56 30.48) (xy 144.78 30.48)
 		)
 		(stroke
 			(width 0)
@@ -11392,7 +11603,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 78.74) (xy 251.46 78.74)
+			(xy 248.92 76.2) (xy 251.46 76.2)
 		)
 		(stroke
 			(width 0.1524)
@@ -11402,7 +11613,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 91.44) (xy 144.78 91.44)
+			(xy 144.78 91.44) (xy 147.32 91.44)
 		)
 		(stroke
 			(width 0)
@@ -11442,7 +11653,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 55.88) (xy 76.2 55.88)
+			(xy 63.5 55.88) (xy 78.74 55.88)
 		)
 		(stroke
 			(width 0)
@@ -11533,7 +11744,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 81.28) (xy 142.24 81.28)
+			(xy 149.86 81.28) (xy 144.78 81.28)
 		)
 		(stroke
 			(width 0)
@@ -11563,7 +11774,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 48.26) (xy 104.14 48.26)
+			(xy 109.22 48.26) (xy 106.68 48.26)
 		)
 		(stroke
 			(width 0)
@@ -11593,7 +11804,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 91.44) (xy 104.14 93.98)
+			(xy 106.68 91.44) (xy 106.68 93.98)
 		)
 		(stroke
 			(width 0)
@@ -11603,7 +11814,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 66.04) (xy 96.52 68.58)
+			(xy 99.06 66.04) (xy 99.06 68.58)
 		)
 		(stroke
 			(width 0.1524)
@@ -11663,7 +11874,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 60.96) (xy 144.78 63.5)
+			(xy 147.32 60.96) (xy 147.32 63.5)
 		)
 		(stroke
 			(width 0)
@@ -11694,7 +11905,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 43.18) (xy 160.02 43.18)
+			(xy 152.4 43.18) (xy 162.56 43.18)
 		)
 		(stroke
 			(width 0)
@@ -11794,7 +12005,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 81.28) (xy 106.68 81.28)
+			(xy 93.98 81.28) (xy 109.22 81.28)
 		)
 		(stroke
 			(width 0)
@@ -11814,7 +12025,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 71.12) (xy 76.2 71.12)
+			(xy 63.5 71.12) (xy 78.74 71.12)
 		)
 		(stroke
 			(width 0)
@@ -11845,7 +12056,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 40.64) (xy 106.68 40.64)
+			(xy 93.98 40.64) (xy 109.22 40.64)
 		)
 		(stroke
 			(width 0)
@@ -11945,7 +12156,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 20.32) (xy 144.78 25.4)
+			(xy 147.32 20.32) (xy 147.32 25.4)
 		)
 		(stroke
 			(width 0)
@@ -11955,7 +12166,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 78.74) (xy 251.46 81.28)
+			(xy 251.46 76.2) (xy 251.46 81.28)
 		)
 		(stroke
 			(width 0.1524)
@@ -12125,7 +12336,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 86.36) (xy 106.68 86.36)
+			(xy 93.98 86.36) (xy 109.22 86.36)
 		)
 		(stroke
 			(width 0)
@@ -12226,7 +12437,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 17.78) (xy 144.78 20.32)
+			(xy 147.32 17.78) (xy 147.32 20.32)
 		)
 		(stroke
 			(width 0)
@@ -12306,7 +12517,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 38.1) (xy 106.68 38.1)
+			(xy 93.98 38.1) (xy 109.22 38.1)
 		)
 		(stroke
 			(width 0)
@@ -12326,7 +12537,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 68.58) (xy 91.44 71.12)
+			(xy 93.98 68.58) (xy 93.98 71.12)
 		)
 		(stroke
 			(width 0)
@@ -12336,7 +12547,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 38.1) (xy 142.24 38.1)
+			(xy 162.56 38.1) (xy 144.78 38.1)
 		)
 		(stroke
 			(width 0)
@@ -12356,7 +12567,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 35.56) (xy 106.68 35.56)
+			(xy 93.98 35.56) (xy 109.22 35.56)
 		)
 		(stroke
 			(width 0)
@@ -12366,7 +12577,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 33.02) (xy 106.68 33.02)
+			(xy 93.98 33.02) (xy 109.22 33.02)
 		)
 		(stroke
 			(width 0)
@@ -12376,7 +12587,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 43.18) (xy 106.68 43.18)
+			(xy 93.98 43.18) (xy 109.22 43.18)
 		)
 		(stroke
 			(width 0)
@@ -12396,7 +12607,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 48.26) (xy 144.78 50.8)
+			(xy 147.32 48.26) (xy 147.32 50.8)
 		)
 		(stroke
 			(width 0)
@@ -12496,7 +12707,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 76.2) (xy 147.32 76.2)
+			(xy 144.78 76.2) (xy 149.86 76.2)
 		)
 		(stroke
 			(width 0)
@@ -12627,7 +12838,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 91.44) (xy 144.78 93.98)
+			(xy 147.32 91.44) (xy 147.32 93.98)
 		)
 		(stroke
 			(width 0)
@@ -12687,7 +12898,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 66.04) (xy 93.98 73.66)
+			(xy 96.52 66.04) (xy 96.52 73.66)
 		)
 		(stroke
 			(width 0)
@@ -12757,7 +12968,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 91.44) (xy 106.68 91.44)
+			(xy 106.68 91.44) (xy 109.22 91.44)
 		)
 		(stroke
 			(width 0)
@@ -12787,7 +12998,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 25.4) (xy 106.68 25.4)
+			(xy 106.68 25.4) (xy 109.22 25.4)
 		)
 		(stroke
 			(width 0)
@@ -12827,7 +13038,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 48.26) (xy 144.78 48.26)
+			(xy 144.78 48.26) (xy 147.32 48.26)
 		)
 		(stroke
 			(width 0)
@@ -12937,7 +13148,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 20.32) (xy 152.4 22.86)
+			(xy 154.94 20.32) (xy 154.94 22.86)
 		)
 		(stroke
 			(width 0.1524)
@@ -12987,7 +13198,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 33.02) (xy 142.24 33.02)
+			(xy 152.4 33.02) (xy 144.78 33.02)
 		)
 		(stroke
 			(width 0)
@@ -13027,7 +13238,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 22.86) (xy 96.52 25.4)
+			(xy 99.06 22.86) (xy 99.06 25.4)
 		)
 		(stroke
 			(width 0.1524)
@@ -13037,7 +13248,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 68.58) (xy 76.2 68.58)
+			(xy 63.5 68.58) (xy 68.58 68.58)
 		)
 		(stroke
 			(width 0)
@@ -13107,7 +13318,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 66.04) (xy 104.14 68.58)
+			(xy 106.68 66.04) (xy 106.68 68.58)
 		)
 		(stroke
 			(width 0)
@@ -13127,7 +13338,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 40.64) (xy 142.24 40.64)
+			(xy 162.56 40.64) (xy 144.78 40.64)
 		)
 		(stroke
 			(width 0)
@@ -13157,7 +13368,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 76.2) (xy 256.54 76.2)
+			(xy 236.22 73.66) (xy 256.54 73.66)
 		)
 		(stroke
 			(width 0)
@@ -13247,7 +13458,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 73.66) (xy 106.68 73.66)
+			(xy 96.52 73.66) (xy 109.22 73.66)
 		)
 		(stroke
 			(width 0)
@@ -13297,7 +13508,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 68.58) (xy 144.78 68.58)
+			(xy 144.78 68.58) (xy 147.32 68.58)
 		)
 		(stroke
 			(width 0)
@@ -13577,7 +13788,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 63.5) (xy 152.4 66.04)
+			(xy 154.94 63.5) (xy 154.94 66.04)
 		)
 		(stroke
 			(width 0.1524)
@@ -13587,7 +13798,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 22.86) (xy 104.14 25.4)
+			(xy 106.68 22.86) (xy 106.68 25.4)
 		)
 		(stroke
 			(width 0)
@@ -13617,7 +13828,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 63.5) (xy 144.78 68.58)
+			(xy 147.32 63.5) (xy 147.32 68.58)
 		)
 		(stroke
 			(width 0)
@@ -13697,16 +13908,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 76.2) (xy 236.22 78.74)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "eb59051b-35a1-4602-ae75-e844a136644f")
-	)
-	(wire
-		(pts
 			(xy 187.96 149.86) (xy 187.96 152.4)
 		)
 		(stroke
@@ -13747,7 +13948,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 83.82) (xy 142.24 83.82)
+			(xy 149.86 83.82) (xy 144.78 83.82)
 		)
 		(stroke
 			(width 0)
@@ -13837,7 +14038,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 63.5) (xy 104.14 66.04)
+			(xy 106.68 63.5) (xy 106.68 66.04)
 		)
 		(stroke
 			(width 0)
@@ -13847,7 +14048,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 60.96) (xy 91.44 63.5)
+			(xy 93.98 60.96) (xy 93.98 63.5)
 		)
 		(stroke
 			(width 0)
@@ -13867,7 +14068,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 30.48) (xy 106.68 30.48)
+			(xy 93.98 30.48) (xy 109.22 30.48)
 		)
 		(stroke
 			(width 0)
@@ -13907,7 +14108,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 68.58) (xy 106.68 68.58)
+			(xy 106.68 68.58) (xy 109.22 68.58)
 		)
 		(stroke
 			(width 0)
@@ -13917,7 +14118,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 20.32) (xy 104.14 22.86)
+			(xy 106.68 20.32) (xy 106.68 22.86)
 		)
 		(stroke
 			(width 0)
@@ -13937,7 +14138,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 48.26) (xy 104.14 50.8)
+			(xy 106.68 48.26) (xy 106.68 50.8)
 		)
 		(stroke
 			(width 0)
@@ -13986,7 +14187,7 @@
 		(uuid "ffd03c11-4dda-40f2-9a65-be1a5a9ba346")
 	)
 	(label "ISO_ADC_SCLK"
-		(at 160.02 35.56 180)
+		(at 162.56 35.56 180)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -14006,7 +14207,7 @@
 		(uuid "00992e91-cea2-4369-8f8a-5bcdaa09fc79")
 	)
 	(label "ADC_MOSI"
-		(at 91.44 38.1 0)
+		(at 93.98 38.1 0)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -14046,7 +14247,7 @@
 		(uuid "10504a7f-5e8e-43ad-bf2a-7a9747e84ccf")
 	)
 	(label "ISO_ADC_MISO"
-		(at 160.02 40.64 180)
+		(at 162.56 40.64 180)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -14106,7 +14307,7 @@
 		(uuid "1d69a18b-7a60-4708-848f-d545319bb0eb")
 	)
 	(label "~{IOEXP_IRQ}"
-		(at 91.44 86.36 0)
+		(at 93.98 86.36 0)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -14266,7 +14467,7 @@
 		(uuid "4035acd4-2d01-4719-ba5a-58d9520439ba")
 	)
 	(label "MOSI1"
-		(at 91.44 81.28 0)
+		(at 93.98 81.28 0)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -14316,7 +14517,7 @@
 		(uuid "49d5cbcb-28ba-432a-898a-15f2f9dad0b4")
 	)
 	(label "~{ISO_ADC_CS}"
-		(at 160.02 30.48 180)
+		(at 162.56 30.48 180)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -14346,7 +14547,7 @@
 		(uuid "5cd3490c-5401-44ca-afcb-5acaa295e562")
 	)
 	(label "DIB_UART_TX"
-		(at 76.2 66.04 180)
+		(at 81.28 66.04 180)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -14376,7 +14577,7 @@
 		(uuid "6296eea0-d6ed-4939-b890-d8b7084450bd")
 	)
 	(label "SCLK1"
-		(at 91.44 78.74 0)
+		(at 93.98 78.74 0)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -14386,7 +14587,7 @@
 		(uuid "65a161d2-a414-4217-ab13-585d315d5976")
 	)
 	(label "~{DIB_RESET}"
-		(at 83.82 60.96 0)
+		(at 86.36 60.96 0)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -14476,7 +14677,7 @@
 		(uuid "7432a7cf-13b4-4a83-b0d4-427494eb7c15")
 	)
 	(label "~{ADC_CS}"
-		(at 91.44 30.48 0)
+		(at 93.98 30.48 0)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -14486,7 +14687,7 @@
 		(uuid "749db30f-0b51-4732-a1a0-80de94d7b599")
 	)
 	(label "DIB_OE_SYNC"
-		(at 91.44 76.2 0)
+		(at 93.98 76.2 0)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -14516,7 +14717,7 @@
 		(uuid "7ae06a32-7201-4874-bb5e-c3dd91e39fdc")
 	)
 	(label "MISO1"
-		(at 91.44 83.82 0)
+		(at 93.98 83.82 0)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -14616,7 +14817,7 @@
 		(uuid "a2fd5db7-52f0-4c11-ae39-9f5079ac286a")
 	)
 	(label "ADC_MISO"
-		(at 91.44 40.64 0)
+		(at 93.98 40.64 0)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -14666,7 +14867,7 @@
 		(uuid "b5881b21-a430-46ca-a82b-3e7c67639c79")
 	)
 	(label "DIB_BOOT0"
-		(at 256.54 76.2 180)
+		(at 256.54 73.66 180)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -14716,7 +14917,7 @@
 		(uuid "c3bfe24f-7f98-4b1c-98b3-8c645918511e")
 	)
 	(label "ISO_ADC_MOSI"
-		(at 160.02 38.1 180)
+		(at 162.56 38.1 180)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -14736,7 +14937,7 @@
 		(uuid "c6564d5e-1ad8-47bf-a510-ed83b2e5f232")
 	)
 	(label "ADC_IRQ"
-		(at 91.44 43.18 0)
+		(at 93.98 43.18 0)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -14746,7 +14947,7 @@
 		(uuid "ca71850f-46ec-4ca1-be8b-7ad793b31d27")
 	)
 	(label "~{ISO_ADC_IRQ}"
-		(at 160.02 43.18 180)
+		(at 162.56 43.18 180)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -14826,7 +15027,7 @@
 		(uuid "d9fdc963-c100-4d59-a272-01186d8933b0")
 	)
 	(label "DIB_UART_RX"
-		(at 76.2 68.58 180)
+		(at 81.28 68.58 180)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -14836,7 +15037,7 @@
 		(uuid "db785544-93fe-485e-bf70-e6cb9d890c78")
 	)
 	(label "RESET_OUT"
-		(at 83.82 71.12 0)
+		(at 86.36 71.12 0)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -14846,7 +15047,7 @@
 		(uuid "deabadec-25e1-441f-a1a6-fab22e45aea3")
 	)
 	(label "~{DAC_CS}"
-		(at 91.44 33.02 0)
+		(at 93.98 33.02 0)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -14896,7 +15097,7 @@
 		(uuid "f064ea9c-c3dc-4e35-b0f0-244148f7efce")
 	)
 	(label "AC_FREQ"
-		(at 76.2 55.88 180)
+		(at 78.74 55.88 180)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -14916,7 +15117,7 @@
 		(uuid "f429b41c-57d6-4fc6-bf30-a7576d308f58")
 	)
 	(label "ADC_SCLK"
-		(at 91.44 35.56 0)
+		(at 93.98 35.56 0)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -14926,7 +15127,7 @@
 		(uuid "f9f743e7-c736-4f82-9482-f299fddad6bc")
 	)
 	(label "DIB_BOOT0"
-		(at 76.2 71.12 180)
+		(at 78.74 71.12 180)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -14947,7 +15148,7 @@
 	)
 	(global_label "~{ISO_DAC_CS}"
 		(shape output)
-		(at 149.86 33.02 0)
+		(at 152.4 33.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14957,7 +15158,7 @@
 		)
 		(uuid "01977404-32ef-428f-bc26-58586dd846b4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 159.7811 33.02 0)
+			(at 162.3211 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14995,7 +15196,7 @@
 	)
 	(global_label "ISO_OE_SYNC"
 		(shape output)
-		(at 147.32 76.2 0)
+		(at 149.86 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15005,7 +15206,7 @@
 		)
 		(uuid "11d48cd9-7c3e-4db4-9dde-94287c67429b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.13 76.2 0)
+			(at 160.67 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15043,7 +15244,7 @@
 	)
 	(global_label "ISO_MOSI1"
 		(shape output)
-		(at 147.32 81.28 0)
+		(at 149.86 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15053,7 +15254,7 @@
 		)
 		(uuid "285dc15b-b555-4563-b3ce-aeea98b68ad1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.0773 81.28 0)
+			(at 162.6173 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15091,7 +15292,7 @@
 	)
 	(global_label "~{ISO_RESET}"
 		(shape output)
-		(at 147.32 73.66 0)
+		(at 149.86 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15101,7 +15302,7 @@
 		)
 		(uuid "2d218ddd-44e9-4292-ae17-a2df49c58bd0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.3097 73.66 0)
+			(at 158.8497 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15163,7 +15364,7 @@
 	)
 	(global_label "~{ISO_IOEXP_IRQ}"
 		(shape input)
-		(at 147.32 86.36 0)
+		(at 149.86 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15173,7 +15374,7 @@
 		)
 		(uuid "62984e41-2c8b-4968-8ffa-7e7843436d71")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 159.1036 86.36 0)
+			(at 161.6436 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15187,7 +15388,7 @@
 	)
 	(global_label "ISO_MISO1"
 		(shape input)
-		(at 147.32 83.82 0)
+		(at 149.86 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15197,7 +15398,7 @@
 		)
 		(uuid "6316f5c4-922f-41b1-a23a-d61b71133bab")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.0773 83.82 0)
+			(at 162.6173 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15235,7 +15436,7 @@
 	)
 	(global_label "ISO_SCLK1"
 		(shape output)
-		(at 147.32 78.74 0)
+		(at 149.86 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15245,7 +15446,7 @@
 		)
 		(uuid "8dddcea4-387b-44bc-8a12-424bd8846e47")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.4792 78.74 0)
+			(at 159.0192 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15433,7 +15634,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_symbols:GND")
-		(at 144.78 96.52 0)
+		(at 147.32 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15443,7 +15644,7 @@
 		(dnp no)
 		(uuid "014b8d27-f6bf-48c6-bde6-4734f88a6427")
 		(property "Reference" "#SUPPLY011"
-			(at 144.78 96.52 0)
+			(at 147.32 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15454,7 +15655,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 142.875 95.885 0)
+			(at 145.415 95.885 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15465,7 +15666,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 96.52 0)
+			(at 147.32 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15476,7 +15677,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 96.52 0)
+			(at 147.32 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15487,7 +15688,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 144.78 96.52 0)
+			(at 147.32 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15697,6 +15898,61 @@
 				)
 			)
 		)
+		(property "MF" ""
+			(at 256.54 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 256.54 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 256.54 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 256.54 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 256.54 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "8"
 			(uuid "066f229c-574d-4024-8845-ec5f88f36377")
 		)
@@ -15830,6 +16086,61 @@
 				)
 			)
 		)
+		(property "MF" ""
+			(at 256.54 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 256.54 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 256.54 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 256.54 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 256.54 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ecd3a7a1-652f-437b-b028-bd0869be1641")
 		)
@@ -15945,6 +16256,61 @@
 				)
 			)
 		)
+		(property "MF" ""
+			(at 170.18 27.94 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 170.18 27.94 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 170.18 27.94 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 170.18 27.94 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 170.18 27.94 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "de3e51e2-f024-49f8-8c03-d659a811c4d0")
 		)
@@ -15962,7 +16328,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_passives:C-EU")
-		(at 99.06 66.04 90)
+		(at 101.6 66.04 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -15973,7 +16339,7 @@
 		(dnp no)
 		(uuid "083c2b8b-4e8c-4006-b1b1-0c878cf8aa3d")
 		(property "Reference" "C12"
-			(at 99.441 65.659 90)
+			(at 101.981 65.659 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15984,7 +16350,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 99.441 68.199 90)
+			(at 101.981 68.199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15995,7 +16361,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_passives:C_0603_1608Metric"
-			(at 96.52 66.04 0)
+			(at 99.06 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16006,7 +16372,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 66.04 0)
+			(at 99.06 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16017,7 +16383,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 99.06 66.04 0)
+			(at 101.6 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16028,7 +16394,7 @@
 			)
 		)
 		(property "DigiKey" "490-4774-1-ND"
-			(at 99.06 66.04 0)
+			(at 101.6 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16039,7 +16405,7 @@
 			)
 		)
 		(property "Mouser" "80-C0603C104M4R"
-			(at 99.06 66.04 0)
+			(at 101.6 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16050,13 +16416,68 @@
 			)
 		)
 		(property "TME" "CL10B104KA8NNNC"
-			(at 99.06 66.04 0)
+			(at 101.6 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 101.6 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 101.6 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 101.6 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 101.6 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 101.6 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -16175,6 +16596,61 @@
 				)
 			)
 		)
+		(property "MF" ""
+			(at 91.44 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 91.44 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 91.44 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 91.44 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 91.44 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "921a427d-ec6c-4005-86df-b0a30466a9b9")
 		)
@@ -16192,7 +16668,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_symbols:+3V3")
-		(at 144.78 58.42 0)
+		(at 147.32 58.42 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -16203,7 +16679,7 @@
 		(dnp no)
 		(uuid "09d0b732-b7e3-489d-9865-463cd85ee902")
 		(property "Reference" "#+3V06"
-			(at 144.78 58.42 0)
+			(at 147.32 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16214,7 +16690,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 151.13 59.69 0)
+			(at 153.67 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16225,7 +16701,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 58.42 0)
+			(at 147.32 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16236,7 +16712,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 58.42 0)
+			(at 147.32 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16247,7 +16723,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 144.78 58.42 0)
+			(at 147.32 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16379,6 +16855,61 @@
 				)
 			)
 		)
+		(property "MF" ""
+			(at 88.9 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 88.9 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 88.9 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 88.9 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 88.9 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7f141b0f-c08e-48b2-8bb6-b8b6bd1e2db3")
 		)
@@ -16396,7 +16927,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_symbols:+3V3")
-		(at 149.86 55.88 180)
+		(at 157.48 55.88 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16406,7 +16937,7 @@
 		(dnp no)
 		(uuid "14dd1f54-27d1-4e32-8882-04c9486f44eb")
 		(property "Reference" "#+3V07"
-			(at 149.86 55.88 0)
+			(at 157.48 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16417,18 +16948,18 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 156.21 54.61 0)
+			(at 158.115 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 55.88 0)
+			(at 157.48 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16439,7 +16970,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 55.88 0)
+			(at 157.48 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16450,7 +16981,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 149.86 55.88 0)
+			(at 157.48 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16583,6 +17114,61 @@
 				)
 			)
 		)
+		(property "MF" ""
+			(at 266.7 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 266.7 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 266.7 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 266.7 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 266.7 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "A"
 			(uuid "945c7bf5-8b74-440c-92de-856bc0dde999")
 		)
@@ -16701,13 +17287,14 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 238.76 120.65 0)
+			(at 238.76 121.285 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
+				(justify bottom)
 			)
 		)
 		(property "Footprint" ""
@@ -16956,6 +17543,61 @@
 				(justify right top)
 			)
 		)
+		(property "MF" ""
+			(at 68.58 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 68.58 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 68.58 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 68.58 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 68.58 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fef6e5de-2691-4515-a00b-395ec6feffab")
 		)
@@ -17080,6 +17722,61 @@
 				)
 			)
 		)
+		(property "MF" ""
+			(at 53.34 185.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 53.34 185.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 53.34 185.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 53.34 185.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 53.34 185.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e1ba6f01-94fe-4e21-81d7-f1ea618cd028")
 		)
@@ -17096,7 +17793,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_EEZ_connectors:TC2030-IDC")
+		(lib_id "PCM_EEZ_connectors:WR-WST REDFIT IDC")
 		(at 182.88 96.52 0)
 		(mirror y)
 		(unit 1)
@@ -17104,18 +17801,18 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "24f46172-eb99-47d1-b51c-503957b15ce0")
 		(property "Reference" "X2"
-			(at 167.64 92.71 0)
+			(at 177.8 93.345 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left bottom)
 			)
 		)
 		(property "Value" "N.C."
@@ -17129,8 +17826,8 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_EEZ_connectors:TC2030"
-			(at 181.61 114.3 0)
+		(property "Footprint" "PCM_EEZ_connectors:WR-WST_490107670612_DEBUG"
+			(at 182.88 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17151,8 +17848,8 @@
 				)
 			)
 		)
-		(property "Description" "Tag-Connect Plug-of-Nails connector"
-			(at 182.88 96.52 0)
+		(property "Description" "SKEDD 2.54mm Pitch 6 Pin"
+			(at 182.88 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17192,6 +17889,61 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 182.88 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 182.88 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 182.88 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 182.88 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 182.88 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -17382,7 +18134,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_passives:C-EU")
-		(at 149.86 63.5 270)
+		(at 152.4 63.5 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17392,7 +18144,7 @@
 		(dnp no)
 		(uuid "2bed17e4-13db-46bc-9fbc-9abd0e53b8cf")
 		(property "Reference" "C18"
-			(at 149.479 63.119 90)
+			(at 152.019 63.119 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17403,7 +18155,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 149.479 65.659 90)
+			(at 152.019 65.659 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17414,7 +18166,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_passives:C_0603_1608Metric"
-			(at 152.4 63.5 0)
+			(at 154.94 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17425,7 +18177,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 63.5 0)
+			(at 154.94 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17436,7 +18188,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 149.86 63.5 0)
+			(at 152.4 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17447,7 +18199,7 @@
 			)
 		)
 		(property "DigiKey" "490-4774-1-ND"
-			(at 149.86 63.5 0)
+			(at 152.4 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17458,7 +18210,7 @@
 			)
 		)
 		(property "Mouser" "80-C0603C104M4R"
-			(at 149.86 63.5 0)
+			(at 152.4 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17469,13 +18221,68 @@
 			)
 		)
 		(property "TME" "CL10B104KA8NNNC"
-			(at 149.86 63.5 0)
+			(at 152.4 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 152.4 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 152.4 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 152.4 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 152.4 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 152.4 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -17673,6 +18480,61 @@
 			)
 		)
 		(property "LCSC" "C337877"
+			(at 261.62 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 261.62 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 261.62 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 261.62 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 261.62 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
 			(at 261.62 124.46 90)
 			(hide yes)
 			(show_name no)
@@ -18011,7 +18873,7 @@
 				)
 			)
 		)
-		(property "Mouser" "80-C0603C102K5R7040"
+		(property "Mouser" "81-GRT1885C2A102JA2D"
 			(at 60.96 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -18045,6 +18907,61 @@
 			)
 		)
 		(property "Label" "Umon"
+			(at 60.96 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 60.96 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 60.96 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 60.96 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 60.96 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
 			(at 60.96 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -18337,6 +19254,61 @@
 				)
 			)
 		)
+		(property "MF" ""
+			(at 53.34 162.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 53.34 162.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 53.34 162.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 53.34 162.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 53.34 162.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "22ea8121-786d-46c1-8308-efcd1d3f7e1b")
 		)
@@ -18460,6 +19432,61 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 106.68 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 106.68 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 106.68 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 106.68 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 106.68 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -18668,6 +19695,61 @@
 				)
 			)
 		)
+		(property "MF" ""
+			(at 93.98 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 93.98 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 93.98 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 93.98 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 93.98 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9587f684-4b78-4e78-a50e-113f18e1fe13")
 		)
@@ -18795,6 +19877,61 @@
 				)
 			)
 		)
+		(property "MF" ""
+			(at 53.34 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 53.34 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 53.34 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 53.34 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 53.34 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6d771c04-846b-45b6-ac3b-0e779b947b08")
 		)
@@ -18907,6 +20044,61 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 134.62 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 134.62 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 134.62 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 134.62 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 134.62 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -19024,6 +20216,61 @@
 				)
 			)
 		)
+		(property "MF" ""
+			(at 243.84 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 243.84 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 243.84 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 243.84 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 243.84 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d7ef530b-76e2-41c7-bc4e-6e70f10f5e81")
 		)
@@ -19063,14 +20310,14 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 69.215 102.235 90)
+			(at 69.215 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
-				(justify left top)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -19387,6 +20634,61 @@
 				)
 			)
 		)
+		(property "MF" ""
+			(at 53.34 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 53.34 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 53.34 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 53.34 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 53.34 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "91ed6144-b445-42a4-8f5c-3b7934fe240f")
 		)
@@ -19512,6 +20814,61 @@
 				)
 			)
 		)
+		(property "MF" ""
+			(at 269.24 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 269.24 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 269.24 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 269.24 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 269.24 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6ef28c47-5478-4b5a-af6f-f7379e33a182")
 		)
@@ -19632,6 +20989,61 @@
 			(at 220.98 167.64 0)
 			(hide yes)
 			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 208.28 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 208.28 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 208.28 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 208.28 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 208.28 71.12 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -19982,6 +21394,61 @@
 				)
 			)
 		)
+		(property "MF" ""
+			(at 248.92 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 248.92 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 248.92 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 248.92 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 248.92 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6d672015-e06e-439b-a6c4-9aaa3aceeb15")
 		)
@@ -20231,7 +21698,7 @@
 				)
 			)
 		)
-		(property "Mouser" "80-C0603C102K5R7040"
+		(property "Mouser" "81-GRT1885C2A102JA2D"
 			(at 60.96 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -20265,6 +21732,61 @@
 			)
 		)
 		(property "Label" "Uset"
+			(at 60.96 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 60.96 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 60.96 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 60.96 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 60.96 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
 			(at 60.96 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -20378,7 +21900,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp yes)
 		(uuid "5933f3cf-6d44-4cdf-8834-6396fc44cf77")
 		(property "Reference" "R12"
@@ -20477,6 +21999,61 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 187.96 160.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 187.96 160.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 187.96 160.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 187.96 160.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 187.96 160.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -20682,6 +22259,61 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 53.34 132.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 53.34 132.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 53.34 132.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 53.34 132.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 53.34 132.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -20957,6 +22589,61 @@
 				)
 			)
 		)
+		(property "MF" ""
+			(at 246.38 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 246.38 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 246.38 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 246.38 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 246.38 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b79ba4d5-60bf-4f86-9154-a2aecaeb304e")
 		)
@@ -20974,7 +22661,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_symbols:GND_DIB")
-		(at 104.14 96.52 0)
+		(at 106.68 96.52 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -20985,7 +22672,7 @@
 		(dnp no)
 		(uuid "61fabf8e-5d07-4c83-b7de-9c288b106074")
 		(property "Reference" "#GND06"
-			(at 104.14 96.52 0)
+			(at 106.68 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20996,7 +22683,7 @@
 			)
 		)
 		(property "Value" "DIB_GND"
-			(at 107.315 98.425 0)
+			(at 109.855 98.425 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21007,7 +22694,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 96.52 0)
+			(at 106.68 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21018,7 +22705,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 96.52 0)
+			(at 106.68 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21029,7 +22716,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 104.14 96.52 0)
+			(at 106.68 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21053,7 +22740,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_TI:ISO6762FDWR")
-		(at 109.22 66.04 0)
+		(at 111.76 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21063,7 +22750,7 @@
 		(dnp no)
 		(uuid "67499a3f-715f-4703-8104-f6d764ff7e0b")
 		(property "Reference" "IC3"
-			(at 109.22 65.405 0)
+			(at 111.76 65.405 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21074,7 +22761,7 @@
 			)
 		)
 		(property "Value" "ISO6762FDWR"
-			(at 109.22 94.615 0)
+			(at 111.76 94.615 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21085,7 +22772,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_SMD:DW16"
-			(at 124.46 96.52 0)
+			(at 127 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21096,7 +22783,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 66.04 0)
+			(at 111.76 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21107,7 +22794,7 @@
 			)
 		)
 		(property "Description" "General-Purpose 6-Ch (4/2) Reinforced Digital Isolator with Robust EMC"
-			(at 123.825 106.68 0)
+			(at 126.365 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21118,7 +22805,7 @@
 			)
 		)
 		(property "DigiKey" "296-ISO6762FDWRCT-ND"
-			(at 124.46 99.06 0)
+			(at 127 99.06 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -21129,7 +22816,7 @@
 			)
 		)
 		(property "Mouser" "595-ISO6762FDWR"
-			(at 124.46 101.6 0)
+			(at 127 101.6 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -21140,7 +22827,7 @@
 			)
 		)
 		(property "TME" "-"
-			(at 124.46 104.14 0)
+			(at 127 104.14 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -21151,13 +22838,68 @@
 			)
 		)
 		(property "LCSC" "C5216396"
-			(at 109.22 66.04 0)
+			(at 111.76 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 111.76 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 111.76 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 111.76 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 111.76 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 111.76 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -21220,7 +22962,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V8")
-		(at 104.14 63.5 0)
+		(at 106.68 63.5 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -21231,7 +22973,7 @@
 		(dnp no)
 		(uuid "68191c8a-6de1-4df3-92a5-2320a34808c6")
 		(property "Reference" "#PWR03"
-			(at 104.14 67.31 0)
+			(at 106.68 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21242,7 +22984,7 @@
 			)
 		)
 		(property "Value" "DIB_3V3"
-			(at 104.14 59.69 0)
+			(at 106.68 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21252,7 +22994,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 63.5 0)
+			(at 106.68 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21263,7 +23005,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 63.5 0)
+			(at 106.68 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21274,7 +23016,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 104.14 63.5 0)
+			(at 106.68 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21304,7 +23046,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp yes)
 		(uuid "6917989f-182e-482b-b69d-4edf1ef93831")
 		(property "Reference" "ZD1"
@@ -21392,6 +23134,72 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 30.48 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 30.48 152.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 30.48 152.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 30.48 152.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 30.48 152.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 30.48 152.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -21591,6 +23399,61 @@
 				)
 			)
 		)
+		(property "MF" ""
+			(at 241.3 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 241.3 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 241.3 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 241.3 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 241.3 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ed55c081-56cd-4dd6-b608-9868bc6f13da")
 		)
@@ -21608,7 +23471,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_passives:R-EU")
-		(at 243.84 78.74 90)
+		(at 243.84 76.2 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -21619,7 +23482,7 @@
 		(dnp no)
 		(uuid "70705611-44ca-4295-9aa7-31006fa6bc2e")
 		(property "Reference" "R15"
-			(at 243.84 77.47 90)
+			(at 243.84 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21630,7 +23493,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 243.84 80.01 90)
+			(at 243.84 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21641,7 +23504,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_passives:R_0805_2012Metric"
-			(at 243.84 78.74 0)
+			(at 243.84 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21652,7 +23515,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.84 78.74 0)
+			(at 243.84 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21663,7 +23526,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 243.84 78.74 0)
+			(at 243.84 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21674,7 +23537,7 @@
 			)
 		)
 		(property "DigiKey" "311-10.0KCRCT-ND"
-			(at 243.84 78.74 0)
+			(at 243.84 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21685,7 +23548,7 @@
 			)
 		)
 		(property "Mouser" "603-RC0805FR-0710KL"
-			(at 243.84 78.74 0)
+			(at 243.84 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21696,13 +23559,68 @@
 			)
 		)
 		(property "TME" "RC0805FR-1310KL"
-			(at 243.84 78.74 0)
+			(at 243.84 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 243.84 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 243.84 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 243.84 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 243.84 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 243.84 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -21832,6 +23750,61 @@
 				)
 			)
 		)
+		(property "MF" ""
+			(at 187.96 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 187.96 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 187.96 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 187.96 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 187.96 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6f58f94d-b830-4647-b9f7-06eb60601b29")
 		)
@@ -21944,6 +23917,61 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 96.52 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 96.52 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 96.52 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 96.52 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 96.52 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -22121,7 +24149,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_passives:C-EU")
-		(at 149.86 20.32 270)
+		(at 152.4 20.32 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22131,7 +24159,7 @@
 		(dnp no)
 		(uuid "7779b5f7-a4c2-4ba5-8bce-fb0e6916cfd3")
 		(property "Reference" "C17"
-			(at 149.479 19.939 90)
+			(at 152.019 19.939 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22142,7 +24170,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 149.479 22.479 90)
+			(at 152.019 22.479 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22153,7 +24181,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_passives:C_0603_1608Metric"
-			(at 152.4 20.32 0)
+			(at 154.94 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22164,7 +24192,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 20.32 0)
+			(at 154.94 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22175,7 +24203,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 149.86 20.32 0)
+			(at 152.4 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22186,7 +24214,7 @@
 			)
 		)
 		(property "DigiKey" "490-4774-1-ND"
-			(at 149.86 20.32 0)
+			(at 152.4 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22197,7 +24225,7 @@
 			)
 		)
 		(property "Mouser" "80-C0603C104M4R"
-			(at 149.86 20.32 0)
+			(at 152.4 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22208,13 +24236,68 @@
 			)
 		)
 		(property "TME" "CL10B104KA8NNNC"
-			(at 149.86 20.32 0)
+			(at 152.4 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 152.4 20.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 152.4 20.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 152.4 20.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 152.4 20.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 152.4 20.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -22235,7 +24318,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_symbols:GND_DIB")
-		(at 104.14 53.34 0)
+		(at 106.68 53.34 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -22246,7 +24329,7 @@
 		(dnp no)
 		(uuid "78967c51-daf4-4b16-9da2-809140da37c9")
 		(property "Reference" "#GND05"
-			(at 104.14 53.34 0)
+			(at 106.68 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22257,7 +24340,7 @@
 			)
 		)
 		(property "Value" "DIB_GND"
-			(at 107.315 55.245 0)
+			(at 109.855 55.245 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22268,7 +24351,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 53.34 0)
+			(at 106.68 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22279,7 +24362,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 53.34 0)
+			(at 106.68 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22290,7 +24373,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 104.14 53.34 0)
+			(at 106.68 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22422,6 +24505,61 @@
 				)
 			)
 		)
+		(property "MF" ""
+			(at 149.86 185.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 149.86 185.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 149.86 185.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 149.86 185.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 149.86 185.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a5c011ce-c5d9-41c8-b163-daf0ec72c624")
 		)
@@ -22548,6 +24686,61 @@
 				)
 			)
 		)
+		(property "MF" ""
+			(at 149.86 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 149.86 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 149.86 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 149.86 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 149.86 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "NC"
 			(uuid "7239f6ed-cc4c-4f23-b478-8cdd68927bcf")
 		)
@@ -22646,7 +24839,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_symbols:GND_DIB")
-		(at 96.52 71.12 0)
+		(at 99.06 71.12 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -22657,7 +24850,7 @@
 		(dnp no)
 		(uuid "824cafa5-ca24-4d66-bea2-92be5f560feb")
 		(property "Reference" "#GND04"
-			(at 96.52 71.12 0)
+			(at 99.06 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22668,7 +24861,7 @@
 			)
 		)
 		(property "Value" "DIB_GND"
-			(at 99.06 71.755 0)
+			(at 101.6 71.755 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22679,7 +24872,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 71.12 0)
+			(at 99.06 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22690,7 +24883,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 71.12 0)
+			(at 99.06 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22701,7 +24894,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 96.52 71.12 0)
+			(at 99.06 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22725,7 +24918,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_symbols:GND")
-		(at 152.4 68.58 0)
+		(at 154.94 68.58 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -22736,7 +24929,7 @@
 		(dnp no)
 		(uuid "82777e55-e442-41c6-a727-073853e6cd6c")
 		(property "Reference" "#SUPPLY014"
-			(at 152.4 68.58 0)
+			(at 154.94 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22747,7 +24940,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 154.305 67.945 0)
+			(at 156.845 67.945 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22758,7 +24951,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 68.58 0)
+			(at 154.94 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22769,7 +24962,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 68.58 0)
+			(at 154.94 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22780,7 +24973,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 152.4 68.58 0)
+			(at 154.94 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22908,6 +25101,61 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 264.16 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 264.16 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 264.16 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 264.16 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 264.16 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -23183,6 +25431,61 @@
 				)
 			)
 		)
+		(property "MF" ""
+			(at 261.62 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 261.62 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 261.62 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 261.62 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 261.62 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f4ea646c-d303-4676-8d66-47d690184431")
 		)
@@ -23200,7 +25503,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_passives:C-EU")
-		(at 99.06 22.86 90)
+		(at 101.6 22.86 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -23211,7 +25514,7 @@
 		(dnp no)
 		(uuid "8b1c6bb0-9b94-4da3-95f6-73a2f474f9de")
 		(property "Reference" "C11"
-			(at 99.441 22.479 90)
+			(at 101.981 22.479 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23222,7 +25525,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 99.441 25.019 90)
+			(at 101.981 25.019 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23233,7 +25536,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_passives:C_0603_1608Metric"
-			(at 96.52 22.86 0)
+			(at 99.06 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23244,7 +25547,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 22.86 0)
+			(at 99.06 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23255,7 +25558,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 99.06 22.86 0)
+			(at 101.6 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23266,7 +25569,7 @@
 			)
 		)
 		(property "DigiKey" "490-4774-1-ND"
-			(at 99.06 22.86 0)
+			(at 101.6 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23277,7 +25580,7 @@
 			)
 		)
 		(property "Mouser" "80-C0603C104M4R"
-			(at 99.06 22.86 0)
+			(at 101.6 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23288,13 +25591,68 @@
 			)
 		)
 		(property "TME" "CL10B104KA8NNNC"
-			(at 99.06 22.86 0)
+			(at 101.6 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 101.6 22.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 101.6 22.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 101.6 22.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 101.6 22.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 101.6 22.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -23412,6 +25770,61 @@
 				)
 			)
 		)
+		(property "MF" ""
+			(at 251.46 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 251.46 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 251.46 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 251.46 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 251.46 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e2df4435-dcac-4e31-b11f-b1e5e1e27089")
 		)
@@ -23429,7 +25842,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_symbols:GND")
-		(at 152.4 25.4 0)
+		(at 154.94 25.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23439,7 +25852,7 @@
 		(dnp no)
 		(uuid "8b76f8b4-afd5-4529-83a7-6a263911ff98")
 		(property "Reference" "#SUPPLY013"
-			(at 152.4 25.4 0)
+			(at 154.94 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23450,7 +25863,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 150.495 24.765 0)
+			(at 153.035 24.765 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23461,7 +25874,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 25.4 0)
+			(at 154.94 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23472,7 +25885,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 25.4 0)
+			(at 154.94 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23483,7 +25896,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 152.4 25.4 0)
+			(at 154.94 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23630,7 +26043,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_TI:ISO6762FDWR")
-		(at 109.22 22.86 0)
+		(at 111.76 22.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23640,7 +26053,7 @@
 		(dnp no)
 		(uuid "8be68ed0-7c87-4e85-9c78-021b528d8d48")
 		(property "Reference" "IC2"
-			(at 109.22 22.225 0)
+			(at 111.76 22.225 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23651,7 +26064,7 @@
 			)
 		)
 		(property "Value" "ISO6762FDWR"
-			(at 109.22 51.435 0)
+			(at 111.76 51.435 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23662,7 +26075,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_SMD:DW16"
-			(at 124.46 53.34 0)
+			(at 127 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23673,7 +26086,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 22.86 0)
+			(at 111.76 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23684,7 +26097,7 @@
 			)
 		)
 		(property "Description" "General-Purpose 6-Ch (4/2) Reinforced Digital Isolator with Robust EMC"
-			(at 123.825 63.5 0)
+			(at 126.365 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23695,7 +26108,7 @@
 			)
 		)
 		(property "DigiKey" "296-ISO6762FDWRCT-ND"
-			(at 124.46 55.88 0)
+			(at 127 55.88 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -23706,7 +26119,7 @@
 			)
 		)
 		(property "Mouser" "595-ISO6762FDWR"
-			(at 124.46 58.42 0)
+			(at 127 58.42 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -23717,7 +26130,7 @@
 			)
 		)
 		(property "TME" "-"
-			(at 124.46 60.96 0)
+			(at 127 60.96 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -23728,13 +26141,68 @@
 			)
 		)
 		(property "LCSC" "C5216396"
-			(at 109.22 22.86 0)
+			(at 111.76 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 111.76 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 111.76 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 111.76 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 111.76 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 111.76 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -23892,6 +26360,61 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 99.06 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 99.06 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 99.06 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 99.06 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 99.06 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -24088,6 +26611,61 @@
 				)
 			)
 		)
+		(property "MF" ""
+			(at 83.82 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 83.82 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 83.82 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 83.82 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 83.82 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3d6cb822-2875-4c37-882b-1ca14b366f87")
 		)
@@ -24259,7 +26837,7 @@
 				)
 			)
 		)
-		(property "Mouser" "80-C0603C102K5R7040"
+		(property "Mouser" "81-GRT1885C2A102JA2D"
 			(at 60.96 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -24293,6 +26871,61 @@
 			)
 		)
 		(property "Label" "Imon"
+			(at 60.96 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 60.96 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 60.96 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 60.96 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 60.96 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
 			(at 60.96 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -24428,6 +27061,61 @@
 				)
 			)
 		)
+		(property "MF" ""
+			(at 149.86 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 149.86 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 149.86 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 149.86 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 149.86 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "95549948-deff-4e94-81e9-9ea2204ff141")
 		)
@@ -24552,6 +27240,61 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 53.34 139.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 53.34 139.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 53.34 139.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 53.34 139.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 53.34 139.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -24682,6 +27425,61 @@
 				)
 			)
 		)
+		(property "MF" ""
+			(at 53.34 170.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 53.34 170.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 53.34 170.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 53.34 170.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 53.34 170.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2db2fdc8-c152-4728-a964-e39bf5c7b4e3")
 		)
@@ -24699,7 +27497,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_passives:R-EU")
-		(at 149.86 48.26 0)
+		(at 152.4 48.26 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -24710,7 +27508,7 @@
 		(dnp no)
 		(uuid "a9422098-f8e5-45a4-a026-70a1abf60c25")
 		(property "Reference" "R10"
-			(at 151.13 48.26 0)
+			(at 153.67 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24721,7 +27519,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 151.13 50.165 0)
+			(at 153.67 50.165 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24732,7 +27530,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_passives:R_0805_2012Metric"
-			(at 149.86 48.26 0)
+			(at 152.4 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24743,7 +27541,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 48.26 0)
+			(at 152.4 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24754,7 +27552,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 149.86 48.26 0)
+			(at 152.4 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24765,7 +27563,7 @@
 			)
 		)
 		(property "DigiKey" "311-10.0KCRCT-ND"
-			(at 149.86 48.26 0)
+			(at 152.4 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24776,7 +27574,7 @@
 			)
 		)
 		(property "Mouser" "603-RC0805FR-0710KL"
-			(at 149.86 48.26 0)
+			(at 152.4 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24787,13 +27585,68 @@
 			)
 		)
 		(property "TME" "RC0805FR-1310KL"
-			(at 149.86 48.26 0)
+			(at 152.4 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 152.4 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 152.4 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 152.4 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 152.4 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 152.4 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -24821,7 +27674,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp yes)
 		(uuid "ab8c11bc-a09b-4da9-8d71-3404b31f4d36")
 		(property "Reference" "R16"
@@ -24923,6 +27776,61 @@
 				)
 			)
 		)
+		(property "MF" ""
+			(at 243.84 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 243.84 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 243.84 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 243.84 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 243.84 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "63cb7957-26ba-4037-96bc-a0c8cb501b0d")
 		)
@@ -24938,6 +27846,7 @@
 						(name "Basic")
 						(dnp no)
 						(in_bom yes)
+						(in_pos_files yes)
 					)
 				)
 			)
@@ -25016,6 +27925,186 @@
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/becc625c-e1bd-41b9-8b5b-ca8fa1d0ce1c"
 					(reference "#+3V03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_EEZ_unsorted:JP2 shorted")
+		(at 68.58 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "acd36dcb-b7d5-41e7-ad7f-8cc6e4bd180d")
+		(property "Reference" "JP14"
+			(at 69.85 67.945 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" ""
+			(at 68.58 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_EEZ_SMD:JP2 shorted (0603)"
+			(at 68.58 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 68.58 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 68.58 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "TME" ""
+			(at 68.58 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 68.58 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 68.58 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 68.58 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 68.58 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 68.58 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 68.58 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "af419bdb-d80b-4aed-b7d3-3849c94a1ab2")
+		)
+		(pin "2"
+			(uuid "f4bd74f3-62e8-4ad8-9d34-07898623917e")
+		)
+		(instances
+			(project "EEZ DIB DCP405plus"
+				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/becc625c-e1bd-41b9-8b5b-ca8fa1d0ce1c"
+					(reference "JP14")
 					(unit 1)
 				)
 			)
@@ -25131,6 +28220,61 @@
 				)
 			)
 		)
+		(property "MF" ""
+			(at 142.24 180.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 142.24 180.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 142.24 180.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 142.24 180.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 142.24 180.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f58d07f1-9adb-47d1-bb3f-aa45801945de")
 		)
@@ -25186,7 +28330,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "PCM_EEZ_passives:C_1206_3216Metric"
+		(property "Footprint" "PCM_EEZ_passives:C_0603_1608Metric"
 			(at 241.3 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -25219,7 +28363,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-3138-1-ND"
+		(property "DigiKey" "490-12332-1-ND"
 			(at 241.3 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -25230,7 +28374,7 @@
 				)
 			)
 		)
-		(property "Mouser" "187-CL31B225KCHSNNE"
+		(property "Mouser" "81-GRT188R61H225KE3D"
 			(at 241.3 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -25241,7 +28385,7 @@
 				)
 			)
 		)
-		(property "TME" "C3216X7S2A225KAB"
+		(property "TME" "GRT188R61H225KE13D"
 			(at 241.3 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -25249,6 +28393,72 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 241.3 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 241.3 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 241.3 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 241.3 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 241.3 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 241.3 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -25581,7 +28791,7 @@
 				)
 			)
 		)
-		(property "Mouser" "80-C0603C102K5R7040"
+		(property "Mouser" "81-GRT1885C2A102JA2D"
 			(at 60.96 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -25625,6 +28835,61 @@
 				)
 			)
 		)
+		(property "MF" ""
+			(at 60.96 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 60.96 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 60.96 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 60.96 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 60.96 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "da4c411c-b057-4fc8-aa25-7fa78a18e946")
 		)
@@ -25648,7 +28913,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp yes)
 		(uuid "c5864a46-d89a-44c0-8897-450ec665853e")
 		(property "Reference" "LED1"
@@ -25746,6 +29011,61 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 175.26 160.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 175.26 160.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 175.26 160.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 175.26 160.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 175.26 160.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -25874,6 +29194,61 @@
 				)
 			)
 		)
+		(property "MF" ""
+			(at 241.3 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 241.3 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 241.3 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 241.3 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 241.3 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8437ee34-a27e-405e-9352-f109d4c19cad")
 		)
@@ -25897,7 +29272,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V8")
-		(at 104.14 20.32 0)
+		(at 106.68 20.32 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -25908,7 +29283,7 @@
 		(dnp no)
 		(uuid "c83dbbc5-32b2-4daf-8cf1-a46a122e7ceb")
 		(property "Reference" "#PWR02"
-			(at 104.14 24.13 0)
+			(at 106.68 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25919,7 +29294,7 @@
 			)
 		)
 		(property "Value" "DIB_3V3"
-			(at 109.22 18.415 0)
+			(at 111.76 18.415 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25929,7 +29304,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 20.32 0)
+			(at 106.68 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25940,7 +29315,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 20.32 0)
+			(at 106.68 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25951,7 +29326,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 104.14 20.32 0)
+			(at 106.68 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26322,7 +29697,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "PCM_EEZ_passives:C_1206_3216Metric"
+		(property "Footprint" "PCM_EEZ_passives:C_0603_1608Metric"
 			(at 246.38 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -26355,7 +29730,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-3138-1-ND"
+		(property "DigiKey" "490-12332-1-ND"
 			(at 246.38 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -26366,7 +29741,7 @@
 				)
 			)
 		)
-		(property "Mouser" "187-CL31B225KCHSNNE"
+		(property "Mouser" "81-GRT188R61H225KE3D"
 			(at 246.38 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -26377,7 +29752,7 @@
 				)
 			)
 		)
-		(property "TME" "C3216X7S2A225KAB"
+		(property "TME" "GRT188R61H225KE13D"
 			(at 246.38 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -26385,6 +29760,72 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 246.38 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 246.38 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 246.38 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 246.38 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 246.38 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 246.38 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -26512,6 +29953,61 @@
 				)
 			)
 		)
+		(property "MF" ""
+			(at 180.34 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 180.34 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 180.34 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 180.34 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 180.34 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "7265ed04-9846-478e-bd4c-2c26284d2e63")
 		)
@@ -26540,6 +30036,186 @@
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/becc625c-e1bd-41b9-8b5b-ca8fa1d0ce1c"
 					(reference "IC4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_EEZ_unsorted:JP2 shorted")
+		(at 68.58 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "d64edb54-eb67-4845-87ea-e5a34298c302")
+		(property "Reference" "JP13"
+			(at 69.85 65.405 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" ""
+			(at 68.58 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_EEZ_SMD:JP2 shorted (0603)"
+			(at 68.58 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 68.58 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 68.58 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "TME" ""
+			(at 68.58 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 68.58 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 68.58 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 68.58 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 68.58 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 68.58 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 68.58 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9b99e061-246c-4072-bd9a-1d215cb5ab46")
+		)
+		(pin "2"
+			(uuid "0839fd8c-c5f2-4e65-b442-8d1e3d252fdb")
+		)
+		(instances
+			(project "EEZ DIB DCP405plus"
+				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/becc625c-e1bd-41b9-8b5b-ca8fa1d0ce1c"
+					(reference "JP13")
 					(unit 1)
 				)
 			)
@@ -26626,7 +30302,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_unsorted:JP3 shorted")
-		(at 91.44 66.04 0)
+		(at 93.98 66.04 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -26637,7 +30313,7 @@
 		(dnp no)
 		(uuid "d9e74e02-9db2-4ffb-b5ea-3102fe407317")
 		(property "Reference" "JP1"
-			(at 90.805 66.04 0)
+			(at 93.345 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26648,7 +30324,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 93.345 67.945 90)
+			(at 95.885 67.945 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26660,7 +30336,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_SMD:JP3 shorted (0603)"
-			(at 91.44 60.96 0)
+			(at 93.98 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26671,7 +30347,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 66.04 0)
+			(at 93.98 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26682,7 +30358,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 91.44 66.04 0)
+			(at 93.98 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26693,7 +30369,7 @@
 			)
 		)
 		(property "DigiKey" ""
-			(at 91.44 66.04 0)
+			(at 93.98 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26704,7 +30380,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 91.44 66.04 0)
+			(at 93.98 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26715,7 +30391,7 @@
 			)
 		)
 		(property "TME" ""
-			(at 91.44 66.04 0)
+			(at 93.98 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26726,13 +30402,68 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 91.44 66.04 0)
+			(at 93.98 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 93.98 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 93.98 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 93.98 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 93.98 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 93.98 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -26854,6 +30585,61 @@
 				)
 			)
 		)
+		(property "MF" ""
+			(at 251.46 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 251.46 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 251.46 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 251.46 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 251.46 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2ee069a7-a828-44cd-93c9-86d7acc6e20e")
 		)
@@ -26968,6 +30754,61 @@
 				)
 			)
 		)
+		(property "MF" ""
+			(at 220.98 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 220.98 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 220.98 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 220.98 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 220.98 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "95490f1e-1457-4197-ace7-ac99dcd06c44")
 		)
@@ -26985,7 +30826,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_symbols:GND")
-		(at 144.78 53.34 0)
+		(at 147.32 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26995,7 +30836,7 @@
 		(dnp no)
 		(uuid "dde389f7-e585-46e0-b416-9d9c28a2e276")
 		(property "Reference" "#SUPPLY010"
-			(at 144.78 53.34 0)
+			(at 147.32 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27006,7 +30847,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 142.875 52.705 0)
+			(at 145.415 52.705 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27017,7 +30858,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 53.34 0)
+			(at 147.32 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27028,7 +30869,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 53.34 0)
+			(at 147.32 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27039,7 +30880,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 144.78 53.34 0)
+			(at 147.32 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27161,6 +31002,61 @@
 				)
 			)
 		)
+		(property "MF" ""
+			(at 96.52 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 96.52 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 96.52 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 96.52 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 96.52 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3a41eb2d-ead3-48f6-ba31-53125a7d11db")
 		)
@@ -27178,7 +31074,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_symbols:GND_DIB")
-		(at 96.52 27.94 0)
+		(at 99.06 27.94 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -27189,7 +31085,7 @@
 		(dnp no)
 		(uuid "e4ae131d-633c-4d29-b5a8-5e980eb612e6")
 		(property "Reference" "#GND03"
-			(at 96.52 27.94 0)
+			(at 99.06 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27200,7 +31096,7 @@
 			)
 		)
 		(property "Value" "DIB_GND"
-			(at 104.775 28.575 0)
+			(at 107.315 28.575 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27211,7 +31107,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 27.94 0)
+			(at 99.06 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27222,7 +31118,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 27.94 0)
+			(at 99.06 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27233,7 +31129,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 96.52 27.94 0)
+			(at 99.06 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27365,6 +31261,61 @@
 				)
 			)
 		)
+		(property "MF" ""
+			(at 190.5 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 190.5 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 190.5 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 190.5 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 190.5 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a01b5bbf-80b9-4c0e-92fd-ac4f1277614e")
 		)
@@ -27477,6 +31428,61 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 139.7 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 139.7 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 139.7 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 139.7 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 139.7 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -27684,6 +31690,61 @@
 				)
 			)
 		)
+		(property "MF" ""
+			(at 248.92 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 248.92 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 248.92 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 248.92 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 248.92 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0633dc1c-9e55-4254-963f-fbf76f5d49b7")
 		)
@@ -27798,6 +31859,61 @@
 				)
 			)
 		)
+		(property "MF" ""
+			(at 276.86 33.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 276.86 33.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 276.86 33.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 276.86 33.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 276.86 33.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "730efd81-85f0-481e-89d3-488a7a822faf")
 		)
@@ -27894,7 +32010,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_symbols:+3V3")
-		(at 144.78 15.24 0)
+		(at 147.32 15.24 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -27905,7 +32021,7 @@
 		(dnp no)
 		(uuid "ebf546f9-ea32-4608-859b-f38bdfa2ff94")
 		(property "Reference" "#+3V05"
-			(at 144.78 15.24 0)
+			(at 147.32 15.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27916,7 +32032,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 151.13 16.51 0)
+			(at 153.67 16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27927,7 +32043,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 15.24 0)
+			(at 147.32 15.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27938,7 +32054,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 15.24 0)
+			(at 147.32 15.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27949,7 +32065,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 144.78 15.24 0)
+			(at 147.32 15.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28157,6 +32273,61 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 40.64 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 40.64 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 40.64 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 40.64 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 40.64 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -28472,6 +32643,61 @@
 				)
 			)
 		)
+		(property "MF" ""
+			(at 154.94 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 154.94 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 154.94 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 154.94 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 154.94 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "NC"
 			(uuid "85ff6ba3-239c-4a64-806c-e2e4e93b223b")
 		)
@@ -28665,6 +32891,61 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 88.9 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 88.9 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 88.9 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 88.9 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 88.9 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -28951,6 +33232,61 @@
 				)
 			)
 		)
+		(property "MF" ""
+			(at 104.14 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 104.14 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 104.14 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 104.14 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 104.14 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "60c3042e-9f5b-4865-8f01-2639b9270c41")
 		)
@@ -29147,13 +33483,14 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 238.76 125.73 0)
+			(at 238.76 126.365 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
+				(justify bottom)
 			)
 		)
 		(property "Footprint" ""
@@ -29278,7 +33615,7 @@
 				)
 			)
 		)
-		(property "Mouser" "80-C0603C102K5R7040"
+		(property "Mouser" "81-GRT1885C2A102JA2D"
 			(at 261.62 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -29297,6 +33634,72 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 261.62 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 261.62 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 261.62 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 261.62 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 261.62 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 261.62 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -29503,6 +33906,61 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 53.34 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 53.34 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 53.34 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 53.34 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 53.34 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
 				)
 			)
 		)
