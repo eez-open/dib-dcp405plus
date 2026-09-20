@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-09-19")
+		(date "2026-09-20")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -2095,6 +2095,264 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_EEZ_unsorted:AC-DC module"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TR"
+				(at -10.16 10.795 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "IRM-30-12"
+				(at -10.16 -10.795 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "PCM_EEZ_THT:IRM-30"
+				(at 0 -13.335 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AC-DC module_1_0"
+				(arc
+					(start -3.81 6.35)
+					(mid -2.912 5.978)
+					(end -2.54 5.08)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.08 5.08)
+					(mid -4.708 5.978)
+					(end -3.81 6.35)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 5.08)
+					(mid -0.372 4.182)
+					(end -1.27 3.81)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 3.81)
+					(mid -2.168 4.182)
+					(end -2.54 5.08)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.715) (xy 5.08 -5.715)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -6.35) (xy 0.635 -6.35)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -6.35) (xy 3.175 -6.35)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 -6.35) (xy 5.08 -6.35)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 10.16) (xy -10.16 -10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "AC/L"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+					(number "ACL"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 5.08 0)
+					(length 2.54)
+					(name "AC/N"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+					(number "ACN"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+					(number "V+"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+					(number "V-"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "AC-DC module_1_1"
+				(rectangle
+					(start -10.16 10.16)
+					(end 10.16 -10.16)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_EEZ_unsorted:B3/BN2842"
 			(pin_numbers
 				(hide yes)
@@ -3489,6 +3747,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Alternative: Mean Well LOP-200-48"
+		(exclude_from_sim no)
+		(at 106.68 179.07 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+				(color 132 0 132 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "5ac47456-3561-4678-ad04-df41846dcb5f")
+	)
 	(text "HR000120"
 		(exclude_from_sim no)
 		(at 96.52 193.04 0)
@@ -3501,6 +3771,22 @@
 			)
 		)
 		(uuid "5ad4895e-d893-40aa-a892-105dea084638")
+	)
+	(no_connect
+		(at 104.14 160.02)
+		(uuid "7fa0eac8-d3e3-4993-b30c-a5de61071a0d")
+	)
+	(no_connect
+		(at 129.54 162.56)
+		(uuid "cc542608-f8fc-46fc-bdcd-bbddf02ae491")
+	)
+	(no_connect
+		(at 104.14 170.18)
+		(uuid "df46db09-a2c2-4e95-8387-d354fa070265")
+	)
+	(no_connect
+		(at 129.54 167.64)
+		(uuid "ea054392-4768-497c-90c1-10808ed53c2e")
 	)
 	(symbol
 		(lib_id "PCM_EEZ_unsorted:PCB-MB-01")
@@ -4648,6 +4934,138 @@
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312"
 					(reference "KK10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_EEZ_unsorted:AC-DC module")
+		(at 116.84 165.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62ed2fa5-88a8-4c9b-875e-b7ed37078120")
+		(property "Reference" "TR1"
+			(at 106.68 154.305 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "EPP-150-48"
+			(at 106.68 175.895 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 178.435 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "1866-1644-ND"
+			(at 116.84 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Mouser" "709-EPP150-48"
+			(at 116.84 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "TME" "EPP-150-48"
+			(at 116.84 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "LCSC" "C5729605"
+			(at 116.84 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(pin "ACL"
+			(uuid "c19bb706-6920-4cc7-977c-11a43ca7bd97")
+		)
+		(pin "V+"
+			(uuid "96ea2ed2-08ba-43a7-9bdf-8b0074893cf1")
+		)
+		(pin "ACN"
+			(uuid "3a0f2ab1-c9e1-4cb7-b0e2-784f2b48d8cf")
+		)
+		(pin "V-"
+			(uuid "ebce7b99-65cc-48a0-a455-c269f7de506e")
+		)
+		(instances
+			(project "EEZ DIB DCP405plus"
+				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312"
+					(reference "TR1")
 					(unit 1)
 				)
 			)

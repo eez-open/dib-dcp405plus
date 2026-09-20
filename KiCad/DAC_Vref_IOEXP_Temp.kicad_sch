@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-09-19")
+		(date "2026-09-20")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -589,9 +589,9 @@
 					)
 				)
 				(pin power_in line
-					(at -2.54 -50.8 0)
+					(at -2.54 -48.26 0)
 					(length 2.54)
-					(name "Vdd(SPI)"
+					(name "Vdd(P)"
 						(effects
 							(font
 								(size 0.889 0.889)
@@ -661,7 +661,7 @@
 					)
 				)
 				(pin power_in line
-					(at -2.54 -48.26 0)
+					(at -2.54 -50.8 0)
 					(length 2.54)
 					(name "Vdd(SPI)"
 						(effects
@@ -3491,7 +3491,7 @@
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
-			(in_pos_files yes)
+			(in_pos_files no)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "TP"
 				(at 0 1.016 0)
@@ -3504,14 +3504,14 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "Test"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
-						(size 1.778 1.5113)
+						(size 1.27 1.27)
 					)
 					(justify left bottom)
 				)
@@ -3755,6 +3755,18 @@
 			(justify left bottom)
 		)
 		(uuid "1fe76bad-0fec-4cdf-9c50-f3a6f007ffd5")
+	)
+	(text "Requires SPI_MODE0 (CPOL=0, CPHA=0)"
+		(exclude_from_sim no)
+		(at 220.98 95.885 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+				(color 132 0 132 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "23f3afa4-0018-438e-9a09-845396a15d79")
 	)
 	(text "Down-programmer"
 		(exclude_from_sim no)
@@ -6774,7 +6786,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "050db946-e571-45e0-8338-9bac6936203f")
-		(property "Reference" "#SUPPLY021"
+		(property "Reference" "#SUPPLY020"
 			(at 38.1 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -6835,7 +6847,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/bbd8d1a5-9776-495b-aec4-035cc25cf688"
-					(reference "#SUPPLY021")
+					(reference "#SUPPLY020")
 					(unit 1)
 				)
 			)
@@ -6853,7 +6865,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0652ad31-0a93-4c0f-a8a8-761476f444a1")
-		(property "Reference" "#+3V011"
+		(property "Reference" "#+3V010"
 			(at 45.72 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -6914,7 +6926,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/bbd8d1a5-9776-495b-aec4-035cc25cf688"
-					(reference "#+3V011")
+					(reference "#+3V010")
 					(unit 1)
 				)
 			)
@@ -6931,7 +6943,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0e34d3fe-c811-43cc-9432-4888d17cbe4b")
-		(property "Reference" "IC14"
+		(property "Reference" "IC11"
 			(at 220.98 32.385 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6976,7 +6988,7 @@
 			)
 		)
 		(property "Description" "Ultra low-voltage translating 22-bit SPI I/O expander with Agile I/O features, interrupt output and reset"
-			(at 220.98 33.02 0)
+			(at 226.06 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7187,7 +7199,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/bbd8d1a5-9776-495b-aec4-035cc25cf688"
-					(reference "IC14")
+					(reference "IC11")
 					(unit 1)
 				)
 			)
@@ -7204,7 +7216,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "253bd3e7-b0e5-469b-ba2c-e33f2a6b07c8")
-		(property "Reference" "#SUPPLY030"
+		(property "Reference" "#SUPPLY026"
 			(at 160.02 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -7265,7 +7277,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/bbd8d1a5-9776-495b-aec4-035cc25cf688"
-					(reference "#SUPPLY030")
+					(reference "#SUPPLY026")
 					(unit 1)
 				)
 			)
@@ -7282,7 +7294,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2dd7ca23-4e43-4e36-b346-75302538c0ba")
-		(property "Reference" "#SUPPLY031"
+		(property "Reference" "#SUPPLY027"
 			(at 170.18 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -7343,7 +7355,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/bbd8d1a5-9776-495b-aec4-035cc25cf688"
-					(reference "#SUPPLY031")
+					(reference "#SUPPLY027")
 					(unit 1)
 				)
 			)
@@ -7360,7 +7372,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2e6ee210-f7bb-4ac5-82ab-ac017a925c75")
-		(property "Reference" "C50"
+		(property "Reference" "C41"
 			(at 132.08 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7512,7 +7524,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/bbd8d1a5-9776-495b-aec4-035cc25cf688"
-					(reference "C50")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -7526,10 +7538,10 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "2ff2fe33-4326-4d60-a2a4-2e6ee49f720a")
-		(property "Reference" "TP2"
+		(property "Reference" "TP5"
 			(at 77.47 88.9 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7702,7 +7714,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/bbd8d1a5-9776-495b-aec4-035cc25cf688"
-					(reference "TP2")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -7716,10 +7728,10 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "31776f91-1994-4f8d-91da-c42de970b6d6")
-		(property "Reference" "TP3"
+		(property "Reference" "TP6"
 			(at 120.65 31.75 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7892,7 +7904,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/bbd8d1a5-9776-495b-aec4-035cc25cf688"
-					(reference "TP3")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -7909,7 +7921,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "327441e7-9ca1-403e-b567-bcdf19ceada7")
-		(property "Reference" "R35"
+		(property "Reference" "R25"
 			(at 201.93 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8061,7 +8073,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/bbd8d1a5-9776-495b-aec4-035cc25cf688"
-					(reference "R35")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -8078,7 +8090,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "332084bc-10f9-49d4-8835-7a2cea28d39a")
-		(property "Reference" "R27"
+		(property "Reference" "R21"
 			(at 127 36.83 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8241,7 +8253,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/bbd8d1a5-9776-495b-aec4-035cc25cf688"
-					(reference "R27")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -8259,7 +8271,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "37030f81-e318-41f0-a334-7f5fdcfb8557")
-		(property "Reference" "R23"
+		(property "Reference" "R19"
 			(at 63.5 140.97 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8422,7 +8434,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/bbd8d1a5-9776-495b-aec4-035cc25cf688"
-					(reference "R23")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -8441,7 +8453,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3aee98e4-93f3-4c0a-9059-9bd43b2f1620")
-		(property "Reference" "R29"
+		(property "Reference" "R22"
 			(at 130.81 53.34 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -8604,7 +8616,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/bbd8d1a5-9776-495b-aec4-035cc25cf688"
-					(reference "R29")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -8622,7 +8634,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3ef01da2-61a4-40f4-9615-a51c5d11c084")
-		(property "Reference" "C54"
+		(property "Reference" "C43"
 			(at 160.655 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8785,7 +8797,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/bbd8d1a5-9776-495b-aec4-035cc25cf688"
-					(reference "C54")
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -8803,7 +8815,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3f1ede88-a150-4878-b3d3-8191256ee6d9")
-		(property "Reference" "IC11"
+		(property "Reference" "IC10"
 			(at 147.955 34.925 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8984,7 +8996,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/bbd8d1a5-9776-495b-aec4-035cc25cf688"
-					(reference "IC11")
+					(reference "IC10")
 					(unit 1)
 				)
 			)
@@ -9001,7 +9013,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4bf3f14f-e29e-4e36-93ce-eadcb1f586b2")
-		(property "Reference" "#SUPPLY038"
+		(property "Reference" "#SUPPLY030"
 			(at 215.9 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -9062,7 +9074,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/bbd8d1a5-9776-495b-aec4-035cc25cf688"
-					(reference "#SUPPLY038")
+					(reference "#SUPPLY030")
 					(unit 1)
 				)
 			)
@@ -9262,7 +9274,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "52cda909-9aa2-4431-b622-37013d5c7e44")
-		(property "Reference" "R24"
+		(property "Reference" "R20"
 			(at 63.5 148.59 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9425,7 +9437,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/bbd8d1a5-9776-495b-aec4-035cc25cf688"
-					(reference "R24")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -9443,7 +9455,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "52ffdcf5-7667-4118-9dac-1714d8cfefe7")
-		(property "Reference" "#+3V014"
+		(property "Reference" "#+3V013"
 			(at 93.98 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -9504,7 +9516,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/bbd8d1a5-9776-495b-aec4-035cc25cf688"
-					(reference "#+3V014")
+					(reference "#+3V013")
 					(unit 1)
 				)
 			)
@@ -9521,7 +9533,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "59f2bbbd-1f5e-4257-bcbb-8a11263c0b6f")
-		(property "Reference" "#SUPPLY025"
+		(property "Reference" "#SUPPLY024"
 			(at 119.38 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -9582,7 +9594,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/bbd8d1a5-9776-495b-aec4-035cc25cf688"
-					(reference "#SUPPLY025")
+					(reference "#SUPPLY024")
 					(unit 1)
 				)
 			)
@@ -9599,7 +9611,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5afda023-0f3e-4e62-ba08-011b2e672a3f")
-		(property "Reference" "#SUPPLY022"
+		(property "Reference" "#SUPPLY021"
 			(at 71.12 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -9660,7 +9672,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/bbd8d1a5-9776-495b-aec4-035cc25cf688"
-					(reference "#SUPPLY022")
+					(reference "#SUPPLY021")
 					(unit 1)
 				)
 			)
@@ -9677,7 +9689,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "64590746-2b6c-4875-924b-b09d07eb9575")
-		(property "Reference" "#SUPPLY023"
+		(property "Reference" "#SUPPLY022"
 			(at 93.98 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -9738,7 +9750,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/bbd8d1a5-9776-495b-aec4-035cc25cf688"
-					(reference "#SUPPLY023")
+					(reference "#SUPPLY022")
 					(unit 1)
 				)
 			)
@@ -9756,7 +9768,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "696f5284-5c1a-4b01-8a6a-1cf809553ce1")
-		(property "Reference" "C39"
+		(property "Reference" "C36"
 			(at 83.439 25.781 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9908,7 +9920,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/bbd8d1a5-9776-495b-aec4-035cc25cf688"
-					(reference "C39")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -9925,7 +9937,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6a95620e-5de5-4308-b6ed-43a1fbedfed0")
-		(property "Reference" "#SUPPLY027"
+		(property "Reference" "#SUPPLY025"
 			(at 137.16 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -9986,7 +9998,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/bbd8d1a5-9776-495b-aec4-035cc25cf688"
-					(reference "#SUPPLY027")
+					(reference "#SUPPLY025")
 					(unit 1)
 				)
 			)
@@ -10281,7 +10293,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "77e1e5d4-3cb8-480a-903e-3d9858c1e5e4")
-		(property "Reference" "C40"
+		(property "Reference" "C37"
 			(at 83.439 30.861 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10433,7 +10445,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/bbd8d1a5-9776-495b-aec4-035cc25cf688"
-					(reference "C40")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -10451,7 +10463,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7900ed88-d81b-42dc-a86d-c54c1282e168")
-		(property "Reference" "C45"
+		(property "Reference" "C39"
 			(at 101.854 102.616 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10603,7 +10615,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/bbd8d1a5-9776-495b-aec4-035cc25cf688"
-					(reference "C45")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -10620,7 +10632,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7911daf8-a4f0-46b0-a19a-be9af243e771")
-		(property "Reference" "R21"
+		(property "Reference" "R18"
 			(at 44.45 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10772,7 +10784,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/bbd8d1a5-9776-495b-aec4-035cc25cf688"
-					(reference "R21")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -10790,7 +10802,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7eca76a0-bc39-407a-b643-555f781ed96e")
-		(property "Reference" "#+3V013"
+		(property "Reference" "#+3V012"
 			(at 73.66 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -10851,7 +10863,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/bbd8d1a5-9776-495b-aec4-035cc25cf688"
-					(reference "#+3V013")
+					(reference "#+3V012")
 					(unit 1)
 				)
 			)
@@ -10869,7 +10881,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "81974f4f-eae1-4fc9-8a56-a51b488dbb72")
-		(property "Reference" "#+3V012"
+		(property "Reference" "#+3V011"
 			(at 50.8 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -10930,7 +10942,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/bbd8d1a5-9776-495b-aec4-035cc25cf688"
-					(reference "#+3V012")
+					(reference "#+3V011")
 					(unit 1)
 				)
 			)
@@ -10948,7 +10960,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "97912576-bd46-4e2a-8d8f-7062aee5e3a2")
-		(property "Reference" "#+3V015"
+		(property "Reference" "#+3V014"
 			(at 147.32 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -11009,7 +11021,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/bbd8d1a5-9776-495b-aec4-035cc25cf688"
-					(reference "#+3V015")
+					(reference "#+3V014")
 					(unit 1)
 				)
 			)
@@ -11027,7 +11039,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "989465c3-0d27-415f-9b03-882c5633505d")
-		(property "Reference" "R32"
+		(property "Reference" "R23"
 			(at 133.35 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11179,7 +11191,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/bbd8d1a5-9776-495b-aec4-035cc25cf688"
-					(reference "R32")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -11197,7 +11209,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a6c4421e-0303-46c7-b395-e6f1820b6af8")
-		(property "Reference" "C47"
+		(property "Reference" "C40"
 			(at 119.126 48.514 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11360,7 +11372,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/bbd8d1a5-9776-495b-aec4-035cc25cf688"
-					(reference "C47")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -11378,7 +11390,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aba9c872-89b0-462c-99ed-5208d682aafd")
-		(property "Reference" "C41"
+		(property "Reference" "C38"
 			(at 83.82 36.195 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11530,7 +11542,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/bbd8d1a5-9776-495b-aec4-035cc25cf688"
-					(reference "C41")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -11548,7 +11560,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ac6bb671-1337-48c0-93fb-bdc070ba9b5a")
-		(property "Reference" "#+3V016"
+		(property "Reference" "#+3V015"
 			(at 160.02 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -11609,7 +11621,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/bbd8d1a5-9776-495b-aec4-035cc25cf688"
-					(reference "#+3V016")
+					(reference "#+3V015")
 					(unit 1)
 				)
 			)
@@ -11627,7 +11639,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ace0946a-5cc6-4f1b-8033-21f290a32f6a")
-		(property "Reference" "C57"
+		(property "Reference" "C45"
 			(at 211.201 80.899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11779,7 +11791,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/bbd8d1a5-9776-495b-aec4-035cc25cf688"
-					(reference "C57")
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -11796,7 +11808,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b6122473-b9a4-43a9-906b-b6278e0849d9")
-		(property "Reference" "#SUPPLY037"
+		(property "Reference" "#SUPPLY029"
 			(at 215.9 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -11857,7 +11869,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/bbd8d1a5-9776-495b-aec4-035cc25cf688"
-					(reference "#SUPPLY037")
+					(reference "#SUPPLY029")
 					(unit 1)
 				)
 			)
@@ -11874,7 +11886,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b87d09b7-5221-401b-ae9f-a3d29327287d")
-		(property "Reference" "IC10"
+		(property "Reference" "IC9"
 			(at 137.16 141.605 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12049,7 +12061,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/bbd8d1a5-9776-495b-aec4-035cc25cf688"
-					(reference "IC10")
+					(reference "IC9")
 					(unit 1)
 				)
 			)
@@ -12247,7 +12259,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "be50492d-9ae1-4214-a6b4-8ae33fd38f8e")
-		(property "Reference" "C51"
+		(property "Reference" "C42"
 			(at 137.16 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12399,7 +12411,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/bbd8d1a5-9776-495b-aec4-035cc25cf688"
-					(reference "C51")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -12589,7 +12601,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cdba8f4a-a0c5-41b6-8c95-c4c677c5f70e")
-		(property "Reference" "C55"
+		(property "Reference" "C44"
 			(at 170.688 40.7924 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12752,7 +12764,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/bbd8d1a5-9776-495b-aec4-035cc25cf688"
-					(reference "C55")
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -12770,7 +12782,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cdd338a4-b11b-4acf-82e7-36d4645d82f1")
-		(property "Reference" "#+3V017"
+		(property "Reference" "#+3V016"
 			(at 203.2 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -12831,7 +12843,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/bbd8d1a5-9776-495b-aec4-035cc25cf688"
-					(reference "#+3V017")
+					(reference "#+3V016")
 					(unit 1)
 				)
 			)
@@ -13028,7 +13040,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d4204a32-2931-48fb-a7a0-84eaf15ed3bf")
-		(property "Reference" "#SUPPLY024"
+		(property "Reference" "#SUPPLY023"
 			(at 93.98 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -13089,7 +13101,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/bbd8d1a5-9776-495b-aec4-035cc25cf688"
-					(reference "#SUPPLY024")
+					(reference "#SUPPLY023")
 					(unit 1)
 				)
 			)
@@ -13106,7 +13118,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d8628ca4-c354-4968-96cb-eefb99b60afd")
-		(property "Reference" "#P+02"
+		(property "Reference" "#P+01"
 			(at 170.18 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -13167,7 +13179,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/bbd8d1a5-9776-495b-aec4-035cc25cf688"
-					(reference "#P+02")
+					(reference "#P+01")
 					(unit 1)
 				)
 			)
@@ -13383,7 +13395,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e0bfbf9c-bac2-47cd-a29d-5c17f3b73b01")
-		(property "Reference" "R34"
+		(property "Reference" "R24"
 			(at 149.86 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13535,7 +13547,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/bbd8d1a5-9776-495b-aec4-035cc25cf688"
-					(reference "R34")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -13553,7 +13565,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e3de9704-40b6-4684-bbcd-fe4f731eb362")
-		(property "Reference" "#SUPPLY036"
+		(property "Reference" "#SUPPLY028"
 			(at 208.28 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -13614,7 +13626,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/bbd8d1a5-9776-495b-aec4-035cc25cf688"
-					(reference "#SUPPLY036")
+					(reference "#SUPPLY028")
 					(unit 1)
 				)
 			)
@@ -13631,7 +13643,7 @@
 		(in_pos_files no)
 		(dnp yes)
 		(uuid "ec96ec0e-7ff7-44a8-b07f-3ae54f1e95bb")
-		(property "Reference" "JP5"
+		(property "Reference" "JP7"
 			(at 40.64 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13794,7 +13806,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/bbd8d1a5-9776-495b-aec4-035cc25cf688"
-					(reference "JP5")
+					(reference "JP7")
 					(unit 1)
 				)
 			)
@@ -13811,7 +13823,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f292951d-a076-430c-ac8d-c8467bdf7ce8")
-		(property "Reference" "#+3V018"
+		(property "Reference" "#+3V017"
 			(at 215.9 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -13872,7 +13884,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/bbd8d1a5-9776-495b-aec4-035cc25cf688"
-					(reference "#+3V018")
+					(reference "#+3V017")
 					(unit 1)
 				)
 			)
@@ -14059,7 +14071,7 @@
 		(in_pos_files no)
 		(dnp yes)
 		(uuid "f8f01b4e-6615-4621-8cc4-94d40d661ab0")
-		(property "Reference" "JP4"
+		(property "Reference" "JP6"
 			(at 38.1 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14222,7 +14234,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/bbd8d1a5-9776-495b-aec4-035cc25cf688"
-					(reference "JP4")
+					(reference "JP6")
 					(unit 1)
 				)
 			)
