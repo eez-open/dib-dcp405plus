@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-09-20")
+		(date "2026-09-21")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -10098,6 +10098,12 @@
 		(uuid "d2c449f9-3834-4929-a258-2a6ca9ce7c2a")
 	)
 	(junction
+		(at 99.06 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d79168f2-e35e-46d0-8bd2-dfcc459bae92")
+	)
+	(junction
 		(at 68.58 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12597,7 +12603,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 43.18) (xy 109.22 43.18)
+			(xy 93.98 43.18) (xy 99.06 43.18)
 		)
 		(stroke
 			(width 0)
@@ -13065,6 +13071,16 @@
 			(type default)
 		)
 		(uuid "a91f837d-aed3-4da4-ab44-bff43dbc10a1")
+	)
+	(wire
+		(pts
+			(xy 99.06 43.18) (xy 109.22 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad73bd5f-f98b-49f4-b2d9-e4cb0e1eb413")
 	)
 	(wire
 		(pts
@@ -15741,7 +15757,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "0349a4e2-ba87-438b-8a80-9082e2227c11")
-		(property "Reference" "TP2"
+		(property "Reference" "TP3"
 			(at 171.45 152.4 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15903,7 +15919,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/becc625c-e1bd-41b9-8b5b-ca8fa1d0ce1c"
-					(reference "TP2")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -17730,8 +17746,8 @@
 				)
 			)
 		)
-		(property "Label" ""
-			(at 69.85 50.8 90)
+		(property "Label" "SYNC"
+			(at 69.85 50.165 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18247,6 +18263,185 @@
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/becc625c-e1bd-41b9-8b5b-ca8fa1d0ce1c"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_EEZ_unsorted:PCB test point")
+		(at 99.06 45.72 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "28311a50-3eaf-4718-9ca2-97a02a69657d")
+		(property "Reference" "TP2"
+			(at 97.79 45.72 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "TEST-PIN_0.9MM"
+			(at 96.52 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PCM_EEZ_THT:Testhole 24_50mils"
+			(at 96.52 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 99.06 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 99.06 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 99.06 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME" ""
+			(at 99.06 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 99.06 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Label" "DRDY"
+			(at 97.79 47.625 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 132 0 132 1)
+				)
+				(justify right top)
+			)
+		)
+		(property "MF" ""
+			(at 99.06 45.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 99.06 45.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 99.06 45.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 99.06 45.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d4afb82b-54b6-460a-b2a9-89b0b9c06da3")
+		)
+		(instances
+			(project "EEZ DIB DCP405plus"
+				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/becc625c-e1bd-41b9-8b5b-ca8fa1d0ce1c"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -25463,7 +25658,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "85af4de5-3ad4-4bb4-b865-f52baa9e2503")
-		(property "Reference" "TP4"
+		(property "Reference" "TP5"
 			(at 237.49 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25625,7 +25820,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/becc625c-e1bd-41b9-8b5b-ca8fa1d0ce1c"
-					(reference "TP4")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -25642,7 +25837,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "88490cae-7a93-4e44-93c6-2aec82d44de4")
-		(property "Reference" "TP3"
+		(property "Reference" "TP4"
 			(at 199.39 149.86 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25804,7 +25999,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/becc625c-e1bd-41b9-8b5b-ca8fa1d0ce1c"
-					(reference "TP3")
+					(reference "TP4")
 					(unit 1)
 				)
 			)

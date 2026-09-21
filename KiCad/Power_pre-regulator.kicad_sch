@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-09-20")
+		(date "2026-09-21")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -10798,7 +10798,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "01344482-39bb-409a-a065-f3d736c3acf8")
-		(property "Reference" "TP10"
+		(property "Reference" "TP11"
 			(at 222.25 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10971,7 +10971,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/55df2794-308a-4204-a97c-7cdafc416b78"
-					(reference "TP10")
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -13887,7 +13887,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "353af341-7dd2-4a83-8009-f75706f8541f")
-		(property "Reference" "TP9"
+		(property "Reference" "TP10"
 			(at 90.17 22.225 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14060,7 +14060,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/55df2794-308a-4204-a97c-7cdafc416b78"
-					(reference "TP9")
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -15333,7 +15333,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "530b78f9-d47e-4c45-8baf-a508d55dcc15")
-		(property "Reference" "TP8"
+		(property "Reference" "TP9"
 			(at 60.325 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15506,7 +15506,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/55df2794-308a-4204-a97c-7cdafc416b78"
-					(reference "TP8")
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -15956,7 +15956,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "5d6074ad-1349-4c25-9e2c-a52c08ab82f3")
-		(property "Reference" "TP7"
+		(property "Reference" "TP8"
 			(at 60.325 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16129,7 +16129,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/55df2794-308a-4204-a97c-7cdafc416b78"
-					(reference "TP7")
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -22368,7 +22368,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "f4ca442d-ceb5-45a9-8f12-8ab632605c99")
-		(property "Reference" "TP11"
+		(property "Reference" "TP12"
 			(at 242.57 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22540,7 +22540,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/55df2794-308a-4204-a97c-7cdafc416b78"
-					(reference "TP11")
+					(reference "TP12")
 					(unit 1)
 				)
 			)

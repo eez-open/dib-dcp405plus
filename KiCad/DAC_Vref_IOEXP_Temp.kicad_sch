@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-09-20")
+		(date "2026-09-21")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -7541,7 +7541,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "2ff2fe33-4326-4d60-a2a4-2e6ee49f720a")
-		(property "Reference" "TP5"
+		(property "Reference" "TP6"
 			(at 77.47 88.9 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7714,7 +7714,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/bbd8d1a5-9776-495b-aec4-035cc25cf688"
-					(reference "TP5")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -7731,7 +7731,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "31776f91-1994-4f8d-91da-c42de970b6d6")
-		(property "Reference" "TP6"
+		(property "Reference" "TP7"
 			(at 120.65 31.75 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7904,7 +7904,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/bbd8d1a5-9776-495b-aec4-035cc25cf688"
-					(reference "TP6")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
