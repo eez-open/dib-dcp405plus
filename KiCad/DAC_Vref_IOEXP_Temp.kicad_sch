@@ -5712,7 +5712,7 @@
 			)
 		)
 	)
-	(global_label "ISO_OE_SYNC"
+	(global_label "ISO_SYNC"
 		(shape input)
 		(at 27.94 88.9 180)
 		(fields_autoplaced yes)
