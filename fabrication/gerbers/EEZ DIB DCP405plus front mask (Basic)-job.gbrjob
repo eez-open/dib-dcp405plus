@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "10.0.6-10.0.6~ubuntu24.04.1"
+      "Version": "10.0.7-10.0.7~ubuntu24.04.1"
     },
-    "CreationDate": "2026-09-20T13:17:00+02:00"
+    "CreationDate": "2026-10-15T17:36:39+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -14,7 +14,7 @@
       "Revision": "r4B3"
     },
     "Size": {
-      "X": 35.05,
+      "X": 35.45,
       "Y": 111.55
     },
     "LayerNumber": 2,
@@ -76,6 +76,7 @@
   "MaterialStackup": [
     {
       "Type": "Legend",
+      "Color": "Black",
       "Name": "Top Silk Screen"
     },
     {
@@ -84,6 +85,7 @@
     },
     {
       "Type": "SolderMask",
+      "Color": "White",
       "Thickness": 0.01,
       "Name": "Top Solder Mask"
     },
@@ -94,6 +96,7 @@
     },
     {
       "Type": "Dielectric",
+      "Color": "R213G213B213",
       "Thickness": 1.51,
       "Material": "FR4",
       "Name": "F.Cu/B.Cu",
@@ -106,6 +109,7 @@
     },
     {
       "Type": "SolderMask",
+      "Color": "White",
       "Thickness": 0.01,
       "Name": "Bottom Solder Mask"
     },
@@ -115,6 +119,7 @@
     },
     {
       "Type": "Legend",
+      "Color": "Black",
       "Name": "Bottom Silk Screen"
     }
   ]

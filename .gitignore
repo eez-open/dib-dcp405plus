@@ -39,3 +39,5 @@ fp-info-cache
 # Local project settings
 *.kicad_prl
 .history
+production/
+KiCad/fabrication-toolkit-options.json
