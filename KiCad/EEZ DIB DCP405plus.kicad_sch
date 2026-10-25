@@ -6215,7 +6215,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1866-1644-ND"
+		(property "DigiKey" "1866-1644-ND or 1866-LOP-200-48-ND"
 			(at 116.84 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -6226,7 +6226,7 @@
 				)
 			)
 		)
-		(property "Mouser" "709-EPP150-48"
+		(property "Mouser" "709-EPP150-48 or 709-LOP-200-48"
 			(at 116.84 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -6237,7 +6237,7 @@
 				)
 			)
 		)
-		(property "TME" "EPP-150-48"
+		(property "TME" "EPP-150-48 or LOP-200-48"
 			(at 116.84 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -6248,7 +6248,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5729605"
+		(property "LCSC" "C5729605 or C28871933"
 			(at 116.84 165.1 0)
 			(hide yes)
 			(show_name no)

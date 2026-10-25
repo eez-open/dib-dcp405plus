@@ -36277,7 +36277,7 @@
 				)
 			)
 		)
-		(path "/5ecda23e-3d86-4b9b-8d83-de3653395b33/bdf0652d-4717-413d-a138-947333e699ea")
+		(path "/5ecda23e-3d86-4b9b-8d83-de3653395b33/8c06b6e1-b67a-4917-a8fb-c7deff3af6ad")
 		(sheetname "/Rsense protection, power output, Rprog/")
 		(sheetfile "Rsense_protection_power_output.kicad_sch")
 		(units
@@ -55748,6 +55748,22 @@
 			(dnp no)
 			(exclude_from_bom no)
 			(exclude_from_pos_files no)
+			(field
+				(name "DigiKey")
+				(value "311-0.0HRCT-ND")
+			)
+			(field
+				(name "LCSC")
+				(value "C100044")
+			)
+			(field
+				(name "Mouser")
+				(value "603-RC0603FR-070RL")
+			)
+			(field
+				(name "TME")
+				(value "RC0603FR-070RL")
+			)
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/R_0603_1608Metric.step"
@@ -65689,7 +65705,7 @@
 				)
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
@@ -92422,6 +92438,22 @@
 			(dnp no)
 			(exclude_from_bom no)
 			(exclude_from_pos_files no)
+			(field
+				(name "DigiKey")
+				(value "311-0.0HRCT-ND")
+			)
+			(field
+				(name "LCSC")
+				(value "C100044")
+			)
+			(field
+				(name "Mouser")
+				(value "603-RC0603FR-070RL")
+			)
+			(field
+				(name "TME")
+				(value "RC0603FR-070RL")
+			)
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/R_0603_1608Metric.step"
@@ -115757,6 +115789,22 @@
 			(dnp no)
 			(exclude_from_bom no)
 			(exclude_from_pos_files no)
+			(field
+				(name "DigiKey")
+				(value "311-0.0HRCT-ND")
+			)
+			(field
+				(name "LCSC")
+				(value "C100044")
+			)
+			(field
+				(name "Mouser")
+				(value "603-RC0603FR-070RL")
+			)
+			(field
+				(name "TME")
+				(value "RC0603FR-070RL")
+			)
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/R_0603_1608Metric.step"
@@ -120074,6 +120122,22 @@
 			(dnp no)
 			(exclude_from_bom no)
 			(exclude_from_pos_files no)
+			(field
+				(name "DigiKey")
+				(value "311-0.0HRCT-ND")
+			)
+			(field
+				(name "LCSC")
+				(value "C100044")
+			)
+			(field
+				(name "Mouser")
+				(value "603-RC0603FR-070RL")
+			)
+			(field
+				(name "TME")
+				(value "RC0603FR-070RL")
+			)
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/R_0603_1608Metric.step"
@@ -132873,6 +132937,22 @@
 			(dnp no)
 			(exclude_from_bom no)
 			(exclude_from_pos_files no)
+			(field
+				(name "DigiKey")
+				(value "311-0.0HRCT-ND")
+			)
+			(field
+				(name "LCSC")
+				(value "C100044")
+			)
+			(field
+				(name "Mouser")
+				(value "603-RC0603FR-070RL")
+			)
+			(field
+				(name "TME")
+				(value "RC0603FR-070RL")
+			)
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/R_0603_1608Metric.step"
@@ -153380,7 +153460,7 @@
 				)
 			)
 		)
-		(path "/5ecda23e-3d86-4b9b-8d83-de3653395b33/baca862a-6398-4010-94ea-eb48f2aebe2d")
+		(path "/5ecda23e-3d86-4b9b-8d83-de3653395b33/8c81d4db-032b-486b-9a3f-5a9962486e69")
 		(sheetname "/Rsense protection, power output, Rprog/")
 		(sheetfile "Rsense_protection_power_output.kicad_sch")
 		(units
@@ -163521,7 +163601,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "3307,1 mils"
+		(gr_text "84,0 mm"
 			(at 52.65 105 90)
 			(layer "User.1")
 			(uuid "4e09adfd-d181-4ab5-b120-bf2ea93c5e40")
@@ -163558,7 +163638,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "7086,6 mils"
+		(gr_text "180,0 mm"
 			(at 148.5 154.52 0)
 			(layer "User.1")
 			(uuid "55eb0914-3d54-4f92-a13e-9bf4ab4357e8")
@@ -163595,7 +163675,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "3110,2 mils"
+		(gr_text "79,0 mm"
 			(at 42.25 120.5 90)
 			(layer "User.1")
 			(uuid "856176d1-4e12-49de-b39a-5bde7127539c")
@@ -163632,7 +163712,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "2322,8 mils"
+		(gr_text "59,0 mm"
 			(at 47.75 130.5 90)
 			(layer "User.1")
 			(uuid "88c68aa1-53a0-45d5-b853-dff85db353a5")
@@ -163669,7 +163749,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "3385,8 mils"
+		(gr_text "86,0 mm"
 			(at 39.85 117 90)
 			(layer "User.1")
 			(uuid "9cf91f1e-8207-4873-a19b-a5bfeb5c7db1")
@@ -163706,7 +163786,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "3740,2 mils"
+		(gr_text "95,0 mm"
 			(at 240.31 96.5 90)
 			(layer "User.1")
 			(uuid "9eec77fc-4c95-4eea-bab4-af175ec9cff0")
@@ -163743,7 +163823,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "2736,2 mils"
+		(gr_text "69,5 mm"
 			(at 44.85 125.25 90)
 			(layer "User.1")
 			(uuid "dcdaab1f-f6e6-48fb-846a-edf94209d7db")
@@ -163780,7 +163860,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "1141,7 mils"
+		(gr_text "29,0 mm"
 			(at 50.05 145.5 90)
 			(layer "User.1")
 			(uuid "e52037af-645b-4fa7-8bf4-003d9c1b8a1c")
@@ -163817,7 +163897,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "511,8 mils"
+		(gr_text "13,0 mm"
 			(at 52.65 153.5 90)
 			(layer "User.1")
 			(uuid "ea01a946-4ea4-4bd4-b5c6-42c8ffc1c9d0")
@@ -163854,7 +163934,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "750,00 mils"
+		(gr_text "19,05 mm"
 			(at 50.05 121.475 90)
 			(layer "User.1")
 			(uuid "eb9de5ba-69ca-45c3-aa2d-b96c5bc658b3")
@@ -163891,7 +163971,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "23,6 mils"
+		(gr_text "0,6 mm"
 			(at 58.2 157.05 0)
 			(layer "User.1")
 			(uuid "ffdbf35a-b743-4234-b75e-c04c19c2a444")
@@ -163929,7 +164009,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "1681,1 mils"
+		(gr_text "42,7 mm"
 			(at 77.65 161.15 0)
 			(layer "User.2")
 			(uuid "83d9d39d-15dc-46eb-8195-2fc129d5a9da")
@@ -163966,7 +164046,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "63,0 mils"
+		(gr_text "1,6 mm"
 			(at 57.1 167.45 0)
 			(layer "User.2")
 			(uuid "ae45527b-e525-4966-a46f-d752b8805358")
@@ -164004,7 +164084,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "2810,9 mils"
+		(gr_text "71,4 mm"
 			(at 91.99865 164.25 0)
 			(layer "User.2")
 			(uuid "bc1439c8-fba5-4e1d-b949-b2359a3bcd2b")
@@ -203354,13 +203434,8 @@
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 188.294982 124.329698) (xy 188.295832 124.330051) (xy 188.298815 124.331847) (xy 188.887519 124.819475)
-				(xy 188.994773 124.908314) (xy 188.997653 124.911856) (xy 188.998584 124.913617) (xy 188.999523 124.922183)
-				(xy 188.999124 124.923636) (xy 188.997297 124.927429) (xy 188.396476 125.751855) (xy 188.393121 125.754948)
-				(xy 188.390041 125.75683) (xy 188.383941 125.758546) (xy 188.196677 125.758546) (xy 188.1922 125.757655)
-				(xy 188.188866 125.756274) (xy 188.183889 125.752357) (xy 187.58281 124.927579) (xy 187.580894 124.923439)
-				(xy 187.580426 124.921502) (xy 187.581629 124.912968) (xy 187.582375 124.911657) (xy 187.585077 124.908436)
-				(xy 188.280747 124.332209) (xy 188.284758 124.330041) (xy 188.287068 124.329329)
+				(xy 188.1884 125.758546) (xy 188.3916 125.758546) (xy 189.005035 124.916814) (xy 188.29 124.324546)
+				(xy 187.574965 124.916814)
 			)
 		)
 	)
@@ -204827,10 +204902,8 @@
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 189.567461 126.870726) (xy 190.266566 127.449799) (xy 190.270752 127.457715) (xy 190.268558 127.4657)
-				(xy 189.665105 128.293737) (xy 189.657463 128.298405) (xy 189.65565 128.298546) (xy 189.46435 128.298546)
-				(xy 189.456077 128.295119) (xy 189.454895 128.293737) (xy 188.851441 127.4657) (xy 188.849337 127.456996)
-				(xy 188.853432 127.4498) (xy 189.552538 126.870726) (xy 189.561094 126.868088)
+				(xy 189.4584 128.298546) (xy 189.6616 128.298546) (xy 190.275035 127.456814) (xy 189.56 126.864546)
+				(xy 188.844965 127.456814)
 			)
 		)
 	)
@@ -205620,10 +205693,8 @@
 		(filled_polygon
 			(layer "B.Cu")
 			(pts
-				(xy 190.824208 124.325238) (xy 190.832123 124.329423) (xy 190.834762 124.335792) (xy 190.919637 125.239597)
-				(xy 190.916998 125.248154) (xy 190.909801 125.25225) (xy 189.897584 125.411054) (xy 189.88888 125.40895)
-				(xy 189.887498 125.407768) (xy 189.752231 125.272501) (xy 189.748804 125.264228) (xy 189.748945 125.262415)
-				(xy 189.750807 125.250546) (xy 189.907749 124.250196) (xy 189.912417 124.242556) (xy 189.920401 124.240362)
+				(xy 189.748023 125.268293) (xy 189.891707 125.411977) (xy 190.920666 125.250546) (xy 190.833856 124.326144)
+				(xy 189.909454 124.239334)
 			)
 		)
 	)
@@ -210641,17 +210712,9 @@
 		(filled_polygon
 			(layer "B.Cu")
 			(pts
-				(xy 193.456902 124.406259) (xy 193.460699 124.407387) (xy 193.464098 124.409068) (xy 193.467301 124.411399)
-				(xy 194.009521 124.969106) (xy 194.012003 124.972937) (xy 194.012661 124.974591) (xy 194.012538 124.983539)
-				(xy 194.012384 124.983897) (xy 194.00774 124.989255) (xy 194.007619 124.989329) (xy 194.005261 124.990432)
-				(xy 192.522304 125.491685) (xy 192.522097 125.491746) (xy 192.521816 125.49185) (xy 192.521814 125.491847)
-				(xy 192.521802 125.491851) (xy 192.521804 125.491854) (xy 192.521662 125.491906) (xy 192.521477 125.491991)
-				(xy 192.484318 125.507383) (xy 192.466942 125.514581) (xy 192.462466 125.515472) (xy 192.460684 125.515472)
-				(xy 192.452411 125.512045) (xy 192.452042 125.511676) (xy 192.448615 125.503403) (xy 192.448615 125.318972)
-				(xy 192.448614 125.318972) (xy 192.448613 125.318972) (xy 192.397659 125.340079) (xy 192.393181 125.34097)
-				(xy 192.3914 125.34097) (xy 192.383127 125.337543) (xy 192.382876 125.337292) (xy 192.379613 125.330971)
-				(xy 192.37958 125.330776) (xy 192.37944 125.328084) (xy 192.445119 124.300449) (xy 192.446291 124.296044)
-				(xy 192.447078 124.294441) (xy 192.453797 124.288528) (xy 192.455214 124.288044) (xy 192.46037 124.287501)
+				(xy 192.448615 125.3184) (xy 192.448615 125.5216) (xy 192.45 125.5216) (xy 192.521842 125.491842)
+				(xy 194.024074 124.984074) (xy 193.463012 124.406988) (xy 192.446057 124.285796) (xy 192.378158 125.348158)
+				(xy 192.45 125.3184)
 			)
 		)
 	)

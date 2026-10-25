@@ -28484,6 +28484,22 @@
 						(dnp no)
 						(in_bom yes)
 						(in_pos_files yes)
+						(field
+							(name "DigiKey")
+							(value "311-0.0HRCT-ND")
+						)
+						(field
+							(name "LCSC")
+							(value "C100044")
+						)
+						(field
+							(name "Mouser")
+							(value "603-RC0603FR-070RL")
+						)
+						(field
+							(name "TME")
+							(value "RC0603FR-070RL")
+						)
 					)
 				)
 			)
@@ -32809,9 +32825,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "eddf5bf3-2889-4d5e-8dad-3b2bd3406b26")
 		(property "Reference" "X1"

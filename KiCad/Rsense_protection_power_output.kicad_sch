@@ -14847,6 +14847,22 @@
 						(dnp no)
 						(in_bom yes)
 						(in_pos_files yes)
+						(field
+							(name "DigiKey")
+							(value "311-0.0HRCT-ND")
+						)
+						(field
+							(name "LCSC")
+							(value "C100044")
+						)
+						(field
+							(name "Mouser")
+							(value "603-RC0603FR-070RL")
+						)
+						(field
+							(name "TME")
+							(value "RC0603FR-070RL")
+						)
 					)
 				)
 			)
@@ -15222,6 +15238,22 @@
 						(dnp no)
 						(in_bom yes)
 						(in_pos_files yes)
+						(field
+							(name "DigiKey")
+							(value "311-0.0HRCT-ND")
+						)
+						(field
+							(name "LCSC")
+							(value "C100044")
+						)
+						(field
+							(name "Mouser")
+							(value "603-RC0603FR-070RL")
+						)
+						(field
+							(name "TME")
+							(value "RC0603FR-070RL")
+						)
 					)
 				)
 			)
@@ -18228,6 +18260,22 @@
 						(dnp no)
 						(in_bom yes)
 						(in_pos_files yes)
+						(field
+							(name "DigiKey")
+							(value "311-0.0HRCT-ND")
+						)
+						(field
+							(name "LCSC")
+							(value "C100044")
+						)
+						(field
+							(name "Mouser")
+							(value "603-RC0603FR-070RL")
+						)
+						(field
+							(name "TME")
+							(value "RC0603FR-070RL")
+						)
 					)
 				)
 			)
@@ -28535,6 +28583,22 @@
 						(dnp no)
 						(in_bom yes)
 						(in_pos_files yes)
+						(field
+							(name "DigiKey")
+							(value "311-0.0HRCT-ND")
+						)
+						(field
+							(name "LCSC")
+							(value "C100044")
+						)
+						(field
+							(name "Mouser")
+							(value "603-RC0603FR-070RL")
+						)
+						(field
+							(name "TME")
+							(value "RC0603FR-070RL")
+						)
 					)
 				)
 			)
