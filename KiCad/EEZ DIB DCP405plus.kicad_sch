@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-10-21")
+		(date "2026-11-03")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -3630,6 +3630,208 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_EEZ_unsorted:TBP03P2-350-03BEOR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board no)
+			(in_pos_files no)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "M"
+				(at 0.635 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TBP03P2-350-03BEOR"
+				(at 0 -4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 0.889 0.889)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Pluggable Terminal Block Connector; 3.5mm; 3-poles"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DigiKey" "2223-TBP03P2-350-03BEOR-ND"
+				(at 0 -12.7 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mouser" "179-TBP03P235003BEOR"
+				(at 0 -15.24 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "TME" "-"
+				(at 0 -17.78 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C3582445"
+				(at 0 -20.32 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TBP03P2-350-03BEOR_0_1"
+				(rectangle
+					(start 0 0)
+					(end 3.175 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy -0.635 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.905) (xy -0.635 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 -0.635) (xy 3.175 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 -0.635) (xy 5.715 -0.635) (xy 5.715 -2.54) (xy 3.175 -2.54) (xy 3.175 -3.175) (xy 0 -3.175)
+						(xy 0 0) (xy 0 -0.635) (xy -0.635 -0.635) (xy -0.635 -2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.175 -0.635)
+					(end 3.175 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 -1.27) (xy 5.715 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 -1.905) (xy 5.715 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_EEZ_unsorted:TO247_Thermal_pad"
 			(pin_numbers
 				(hide yes)
@@ -3749,7 +3951,7 @@
 	)
 	(text "Alternative: Mean Well LOP-200-48"
 		(exclude_from_sim no)
-		(at 106.68 179.07 0)
+		(at 111.76 179.07 0)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -3785,20 +3987,86 @@
 		(uuid "df7398fd-c88b-4683-8cbd-582a045d7093")
 	)
 	(no_connect
-		(at 104.14 160.02)
+		(at 109.22 160.02)
 		(uuid "7fa0eac8-d3e3-4993-b30c-a5de61071a0d")
 	)
 	(no_connect
-		(at 129.54 162.56)
+		(at 134.62 162.56)
 		(uuid "cc542608-f8fc-46fc-bdcd-bbddf02ae491")
 	)
 	(no_connect
-		(at 104.14 170.18)
+		(at 109.22 170.18)
 		(uuid "df46db09-a2c2-4e95-8387-d354fa070265")
 	)
 	(no_connect
-		(at 129.54 167.64)
+		(at 134.62 167.64)
 		(uuid "ea054392-4768-497c-90c1-10808ed53c2e")
+	)
+	(polyline
+		(pts
+			(xy 73.66 132.08) (xy 73.66 180.34)
+		)
+		(stroke
+			(width 0.1524)
+			(type dash)
+			(color 194 194 194 1)
+		)
+		(uuid "184e34d3-7603-4e1f-8043-a9b631a80d0b")
+	)
+	(polyline
+		(pts
+			(xy 162.56 132.08) (xy 15.24 132.08)
+		)
+		(stroke
+			(width 0.1524)
+			(type dash)
+			(color 194 194 194 1)
+		)
+		(uuid "87076999-9b9f-49a4-8c8c-42325be9dcd1")
+	)
+	(polyline
+		(pts
+			(xy 104.14 132.08) (xy 104.14 180.34)
+		)
+		(stroke
+			(width 0.1524)
+			(type dash)
+			(color 194 194 194 1)
+		)
+		(uuid "8e2a22c3-8386-4ffc-aabd-c55dd002b03b")
+	)
+	(polyline
+		(pts
+			(xy 43.18 132.08) (xy 43.18 180.34)
+		)
+		(stroke
+			(width 0.1524)
+			(type dash)
+			(color 194 194 194 1)
+		)
+		(uuid "b5b77f64-856c-4be8-a52d-10c4754415f0")
+	)
+	(polyline
+		(pts
+			(xy 162.56 132.08) (xy 162.56 180.34)
+		)
+		(stroke
+			(width 0.1524)
+			(type dash)
+			(color 194 194 194 1)
+		)
+		(uuid "f3dac8a8-520f-42b6-b78d-e69abb5df6b1")
+	)
+	(polyline
+		(pts
+			(xy 162.56 180.34) (xy 15.24 180.34)
+		)
+		(stroke
+			(width 0.1524)
+			(type dash)
+			(color 194 194 194 1)
+		)
+		(uuid "f9d0fe1d-84cc-4e3c-ba07-078ea8e30eb9")
 	)
 	(image
 		(at 190.5 109.22)
@@ -4998,40 +5266,41 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_EEZ_unsorted:PCB-MB-01")
-		(at 111.76 193.04 0)
+		(lib_id "PCM_EEZ_unsorted:TBP03P2-350-03BEOR")
+		(at 78.74 167.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
+		(on_board no)
+		(in_pos_files no)
 		(dnp no)
-		(uuid "15e64499-7844-4bfb-9145-2659bf2a61d3")
-		(property "Reference" "KK9"
-			(at 113.03 189.865 0)
+		(fields_autoplaced yes)
+		(uuid "13bf97af-459d-4606-be63-92512e9cb607")
+		(property "Reference" "M1"
+			(at 85.09 167.9574 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
-		(property "Value" "PCB-MB-01"
-			(at 113.03 191.77 0)
+		(property "Value" "TBP03P2-350-03BEOR"
+			(at 85.09 170.4975 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_EEZ_unsorted:PCB-MB-01"
-			(at 111.76 193.04 0)
+		(property "Footprint" ""
+			(at 78.74 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5042,7 +5311,130 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 193.04 0)
+			(at 78.74 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pluggable Terminal Block Connector; 3.5mm; 3-poles"
+			(at 78.74 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "2223-TBP03P2-350-03BEOR-ND"
+			(at 78.74 180.34 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "179-TBP03P235003BEOR"
+			(at 78.74 182.88 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME" "-"
+			(at 78.74 185.42 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C3582445"
+			(at 78.74 187.96 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "EEZ DIB DCP405plus"
+				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312"
+					(reference "M1")
+					(unit 1)
+					(variant
+						(name "Basic")
+						(dnp yes)
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_EEZ_unsorted:PCB-MB-01")
+		(at 20.32 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "15e64499-7844-4bfb-9145-2659bf2a61d3")
+		(property "Reference" "KK1"
+			(at 21.59 139.065 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "PCB-MB-01"
+			(at 21.59 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PCM_EEZ_unsorted:PCB-MB-01"
+			(at 20.32 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 20.32 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5053,7 +5445,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 111.76 193.04 0)
+			(at 20.32 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5064,7 +5456,7 @@
 			)
 		)
 		(property "DigiKey" "RPC1760-ND"
-			(at 111.76 195.58 0)
+			(at 20.32 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5075,7 +5467,7 @@
 			)
 		)
 		(property "Mouser" "144-PCB-MB-01 "
-			(at 111.76 198.12 0)
+			(at 20.32 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5086,7 +5478,7 @@
 			)
 		)
 		(property "TME" "RI-PCB-MB-01"
-			(at 111.76 200.66 0)
+			(at 20.32 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5097,7 +5489,7 @@
 			)
 		)
 		(property "LCSC" "C959626"
-			(at 111.76 193.04 0)
+			(at 20.32 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5108,7 +5500,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 111.76 193.04 0)
+			(at 20.32 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5119,7 +5511,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 111.76 193.04 0)
+			(at 20.32 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5130,7 +5522,7 @@
 			)
 		)
 		(property "Name" ""
-			(at 111.76 193.04 0)
+			(at 20.32 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5141,7 +5533,7 @@
 			)
 		)
 		(property "PN" ""
-			(at 111.76 193.04 0)
+			(at 20.32 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5152,7 +5544,7 @@
 			)
 		)
 		(property "Uvitron" ""
-			(at 111.76 193.04 0)
+			(at 20.32 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5165,7 +5557,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312"
-					(reference "KK9")
+					(reference "KK1")
 					(unit 1)
 				)
 			)
@@ -5484,11 +5876,11 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21e20b06-bb13-4005-bcfb-6847c8483391")
-		(property "Reference" "KK1"
+		(property "Reference" "KK3"
 			(at 22.86 157.48 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -5631,10 +6023,21 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 20.32 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312"
-					(reference "KK1")
+					(reference "KK3")
 					(unit 1)
 				)
 			)
@@ -5818,11 +6221,11 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "404a36aa-2741-4154-9a1d-7494958edb93")
-		(property "Reference" "KK4"
+		(property "Reference" "KK6"
 			(at 22.86 172.72 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -5965,10 +6368,21 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 20.32 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312"
-					(reference "KK4")
+					(reference "KK6")
 					(unit 1)
 				)
 			)
@@ -5976,17 +6390,17 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_unsorted:PCB-MB-01")
-		(at 127 193.04 0)
+		(at 20.32 149.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "56b25a42-84ba-422d-9d30-d0d9d0b6058b")
-		(property "Reference" "KK10"
-			(at 128.27 189.865 0)
+		(property "Reference" "KK2"
+			(at 21.59 146.685 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5997,7 +6411,7 @@
 			)
 		)
 		(property "Value" "PCB-MB-01"
-			(at 128.27 191.77 0)
+			(at 21.59 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6008,7 +6422,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_unsorted:PCB-MB-01"
-			(at 127 193.04 0)
+			(at 20.32 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6019,7 +6433,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 193.04 0)
+			(at 20.32 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6030,7 +6444,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 193.04 0)
+			(at 20.32 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6041,7 +6455,7 @@
 			)
 		)
 		(property "DigiKey" "RPC1760-ND"
-			(at 127 195.58 0)
+			(at 20.32 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6052,7 +6466,7 @@
 			)
 		)
 		(property "Mouser" "144-PCB-MB-01 "
-			(at 127 198.12 0)
+			(at 20.32 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6063,7 +6477,7 @@
 			)
 		)
 		(property "TME" "RI-PCB-MB-01"
-			(at 127 200.66 0)
+			(at 20.32 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6074,7 +6488,7 @@
 			)
 		)
 		(property "LCSC" "C959626"
-			(at 127 193.04 0)
+			(at 20.32 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6085,7 +6499,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 127 193.04 0)
+			(at 20.32 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6096,7 +6510,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 127 193.04 0)
+			(at 20.32 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6107,7 +6521,7 @@
 			)
 		)
 		(property "Name" ""
-			(at 127 193.04 0)
+			(at 20.32 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6118,7 +6532,7 @@
 			)
 		)
 		(property "PN" ""
-			(at 127 193.04 0)
+			(at 20.32 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6129,7 +6543,7 @@
 			)
 		)
 		(property "Uvitron" ""
-			(at 127 193.04 0)
+			(at 20.32 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6142,15 +6556,15 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312"
-					(reference "KK10")
+					(reference "KK2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "PCM_EEZ_unsorted:AC-DC module")
-		(at 116.84 165.1 0)
+		(lib_id "PCM_EEZ_unsorted:M3X8/D7985B")
+		(at 142.24 167.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6159,9 +6573,9 @@
 		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "62ed2fa5-88a8-4c9b-875e-b7ed37078120")
-		(property "Reference" "TR1"
-			(at 106.68 154.305 0)
+		(uuid "56d98937-b46a-46f0-af32-489b0f13868a")
+		(property "Reference" "KK13"
+			(at 144.78 167.64 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -6171,19 +6585,19 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "EPP-150-48"
-			(at 106.68 175.895 0)
+		(property "Value" "M3X4/D7985"
+			(at 144.78 169.545 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left bottom)
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 178.435 0)
+			(at 142.24 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6194,7 +6608,357 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 165.1 0)
+			(at 142.24 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Screw; M3x4; 0.5; Head: cheese head; Phillips; PH1; DIN 7985"
+			(at 142.24 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "-"
+			(at 142.24 172.72 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "-"
+			(at 142.24 175.26 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME" "M3X4/D7985"
+			(at 142.24 177.8 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 142.24 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 142.24 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 142.24 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 142.24 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 142.24 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 142.24 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(instances
+			(project "EEZ DIB DCP405plus"
+				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312"
+					(reference "KK13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_EEZ_unsorted:M3X8/D7985B")
+		(at 142.24 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58bcc27c-e5e5-4972-80b9-d56b43bb9123")
+		(property "Reference" "KK11"
+			(at 144.78 157.48 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "M3X4/D7985"
+			(at 144.78 159.385 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Screw; M3x4; 0.5; Head: cheese head; Phillips; PH1; DIN 7985"
+			(at 142.24 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "-"
+			(at 142.24 162.56 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "-"
+			(at 142.24 165.1 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME" "M3X4/D7985"
+			(at 142.24 167.64 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 142.24 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 142.24 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 142.24 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 142.24 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 142.24 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 142.24 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(instances
+			(project "EEZ DIB DCP405plus"
+				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312"
+					(reference "KK11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_EEZ_unsorted:AC-DC module")
+		(at 121.92 165.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62ed2fa5-88a8-4c9b-875e-b7ed37078120")
+		(property "Reference" "TR1"
+			(at 111.76 154.305 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "EPP-150-48"
+			(at 111.76 175.895 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 178.435 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6205,7 +6969,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 116.84 165.1 0)
+			(at 121.92 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6215,8 +6979,8 @@
 				)
 			)
 		)
-		(property "DigiKey" "1866-1644-ND or 1866-LOP-200-48-ND"
-			(at 116.84 165.1 0)
+		(property "DigiKey" "1866-LOP-200-48-ND"
+			(at 121.92 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6226,8 +6990,8 @@
 				)
 			)
 		)
-		(property "Mouser" "709-EPP150-48 or 709-LOP-200-48"
-			(at 116.84 165.1 0)
+		(property "Mouser" "709-LOP-200-48"
+			(at 121.92 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6237,8 +7001,8 @@
 				)
 			)
 		)
-		(property "TME" "EPP-150-48 or LOP-200-48"
-			(at 116.84 165.1 0)
+		(property "TME" "LOP-200-48"
+			(at 121.92 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6249,7 +7013,7 @@
 			)
 		)
 		(property "LCSC" "C5729605 or C28871933"
-			(at 116.84 165.1 0)
+			(at 121.92 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6412,18 +7176,18 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_unsorted:M3X8/D7985B")
-		(at 78.74 162.56 0)
+		(at 50.8 144.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "866f2dc2-6823-48d1-b8dc-4c8cc11d4f7f")
 		(property "Reference" "KK7"
-			(at 81.28 162.56 0)
+			(at 53.34 144.78 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -6434,7 +7198,7 @@
 			)
 		)
 		(property "Value" "M3X8/D7985B"
-			(at 81.28 164.465 0)
+			(at 53.34 146.685 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -6445,7 +7209,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 162.56 0)
+			(at 50.8 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6456,7 +7220,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 162.56 0)
+			(at 50.8 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6467,7 +7231,7 @@
 			)
 		)
 		(property "Description" "Screw; M3x8; 0.5; Head: cheese head; Phillips; PH1; DIN 7985"
-			(at 78.74 165.1 0)
+			(at 50.8 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6478,7 +7242,7 @@
 			)
 		)
 		(property "DigiKey" "-"
-			(at 78.74 167.64 0)
+			(at 50.8 149.86 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -6489,7 +7253,7 @@
 			)
 		)
 		(property "Mouser" "-"
-			(at 78.74 170.18 0)
+			(at 50.8 152.4 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -6500,7 +7264,7 @@
 			)
 		)
 		(property "TME" "M3X8/D7985B"
-			(at 78.74 172.72 0)
+			(at 50.8 154.94 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -6511,7 +7275,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 78.74 162.56 0)
+			(at 50.8 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6522,7 +7286,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 78.74 162.56 0)
+			(at 50.8 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6533,7 +7297,7 @@
 			)
 		)
 		(property "Name" ""
-			(at 78.74 162.56 0)
+			(at 50.8 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6544,7 +7308,7 @@
 			)
 		)
 		(property "PN" ""
-			(at 78.74 162.56 0)
+			(at 50.8 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6555,7 +7319,18 @@
 			)
 		)
 		(property "Uvitron" ""
-			(at 78.74 162.56 0)
+			(at 50.8 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 50.8 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6845,7 +7620,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "99cea694-303f-4131-828d-da49e7062e14")
-		(property "Reference" "KK5"
+		(property "Reference" "KK8"
 			(at 60.96 158.115 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7002,7 +7777,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312"
-					(reference "KK5")
+					(reference "KK8")
 					(unit 1)
 				)
 			)
@@ -7016,11 +7791,11 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9dc56726-f256-4924-bece-bae5fc9f95bf")
-		(property "Reference" "KK6"
+		(property "Reference" "KK9"
 			(at 55.245 170.815 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -7152,10 +7927,32 @@
 				)
 			)
 		)
+		(property "TME" ""
+			(at 50.8 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 50.8 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312"
-					(reference "KK6")
+					(reference "KK9")
 					(unit 1)
 				)
 			)
@@ -7299,11 +8096,11 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3c912c2-9583-4a0f-b58b-f4541c0c0ea8")
-		(property "Reference" "KK3"
+		(property "Reference" "KK5"
 			(at 22.86 167.64 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -7446,10 +8243,21 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 20.32 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312"
-					(reference "KK3")
+					(reference "KK5")
 					(unit 1)
 				)
 			)
@@ -7588,17 +8396,17 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_unsorted:B3/BN2842")
-		(at 79.375 157.48 0)
+		(at 51.435 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "c3d398a0-3111-4156-b48c-e07ec02e2676")
-		(property "Reference" "KK8"
-			(at 81.28 157.48 0)
+		(property "Reference" "KK10"
+			(at 53.34 139.7 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -7609,7 +8417,7 @@
 			)
 		)
 		(property "Value" "B3/BN2842"
-			(at 81.28 159.385 0)
+			(at 53.34 141.605 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -7620,7 +8428,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 79.375 157.48 0)
+			(at 51.435 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7631,7 +8439,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 79.375 157.48 0)
+			(at 51.435 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7642,7 +8450,7 @@
 			)
 		)
 		(property "Description" "Washer; externally serrated; M3"
-			(at 79.375 160.02 0)
+			(at 51.435 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7653,7 +8461,7 @@
 			)
 		)
 		(property "DigiKey" "-"
-			(at 79.375 162.56 0)
+			(at 51.435 144.78 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -7664,7 +8472,7 @@
 			)
 		)
 		(property "Mouser" "-"
-			(at 79.375 165.1 0)
+			(at 51.435 147.32 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -7675,7 +8483,7 @@
 			)
 		)
 		(property "TME" "B3/BN2842"
-			(at 79.375 167.64 0)
+			(at 51.435 149.86 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -7686,7 +8494,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 79.375 157.48 0)
+			(at 51.435 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7697,7 +8505,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 79.375 157.48 0)
+			(at 51.435 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7708,7 +8516,7 @@
 			)
 		)
 		(property "Name" ""
-			(at 79.375 157.48 0)
+			(at 51.435 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7719,7 +8527,7 @@
 			)
 		)
 		(property "PN" ""
-			(at 79.375 157.48 0)
+			(at 51.435 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7730,7 +8538,18 @@
 			)
 		)
 		(property "Uvitron" ""
-			(at 79.375 157.48 0)
+			(at 51.435 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 51.435 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7743,7 +8562,357 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312"
-					(reference "KK8")
+					(reference "KK10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_EEZ_unsorted:M3X8/D7985B")
+		(at 142.24 172.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d98d1f24-1b5e-48f1-85e5-07309fcaf964")
+		(property "Reference" "KK14"
+			(at 144.78 172.72 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "M3X4/D7985"
+			(at 144.78 174.625 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Screw; M3x4; 0.5; Head: cheese head; Phillips; PH1; DIN 7985"
+			(at 142.24 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "-"
+			(at 142.24 177.8 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "-"
+			(at 142.24 180.34 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME" "M3X4/D7985"
+			(at 142.24 182.88 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 142.24 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 142.24 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 142.24 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 142.24 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 142.24 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 142.24 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(instances
+			(project "EEZ DIB DCP405plus"
+				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312"
+					(reference "KK14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_EEZ_unsorted:M3X8/D7985B")
+		(at 142.24 162.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e583c74e-6a0b-42f7-a54a-1194de1b0a4c")
+		(property "Reference" "KK12"
+			(at 144.78 162.56 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "M3X4/D7985"
+			(at 144.78 164.465 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Screw; M3x4; 0.5; Head: cheese head; Phillips; PH1; DIN 7985"
+			(at 142.24 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "-"
+			(at 142.24 167.64 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "-"
+			(at 142.24 170.18 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME" "M3X4/D7985"
+			(at 142.24 172.72 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 142.24 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 142.24 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 142.24 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 142.24 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Uvitron" ""
+			(at 142.24 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 142.24 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(instances
+			(project "EEZ DIB DCP405plus"
+				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312"
+					(reference "KK12")
 					(unit 1)
 				)
 			)
@@ -8031,11 +9200,11 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fdd1dbf3-e151-47a2-a307-48614a97ac3f")
-		(property "Reference" "KK2"
+		(property "Reference" "KK4"
 			(at 22.86 162.56 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -8178,10 +9347,21 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 20.32 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312"
-					(reference "KK2")
+					(reference "KK4")
 					(unit 1)
 				)
 			)

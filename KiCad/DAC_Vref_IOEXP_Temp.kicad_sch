@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-10-21")
+		(date "2026-11-03")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -6998,7 +6998,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "568-PCAL9722HNMPTR-ND"
+		(property "DigiKey" "568-PCAL9722HNMPCT-ND"
 			(at 220.98 93.98 0)
 			(hide yes)
 			(show_name yes)
@@ -7427,7 +7427,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "587-1283-1-ND"
+		(property "DigiKey" "1276-2931-1-ND"
 			(at 132.08 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -8156,7 +8156,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "YAG1320CT-ND"
+		(property "DigiKey" "311-10.0CRCT-ND"
 			(at 127 38.1 90)
 			(hide yes)
 			(show_name no)
@@ -8167,7 +8167,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C859127"
+		(property "LCSC" "C17415"
 			(at 127 38.1 90)
 			(hide yes)
 			(show_name no)
@@ -8178,7 +8178,7 @@
 				)
 			)
 		)
-		(property "Mouser" "603-RC0805FR-0710RP"
+		(property "Mouser" "603-RC0805FR-1010RP"
 			(at 127 38.1 90)
 			(hide yes)
 			(show_name no)
@@ -8689,7 +8689,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "490-4774-1-ND"
+		(property "DigiKey" "1276-6717-1-ND"
 			(at 160.02 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -8722,7 +8722,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C14663"
 			(at 160.02 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -8870,7 +8870,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "296-39165-1-ND"
+		(property "DigiKey" "296-41382-1-ND"
 			(at 152.4 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -8881,7 +8881,7 @@
 				)
 			)
 		)
-		(property "Mouser" "595-REF5025AIDR"
+		(property "Mouser" "595-REF5025AIDGKR"
 			(at 152.4 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -9823,7 +9823,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "587-1283-1-ND"
+		(property "DigiKey" "1276-2931-1-ND"
 			(at 81.28 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -10149,7 +10149,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1727-6029-2-ND"
+		(property "DigiKey" "1727-74AUP1G74DC-Q100HCT-ND"
 			(at 93.98 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -10348,7 +10348,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "490-4774-1-ND"
+		(property "DigiKey" "1276-6717-1-ND"
 			(at 83.82 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -10433,6 +10433,17 @@
 			(effects
 				(font
 					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 86.36 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -10518,7 +10529,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "490-4774-1-ND"
+		(property "DigiKey" "1276-6717-1-ND"
 			(at 101.6 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -10603,6 +10614,17 @@
 			(effects
 				(font
 					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 101.6 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -11264,7 +11286,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1101-1-ND"
+		(property "DigiKey" "1276-1851-1-ND"
 			(at 119.38 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -11275,7 +11297,7 @@
 				)
 			)
 		)
-		(property "Mouser" "187-CL32A226KAJNNNE"
+		(property "Mouser" "963-MAAST32MSB7226MP"
 			(at 119.38 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -11445,7 +11467,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "490-4774-1-ND"
+		(property "DigiKey" "1276-6717-1-ND"
 			(at 83.82 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -11530,6 +11552,17 @@
 			(effects
 				(font
 					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 86.36 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -11694,7 +11727,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "490-4774-1-ND"
+		(property "DigiKey" "1276-6717-1-ND"
 			(at 210.82 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -11779,6 +11812,17 @@
 			(effects
 				(font
 					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 208.28 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -12133,7 +12177,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1727-7370-1-ND"
+		(property "DigiKey" "5399-BAS316CT-ND"
 			(at 33.02 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -12144,7 +12188,7 @@
 				)
 			)
 		)
-		(property "Mouser" "771-BAS316-T/R"
+		(property "Mouser" "637-BAS316WS-AQ"
 			(at 33.02 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -12155,7 +12199,7 @@
 				)
 			)
 		)
-		(property "TME" "BAS316,115"
+		(property "TME" "BAS316-QX"
 			(at 33.02 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -12166,7 +12210,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C109218"
+		(property "LCSC" "C2128"
 			(at 33.02 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -12314,7 +12358,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "587-1283-1-ND"
+		(property "DigiKey" "1276-2931-1-ND"
 			(at 137.16 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -12656,7 +12700,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1244-1-ND"
+		(property "DigiKey" "1276-2415-1-ND"
 			(at 170.18 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -12915,7 +12959,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1727-7370-1-ND"
+		(property "DigiKey" "5399-BAS316CT-ND"
 			(at 33.02 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -12926,7 +12970,7 @@
 				)
 			)
 		)
-		(property "Mouser" "771-BAS316-T/R"
+		(property "Mouser" "637-BAS316WS-AQ"
 			(at 33.02 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -12937,7 +12981,7 @@
 				)
 			)
 		)
-		(property "TME" "BAS316,115"
+		(property "TME" "BAS316-QX"
 			(at 33.02 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -12948,7 +12992,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C109218"
+		(property "LCSC" "C2128"
 			(at 33.02 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -13251,7 +13295,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1727-6029-2-ND"
+		(property "DigiKey" "1727-74AUP1G74DC-Q100HCT-ND"
 			(at 63.5 99.06 0)
 			(hide yes)
 			(show_name no)

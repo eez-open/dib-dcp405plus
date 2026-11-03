@@ -52,7 +52,7 @@
         "zones": {
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 0.508,
+          "corner_radius": 0.381,
           "corner_smoothing": 2,
           "fill_mode": 0,
           "hatch_gap": 1.5,
@@ -63,10 +63,10 @@
           "min_clearance": 0.2032,
           "min_island_area": 9.99999999996,
           "min_thickness": 0.2032,
-          "pad_connection": 1,
+          "pad_connection": 3,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.254,
-          "thermal_relief_spoke_width": 0.508
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -972,7 +972,7 @@
         "uuid": "65943c0e-8943-4d2a-93dc-fb4938f73312"
       }
     ],
-    "used_designators": "#+3V1-31,#\\-9V1-2,#FLG1-16,#GND1-20,#P+1-8,#P\\-1-3,#PE1-4,#PWR1-10,#SUPPLY1-78,C1-127,D1-23,F1,FB1-3,FM1-4,IC1-27,J1-4,JP1-16,K1,KK1-10,L1-3,LED1-4,LOGO1-7,NT1-3,Q1-29,R1-151,RV1-3,TP1-19,TR1-2,X1-6,Y1-2,ZD1-8",
+    "used_designators": "#+3V1-31,#\\-9V1-2,#FLG1-16,#GND1-20,#P+1-8,#P\\-1-3,#PE1-4,#PWR1-10,#SUPPLY1-78,C1-127,D1-23,F1,FB1-3,FM1-4,IC1-27,J1-4,JP1-16,K1,KK1-14,L1-3,LED1-4,LOGO1-7,M1,NT1-3,Q1-29,R1-151,RV1-3,TP1-19,TR1-2,X1-6,Y1-2,ZD1-8",
     "variants": [
       {
         "name": "Basic"

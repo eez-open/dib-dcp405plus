@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-10-21")
+		(date "2026-11-03")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -1337,18 +1337,18 @@
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.778 1.5113)
+						(size 1.27 1.27)
 					)
 					(justify left bottom)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "???"
 				(at -1.778 -3.429 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.778 1.5113)
+						(size 1.27 1.27)
 					)
 					(justify left bottom)
 				)
@@ -1380,16 +1380,6 @@
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -11044,7 +11034,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "311-470CRCT-ND"
+		(property "DigiKey" "13-RC0805FR-13470RLCT-ND"
 			(at 147.32 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -11055,7 +11045,7 @@
 				)
 			)
 		)
-		(property "Mouser" "71-CRCW0805470RFKEB"
+		(property "Mouser" "603-RC0805FR-13470RL"
 			(at 147.32 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -11225,7 +11215,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "YAG1320CT-ND"
+		(property "DigiKey" "311-10.0CRCT-ND"
 			(at 170.18 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -11236,7 +11226,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C859127"
+		(property "LCSC" "C17415"
 			(at 170.18 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -11247,7 +11237,7 @@
 				)
 			)
 		)
-		(property "Mouser" "603-RC0805FR-0710RP"
+		(property "Mouser" "603-RC0805FR-1010RP"
 			(at 170.18 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -11600,7 +11590,7 @@
 				)
 			)
 		)
-		(property "TME" "HPI0630-3R3"
+		(property "TME" "ETQP4M3R3YFN"
 			(at 226.06 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -11747,7 +11737,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-6736-1-ND"
+		(property "DigiKey" "1276-3387-1-ND"
 			(at 193.04 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -12120,7 +12110,7 @@
 				)
 			)
 		)
-		(property "TME" "201007J0150T4E"
+		(property "TME" "PWR10FTFQ0150"
 			(at 226.06 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -12269,7 +12259,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "RC0805FR-071KL"
+		(property "DigiKey" "311-1.00KCRCT-ND"
 			(at 246.38 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -12524,6 +12514,17 @@
 			(effects
 				(font
 					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "LCSC" "C49652935"
+			(at 88.9 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -13174,7 +13175,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-6736-1-ND"
+		(property "DigiKey" "1276-3387-1-ND"
 			(at 203.2 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -13288,7 +13289,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2caebce3-a6b7-4c1e-aa7d-31f7da5185e3")
-		(property "Reference" "#FLG011"
+		(property "Reference" "#FLG010"
 			(at 167.64 127.635 0)
 			(hide yes)
 			(show_name no)
@@ -13348,7 +13349,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/55df2794-308a-4204-a97c-7cdafc416b78"
-					(reference "#FLG011")
+					(reference "#FLG010")
 					(unit 1)
 				)
 			)
@@ -13420,7 +13421,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-6736-1-ND"
+		(property "DigiKey" "1276-3387-1-ND"
 			(at 198.12 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -16585,7 +16586,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "490-4774-1-ND"
+		(property "DigiKey" "1276-6717-1-ND"
 			(at 137.16 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -16670,6 +16671,17 @@
 			(effects
 				(font
 					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 134.62 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -16864,9 +16876,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
+		(in_pos_files yes)
 		(dnp yes)
 		(uuid "89b051d5-5bb3-4a48-8cb0-5299a5da3345")
 		(property "Reference" "ZD3"
@@ -17286,7 +17298,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "587-1283-1-ND"
+		(property "DigiKey" "1276-2931-1-ND"
 			(at 241.3 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -17477,7 +17489,7 @@
 				)
 			)
 		)
-		(property "TME" "B4PS-VH (LF)(SN)"
+		(property "TME" "B4PS-VH"
 			(at 25.4 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -17729,6 +17741,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C49652935"
+			(at 96.52 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a9672b04-7eb0-4f10-a3bc-40bf12b10005")
 		)
@@ -17756,7 +17779,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99d0cd7c-86e6-46af-b788-4b6a24d84756")
-		(property "Reference" "#FLG09"
+		(property "Reference" "#FLG08"
 			(at 92.075 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -17817,7 +17840,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/55df2794-308a-4204-a97c-7cdafc416b78"
-					(reference "#FLG09")
+					(reference "#FLG08")
 					(unit 1)
 				)
 			)
@@ -17989,7 +18012,7 @@
 				)
 			)
 		)
-		(property "TME" "BSC117N08NS5ATMA1"
+		(property "TME" "BSC117N08NS5-INF-0"
 			(at 154.94 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -18110,7 +18133,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a371db64-b7b7-4589-9382-0e4106c308a1")
-		(property "Reference" "#FLG012"
+		(property "Reference" "#FLG011"
 			(at 170.18 89.535 0)
 			(hide yes)
 			(show_name no)
@@ -18170,7 +18193,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/55df2794-308a-4204-a97c-7cdafc416b78"
-					(reference "#FLG012")
+					(reference "#FLG011")
 					(unit 1)
 				)
 			)
@@ -18187,7 +18210,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a4d4a8ab-92df-47d9-8623-deb50e71250d")
-		(property "Reference" "NT2"
+		(property "Reference" "NT1"
 			(at 116.84 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18338,7 +18361,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/55df2794-308a-4204-a97c-7cdafc416b78"
-					(reference "NT2")
+					(reference "NT1")
 					(unit 1)
 				)
 			)
@@ -18526,7 +18549,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ac7542e6-bbff-470e-802c-8363bd549a24")
-		(property "Reference" "#FLG010"
+		(property "Reference" "#FLG09"
 			(at 111.76 23.495 0)
 			(hide yes)
 			(show_name no)
@@ -18586,7 +18609,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/55df2794-308a-4204-a97c-7cdafc416b78"
-					(reference "#FLG010")
+					(reference "#FLG09")
 					(unit 1)
 				)
 			)
@@ -18828,7 +18851,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1828-1-ND"
+		(property "DigiKey" "732-7853-1-ND"
 			(at 147.32 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -18850,7 +18873,7 @@
 				)
 			)
 		)
-		(property "TME" "CC0805JRNPO9BN151"
+		(property "TME" "0805N151J500CT"
 			(at 147.32 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -18942,7 +18965,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b7721fe3-c2fc-4a57-ad31-8ee975da4e50")
-		(property "Reference" "#FLG08"
+		(property "Reference" "#FLG07"
 			(at 86.995 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -19003,7 +19026,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/55df2794-308a-4204-a97c-7cdafc416b78"
-					(reference "#FLG08")
+					(reference "#FLG07")
 					(unit 1)
 				)
 			)
@@ -19020,7 +19043,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b85113ad-71d7-45f8-a987-0490ac4331f6")
-		(property "Reference" "#FLG07"
+		(property "Reference" "#FLG06"
 			(at 50.8 51.435 0)
 			(hide yes)
 			(show_name no)
@@ -19080,7 +19103,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/55df2794-308a-4204-a97c-7cdafc416b78"
-					(reference "#FLG07")
+					(reference "#FLG06")
 					(unit 1)
 				)
 			)
@@ -19152,7 +19175,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "296-47661-1-ND"
+		(property "DigiKey" "296-47121-1-ND"
 			(at 116.84 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -19163,7 +19186,7 @@
 				)
 			)
 		)
-		(property "Mouser" "595-LM5145RGYR"
+		(property "Mouser" "595-LM5145RGYT"
 			(at 116.84 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -19389,7 +19412,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "399-C0603C150J5GAC7867TR-ND"
+		(property "DigiKey" "732-7847-1-ND"
 			(at 139.7 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -19827,6 +19850,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C49652935"
+			(at 68.58 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2a1316d5-6ee6-438f-9060-3521dd0c69b1")
 		)
@@ -19908,7 +19942,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1727-7370-1-ND"
+		(property "DigiKey" "5399-BAS316CT-ND"
 			(at 223.52 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -19919,7 +19953,7 @@
 				)
 			)
 		)
-		(property "Mouser" "771-BAS316-T/R"
+		(property "Mouser" "637-BAS316WS-AQ"
 			(at 223.52 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -19930,7 +19964,7 @@
 				)
 			)
 		)
-		(property "TME" "BAS316,115"
+		(property "TME" "BAS316-QX"
 			(at 223.52 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -19941,7 +19975,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C109218"
+		(property "LCSC" "C2128"
 			(at 223.52 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -20089,7 +20123,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1727-7370-1-ND"
+		(property "DigiKey" "5399-BAS316CT-ND"
 			(at 60.96 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -20100,7 +20134,7 @@
 				)
 			)
 		)
-		(property "Mouser" "771-BAS316-T/R"
+		(property "Mouser" "637-BAS316WS-AQ"
 			(at 60.96 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -20111,7 +20145,7 @@
 				)
 			)
 		)
-		(property "TME" "BAS316,115"
+		(property "TME" "BAS316-QX"
 			(at 60.96 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -20122,7 +20156,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C109218"
+		(property "LCSC" "C2128"
 			(at 60.96 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -20483,7 +20517,7 @@
 				)
 			)
 		)
-		(property "LCSC" "-"
+		(property "LCSC" "C323858"
 			(at 60.96 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -20834,7 +20868,7 @@
 				)
 			)
 		)
-		(property "TME" "CC0805KRX7R9103"
+		(property "TME" "GRM216R71H103KA01D"
 			(at 142.24 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -21544,7 +21578,7 @@
 				)
 			)
 		)
-		(property "TME" "CC0805KRX7R9103"
+		(property "TME" "GRM216R71H103KA01D"
 			(at 96.52 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -22557,7 +22591,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f4e235ea-20a1-48d6-8c39-9e005800973a")
-		(property "Reference" "NT3"
+		(property "Reference" "NT2"
 			(at 139.7 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22708,7 +22742,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/55df2794-308a-4204-a97c-7cdafc416b78"
-					(reference "NT3")
+					(reference "NT2")
 					(unit 1)
 				)
 			)
@@ -22950,7 +22984,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "732-7858-1-ND "
+		(property "DigiKey" "1276-1018-1-ND"
 			(at 170.18 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -22961,7 +22995,7 @@
 				)
 			)
 		)
-		(property "Mouser" "81-GRT1885C2A102JA2D"
+		(property "Mouser" "187-CL10B102KB8NNNC"
 			(at 170.18 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -23035,6 +23069,17 @@
 			(effects
 				(font
 					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "LCSC" "C1588"
+			(at 170.18 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)

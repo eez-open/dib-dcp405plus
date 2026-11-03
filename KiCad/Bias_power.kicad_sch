@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-10-21")
+		(date "2026-11-03")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -5649,7 +5649,7 @@
 				)
 			)
 		)
-		(property "TME" "CC0805KRX7R9103"
+		(property "TME" "GRM216R71H103KA01D"
 			(at 50.8 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -5797,7 +5797,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "587-1283-1-ND"
+		(property "DigiKey" "1276-2931-1-ND"
 			(at 243.84 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -5966,7 +5966,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1189-1-ND "
+		(property "DigiKey" "311-1117-1-ND"
 			(at 106.68 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -5988,7 +5988,7 @@
 				)
 			)
 		)
-		(property "TME" "CL21C331JBANNNC"
+		(property "TME" "C0805C331J5GACTU"
 			(at 106.68 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -6146,7 +6146,7 @@
 				)
 			)
 		)
-		(property "Mouser" "TPS54060ADGQR"
+		(property "Mouser" "595-TPS54060DGQR"
 			(at 68.58 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -6287,7 +6287,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "233ec9c4-bb5f-4848-ab4d-fa052fc6bb87")
-		(property "Reference" "#FLG013"
+		(property "Reference" "#FLG012"
 			(at 139.7 33.655 0)
 			(hide yes)
 			(show_name no)
@@ -6348,7 +6348,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/b522d90e-ad77-4f16-838a-4f8652a53e91"
-					(reference "#FLG013")
+					(reference "#FLG012")
 					(unit 1)
 				)
 			)
@@ -6531,7 +6531,7 @@
 				)
 			)
 		)
-		(property "LCSC" "-"
+		(property "LCSC" "C323858"
 			(at 101.6 71.12 90)
 			(hide yes)
 			(show_name no)
@@ -6679,7 +6679,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1101-1-ND"
+		(property "DigiKey" "1276-1851-1-ND"
 			(at 121.92 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -6690,7 +6690,7 @@
 				)
 			)
 		)
-		(property "Mouser" "187-CL32A226KAJNNNE"
+		(property "Mouser" "963-MAAST32MSB7226MP"
 			(at 121.92 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -7782,7 +7782,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "432a12d7-3d21-414b-bc70-c45d747c20b9")
-		(property "Reference" "#FLG014"
+		(property "Reference" "#FLG013"
 			(at 251.46 26.035 0)
 			(hide yes)
 			(show_name no)
@@ -7843,7 +7843,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/b522d90e-ad77-4f16-838a-4f8652a53e91"
-					(reference "#FLG014")
+					(reference "#FLG013")
 					(unit 1)
 				)
 			)
@@ -7938,7 +7938,7 @@
 				)
 			)
 		)
-		(property "TME" "CC0805KRX7R9103"
+		(property "TME" "GRM216R71H103KA01D"
 			(at 86.36 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -8096,7 +8096,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "YAG1320CT-ND"
+		(property "DigiKey" "311-10.0CRCT-ND"
 			(at 114.3 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -8107,7 +8107,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C859127"
+		(property "LCSC" "C17415"
 			(at 114.3 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -8118,7 +8118,7 @@
 				)
 			)
 		)
-		(property "Mouser" "603-RC0805FR-0710RP"
+		(property "Mouser" "603-RC0805FR-1010RP"
 			(at 114.3 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -8377,7 +8377,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1244-1-ND"
+		(property "DigiKey" "1276-2415-1-ND"
 			(at 121.92 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -8568,7 +8568,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "YAG1320CT-ND"
+		(property "DigiKey" "311-10.0CRCT-ND"
 			(at 129.54 38.1 90)
 			(hide yes)
 			(show_name no)
@@ -8579,7 +8579,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C859127"
+		(property "LCSC" "C17415"
 			(at 129.54 38.1 90)
 			(hide yes)
 			(show_name no)
@@ -8590,7 +8590,7 @@
 				)
 			)
 		)
-		(property "Mouser" "603-RC0805FR-0710RP"
+		(property "Mouser" "603-RC0805FR-1010RP"
 			(at 129.54 38.1 90)
 			(hide yes)
 			(show_name no)
@@ -8893,7 +8893,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "MC79L05ABDGOS-ND "
+		(property "DigiKey" "MC79L05ACDR2GOSCT-ND"
 			(at 205.74 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -8915,7 +8915,7 @@
 				)
 			)
 		)
-		(property "TME" "MC79L05ACDG"
+		(property "TME" "MC79L05ABDR2G"
 			(at 205.74 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -9283,7 +9283,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1244-1-ND"
+		(property "DigiKey" "1276-2415-1-ND"
 			(at 147.32 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -10085,7 +10085,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "490-4774-1-ND"
+		(property "DigiKey" "1276-6717-1-ND"
 			(at 205.74 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -10170,6 +10170,17 @@
 			(effects
 				(font
 					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 205.74 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -10276,7 +10287,7 @@
 				)
 			)
 		)
-		(property "TME" "MC78L05ACDG"
+		(property "TME" "MC78L05ACDR2G"
 			(at 208.28 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -10453,7 +10464,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "490-4774-1-ND"
+		(property "DigiKey" "1276-6717-1-ND"
 			(at 91.44 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -10541,6 +10552,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 93.98 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f2938c0a-d386-4abe-9e69-3edcc716fa28")
 		)
@@ -10567,7 +10589,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9330e074-8fa6-442a-b925-b92340642180")
-		(property "Reference" "#FLG016"
+		(property "Reference" "#FLG015"
 			(at 256.54 102.235 0)
 			(hide yes)
 			(show_name no)
@@ -10628,7 +10650,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/b522d90e-ad77-4f16-838a-4f8652a53e91"
-					(reference "#FLG016")
+					(reference "#FLG015")
 					(unit 1)
 				)
 			)
@@ -10733,7 +10755,7 @@
 				)
 			)
 		)
-		(property "LCSC" "-"
+		(property "LCSC" "C323858"
 			(at 111.76 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -10891,7 +10913,7 @@
 				)
 			)
 		)
-		(property "Mouser" "595-TPS7A2033PDBVR"
+		(property "Mouser" "595-TPS7A0333DBVR"
 			(at 226.06 127 0)
 			(hide yes)
 			(show_name yes)
@@ -11102,7 +11124,7 @@
 				)
 			)
 		)
-		(property "LCSC" "-"
+		(property "LCSC" "C323858"
 			(at 228.6 35.56 90)
 			(hide yes)
 			(show_name no)
@@ -11272,7 +11294,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bebf4ef3-53c7-4dd8-a514-4418f554fc39")
-		(property "Reference" "#FLG015"
+		(property "Reference" "#FLG014"
 			(at 254 59.055 0)
 			(hide yes)
 			(show_name no)
@@ -11333,7 +11355,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/b522d90e-ad77-4f16-838a-4f8652a53e91"
-					(reference "#FLG015")
+					(reference "#FLG014")
 					(unit 1)
 				)
 			)
@@ -12108,7 +12130,7 @@
 				)
 			)
 		)
-		(property "LCSC" "-"
+		(property "LCSC" "C323858"
 			(at 228.6 68.58 90)
 			(hide yes)
 			(show_name no)
@@ -12596,7 +12618,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "490-4774-1-ND"
+		(property "DigiKey" "1276-6717-1-ND"
 			(at 223.52 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -12681,6 +12703,17 @@
 			(effects
 				(font
 					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 223.52 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -13391,7 +13424,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1244-1-ND"
+		(property "DigiKey" "1276-2415-1-ND"
 			(at 139.7 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -13572,7 +13605,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-1105-1-ND"
+		(property "DigiKey" "399-C0805C330J5GACTUCT-ND"
 			(at 93.98 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -13594,7 +13627,7 @@
 				)
 			)
 		)
-		(property "TME" "CL21C330JBANNNC"
+		(property "TME" "C0805C330J1GAC"
 			(at 93.98 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -14248,7 +14281,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "490-4774-1-ND"
+		(property "DigiKey" "1276-6717-1-ND"
 			(at 218.44 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -14333,6 +14366,17 @@
 			(effects
 				(font
 					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 218.44 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -14507,7 +14551,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "YAG1320CT-ND"
+		(property "DigiKey" "311-10.0CRCT-ND"
 			(at 139.7 63.5 90)
 			(hide yes)
 			(show_name no)
@@ -14518,7 +14562,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C859127"
+		(property "LCSC" "C17415"
 			(at 139.7 63.5 90)
 			(hide yes)
 			(show_name no)
@@ -14529,7 +14573,7 @@
 				)
 			)
 		)
-		(property "Mouser" "603-RC0805FR-0710RP"
+		(property "Mouser" "603-RC0805FR-1010RP"
 			(at 139.7 63.5 90)
 			(hide yes)
 			(show_name no)
