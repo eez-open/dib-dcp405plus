@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-11-03")
+		(date "2026-11-05")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -21250,7 +21250,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "STM32H503CBT6"
+		(property "Value" "STM32H523CCT6"
 			(at 210.82 155.575 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21285,7 +21285,7 @@
 				)
 			)
 		)
-		(property "Description" "Arm® Cortex®-M33 MCU + FPU, 250 MHz, 128-Kbyte flash"
+		(property "Description" "Arm® Cortex®-M33 MCU + FPU, 250 MHz, 256-Kbyte flash"
 			(at 233.68 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -21296,7 +21296,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "497-STM32H503CBT6-ND"
+		(property "DigiKey" "497-STM32H523CCT6-ND"
 			(at 220.98 160.02 0)
 			(hide yes)
 			(show_name yes)
@@ -21307,7 +21307,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C17700273"
+		(property "LCSC" "C44521823"
 			(at 220.98 162.56 0)
 			(hide yes)
 			(show_name yes)
@@ -21318,7 +21318,7 @@
 				)
 			)
 		)
-		(property "Mouser" "511-STM32H503CBT6"
+		(property "Mouser" "511-STM32H523CCT6"
 			(at 220.98 165.1 0)
 			(hide yes)
 			(show_name yes)
@@ -21329,65 +21329,10 @@
 				)
 			)
 		)
-		(property "TME" "STM32H503CBT6"
+		(property "TME" "STM32H523CCT6"
 			(at 220.98 167.64 0)
 			(hide yes)
 			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 208.28 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 208.28 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Name" ""
-			(at 208.28 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "PN" ""
-			(at 208.28 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Uvitron" ""
-			(at 208.28 71.12 0)
-			(hide yes)
-			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 6,
+  "schemaVersion": 7,
   "source": {
     "kind": "kicad",
     "path": "../../KiCad/EEZ DIB DCP405plus.kicad_pro",
@@ -1119,12 +1119,12 @@
         "pn:lcsc": "C32273056"
       },
       "IC5": {
-        "value": "STM32H503CBT6",
+        "value": "STM32H523CCT6",
         "footprint": "PCM_EEZ_SMD:LQFP-48_7X7MM",
-        "pn:digikey": "497-STM32H503CBT6-ND",
-        "pn:mouser": "511-STM32H503CBT6",
-        "pn:tme": "STM32H503CBT6",
-        "pn:lcsc": "C17700273"
+        "pn:digikey": "497-STM32H523CCT6-ND",
+        "pn:mouser": "511-STM32H523CCT6",
+        "pn:tme": "STM32H523CCT6",
+        "pn:lcsc": "C44521823"
       },
       "IC6": {
         "value": "M24C32-DFDW6TP",
@@ -1347,7 +1347,7 @@
         "footprint": "",
         "pn:digikey": "BER204-ND",
         "pn:mouser": "951-SP400-007-00-104",
-        "pn:tme": "",
+        "pn:tme": "SMICA-SOT93",
         "pn:lcsc": ""
       },
       "KK10": {
@@ -2498,7 +2498,7 @@
         "value": "0R010",
         "footprint": "PCM_EEZ_passives:R_2512-4WIRE",
         "pn:digikey": "846-GMR100HJBFA10L0CT-ND",
-        "pn:mouser": "GMR100HJBFA10L0",
+        "pn:mouser": "755-GMR100HJBFA10L0",
         "pn:tme": "-",
         "pn:lcsc": "-"
       },
@@ -3076,14 +3076,14 @@
     {
       "id": "e5e7d243-17d0-4cee-8db5-c40d1c856107",
       "reference": "IC5",
-      "value": "STM32H503CBT6",
+      "value": "STM32H523CCT6",
       "qty": 1,
       "footprint": "PCM_EEZ_SMD:LQFP-48_7X7MM",
       "partNumbers": {
-        "digikey": "497-STM32H503CBT6-ND",
-        "mouser": "511-STM32H503CBT6",
-        "tme": "STM32H503CBT6",
-        "lcsc": "C17700273"
+        "digikey": "497-STM32H523CCT6-ND",
+        "mouser": "511-STM32H523CCT6",
+        "tme": "STM32H523CCT6",
+        "lcsc": "C44521823"
       },
       "custom": {}
     },
@@ -3388,7 +3388,8 @@
       "footprint": "",
       "partNumbers": {
         "digikey": "BER204-ND",
-        "mouser": "951-SP400-007-00-104"
+        "mouser": "951-SP400-007-00-104",
+        "tme": "SMICA-SOT93"
       },
       "custom": {}
     },
@@ -4079,7 +4080,7 @@
       "footprint": "PCM_EEZ_passives:R_2512-4WIRE",
       "partNumbers": {
         "digikey": "846-GMR100HJBFA10L0CT-ND",
-        "mouser": "GMR100HJBFA10L0",
+        "mouser": "755-GMR100HJBFA10L0",
         "tme": "-",
         "lcsc": "-"
       },

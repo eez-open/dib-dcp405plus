@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 6,
+  "schemaVersion": 7,
   "source": {
     "kind": "manual"
   },
@@ -20,61 +20,65 @@
   "rows": [
     {
       "id": "fb0ca4db-025e-475c-9227-f032b4a716f8",
-      "reference": "Female, 3-pin wire-to-board connector, 3.96 mm pitch",
+      "reference": "EX1, EX2",
       "value": "VHR-3N",
       "qty": 2,
-      "footprint": "",
+      "footprint": "Female, 3-pin wire-to-board connector, 3.96 mm pitch",
       "partNumbers": {
         "tme": "VHR-3N",
         "lcsc": "C157899",
-        "mouser": "306-VHR-3N"
+        "mouser": "306-VHR-3N",
+        "digikey": "455-1184-ND"
       },
       "custom": {}
     },
     {
       "id": "6f04b882-4a74-4d53-8acb-78c695b071e0",
-      "reference": "Terminal VH CONTACT",
-      "value": "NS39-T",
+      "reference": "T1, T2, T3, T4, T5, T6, T7, T8, T9",
+      "value": "SVH-21T-P1.1",
       "qty": 9,
-      "footprint": "",
+      "footprint": "Terminal VH CONTACT",
       "partNumbers": {
         "tme": "NS39-T",
         "lcsc": "C160349",
-        "mouser": "306-SVH-21T-P1.1"
+        "mouser": "306-SVH-21T-P1.1",
+        "digikey": "455-1133-100-ND"
       },
       "custom": {}
     },
     {
       "id": "7892a8a7-bc7f-49ac-b18a-ada867f61468",
-      "reference": "Terminal 22-18 Viynl Insulated #6 Ring Terminal",
+      "reference": "T10",
       "value": "BU-190540035",
       "qty": 1,
-      "footprint": "",
+      "footprint": "Terminal 22-18 Viynl Insulated #6 Ring Terminal",
       "partNumbers": {
         "lcsc": "C20232480",
-        "mouser": "548-BU-190540035"
+        "mouser": "548-BU-190540035",
+        "digikey": "314-BU-190540035-ND"
       },
       "custom": {}
     },
     {
       "id": "d789c606-656e-4a95-8c8c-b0127227f268",
-      "reference": "Female, 4-pin wire-to-board connector, 3.96 mm pitch",
+      "reference": "EX3, EX4",
       "value": "VHR-4N",
       "qty": 2,
-      "footprint": "",
+      "footprint": "Female, 4-pin wire-to-board connector, 3.96 mm pitch",
       "partNumbers": {
         "tme": "VHR-4N",
         "lcsc": "C157898",
-        "mouser": "306-VHR-4N"
+        "mouser": "306-VHR-4N",
+        "digikey": "455-1185-ND"
       },
       "custom": {}
     },
     {
       "id": "2f60c150-bbe9-4841-bb3d-5aaf5ecf748e",
-      "reference": "0.75 cm2 wire (Brown) for AC power cable",
+      "reference": "CBL1",
       "value": "0.75 cm2 wire (Brown)",
       "qty": 0.2,
-      "footprint": "",
+      "footprint": "0.75 cm2 wire (Brown) for AC power cable",
       "partNumbers": {
         "tme": "BITNER-IG2051.09",
         "mouser": "602-3055-100-07"
@@ -83,10 +87,10 @@
     },
     {
       "id": "099bf462-54f2-48a9-9e80-3d3efe4b7703",
-      "reference": "0.75 cm2 wire (Blue) for AC power cable",
+      "reference": "CBL2",
       "value": "0.75 cm2 wire (Blue)",
       "qty": 0.2,
-      "footprint": "",
+      "footprint": "0.75 cm2 wire (Blue) for AC power cable",
       "partNumbers": {
         "tme": "BITNER-IG2051.06",
         "mouser": "602-3055-100-06"
@@ -95,10 +99,10 @@
     },
     {
       "id": "5953c66d-c4b5-4a8f-b38e-ee0db9fdae23",
-      "reference": "0.75 cm2 wire (Yellow-Green) for AC power cable",
+      "reference": "CBL3",
       "value": "0.75 cm2 wire (Yellow-Green)",
       "qty": 0.2,
-      "footprint": "",
+      "footprint": "0.75 cm2 wire (Yellow-Green) for AC power cable",
       "partNumbers": {
         "tme": "BITNER-IG2051.13",
         "mouser": "602-3055-100-28"
@@ -107,10 +111,10 @@
     },
     {
       "id": "795e66a3-7fd6-4eb6-a03a-0ce778ba8ab2",
-      "reference": "0.75 cm2 wire (Red) for DC power cable",
+      "reference": "CBL4",
       "value": "0.75 cm2 wire (Red)",
       "qty": 0.37,
-      "footprint": "",
+      "footprint": "0.75 cm2 wire (Red) for DC power cable",
       "partNumbers": {
         "tme": "BITNER-IG2051.05",
         "mouser": "602-3055-100-03"
@@ -119,10 +123,10 @@
     },
     {
       "id": "88b4ff28-224f-4164-8795-27f8c589320e",
-      "reference": "0.75 cm2 wire (Black) for DC power cable",
+      "reference": "CBL5",
       "value": "0.75 cm2 wire (Black)",
       "qty": 0.37,
-      "footprint": "",
+      "footprint": "0.75 cm2 wire (Black) for DC power cable",
       "partNumbers": {
         "tme": "BITNER-IG2051.03",
         "mouser": "602-3055-100-02"
