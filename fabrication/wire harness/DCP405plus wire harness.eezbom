@@ -1,5 +1,6 @@
 {
-  "schemaVersion": 7,
+  "schemaVersion": 9,
+  "id": "cb6ea9a5-9a2f-4697-a5b1-df0b8aa038c3",
   "source": {
     "kind": "manual"
   },
@@ -7,7 +8,9 @@
     "digikey",
     "mouser",
     "tme",
-    "lcsc"
+    "lcsc",
+    "arrow-europe",
+    "arrow-acna"
   ],
   "customColumns": [
     {
@@ -28,7 +31,9 @@
         "tme": "VHR-3N",
         "lcsc": "C157899",
         "mouser": "306-VHR-3N",
-        "digikey": "455-1184-ND"
+        "digikey": "455-1184-ND",
+        "arrow-europe": "VHR-3N",
+        "arrow-acna": "VHR-3N"
       },
       "custom": {}
     },
@@ -42,9 +47,12 @@
         "tme": "NS39-T",
         "lcsc": "C160349",
         "mouser": "306-SVH-21T-P1.1",
-        "digikey": "455-1133-100-ND"
+        "digikey": "455-1133-100-ND",
+        "arrow-europe": "SVH-21T-P1.1",
+        "arrow-acna": "SVH-21T-P1.1"
       },
-      "custom": {}
+      "custom": {},
+      "buyToBreak": true
     },
     {
       "id": "7892a8a7-bc7f-49ac-b18a-ada867f61468",
@@ -69,7 +77,9 @@
         "tme": "VHR-4N",
         "lcsc": "C157898",
         "mouser": "306-VHR-4N",
-        "digikey": "455-1185-ND"
+        "digikey": "455-1185-ND",
+        "arrow-europe": "VHR-4N",
+        "arrow-acna": "VHR-4N"
       },
       "custom": {}
     },

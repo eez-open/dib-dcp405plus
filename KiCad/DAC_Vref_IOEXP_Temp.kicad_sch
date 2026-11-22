@@ -3895,6 +3895,12 @@
 		(uuid "21eda375-9286-44bc-a84a-01876478a449")
 	)
 	(junction
+		(at 129.54 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "279708cd-bfc2-4be8-9a14-0ba83d599a29")
+	)
+	(junction
 		(at 93.98 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4109,6 +4115,16 @@
 			(type solid)
 		)
 		(uuid "0f38586b-b6bb-4b5b-9195-26ca14349bdd")
+	)
+	(wire
+		(pts
+			(xy 129.54 160.02) (xy 129.54 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13db9268-297d-4a44-897f-98c404767070")
 	)
 	(wire
 		(pts
@@ -5119,6 +5135,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 162.56) (xy 129.54 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b69cfbfd-6935-4deb-af98-1b2545814f8d")
+	)
+	(wire
+		(pts
 			(xy 50.8 76.2) (xy 45.72 76.2)
 		)
 		(stroke
@@ -5249,7 +5275,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 149.86) (xy 134.62 149.86)
+			(xy 127 149.86) (xy 129.54 149.86)
 		)
 		(stroke
 			(width 0)
@@ -5398,6 +5424,16 @@
 			(type default)
 		)
 		(uuid "e03896e3-c5ef-4544-ba28-fb137aa2e540")
+	)
+	(wire
+		(pts
+			(xy 129.54 149.86) (xy 134.62 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2c0d786-4185-4141-9024-9450da263cdf")
 	)
 	(wire
 		(pts
@@ -6384,6 +6420,30 @@
 			)
 		)
 	)
+	(global_label "ISO_MOSI1"
+		(shape input)
+		(at 127 162.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "cec8f0a2-6c83-4d3f-90dd-6393008f80f1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.2427 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "DUTY_100"
 		(shape output)
 		(at 246.38 66.04 0)
@@ -6731,14 +6791,25 @@
 				)
 			)
 		)
-		(property "Uvitron" ""
+		(property "Arrow (EUROPE)" "DAC8552IDGKR"
 			(at 55.88 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.889 0.889)
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow (ACNA)" "DAC8552IDGKR"
+			(at 55.88 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -7086,14 +7157,25 @@
 				)
 			)
 		)
-		(property "Uvitron" ""
-			(at 220.98 33.02 0)
+		(property "Arrow (EUROPE)" "PCAL9722HNMP"
+			(at 220.98 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.889 0.889)
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow (ACNA)" "PCAL9722HNMP"
+			(at 220.98 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -7504,17 +7586,6 @@
 				)
 			)
 		)
-		(property "Uvitron" ""
-			(at 132.08 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "81f609d3-f5bd-4e1f-9561-4ad13fe574c6")
 		)
@@ -7687,17 +7758,6 @@
 			)
 		)
 		(property "PN" ""
-			(at 76.2 88.9 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Uvitron" ""
 			(at 76.2 88.9 90)
 			(hide yes)
 			(show_name no)
@@ -7887,17 +7947,6 @@
 				)
 			)
 		)
-		(property "Uvitron" ""
-			(at 119.38 33.02 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "59083a17-844d-4a20-9b34-9061f72a687c")
 		)
@@ -7921,7 +7970,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "327441e7-9ca1-403e-b567-bcdf19ceada7")
-		(property "Reference" "R25"
+		(property "Reference" "R26"
 			(at 201.93 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8053,17 +8102,6 @@
 				)
 			)
 		)
-		(property "Uvitron" ""
-			(at 203.2 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "2c84fdba-5a95-4d8f-8741-1eb51806908b")
 		)
@@ -8073,7 +8111,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/bbd8d1a5-9776-495b-aec4-035cc25cf688"
-					(reference "R25")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -8233,14 +8271,25 @@
 				)
 			)
 		)
-		(property "Uvitron" ""
-			(at 127 38.1 90)
+		(property "Arrow (EUROPE)" "RC0805FR-0710RL"
+			(at 127 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.889 0.889)
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow (ACNA)" "RC0805FR-0710RL"
+			(at 127 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -8414,17 +8463,6 @@
 				)
 			)
 		)
-		(property "Uvitron" ""
-			(at 63.5 142.24 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "0e79274e-31c8-4151-b002-69c3d0a5975a")
 		)
@@ -8453,7 +8491,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3aee98e4-93f3-4c0a-9059-9bd43b2f1620")
-		(property "Reference" "R22"
+		(property "Reference" "R23"
 			(at 130.81 53.34 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -8596,17 +8634,6 @@
 				)
 			)
 		)
-		(property "Uvitron" ""
-			(at 132.08 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "9635968b-d7b3-4fa4-8bb8-ca32286dfe68")
 		)
@@ -8616,7 +8643,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/bbd8d1a5-9776-495b-aec4-035cc25cf688"
-					(reference "R22")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -8777,14 +8804,25 @@
 				)
 			)
 		)
-		(property "Uvitron" ""
-			(at 160.02 147.32 0)
+		(property "Arrow (EUROPE)" "CL10B104KA8NNNC"
+			(at 160.02 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.889 0.889)
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow (ACNA)" "CL10B104KA8NNNC"
+			(at 160.02 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -8958,14 +8996,25 @@
 				)
 			)
 		)
-		(property "Uvitron" ""
+		(property "Arrow (EUROPE)" "REF5025AIDR"
 			(at 152.4 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.889 0.889)
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow (ACNA)" "REF5025AIDR"
+			(at 152.4 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -9234,14 +9283,25 @@
 				)
 			)
 		)
-		(property "Uvitron" ""
-			(at 139.7 96.52 0)
+		(property "Arrow (EUROPE)" "BSS84"
+			(at 139.7 84.455 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.889 0.889)
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow (ACNA)" "BSS84"
+			(at 139.7 84.455 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -9407,17 +9467,6 @@
 			)
 		)
 		(property "PN" ""
-			(at 63.5 149.86 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Uvitron" ""
 			(at 63.5 149.86 90)
 			(hide yes)
 			(show_name no)
@@ -9900,17 +9949,6 @@
 				)
 			)
 		)
-		(property "Uvitron" ""
-			(at 81.28 27.94 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "19420a7b-46d0-4918-8a7a-ba1b71612a32")
 		)
@@ -10237,14 +10275,25 @@
 				)
 			)
 		)
-		(property "Uvitron" ""
+		(property "Arrow (EUROPE)" "74AUP1G74DC,125"
 			(at 93.98 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.889 0.889)
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow (ACNA)" "74AUP1G74DC,125"
+			(at 93.98 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -10425,18 +10474,29 @@
 				)
 			)
 		)
-		(property "Uvitron" ""
-			(at 83.82 33.02 90)
+		(property "LCSC" "C14663"
+			(at 86.36 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.889 0.889)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "LCSC" "C14663"
+		(property "Arrow (EUROPE)" "CL10B104KA8NNNC"
+			(at 86.36 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow (ACNA)" "CL10B104KA8NNNC"
 			(at 86.36 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -10606,18 +10666,29 @@
 				)
 			)
 		)
-		(property "Uvitron" ""
-			(at 101.6 106.68 0)
+		(property "LCSC" "C14663"
+			(at 101.6 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.889 0.889)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "LCSC" "C14663"
+		(property "Arrow (EUROPE)" "CL10B104KA8NNNC"
+			(at 101.6 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow (ACNA)" "CL10B104KA8NNNC"
 			(at 101.6 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -10776,17 +10847,6 @@
 			)
 		)
 		(property "PN" ""
-			(at 45.72 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Uvitron" ""
 			(at 45.72 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -11061,7 +11121,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "989465c3-0d27-415f-9b03-882c5633505d")
-		(property "Reference" "R23"
+		(property "Reference" "R24"
 			(at 133.35 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11193,8 +11253,155 @@
 				)
 			)
 		)
-		(property "Uvitron" ""
-			(at 134.62 86.36 0)
+		(pin "1"
+			(uuid "d69f4681-61ea-4183-b3ba-7c2a27e14795")
+		)
+		(pin "2"
+			(uuid "17b7f1ca-f9b3-49af-8632-d8a882e83e42")
+		)
+		(instances
+			(project "EEZ DIB DCP405plus"
+				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/bbd8d1a5-9776-495b-aec4-035cc25cf688"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_EEZ_passives:R-EU")
+		(at 129.54 154.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "99cc272e-7d54-4fc8-ae0e-b7fb0a7d16a0")
+		(property "Reference" "R22"
+			(at 128.27 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "10K"
+			(at 128.27 156.845 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "PCM_EEZ_passives:R_0805_2012Metric"
+			(at 129.54 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "311-10.0KCRCT-ND"
+			(at 129.54 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "603-RC0805FR-0710KL"
+			(at 129.54 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME" "RC0805FR-1310KL"
+			(at 129.54 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 129.54 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 129.54 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 129.54 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 129.54 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11205,15 +11412,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "d69f4681-61ea-4183-b3ba-7c2a27e14795")
+			(uuid "aabb2ba2-a092-4c79-a391-0297a5b69ada")
 		)
 		(pin "2"
-			(uuid "17b7f1ca-f9b3-49af-8632-d8a882e83e42")
+			(uuid "7fc3a239-6ca6-488d-b1d3-c3fb16014509")
 		)
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/bbd8d1a5-9776-495b-aec4-035cc25cf688"
-					(reference "R23")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -11364,17 +11571,6 @@
 			)
 		)
 		(property "PN" ""
-			(at 119.38 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Uvitron" ""
 			(at 119.38 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -11544,18 +11740,29 @@
 				)
 			)
 		)
-		(property "Uvitron" ""
-			(at 83.82 38.1 90)
+		(property "LCSC" "C14663"
+			(at 86.36 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.889 0.889)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "LCSC" "C14663"
+		(property "Arrow (EUROPE)" "CL10B104KA8NNNC"
+			(at 86.36 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow (ACNA)" "CL10B104KA8NNNC"
 			(at 86.36 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -11804,18 +12011,29 @@
 				)
 			)
 		)
-		(property "Uvitron" ""
-			(at 210.82 81.28 90)
+		(property "LCSC" "C14663"
+			(at 208.28 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.889 0.889)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "LCSC" "C14663"
+		(property "Arrow (EUROPE)" "CL10B104KA8NNNC"
+			(at 208.28 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow (ACNA)" "CL10B104KA8NNNC"
 			(at 208.28 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -12073,14 +12291,25 @@
 				)
 			)
 		)
-		(property "Uvitron" ""
-			(at 144.78 142.24 0)
+		(property "Arrow (EUROPE)" "TMP126NDCKR"
+			(at 144.78 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.889 0.889)
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow (ACNA)" "TMP126NDCKR"
+			(at 144.78 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -12265,14 +12494,25 @@
 				)
 			)
 		)
-		(property "Uvitron" ""
-			(at 33.02 101.6 0)
+		(property "Arrow (EUROPE)" "BAS316"
+			(at 33.02 98.425 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.889 0.889)
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow (ACNA)" "BAS316"
+			(at 33.02 98.425 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -12425,17 +12665,6 @@
 			)
 		)
 		(property "PN" ""
-			(at 137.16 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Uvitron" ""
 			(at 137.16 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -12605,14 +12834,36 @@
 				)
 			)
 		)
-		(property "Uvitron" ""
+		(property "LCSC" "C8750275"
 			(at 48.26 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.889 0.889)
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow (EUROPE)" "WP42WUM/EGW"
+			(at 48.26 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow (ACNA)" "WP42WUM/EGW"
+			(at 48.26 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -12700,7 +12951,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "1276-2415-1-ND"
+		(property "DigiKey" "1276-CL21A475KACLRNCCT-ND"
 			(at 170.18 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -12778,17 +13029,6 @@
 			)
 		)
 		(property "PN" ""
-			(at 170.18 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Uvitron" ""
 			(at 170.18 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -13047,14 +13287,25 @@
 				)
 			)
 		)
-		(property "Uvitron" ""
-			(at 33.02 93.98 0)
+		(property "Arrow (EUROPE)" "BAS316"
+			(at 33.02 90.805 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.889 0.889)
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow (ACNA)" "BAS316"
+			(at 33.02 90.805 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -13383,14 +13634,25 @@
 				)
 			)
 		)
-		(property "Uvitron" ""
+		(property "Arrow (EUROPE)" "74AUP1G74DC,125"
 			(at 63.5 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.889 0.889)
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow (ACNA)" "74AUP1G74DC,125"
+			(at 63.5 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -13439,7 +13701,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e0bfbf9c-bac2-47cd-a29d-5c17f3b73b01")
-		(property "Reference" "R24"
+		(property "Reference" "R25"
 			(at 149.86 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13571,17 +13833,6 @@
 				)
 			)
 		)
-		(property "Uvitron" ""
-			(at 149.86 104.14 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "dbc5dc39-cfde-418c-80a4-16bbe0bc98c6")
 		)
@@ -13591,7 +13842,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/bbd8d1a5-9776-495b-aec4-035cc25cf688"
-					(reference "R24")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -13820,17 +14071,6 @@
 			)
 		)
 		(property "PN" ""
-			(at 43.18 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Uvitron" ""
 			(at 43.18 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -14078,17 +14318,6 @@
 				)
 			)
 		)
-		(property "Uvitron" ""
-			(at 30.48 76.2 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "40765f1b-5763-468b-bc73-f9363f16fcce")
 		)
@@ -14248,17 +14477,6 @@
 			)
 		)
 		(property "PN" ""
-			(at 40.64 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Uvitron" ""
 			(at 40.64 114.3 0)
 			(hide yes)
 			(show_name no)

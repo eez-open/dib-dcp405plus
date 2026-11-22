@@ -1,5 +1,6 @@
 {
-  "schemaVersion": 7,
+  "schemaVersion": 9,
+  "id": "2c7252a3-e49f-4522-91da-3a14d853ec59",
   "source": {
     "kind": "kicad",
     "path": "../../KiCad/EEZ DIB DCP405plus.kicad_pro",
@@ -11,48 +12,66 @@
         "footprint": "PCM_EEZ_passives:C_0603_1608Metric",
         "pn:digikey": "1276-1018-1-ND",
         "pn:mouser": "187-CL10B102KB8NNNC",
-        "pn:tme": "C0805C102J5GAC",
-        "pn:lcsc": "C1588"
+        "pn:tme": "CL10B102KB8NNNC",
+        "pn:lcsc": "C1588",
+        "pn:arrow-acna": "C0805C102J5GAC",
+        "pn:arrow-europe": "CL10B104KA8NNNC",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C2": {
         "value": "1n",
         "footprint": "PCM_EEZ_passives:C_0603_1608Metric",
         "pn:digikey": "1276-1018-1-ND",
         "pn:mouser": "187-CL10B102KB8NNNC",
-        "pn:tme": "C0805C102J5GAC",
-        "pn:lcsc": "C1588"
+        "pn:tme": "CL10B102KB8NNNC",
+        "pn:lcsc": "C1588",
+        "pn:arrow-acna": "C0805C102J5GAC",
+        "pn:arrow-europe": "CL10B104KA8NNNC",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C3": {
         "value": "1n",
         "footprint": "PCM_EEZ_passives:C_0603_1608Metric",
         "pn:digikey": "1276-1018-1-ND",
         "pn:mouser": "187-CL10B102KB8NNNC",
-        "pn:tme": "C0805C102J5GAC",
-        "pn:lcsc": "C1588"
+        "pn:tme": "CL10B102KB8NNNC",
+        "pn:lcsc": "C1588",
+        "pn:arrow-acna": "C0805C102J5GAC",
+        "pn:arrow-europe": "CL10B104KA8NNNC",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C4": {
         "value": "1n",
         "footprint": "PCM_EEZ_passives:C_0603_1608Metric",
         "pn:digikey": "1276-1018-1-ND",
         "pn:mouser": "187-CL10B102KB8NNNC",
-        "pn:tme": "C0805C102J5GAC",
-        "pn:lcsc": "C1588"
+        "pn:tme": "CL10B102KB8NNNC",
+        "pn:lcsc": "C1588",
+        "pn:arrow-acna": "C0805C102J5GAC",
+        "pn:arrow-europe": "CL10B104KA8NNNC",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C32": {
         "value": "1n",
         "footprint": "PCM_EEZ_passives:C_0603_1608Metric",
         "pn:digikey": "1276-1018-1-ND",
         "pn:mouser": "187-CL10B102KB8NNNC",
-        "pn:tme": "C0805C102J5GAC",
-        "pn:lcsc": "C1588"
+        "pn:tme": "CL10B102KB8NNNC",
+        "pn:lcsc": "C1588",
+        "pn:arrow-acna": "C0805C102J5GAC",
+        "pn:arrow-europe": "CL10B104KA8NNNC",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C59": {
         "value": "1n",
         "footprint": "PCM_EEZ_passives:C_0603_1608Metric",
         "pn:digikey": "1276-1018-1-ND",
         "pn:mouser": "187-CL10B102KB8NNNC",
-        "pn:tme": "C0805C102J5GAC",
-        "pn:lcsc": "C1588"
+        "pn:tme": "CL10B102KB8NNNC",
+        "pn:lcsc": "C1588",
+        "pn:arrow-acna": "C0805C102J5GAC",
+        "pn:arrow-europe": "CL10B104KA8NNNC",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C5": {
         "value": "1u",
@@ -60,7 +79,10 @@
         "pn:digikey": "1276-2931-1-ND",
         "pn:mouser": "603-CC805MKX7R7BB105",
         "pn:tme": "CL21B105KOFNNNE",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C7": {
         "value": "1u",
@@ -68,7 +90,10 @@
         "pn:digikey": "1276-2931-1-ND",
         "pn:mouser": "603-CC805MKX7R7BB105",
         "pn:tme": "CL21B105KOFNNNE",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C8": {
         "value": "1u",
@@ -76,7 +101,10 @@
         "pn:digikey": "1276-2931-1-ND",
         "pn:mouser": "603-CC805MKX7R7BB105",
         "pn:tme": "CL21B105KOFNNNE",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C10": {
         "value": "1u",
@@ -84,7 +112,10 @@
         "pn:digikey": "1276-2931-1-ND",
         "pn:mouser": "603-CC805MKX7R7BB105",
         "pn:tme": "CL21B105KOFNNNE",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C16": {
         "value": "1u",
@@ -92,7 +123,10 @@
         "pn:digikey": "1276-2931-1-ND",
         "pn:mouser": "603-CC805MKX7R7BB105",
         "pn:tme": "CL21B105KOFNNNE",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C28": {
         "value": "1u",
@@ -100,7 +134,10 @@
         "pn:digikey": "1276-2931-1-ND",
         "pn:mouser": "603-CC805MKX7R7BB105",
         "pn:tme": "CL21B105KOFNNNE",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C31": {
         "value": "1u",
@@ -108,7 +145,10 @@
         "pn:digikey": "1276-2931-1-ND",
         "pn:mouser": "603-CC805MKX7R7BB105",
         "pn:tme": "CL21B105KOFNNNE",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C36": {
         "value": "1u",
@@ -116,7 +156,10 @@
         "pn:digikey": "1276-2931-1-ND",
         "pn:mouser": "603-CC805MKX7R7BB105",
         "pn:tme": "CL21B105KOFNNNE",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C41": {
         "value": "1u",
@@ -124,7 +167,10 @@
         "pn:digikey": "1276-2931-1-ND",
         "pn:mouser": "603-CC805MKX7R7BB105",
         "pn:tme": "CL21B105KOFNNNE",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C42": {
         "value": "1u",
@@ -132,7 +178,10 @@
         "pn:digikey": "1276-2931-1-ND",
         "pn:mouser": "603-CC805MKX7R7BB105",
         "pn:tme": "CL21B105KOFNNNE",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C68": {
         "value": "1u",
@@ -140,7 +189,10 @@
         "pn:digikey": "1276-2931-1-ND",
         "pn:mouser": "603-CC805MKX7R7BB105",
         "pn:tme": "CL21B105KOFNNNE",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C70": {
         "value": "1u",
@@ -148,7 +200,10 @@
         "pn:digikey": "1276-2931-1-ND",
         "pn:mouser": "603-CC805MKX7R7BB105",
         "pn:tme": "CL21B105KOFNNNE",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C72": {
         "value": "1u",
@@ -156,7 +211,10 @@
         "pn:digikey": "1276-2931-1-ND",
         "pn:mouser": "603-CC805MKX7R7BB105",
         "pn:tme": "CL21B105KOFNNNE",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C126": {
         "value": "1u",
@@ -164,7 +222,10 @@
         "pn:digikey": "1276-2931-1-ND",
         "pn:mouser": "603-CC805MKX7R7BB105",
         "pn:tme": "CL21B105KOFNNNE",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C6": {
         "value": "100n",
@@ -172,7 +233,10 @@
         "pn:digikey": "1276-6717-1-ND",
         "pn:mouser": "80-C0603C104M4R",
         "pn:tme": "CL10B104KA8NNNC",
-        "pn:lcsc": "C14663"
+        "pn:lcsc": "C14663",
+        "pn:arrow-acna": "CL10B104KA8NNNC",
+        "pn:arrow-europe": "CL10B104KA8NNNC",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C9": {
         "value": "100n",
@@ -180,7 +244,10 @@
         "pn:digikey": "1276-6717-1-ND",
         "pn:mouser": "80-C0603C104M4R",
         "pn:tme": "CL10B104KA8NNNC",
-        "pn:lcsc": "C14663"
+        "pn:lcsc": "C14663",
+        "pn:arrow-acna": "CL10B104KA8NNNC",
+        "pn:arrow-europe": "CL10B104KA8NNNC",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C11": {
         "value": "100n",
@@ -188,7 +255,10 @@
         "pn:digikey": "1276-6717-1-ND",
         "pn:mouser": "80-C0603C104M4R",
         "pn:tme": "CL10B104KA8NNNC",
-        "pn:lcsc": "C14663"
+        "pn:lcsc": "C14663",
+        "pn:arrow-acna": "CL10B104KA8NNNC",
+        "pn:arrow-europe": "CL10B104KA8NNNC",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C12": {
         "value": "100n",
@@ -196,7 +266,10 @@
         "pn:digikey": "1276-6717-1-ND",
         "pn:mouser": "80-C0603C104M4R",
         "pn:tme": "CL10B104KA8NNNC",
-        "pn:lcsc": "C14663"
+        "pn:lcsc": "C14663",
+        "pn:arrow-acna": "CL10B104KA8NNNC",
+        "pn:arrow-europe": "CL10B104KA8NNNC",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C13": {
         "value": "100n",
@@ -204,7 +277,10 @@
         "pn:digikey": "1276-6717-1-ND",
         "pn:mouser": "80-C0603C104M4R",
         "pn:tme": "CL10B104KA8NNNC",
-        "pn:lcsc": "C14663"
+        "pn:lcsc": "C14663",
+        "pn:arrow-acna": "CL10B104KA8NNNC",
+        "pn:arrow-europe": "CL10B104KA8NNNC",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C15": {
         "value": "100n",
@@ -212,7 +288,10 @@
         "pn:digikey": "1276-6717-1-ND",
         "pn:mouser": "80-C0603C104M4R",
         "pn:tme": "CL10B104KA8NNNC",
-        "pn:lcsc": "C14663"
+        "pn:lcsc": "C14663",
+        "pn:arrow-acna": "CL10B104KA8NNNC",
+        "pn:arrow-europe": "CL10B104KA8NNNC",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C19": {
         "value": "100n",
@@ -220,7 +299,10 @@
         "pn:digikey": "1276-6717-1-ND",
         "pn:mouser": "80-C0603C104M4R",
         "pn:tme": "CL10B104KA8NNNC",
-        "pn:lcsc": "C14663"
+        "pn:lcsc": "C14663",
+        "pn:arrow-acna": "CL10B104KA8NNNC",
+        "pn:arrow-europe": "CL10B104KA8NNNC",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C20": {
         "value": "100n",
@@ -228,7 +310,10 @@
         "pn:digikey": "1276-6717-1-ND",
         "pn:mouser": "80-C0603C104M4R",
         "pn:tme": "CL10B104KA8NNNC",
-        "pn:lcsc": "C14663"
+        "pn:lcsc": "C14663",
+        "pn:arrow-acna": "CL10B104KA8NNNC",
+        "pn:arrow-europe": "CL10B104KA8NNNC",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C21": {
         "value": "100n",
@@ -236,7 +321,10 @@
         "pn:digikey": "1276-6717-1-ND",
         "pn:mouser": "80-C0603C104M4R",
         "pn:tme": "CL10B104KA8NNNC",
-        "pn:lcsc": "C14663"
+        "pn:lcsc": "C14663",
+        "pn:arrow-acna": "CL10B104KA8NNNC",
+        "pn:arrow-europe": "CL10B104KA8NNNC",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C22": {
         "value": "100n",
@@ -244,7 +332,10 @@
         "pn:digikey": "1276-6717-1-ND",
         "pn:mouser": "80-C0603C104M4R",
         "pn:tme": "CL10B104KA8NNNC",
-        "pn:lcsc": "C14663"
+        "pn:lcsc": "C14663",
+        "pn:arrow-acna": "CL10B104KA8NNNC",
+        "pn:arrow-europe": "CL10B104KA8NNNC",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C23": {
         "value": "100n",
@@ -252,7 +343,10 @@
         "pn:digikey": "1276-6717-1-ND",
         "pn:mouser": "80-C0603C104M4R",
         "pn:tme": "CL10B104KA8NNNC",
-        "pn:lcsc": "C14663"
+        "pn:lcsc": "C14663",
+        "pn:arrow-acna": "CL10B104KA8NNNC",
+        "pn:arrow-europe": "CL10B104KA8NNNC",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C25": {
         "value": "100n",
@@ -260,7 +354,10 @@
         "pn:digikey": "1276-6717-1-ND",
         "pn:mouser": "80-C0603C104M4R",
         "pn:tme": "CL10B104KA8NNNC",
-        "pn:lcsc": "C14663"
+        "pn:lcsc": "C14663",
+        "pn:arrow-acna": "CL10B104KA8NNNC",
+        "pn:arrow-europe": "CL10B104KA8NNNC",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C27": {
         "value": "100n",
@@ -268,7 +365,10 @@
         "pn:digikey": "1276-6717-1-ND",
         "pn:mouser": "80-C0603C104M4R",
         "pn:tme": "CL10B104KA8NNNC",
-        "pn:lcsc": "C14663"
+        "pn:lcsc": "C14663",
+        "pn:arrow-acna": "CL10B104KA8NNNC",
+        "pn:arrow-europe": "CL10B104KA8NNNC",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C33": {
         "value": "100n",
@@ -276,7 +376,10 @@
         "pn:digikey": "1276-6717-1-ND",
         "pn:mouser": "80-C0603C104M4R",
         "pn:tme": "CL10B104KA8NNNC",
-        "pn:lcsc": "C14663"
+        "pn:lcsc": "C14663",
+        "pn:arrow-acna": "CL10B104KA8NNNC",
+        "pn:arrow-europe": "CL10B104KA8NNNC",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C35": {
         "value": "100n",
@@ -284,7 +387,10 @@
         "pn:digikey": "1276-6717-1-ND",
         "pn:mouser": "80-C0603C104M4R",
         "pn:tme": "CL10B104KA8NNNC",
-        "pn:lcsc": "C14663"
+        "pn:lcsc": "C14663",
+        "pn:arrow-acna": "CL10B104KA8NNNC",
+        "pn:arrow-europe": "CL10B104KA8NNNC",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C37": {
         "value": "100n",
@@ -292,7 +398,10 @@
         "pn:digikey": "1276-6717-1-ND",
         "pn:mouser": "80-C0603C104M4R",
         "pn:tme": "CL10B104KA8NNNC",
-        "pn:lcsc": "C14663"
+        "pn:lcsc": "C14663",
+        "pn:arrow-acna": "CL10B104KA8NNNC",
+        "pn:arrow-europe": "CL10B104KA8NNNC",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C38": {
         "value": "100n",
@@ -300,7 +409,10 @@
         "pn:digikey": "1276-6717-1-ND",
         "pn:mouser": "80-C0603C104M4R",
         "pn:tme": "CL10B104KA8NNNC",
-        "pn:lcsc": "C14663"
+        "pn:lcsc": "C14663",
+        "pn:arrow-acna": "CL10B104KA8NNNC",
+        "pn:arrow-europe": "CL10B104KA8NNNC",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C39": {
         "value": "100n",
@@ -308,7 +420,10 @@
         "pn:digikey": "1276-6717-1-ND",
         "pn:mouser": "80-C0603C104M4R",
         "pn:tme": "CL10B104KA8NNNC",
-        "pn:lcsc": "C14663"
+        "pn:lcsc": "C14663",
+        "pn:arrow-acna": "CL10B104KA8NNNC",
+        "pn:arrow-europe": "CL10B104KA8NNNC",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C43": {
         "value": "100n",
@@ -316,7 +431,10 @@
         "pn:digikey": "1276-6717-1-ND",
         "pn:mouser": "80-C0603C104M4R",
         "pn:tme": "CL10B104KA8NNNC",
-        "pn:lcsc": "C14663"
+        "pn:lcsc": "C14663",
+        "pn:arrow-acna": "CL10B104KA8NNNC",
+        "pn:arrow-europe": "CL10B104KA8NNNC",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C45": {
         "value": "100n",
@@ -324,7 +442,10 @@
         "pn:digikey": "1276-6717-1-ND",
         "pn:mouser": "80-C0603C104M4R",
         "pn:tme": "CL10B104KA8NNNC",
-        "pn:lcsc": "C14663"
+        "pn:lcsc": "C14663",
+        "pn:arrow-acna": "CL10B104KA8NNNC",
+        "pn:arrow-europe": "CL10B104KA8NNNC",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C52": {
         "value": "100n",
@@ -332,7 +453,10 @@
         "pn:digikey": "1276-6717-1-ND",
         "pn:mouser": "80-C0603C104M4R",
         "pn:tme": "CL10B104KA8NNNC",
-        "pn:lcsc": "C14663"
+        "pn:lcsc": "C14663",
+        "pn:arrow-acna": "CL10B104KA8NNNC",
+        "pn:arrow-europe": "CL10B104KA8NNNC",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C73": {
         "value": "100n",
@@ -340,7 +464,10 @@
         "pn:digikey": "1276-6717-1-ND",
         "pn:mouser": "80-C0603C104M4R",
         "pn:tme": "CL10B104KA8NNNC",
-        "pn:lcsc": "C14663"
+        "pn:lcsc": "C14663",
+        "pn:arrow-acna": "CL10B104KA8NNNC",
+        "pn:arrow-europe": "CL10B104KA8NNNC",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C74": {
         "value": "100n",
@@ -348,7 +475,10 @@
         "pn:digikey": "1276-6717-1-ND",
         "pn:mouser": "80-C0603C104M4R",
         "pn:tme": "CL10B104KA8NNNC",
-        "pn:lcsc": "C14663"
+        "pn:lcsc": "C14663",
+        "pn:arrow-acna": "CL10B104KA8NNNC",
+        "pn:arrow-europe": "CL10B104KA8NNNC",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C76": {
         "value": "100n",
@@ -356,7 +486,10 @@
         "pn:digikey": "1276-6717-1-ND",
         "pn:mouser": "80-C0603C104M4R",
         "pn:tme": "CL10B104KA8NNNC",
-        "pn:lcsc": "C14663"
+        "pn:lcsc": "C14663",
+        "pn:arrow-acna": "CL10B104KA8NNNC",
+        "pn:arrow-europe": "CL10B104KA8NNNC",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C77": {
         "value": "100n",
@@ -364,7 +497,10 @@
         "pn:digikey": "1276-6717-1-ND",
         "pn:mouser": "80-C0603C104M4R",
         "pn:tme": "CL10B104KA8NNNC",
-        "pn:lcsc": "C14663"
+        "pn:lcsc": "C14663",
+        "pn:arrow-acna": "CL10B104KA8NNNC",
+        "pn:arrow-europe": "CL10B104KA8NNNC",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C78": {
         "value": "100n",
@@ -372,7 +508,10 @@
         "pn:digikey": "1276-6717-1-ND",
         "pn:mouser": "80-C0603C104M4R",
         "pn:tme": "CL10B104KA8NNNC",
-        "pn:lcsc": "C14663"
+        "pn:lcsc": "C14663",
+        "pn:arrow-acna": "CL10B104KA8NNNC",
+        "pn:arrow-europe": "CL10B104KA8NNNC",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C79": {
         "value": "100n",
@@ -380,7 +519,10 @@
         "pn:digikey": "1276-6717-1-ND",
         "pn:mouser": "80-C0603C104M4R",
         "pn:tme": "CL10B104KA8NNNC",
-        "pn:lcsc": "C14663"
+        "pn:lcsc": "C14663",
+        "pn:arrow-acna": "CL10B104KA8NNNC",
+        "pn:arrow-europe": "CL10B104KA8NNNC",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C88": {
         "value": "100n",
@@ -388,7 +530,10 @@
         "pn:digikey": "1276-6717-1-ND",
         "pn:mouser": "80-C0603C104M4R",
         "pn:tme": "CL10B104KA8NNNC",
-        "pn:lcsc": "C14663"
+        "pn:lcsc": "C14663",
+        "pn:arrow-acna": "CL10B104KA8NNNC",
+        "pn:arrow-europe": "CL10B104KA8NNNC",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C89": {
         "value": "100n",
@@ -396,7 +541,10 @@
         "pn:digikey": "1276-6717-1-ND",
         "pn:mouser": "80-C0603C104M4R",
         "pn:tme": "CL10B104KA8NNNC",
-        "pn:lcsc": "C14663"
+        "pn:lcsc": "C14663",
+        "pn:arrow-acna": "CL10B104KA8NNNC",
+        "pn:arrow-europe": "CL10B104KA8NNNC",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C107": {
         "value": "100n",
@@ -404,7 +552,10 @@
         "pn:digikey": "1276-6717-1-ND",
         "pn:mouser": "80-C0603C104M4R",
         "pn:tme": "CL10B104KA8NNNC",
-        "pn:lcsc": "C14663"
+        "pn:lcsc": "C14663",
+        "pn:arrow-acna": "CL10B104KA8NNNC",
+        "pn:arrow-europe": "CL10B104KA8NNNC",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C108": {
         "value": "100n",
@@ -412,7 +563,10 @@
         "pn:digikey": "1276-6717-1-ND",
         "pn:mouser": "80-C0603C104M4R",
         "pn:tme": "CL10B104KA8NNNC",
-        "pn:lcsc": "C14663"
+        "pn:lcsc": "C14663",
+        "pn:arrow-acna": "CL10B104KA8NNNC",
+        "pn:arrow-europe": "CL10B104KA8NNNC",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C110": {
         "value": "100n",
@@ -420,7 +574,10 @@
         "pn:digikey": "1276-6717-1-ND",
         "pn:mouser": "80-C0603C104M4R",
         "pn:tme": "CL10B104KA8NNNC",
-        "pn:lcsc": "C14663"
+        "pn:lcsc": "C14663",
+        "pn:arrow-acna": "CL10B104KA8NNNC",
+        "pn:arrow-europe": "CL10B104KA8NNNC",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C116": {
         "value": "100n",
@@ -428,7 +585,10 @@
         "pn:digikey": "1276-6717-1-ND",
         "pn:mouser": "80-C0603C104M4R",
         "pn:tme": "CL10B104KA8NNNC",
-        "pn:lcsc": "C14663"
+        "pn:lcsc": "C14663",
+        "pn:arrow-acna": "CL10B104KA8NNNC",
+        "pn:arrow-europe": "CL10B104KA8NNNC",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C123": {
         "value": "100n",
@@ -436,7 +596,10 @@
         "pn:digikey": "1276-6717-1-ND",
         "pn:mouser": "80-C0603C104M4R",
         "pn:tme": "CL10B104KA8NNNC",
-        "pn:lcsc": "C14663"
+        "pn:lcsc": "C14663",
+        "pn:arrow-acna": "CL10B104KA8NNNC",
+        "pn:arrow-europe": "CL10B104KA8NNNC",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C124": {
         "value": "100n",
@@ -444,7 +607,10 @@
         "pn:digikey": "1276-6717-1-ND",
         "pn:mouser": "80-C0603C104M4R",
         "pn:tme": "CL10B104KA8NNNC",
-        "pn:lcsc": "C14663"
+        "pn:lcsc": "C14663",
+        "pn:arrow-acna": "CL10B104KA8NNNC",
+        "pn:arrow-europe": "CL10B104KA8NNNC",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C125": {
         "value": "100n",
@@ -452,7 +618,10 @@
         "pn:digikey": "1276-6717-1-ND",
         "pn:mouser": "80-C0603C104M4R",
         "pn:tme": "CL10B104KA8NNNC",
-        "pn:lcsc": "C14663"
+        "pn:lcsc": "C14663",
+        "pn:arrow-acna": "CL10B104KA8NNNC",
+        "pn:arrow-europe": "CL10B104KA8NNNC",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C14": {
         "value": "270n",
@@ -460,7 +629,10 @@
         "pn:digikey": "490-16405-1-ND",
         "pn:mouser": "81-GCM188R71C274KA7D",
         "pn:tme": "GCM188R71C274KA37D",
-        "pn:lcsc": "C710684"
+        "pn:lcsc": "C710684",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C17": {
         "value": "10p",
@@ -468,7 +640,10 @@
         "pn:digikey": "1276-2149-1-ND",
         "pn:mouser": "187-CL10C100CB8NNNC",
         "pn:tme": "VJ0603A100JXACW1BC",
-        "pn:lcsc": "C1634"
+        "pn:lcsc": "C1634",
+        "pn:arrow-acna": "CL10C100CB8NNNC",
+        "pn:arrow-europe": "CL10C100CB8NNNC",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C18": {
         "value": "10p",
@@ -476,7 +651,10 @@
         "pn:digikey": "1276-2149-1-ND",
         "pn:mouser": "187-CL10C100CB8NNNC",
         "pn:tme": "VJ0603A100JXACW1BC",
-        "pn:lcsc": "C1634"
+        "pn:lcsc": "C1634",
+        "pn:arrow-acna": "CL10C100CB8NNNC",
+        "pn:arrow-europe": "CL10C100CB8NNNC",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C24": {
         "value": "2u2",
@@ -484,7 +662,10 @@
         "pn:digikey": "490-12332-1-ND",
         "pn:mouser": "81-GRT188R61H225KE3D",
         "pn:tme": "GRT188R61H225KE13D",
-        "pn:lcsc": "C77047"
+        "pn:lcsc": "C77047",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C26": {
         "value": "2u2",
@@ -492,47 +673,65 @@
         "pn:digikey": "490-12332-1-ND",
         "pn:mouser": "81-GRT188R61H225KE3D",
         "pn:tme": "GRT188R61H225KE13D",
-        "pn:lcsc": "C77047"
+        "pn:lcsc": "C77047",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C34": {
         "value": "4u7",
         "footprint": "PCM_EEZ_passives:C_0805_2012Metric",
-        "pn:digikey": "1276-2415-1-ND",
+        "pn:digikey": "1276-CL21A475KACLRNCCT-ND",
         "pn:mouser": "187-CL21A475KAQNNNE",
         "pn:tme": "CL21A475KAQNNNE",
-        "pn:lcsc": "C1779"
+        "pn:lcsc": "C1779",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C44": {
         "value": "4u7",
         "footprint": "PCM_EEZ_passives:C_0805_2012Metric",
-        "pn:digikey": "1276-2415-1-ND",
+        "pn:digikey": "1276-CL21A475KACLRNCCT-ND",
         "pn:mouser": "187-CL21A475KAQNNNE",
         "pn:tme": "CL21A475KAQNNNE",
-        "pn:lcsc": "C1779"
+        "pn:lcsc": "C1779",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C119": {
         "value": "4u7",
         "footprint": "PCM_EEZ_passives:C_0805_2012Metric",
-        "pn:digikey": "1276-2415-1-ND",
+        "pn:digikey": "1276-CL21A475KACLRNCCT-ND",
         "pn:mouser": "187-CL21A475KAQNNNE",
         "pn:tme": "CL21A475KAQNNNE",
-        "pn:lcsc": "C1779"
+        "pn:lcsc": "C1779",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C121": {
         "value": "4u7",
         "footprint": "PCM_EEZ_passives:C_0805_2012Metric",
-        "pn:digikey": "1276-2415-1-ND",
+        "pn:digikey": "1276-CL21A475KACLRNCCT-ND",
         "pn:mouser": "187-CL21A475KAQNNNE",
         "pn:tme": "CL21A475KAQNNNE",
-        "pn:lcsc": "C1779"
+        "pn:lcsc": "C1779",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C122": {
         "value": "4u7",
         "footprint": "PCM_EEZ_passives:C_0805_2012Metric",
-        "pn:digikey": "1276-2415-1-ND",
+        "pn:digikey": "1276-CL21A475KACLRNCCT-ND",
         "pn:mouser": "187-CL21A475KAQNNNE",
         "pn:tme": "CL21A475KAQNNNE",
-        "pn:lcsc": "C1779"
+        "pn:lcsc": "C1779",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C40": {
         "value": "22u",
@@ -540,7 +739,10 @@
         "pn:digikey": "1276-1851-1-ND",
         "pn:mouser": "963-MAAST32MSB7226MP",
         "pn:tme": "CL32A226KAJNNNE",
-        "pn:lcsc": "C52306"
+        "pn:lcsc": "C52306",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C120": {
         "value": "22u",
@@ -548,7 +750,10 @@
         "pn:digikey": "1276-1851-1-ND",
         "pn:mouser": "963-MAAST32MSB7226MP",
         "pn:tme": "CL32A226KAJNNNE",
-        "pn:lcsc": "C52306"
+        "pn:lcsc": "C52306",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C46": {
         "value": "10n/200V",
@@ -556,7 +761,10 @@
         "pn:digikey": "311-4491-1-ND",
         "pn:mouser": "603-C1206KRX7RABB103",
         "pn:tme": "VJ1206Y103KXCTW1BC",
-        "pn:lcsc": "C49652935"
+        "pn:lcsc": "",
+        "pn:arrow-acna": "CC1206KRX7RABB103",
+        "pn:arrow-europe": "CC1206KRX7RABB103",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C48": {
         "value": "10n/200V",
@@ -564,7 +772,10 @@
         "pn:digikey": "311-4491-1-ND",
         "pn:mouser": "603-C1206KRX7RABB103",
         "pn:tme": "VJ1206Y103KXCTW1BC",
-        "pn:lcsc": "C49652935"
+        "pn:lcsc": "",
+        "pn:arrow-acna": "CC1206KRX7RABB103",
+        "pn:arrow-europe": "CC1206KRX7RABB103",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C50": {
         "value": "10n/200V",
@@ -572,7 +783,10 @@
         "pn:digikey": "311-4491-1-ND",
         "pn:mouser": "603-C1206KRX7RABB103",
         "pn:tme": "VJ1206Y103KXCTW1BC",
-        "pn:lcsc": "C49652935"
+        "pn:lcsc": "",
+        "pn:arrow-acna": "CC1206KRX7RABB103",
+        "pn:arrow-europe": "CC1206KRX7RABB103",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C105": {
         "value": "10n/200V",
@@ -580,7 +794,10 @@
         "pn:digikey": "311-4491-1-ND",
         "pn:mouser": "603-C1206KRX7RABB103",
         "pn:tme": "VJ1206Y103KXCTW1BC",
-        "pn:lcsc": "C49652935"
+        "pn:lcsc": "",
+        "pn:arrow-acna": "CC1206KRX7RABB103",
+        "pn:arrow-europe": "CC1206KRX7RABB103",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C106": {
         "value": "10n/200V",
@@ -588,7 +805,10 @@
         "pn:digikey": "311-4491-1-ND",
         "pn:mouser": "603-C1206KRX7RABB103",
         "pn:tme": "VJ1206Y103KXCTW1BC",
-        "pn:lcsc": "C49652935"
+        "pn:lcsc": "",
+        "pn:arrow-acna": "CC1206KRX7RABB103",
+        "pn:arrow-europe": "CC1206KRX7RABB103",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C47": {
         "value": "470n/100V",
@@ -596,7 +816,10 @@
         "pn:digikey": "587-5014-1-ND",
         "pn:mouser": "963-HMK212C7474MGHTE",
         "pn:tme": "GRM21BR72A474KA73L",
-        "pn:lcsc": "C97926"
+        "pn:lcsc": "C97926",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C60": {
         "value": "470n/100V",
@@ -604,7 +827,10 @@
         "pn:digikey": "587-5014-1-ND",
         "pn:mouser": "963-HMK212C7474MGHTE",
         "pn:tme": "GRM21BR72A474KA73L",
-        "pn:lcsc": "C97926"
+        "pn:lcsc": "C97926",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C103": {
         "value": "470n/100V",
@@ -612,7 +838,10 @@
         "pn:digikey": "587-5014-1-ND",
         "pn:mouser": "963-HMK212C7474MGHTE",
         "pn:tme": "GRM21BR72A474KA73L",
-        "pn:lcsc": "C97926"
+        "pn:lcsc": "C97926",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C49": {
         "value": "2u2",
@@ -620,7 +849,10 @@
         "pn:digikey": "1276-3138-1-ND",
         "pn:mouser": "187-CL31B225KCHSNNE",
         "pn:tme": "C3216X7S2A225KAB",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C112": {
         "value": "2u2",
@@ -628,7 +860,10 @@
         "pn:digikey": "1276-3138-1-ND",
         "pn:mouser": "187-CL31B225KCHSNNE",
         "pn:tme": "C3216X7S2A225KAB",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C113": {
         "value": "2u2",
@@ -636,7 +871,10 @@
         "pn:digikey": "1276-3138-1-ND",
         "pn:mouser": "187-CL31B225KCHSNNE",
         "pn:tme": "C3216X7S2A225KAB",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C51": {
         "value": "10n",
@@ -644,7 +882,10 @@
         "pn:digikey": "490-7194-1-ND",
         "pn:mouser": "710-885012207122",
         "pn:tme": "GRM216R71H103KA01D",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C54": {
         "value": "10n",
@@ -652,7 +893,10 @@
         "pn:digikey": "490-7194-1-ND",
         "pn:mouser": "710-885012207122",
         "pn:tme": "GRM216R71H103KA01D",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C69": {
         "value": "10n",
@@ -660,7 +904,10 @@
         "pn:digikey": "490-7194-1-ND",
         "pn:mouser": "710-885012207122",
         "pn:tme": "GRM216R71H103KA01D",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C71": {
         "value": "10n",
@@ -668,7 +915,10 @@
         "pn:digikey": "490-7194-1-ND",
         "pn:mouser": "710-885012207122",
         "pn:tme": "GRM216R71H103KA01D",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C80": {
         "value": "10n",
@@ -676,7 +926,10 @@
         "pn:digikey": "490-7194-1-ND",
         "pn:mouser": "710-885012207122",
         "pn:tme": "GRM216R71H103KA01D",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C114": {
         "value": "10n",
@@ -684,7 +937,10 @@
         "pn:digikey": "490-7194-1-ND",
         "pn:mouser": "710-885012207122",
         "pn:tme": "GRM216R71H103KA01D",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C115": {
         "value": "10n",
@@ -692,7 +948,10 @@
         "pn:digikey": "490-7194-1-ND",
         "pn:mouser": "710-885012207122",
         "pn:tme": "GRM216R71H103KA01D",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C53": {
         "value": "15p",
@@ -700,7 +959,10 @@
         "pn:digikey": "732-7847-1-ND",
         "pn:mouser": "80-C0603C150J5G",
         "pn:tme": "C0603C150J5GAC",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C55": {
         "value": "150p",
@@ -708,7 +970,10 @@
         "pn:digikey": "732-7853-1-ND",
         "pn:mouser": "80-C0805C151J5G",
         "pn:tme": "0805N151J500CT",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C87": {
         "value": "150p",
@@ -716,7 +981,10 @@
         "pn:digikey": "732-7853-1-ND",
         "pn:mouser": "80-C0805C151J5G",
         "pn:tme": "0805N151J500CT",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C56": {
         "value": "4u7/100V",
@@ -724,7 +992,10 @@
         "pn:digikey": "587-5034-1-ND",
         "pn:mouser": "810-CGA6M3X7S2A475K",
         "pn:tme": "-",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C57": {
         "value": "4u7/100V",
@@ -732,7 +1003,10 @@
         "pn:digikey": "587-5034-1-ND",
         "pn:mouser": "810-CGA6M3X7S2A475K",
         "pn:tme": "-",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C58": {
         "value": "4u7/100V",
@@ -740,7 +1014,10 @@
         "pn:digikey": "587-5034-1-ND",
         "pn:mouser": "810-CGA6M3X7S2A475K",
         "pn:tme": "-",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C75": {
         "value": "4u7/100V",
@@ -748,7 +1025,10 @@
         "pn:digikey": "587-5034-1-ND",
         "pn:mouser": "810-CGA6M3X7S2A475K",
         "pn:tme": "-",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C61": {
         "value": "EEEFK1H470P",
@@ -756,7 +1036,10 @@
         "pn:digikey": "PCE3815CT-ND",
         "pn:mouser": "667-EEE-FK1H470P",
         "pn:tme": "EEEFK1H470P",
-        "pn:lcsc": "C278400"
+        "pn:lcsc": "C278400",
+        "pn:arrow-acna": "EEE-FK1H470P",
+        "pn:arrow-europe": "EEE-FK1H470P",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C67": {
         "value": "EEEFK1H470P",
@@ -764,7 +1047,10 @@
         "pn:digikey": "PCE3815CT-ND",
         "pn:mouser": "667-EEE-FK1H470P",
         "pn:tme": "EEEFK1H470P",
-        "pn:lcsc": "C278400"
+        "pn:lcsc": "C278400",
+        "pn:arrow-acna": "EEE-FK1H470P",
+        "pn:arrow-europe": "EEE-FK1H470P",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C62": {
         "value": "10u",
@@ -772,7 +1058,10 @@
         "pn:digikey": "1276-3387-1-ND",
         "pn:mouser": "187-CL32A106KBJNNNE",
         "pn:tme": "CL31A106KBHNNNE",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C63": {
         "value": "10u",
@@ -780,7 +1069,10 @@
         "pn:digikey": "1276-3387-1-ND",
         "pn:mouser": "187-CL32A106KBJNNNE",
         "pn:tme": "CL31A106KBHNNNE",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C64": {
         "value": "10u",
@@ -788,7 +1080,10 @@
         "pn:digikey": "1276-3387-1-ND",
         "pn:mouser": "187-CL32A106KBJNNNE",
         "pn:tme": "CL31A106KBHNNNE",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C65": {
         "value": "EEEFK1J101P",
@@ -796,7 +1091,10 @@
         "pn:digikey": "PCE3819CT-ND",
         "pn:mouser": "667-EEE-FK1J101P",
         "pn:tme": "EEEFK1J101P",
-        "pn:lcsc": "C128460"
+        "pn:lcsc": "C128460",
+        "pn:arrow-acna": "EEE-FK1J101P",
+        "pn:arrow-europe": "EEE-FK1J101P",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C66": {
         "value": "470p",
@@ -804,7 +1102,10 @@
         "pn:digikey": "732-7837-1-ND",
         "pn:mouser": "710-885012007038",
         "pn:tme": "CC0805JRNPO9BN471",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C81": {
         "value": "6n8",
@@ -812,7 +1113,10 @@
         "pn:digikey": "399-C0805C682K5RACTUCT-ND",
         "pn:mouser": "80-C0805C682K5R",
         "pn:tme": "0805B682K500CT",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C82": {
         "value": "4n7",
@@ -820,7 +1124,10 @@
         "pn:digikey": "732-12255-1-ND",
         "pn:mouser": "80-C0805C472K5RACLR",
         "pn:tme": "GRM2165C1H472JA01D",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C109": {
         "value": "4n7",
@@ -828,7 +1135,10 @@
         "pn:digikey": "732-12255-1-ND",
         "pn:mouser": "80-C0805C472K5RACLR",
         "pn:tme": "GRM2165C1H472JA01D",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C111": {
         "value": "4n7",
@@ -836,7 +1146,10 @@
         "pn:digikey": "732-12255-1-ND",
         "pn:mouser": "80-C0805C472K5RACLR",
         "pn:tme": "GRM2165C1H472JA01D",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C83": {
         "value": "100p",
@@ -844,7 +1157,10 @@
         "pn:digikey": "399-15000-1-ND",
         "pn:mouser": "80-C0805C101K5G",
         "pn:tme": "CL21C101JBANNNC",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C84": {
         "value": "2n2",
@@ -852,7 +1168,10 @@
         "pn:digikey": "1276-2478-1-ND",
         "pn:mouser": "80-C0805C222K5RACLR",
         "pn:tme": "0805B222K201CT",
-        "pn:lcsc": "C307541"
+        "pn:lcsc": "C307541",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C85": {
         "value": "2n2",
@@ -860,7 +1179,10 @@
         "pn:digikey": "1276-2478-1-ND",
         "pn:mouser": "80-C0805C222K5RACLR",
         "pn:tme": "0805B222K201CT",
-        "pn:lcsc": "C307541"
+        "pn:lcsc": "C307541",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C86": {
         "value": "330p",
@@ -868,7 +1190,10 @@
         "pn:digikey": "311-1117-1-ND",
         "pn:mouser": "80-C0805C331J5G",
         "pn:tme": "C0805C331J5GACTU",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C118": {
         "value": "330p",
@@ -876,15 +1201,21 @@
         "pn:digikey": "311-1117-1-ND",
         "pn:mouser": "80-C0805C331J5G",
         "pn:tme": "C0805C331J5GACTU",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C104": {
-        "value": "33u/50V poly.",
+        "value": "HHXD630ARA330MHA0G",
         "footprint": "PCM_EEZ_passives:CAPAE830X1050N",
         "pn:digikey": "565-HHXD630ARA330MHA0GCT-ND",
         "pn:mouser": "661-XD630ARA330MHA0G",
         "pn:tme": "-",
-        "pn:lcsc": "C2157841"
+        "pn:lcsc": "C2157841",
+        "pn:arrow-acna": "HHXD630ARA330MHA0G",
+        "pn:arrow-europe": "HHXD630ARA330MHA0G",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "C117": {
         "value": "33p",
@@ -892,7 +1223,10 @@
         "pn:digikey": "399-C0805C330J5GACTUCT-ND",
         "pn:mouser": "C0805C330K5GACTU",
         "pn:tme": "C0805C330J1GAC",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "D1": {
         "value": "BAS316",
@@ -900,7 +1234,10 @@
         "pn:digikey": "5399-BAS316CT-ND",
         "pn:mouser": "637-BAS316WS-AQ",
         "pn:tme": "BAS316-QX",
-        "pn:lcsc": "C2128"
+        "pn:lcsc": "C2128",
+        "pn:arrow-acna": "BAS316",
+        "pn:arrow-europe": "BAS316",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "D2": {
         "value": "BAS316",
@@ -908,7 +1245,10 @@
         "pn:digikey": "5399-BAS316CT-ND",
         "pn:mouser": "637-BAS316WS-AQ",
         "pn:tme": "BAS316-QX",
-        "pn:lcsc": "C2128"
+        "pn:lcsc": "C2128",
+        "pn:arrow-acna": "BAS316",
+        "pn:arrow-europe": "BAS316",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "D3": {
         "value": "BAS316",
@@ -916,7 +1256,10 @@
         "pn:digikey": "5399-BAS316CT-ND",
         "pn:mouser": "637-BAS316WS-AQ",
         "pn:tme": "BAS316-QX",
-        "pn:lcsc": "C2128"
+        "pn:lcsc": "C2128",
+        "pn:arrow-acna": "BAS316",
+        "pn:arrow-europe": "BAS316",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "D4": {
         "value": "BAS316",
@@ -924,7 +1267,10 @@
         "pn:digikey": "5399-BAS316CT-ND",
         "pn:mouser": "637-BAS316WS-AQ",
         "pn:tme": "BAS316-QX",
-        "pn:lcsc": "C2128"
+        "pn:lcsc": "C2128",
+        "pn:arrow-acna": "BAS316",
+        "pn:arrow-europe": "BAS316",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "D6": {
         "value": "BAS316",
@@ -932,7 +1278,10 @@
         "pn:digikey": "5399-BAS316CT-ND",
         "pn:mouser": "637-BAS316WS-AQ",
         "pn:tme": "BAS316-QX",
-        "pn:lcsc": "C2128"
+        "pn:lcsc": "C2128",
+        "pn:arrow-acna": "BAS316",
+        "pn:arrow-europe": "BAS316",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "D7": {
         "value": "BAS316",
@@ -940,7 +1289,10 @@
         "pn:digikey": "5399-BAS316CT-ND",
         "pn:mouser": "637-BAS316WS-AQ",
         "pn:tme": "BAS316-QX",
-        "pn:lcsc": "C2128"
+        "pn:lcsc": "C2128",
+        "pn:arrow-acna": "BAS316",
+        "pn:arrow-europe": "BAS316",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "D8": {
         "value": "BAS316",
@@ -948,7 +1300,10 @@
         "pn:digikey": "5399-BAS316CT-ND",
         "pn:mouser": "637-BAS316WS-AQ",
         "pn:tme": "BAS316-QX",
-        "pn:lcsc": "C2128"
+        "pn:lcsc": "C2128",
+        "pn:arrow-acna": "BAS316",
+        "pn:arrow-europe": "BAS316",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "D9": {
         "value": "BAS316",
@@ -956,7 +1311,10 @@
         "pn:digikey": "5399-BAS316CT-ND",
         "pn:mouser": "637-BAS316WS-AQ",
         "pn:tme": "BAS316-QX",
-        "pn:lcsc": "C2128"
+        "pn:lcsc": "C2128",
+        "pn:arrow-acna": "BAS316",
+        "pn:arrow-europe": "BAS316",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "D10": {
         "value": "BAS316",
@@ -964,7 +1322,10 @@
         "pn:digikey": "5399-BAS316CT-ND",
         "pn:mouser": "637-BAS316WS-AQ",
         "pn:tme": "BAS316-QX",
-        "pn:lcsc": "C2128"
+        "pn:lcsc": "C2128",
+        "pn:arrow-acna": "BAS316",
+        "pn:arrow-europe": "BAS316",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "D11": {
         "value": "BAS316",
@@ -972,7 +1333,10 @@
         "pn:digikey": "5399-BAS316CT-ND",
         "pn:mouser": "637-BAS316WS-AQ",
         "pn:tme": "BAS316-QX",
-        "pn:lcsc": "C2128"
+        "pn:lcsc": "C2128",
+        "pn:arrow-acna": "BAS316",
+        "pn:arrow-europe": "BAS316",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "D12": {
         "value": "BAS316",
@@ -980,7 +1344,10 @@
         "pn:digikey": "5399-BAS316CT-ND",
         "pn:mouser": "637-BAS316WS-AQ",
         "pn:tme": "BAS316-QX",
-        "pn:lcsc": "C2128"
+        "pn:lcsc": "C2128",
+        "pn:arrow-acna": "BAS316",
+        "pn:arrow-europe": "BAS316",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "D13": {
         "value": "BAS316",
@@ -988,7 +1355,10 @@
         "pn:digikey": "5399-BAS316CT-ND",
         "pn:mouser": "637-BAS316WS-AQ",
         "pn:tme": "BAS316-QX",
-        "pn:lcsc": "C2128"
+        "pn:lcsc": "C2128",
+        "pn:arrow-acna": "BAS316",
+        "pn:arrow-europe": "BAS316",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "D14": {
         "value": "BAS316",
@@ -996,7 +1366,10 @@
         "pn:digikey": "5399-BAS316CT-ND",
         "pn:mouser": "637-BAS316WS-AQ",
         "pn:tme": "BAS316-QX",
-        "pn:lcsc": "C2128"
+        "pn:lcsc": "C2128",
+        "pn:arrow-acna": "BAS316",
+        "pn:arrow-europe": "BAS316",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "D18": {
         "value": "BAS316",
@@ -1004,7 +1377,10 @@
         "pn:digikey": "5399-BAS316CT-ND",
         "pn:mouser": "637-BAS316WS-AQ",
         "pn:tme": "BAS316-QX",
-        "pn:lcsc": "C2128"
+        "pn:lcsc": "C2128",
+        "pn:arrow-acna": "BAS316",
+        "pn:arrow-europe": "BAS316",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "D19": {
         "value": "BAS316",
@@ -1012,7 +1388,10 @@
         "pn:digikey": "5399-BAS316CT-ND",
         "pn:mouser": "637-BAS316WS-AQ",
         "pn:tme": "BAS316-QX",
-        "pn:lcsc": "C2128"
+        "pn:lcsc": "C2128",
+        "pn:arrow-acna": "BAS316",
+        "pn:arrow-europe": "BAS316",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "D5": {
         "value": "SKL16",
@@ -1020,7 +1399,10 @@
         "pn:digikey": "RB160MM-60CT-ND",
         "pn:mouser": "755-RB160MM-60TR",
         "pn:tme": "SKL16-DIO",
-        "pn:lcsc": "C323858"
+        "pn:lcsc": "C323858",
+        "pn:arrow-acna": "SKL16",
+        "pn:arrow-europe": "SKL16",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "D20": {
         "value": "SKL16",
@@ -1028,7 +1410,10 @@
         "pn:digikey": "RB160MM-60CT-ND",
         "pn:mouser": "755-RB160MM-60TR",
         "pn:tme": "SKL16-DIO",
-        "pn:lcsc": "C323858"
+        "pn:lcsc": "C323858",
+        "pn:arrow-acna": "SKL16",
+        "pn:arrow-europe": "SKL16",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "D21": {
         "value": "SKL16",
@@ -1036,7 +1421,10 @@
         "pn:digikey": "RB160MM-60CT-ND",
         "pn:mouser": "755-RB160MM-60TR",
         "pn:tme": "SKL16-DIO",
-        "pn:lcsc": "C323858"
+        "pn:lcsc": "C323858",
+        "pn:arrow-acna": "SKL16",
+        "pn:arrow-europe": "SKL16",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "D22": {
         "value": "SKL16",
@@ -1044,7 +1432,10 @@
         "pn:digikey": "RB160MM-60CT-ND",
         "pn:mouser": "755-RB160MM-60TR",
         "pn:tme": "SKL16-DIO",
-        "pn:lcsc": "C323858"
+        "pn:lcsc": "C323858",
+        "pn:arrow-acna": "SKL16",
+        "pn:arrow-europe": "SKL16",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "D23": {
         "value": "SKL16",
@@ -1052,7 +1443,10 @@
         "pn:digikey": "RB160MM-60CT-ND",
         "pn:mouser": "755-RB160MM-60TR",
         "pn:tme": "SKL16-DIO",
-        "pn:lcsc": "C323858"
+        "pn:lcsc": "C323858",
+        "pn:arrow-acna": "SKL16",
+        "pn:arrow-europe": "SKL16",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "F1": {
         "value": "ZH32",
@@ -1060,7 +1454,10 @@
         "pn:digikey": "732-11370-ND",
         "pn:mouser": "710-696101000002",
         "pn:tme": "ZH32",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "FB1": {
         "value": "BLM18AG102SH1D",
@@ -1068,7 +1465,10 @@
         "pn:digikey": "490-7809-1-ND",
         "pn:mouser": "81-BLM18AG102SH1D",
         "pn:tme": "BLM18AG102SH1D",
-        "pn:lcsc": "C337877"
+        "pn:lcsc": "C337877",
+        "pn:arrow-acna": "BLM18AG102SH1D",
+        "pn:arrow-europe": "BLM18AG102SH1D",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "FB2": {
         "value": "BLM18AG102SH1D",
@@ -1076,7 +1476,10 @@
         "pn:digikey": "490-7809-1-ND",
         "pn:mouser": "81-BLM18AG102SH1D",
         "pn:tme": "BLM18AG102SH1D",
-        "pn:lcsc": "C337877"
+        "pn:lcsc": "C337877",
+        "pn:arrow-acna": "BLM18AG102SH1D",
+        "pn:arrow-europe": "BLM18AG102SH1D",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "FB3": {
         "value": "BLM18AG102SH1D",
@@ -1084,7 +1487,10 @@
         "pn:digikey": "490-7809-1-ND",
         "pn:mouser": "81-BLM18AG102SH1D",
         "pn:tme": "BLM18AG102SH1D",
-        "pn:lcsc": "C337877"
+        "pn:lcsc": "C337877",
+        "pn:arrow-acna": "BLM18AG102SH1D",
+        "pn:arrow-europe": "BLM18AG102SH1D",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "IC1": {
         "value": "ADS131A04IPBSR",
@@ -1092,23 +1498,32 @@
         "pn:digikey": "296-44202-1-ND",
         "pn:mouser": "595-ADS131A04IPBSR",
         "pn:tme": "-",
-        "pn:lcsc": "C882747"
+        "pn:lcsc": "C882747",
+        "pn:arrow-acna": "ADS131A04IPBSR",
+        "pn:arrow-europe": "ADS131A04IPBSR",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "IC2": {
-        "value": "ISO6762FDWR",
+        "value": "ISO7762DWR",
         "footprint": "PCM_EEZ_SMD:DW16",
-        "pn:digikey": "296-ISO6762FDWRCT-ND",
-        "pn:mouser": "595-ISO6762FDWR",
+        "pn:digikey": "296-ISO7762DWRCT-ND",
+        "pn:mouser": "595-ISO7762QDWRQ1",
         "pn:tme": "-",
-        "pn:lcsc": "C5216396"
+        "pn:lcsc": "C5216446",
+        "pn:arrow-acna": "ISO7762DWR",
+        "pn:arrow-europe": "ISO7762DWR",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": "Alternative: ISO6762FDWR"
       },
       "IC3": {
-        "value": "ISO6762FDWR",
+        "value": "ISO7762DWR",
         "footprint": "PCM_EEZ_SMD:DW16",
-        "pn:digikey": "296-ISO6762FDWRCT-ND",
-        "pn:mouser": "595-ISO6762FDWR",
+        "pn:digikey": "296-ISO7762DWRCT-ND",
+        "pn:mouser": "595-ISO7762QDWRQ1",
         "pn:tme": "-",
-        "pn:lcsc": "C5216396"
+        "pn:lcsc": "C5216446",
+        "pn:arrow-acna": "ISO7762DWR",
+        "pn:arrow-europe": "ISO7762DWR",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": "Alternative: ISO6762FDWR"
       },
       "IC4": {
         "value": "ISO6520DR",
@@ -1116,7 +1531,10 @@
         "pn:digikey": "296-ISO6520DRCT-ND",
         "pn:mouser": "595-ISO6520DR",
         "pn:tme": "-",
-        "pn:lcsc": "C32273056"
+        "pn:lcsc": "C32273056",
+        "pn:arrow-acna": "ISO6520DR",
+        "pn:arrow-europe": "ISO6520DR",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "IC5": {
         "value": "STM32H523CCT6",
@@ -1124,7 +1542,10 @@
         "pn:digikey": "497-STM32H523CCT6-ND",
         "pn:mouser": "511-STM32H523CCT6",
         "pn:tme": "STM32H523CCT6",
-        "pn:lcsc": "C44521823"
+        "pn:lcsc": "C44521823",
+        "pn:arrow-acna": "STM32H523CCT6",
+        "pn:arrow-europe": "STM32H523CCT6",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "IC6": {
         "value": "M24C32-DFDW6TP",
@@ -1132,7 +1553,10 @@
         "pn:digikey": "497-16067-1-ND",
         "pn:mouser": "511-M24C32-DFDW6TP",
         "pn:tme": "M24C32-DFDW6TP",
-        "pn:lcsc": "C2971426"
+        "pn:lcsc": "C2971426",
+        "pn:arrow-acna": "M24C32-DFDW6TP",
+        "pn:arrow-europe": "M24C32-DFDW6TP",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "IC7": {
         "value": "DAC8552IDGKR",
@@ -1140,7 +1564,10 @@
         "pn:digikey": "296-46082-1-ND",
         "pn:mouser": "595-DAC8552IDGKR",
         "pn:tme": "-",
-        "pn:lcsc": "C136020"
+        "pn:lcsc": "C136020",
+        "pn:arrow-acna": "DAC8552IDGKR",
+        "pn:arrow-europe": "DAC8552IDGKR",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "IC8": {
         "value": "74AUP1G74DC,125",
@@ -1148,7 +1575,10 @@
         "pn:digikey": "1727-74AUP1G74DC-Q100HCT-ND",
         "pn:mouser": "771-AUP1GDC125",
         "pn:tme": "74AUP1G74DC.125",
-        "pn:lcsc": "C458192"
+        "pn:lcsc": "C458192",
+        "pn:arrow-acna": "74AUP1G74DC,125",
+        "pn:arrow-europe": "74AUP1G74DC,125",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "IC9": {
         "value": "TMP126NDCKR",
@@ -1156,7 +1586,10 @@
         "pn:digikey": "296-TMP126NDCKRCT-ND",
         "pn:mouser": "595-TMP126NDCKR",
         "pn:tme": "TMP126NDCKR",
-        "pn:lcsc": "C5219998"
+        "pn:lcsc": "C5219998",
+        "pn:arrow-acna": "TMP126NDCKR",
+        "pn:arrow-europe": "TMP126NDCKR",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "IC10": {
         "value": "REF5025AIDR",
@@ -1164,7 +1597,10 @@
         "pn:digikey": "296-41382-1-ND",
         "pn:mouser": "595-REF5025AIDGKR",
         "pn:tme": "-",
-        "pn:lcsc": "C11341"
+        "pn:lcsc": "C11341",
+        "pn:arrow-acna": "REF5025AIDR",
+        "pn:arrow-europe": "REF5025AIDR",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "IC11": {
         "value": "PCAL9722HNMP",
@@ -1172,7 +1608,10 @@
         "pn:digikey": "568-PCAL9722HNMPCT-ND",
         "pn:mouser": "771-PCAL9722HNMP",
         "pn:tme": "-",
-        "pn:lcsc": "C24212503"
+        "pn:lcsc": "C24212503",
+        "pn:arrow-acna": "PCAL9722HNMP",
+        "pn:arrow-europe": "PCAL9722HNMP",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "IC12": {
         "value": "LM5145RGYR",
@@ -1180,7 +1619,10 @@
         "pn:digikey": "296-47121-1-ND",
         "pn:mouser": "595-LM5145RGYT",
         "pn:tme": "-",
-        "pn:lcsc": "C485912"
+        "pn:lcsc": "C485912",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "IC13": {
         "value": "LTC2050HVCS8#PBF",
@@ -1188,7 +1630,10 @@
         "pn:digikey": "LTC2050HVCS8#TRPBFCT-ND",
         "pn:mouser": "584-LTC2050HVCS8#PBF",
         "pn:tme": "-",
-        "pn:lcsc": "C679141"
+        "pn:lcsc": "C679141",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "IC14": {
         "value": "TL072D",
@@ -1196,7 +1641,10 @@
         "pn:digikey": "296-1282-1-ND",
         "pn:mouser": "595-TL072CDR",
         "pn:tme": "TL072CD-ST",
-        "pn:lcsc": "C67473"
+        "pn:lcsc": "C67473",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "IC15": {
         "value": "TL072D",
@@ -1204,15 +1652,21 @@
         "pn:digikey": "296-1282-1-ND",
         "pn:mouser": "595-TL072CDR",
         "pn:tme": "TL072CD-ST",
-        "pn:lcsc": "C67473"
+        "pn:lcsc": "C67473",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "IC16": {
-        "value": "SN74LVC1G3157DCKR",
+        "value": "SN74LVC1G3157DCK",
         "footprint": "PCM_EEZ_SMD:SOT65P210X110-6N",
         "pn:digikey": "296-14909-1-ND",
         "pn:mouser": "771-LVC1G3157GV125",
         "pn:tme": "SN74LVC1G3157DCKR",
-        "pn:lcsc": "C38663"
+        "pn:lcsc": "C38663",
+        "pn:arrow-acna": "SN74LVC1G3157DCKR",
+        "pn:arrow-europe": "SN74LVC1G3157DCKR",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "IC22": {
         "value": "LM293D",
@@ -1220,7 +1674,10 @@
         "pn:digikey": "LM293DR2GOSCT-ND",
         "pn:mouser": "863-LM293DR2G",
         "pn:tme": "LM293DR",
-        "pn:lcsc": "C76509"
+        "pn:lcsc": "C76509",
+        "pn:arrow-acna": "LM293D",
+        "pn:arrow-europe": "LM293D",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "IC23": {
         "value": "MAX9141ESA",
@@ -1228,7 +1685,10 @@
         "pn:digikey": "MAX9141ESA+-ND",
         "pn:mouser": "700-MAX9141ESA",
         "pn:tme": "-",
-        "pn:lcsc": "C3658498"
+        "pn:lcsc": "C3658498",
+        "pn:arrow-acna": "MAX9141ESA+",
+        "pn:arrow-europe": "MAX9141ESA+",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "IC24": {
         "value": "TPS54060DGQ",
@@ -1236,7 +1696,10 @@
         "pn:digikey": "296-37148-1-ND",
         "pn:mouser": "595-TPS54060DGQR",
         "pn:tme": "-",
-        "pn:lcsc": "C12382"
+        "pn:lcsc": "C12382",
+        "pn:arrow-acna": "TPS54060DGQ",
+        "pn:arrow-europe": "TPS54060DGQ",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "IC25": {
         "value": "MC79L05",
@@ -1244,7 +1707,10 @@
         "pn:digikey": "MC79L05ACDR2GOSCT-ND",
         "pn:mouser": "863-MC79L05ACDR2G",
         "pn:tme": "MC79L05ABDR2G",
-        "pn:lcsc": "C232661"
+        "pn:lcsc": "C232661",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "IC26": {
         "value": "MC78L05",
@@ -1252,7 +1718,10 @@
         "pn:digikey": "MC78L05ACDR2GOSCT-ND",
         "pn:mouser": "863-MC78L05ACDR2G",
         "pn:tme": "MC78L05ACDR2G",
-        "pn:lcsc": "C7371"
+        "pn:lcsc": "C7371",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "IC27": {
         "value": "TPS7A2033PDBVR",
@@ -1260,7 +1729,10 @@
         "pn:digikey": "296-TPS7A2033PDBVRCT-ND",
         "pn:mouser": "595-TPS7A0333DBVR",
         "pn:tme": "TPS7A2033PDBVR",
-        "pn:lcsc": "C2862740"
+        "pn:lcsc": "C2862740",
+        "pn:arrow-acna": "TPS7A2033PDBVR",
+        "pn:arrow-europe": "TPS7A2033PDBVR",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "J1": {
         "value": "571-0500",
@@ -1268,7 +1740,10 @@
         "pn:digikey": "-",
         "pn:mouser": "164-6219",
         "pn:tme": "571-0500",
-        "pn:lcsc": "-"
+        "pn:lcsc": "-",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "J2": {
         "value": "571-0100",
@@ -1276,7 +1751,10 @@
         "pn:digikey": "-",
         "pn:mouser": "164-6218",
         "pn:tme": "571-0100",
-        "pn:lcsc": "-"
+        "pn:lcsc": "-",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "KK1": {
         "value": "PCB-MB-01",
@@ -1284,7 +1762,10 @@
         "pn:digikey": "RPC1760-ND",
         "pn:mouser": "144-PCB-MB-01",
         "pn:tme": "RI-PCB-MB-01",
-        "pn:lcsc": "C959626"
+        "pn:lcsc": "C959626",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "KK2": {
         "value": "PCB-MB-01",
@@ -1292,7 +1773,10 @@
         "pn:digikey": "RPC1760-ND",
         "pn:mouser": "144-PCB-MB-01",
         "pn:tme": "RI-PCB-MB-01",
-        "pn:lcsc": "C959626"
+        "pn:lcsc": "C959626",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "KK3": {
         "value": "M3X8/D7985B",
@@ -1300,7 +1784,10 @@
         "pn:digikey": "-",
         "pn:mouser": "-",
         "pn:tme": "M3X8/D7985B",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "KK4": {
         "value": "M3X8/D7985B",
@@ -1308,7 +1795,10 @@
         "pn:digikey": "-",
         "pn:mouser": "-",
         "pn:tme": "M3X8/D7985B",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "KK5": {
         "value": "M3X8/D7985B",
@@ -1316,7 +1806,10 @@
         "pn:digikey": "-",
         "pn:mouser": "-",
         "pn:tme": "M3X8/D7985B",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "KK6": {
         "value": "M3X8/D7985B",
@@ -1324,7 +1817,10 @@
         "pn:digikey": "-",
         "pn:mouser": "-",
         "pn:tme": "M3X8/D7985B",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "KK7": {
         "value": "M3X8/D7985B",
@@ -1332,7 +1828,10 @@
         "pn:digikey": "-",
         "pn:mouser": "-",
         "pn:tme": "M3X8/D7985B",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "KK8": {
         "value": "SK96/84SA",
@@ -1340,7 +1839,10 @@
         "pn:digikey": "5496-SK9684SA-ND",
         "pn:mouser": "-",
         "pn:tme": "SK96/84SA",
-        "pn:lcsc": "-"
+        "pn:lcsc": "-",
+        "pn:arrow-acna": "SK 96 84 SA",
+        "pn:arrow-europe": "SK 96 84 SA",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "KK9": {
         "value": "SP400-0.007-00-104",
@@ -1348,7 +1850,10 @@
         "pn:digikey": "BER204-ND",
         "pn:mouser": "951-SP400-007-00-104",
         "pn:tme": "SMICA-SOT93",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "KK10": {
         "value": "B3/BN2842",
@@ -1356,7 +1861,10 @@
         "pn:digikey": "-",
         "pn:mouser": "-",
         "pn:tme": "B3/BN2842",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "KK11": {
         "value": "M3X4/D7985",
@@ -1364,7 +1872,10 @@
         "pn:digikey": "-",
         "pn:mouser": "-",
         "pn:tme": "M3X4/D7985",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "KK12": {
         "value": "M3X4/D7985",
@@ -1372,7 +1883,10 @@
         "pn:digikey": "-",
         "pn:mouser": "-",
         "pn:tme": "M3X4/D7985",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "KK13": {
         "value": "M3X4/D7985",
@@ -1380,7 +1894,10 @@
         "pn:digikey": "-",
         "pn:mouser": "-",
         "pn:tme": "M3X4/D7985",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "KK14": {
         "value": "M3X4/D7985",
@@ -1388,7 +1905,10 @@
         "pn:digikey": "-",
         "pn:mouser": "-",
         "pn:tme": "M3X4/D7985",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "L1": {
         "value": "RN112-4-02-0M7",
@@ -1396,7 +1916,10 @@
         "pn:digikey": "817-2100-ND",
         "pn:mouser": "631-RN112-4-02-0M7",
         "pn:tme": "-",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "RN112-4-02-0M7",
+        "pn:arrow-europe": "RN112-4-02-0M7",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "L2": {
         "value": "ETQ-P4M100KFM",
@@ -1404,7 +1927,10 @@
         "pn:digikey": "P124167CT-ND",
         "pn:mouser": "667-ETQ-P4M100KFM",
         "pn:tme": "-",
-        "pn:lcsc": ""
+        "pn:lcsc": "C6617587",
+        "pn:arrow-acna": "ETQ-P4M100KFM",
+        "pn:arrow-europe": "ETQ-P4M100KFM",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "L3": {
         "value": "HPI0630-3R3",
@@ -1412,7 +1938,10 @@
         "pn:digikey": "445-180834-1-ND",
         "pn:mouser": "810-VLS6045AF-3R3N",
         "pn:tme": "ETQP4M3R3YFN",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "LED2": {
         "value": "WP42WUM/EGW",
@@ -1420,7 +1949,10 @@
         "pn:digikey": "754-1718-ND",
         "pn:mouser": "604-WP42WUM/EGW",
         "pn:tme": "L-42WUM/1EGWT",
-        "pn:lcsc": ""
+        "pn:lcsc": "C8750275",
+        "pn:arrow-acna": "WP42WUM/EGW",
+        "pn:arrow-europe": "WP42WUM/EGW",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "LED4": {
         "value": "WP934MD/LYLID",
@@ -1428,7 +1960,10 @@
         "pn:digikey": "350-2716-ND",
         "pn:mouser": "604-WP934MDLYLID",
         "pn:tme": "-",
-        "pn:lcsc": "-"
+        "pn:lcsc": "-",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "Q1": {
         "value": "BSS84",
@@ -1436,7 +1971,10 @@
         "pn:digikey": "BSS84LT1GOSCT-ND",
         "pn:mouser": "863-BSS84LT1G",
         "pn:tme": "BSS84LT1G",
-        "pn:lcsc": "C82079"
+        "pn:lcsc": "C82079",
+        "pn:arrow-acna": "BSS84",
+        "pn:arrow-europe": "BSS84",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "Q2": {
         "value": "BSC117N08NS5ATMA1",
@@ -1444,7 +1982,10 @@
         "pn:digikey": "BSC117N08NS5ATMA1CT-ND",
         "pn:mouser": "726-BSC117N08NS5ATMA",
         "pn:tme": "BSC117N08NS5-INF-0",
-        "pn:lcsc": "C3278730"
+        "pn:lcsc": "C3278730",
+        "pn:arrow-acna": "BSC117N08NS5ATMA1",
+        "pn:arrow-europe": "BSC117N08NS5ATMA1",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "Q3": {
         "value": "BSC039N06NSATMA1",
@@ -1452,7 +1993,10 @@
         "pn:digikey": "BSC039N06NSATMA1CT-ND",
         "pn:mouser": "726-BSC039N06NSATMA1",
         "pn:tme": "BSC039N06NS",
-        "pn:lcsc": "C6471340"
+        "pn:lcsc": "C6471340",
+        "pn:arrow-acna": "BSC039N06NSATMA1",
+        "pn:arrow-europe": "BSC039N06NSATMA1",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "Q5": {
         "value": "MMBT5401",
@@ -1460,7 +2004,10 @@
         "pn:digikey": "MMBT5401-FDICT-ND",
         "pn:mouser": "621-MMBT5401-F",
         "pn:tme": "MMBT5401-DIO",
-        "pn:lcsc": "C21488"
+        "pn:lcsc": "C21488",
+        "pn:arrow-acna": "MMBT5401LT1G",
+        "pn:arrow-europe": "MMBT5401LT1G",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "Q8": {
         "value": "MMBT5401",
@@ -1468,7 +2015,10 @@
         "pn:digikey": "MMBT5401-FDICT-ND",
         "pn:mouser": "621-MMBT5401-F",
         "pn:tme": "MMBT5401-DIO",
-        "pn:lcsc": "C21488"
+        "pn:lcsc": "C21488",
+        "pn:arrow-acna": "MMBT5401LT1G",
+        "pn:arrow-europe": "MMBT5401LT1G",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "Q9": {
         "value": "MMBT5401",
@@ -1476,7 +2026,10 @@
         "pn:digikey": "MMBT5401-FDICT-ND",
         "pn:mouser": "621-MMBT5401-F",
         "pn:tme": "MMBT5401-DIO",
-        "pn:lcsc": "C21488"
+        "pn:lcsc": "C21488",
+        "pn:arrow-acna": "MMBT5401LT1G",
+        "pn:arrow-europe": "MMBT5401LT1G",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "Q7": {
         "value": "MMBT5551",
@@ -1484,7 +2037,10 @@
         "pn:digikey": "MMBT5551LT1GOSCT-ND",
         "pn:mouser": "637-MMBT5551",
         "pn:tme": "MMBT5551-DIO",
-        "pn:lcsc": "C41095"
+        "pn:lcsc": "C41095",
+        "pn:arrow-acna": "MMBT5551",
+        "pn:arrow-europe": "MMBT5551",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "Q11": {
         "value": "MMBT5551",
@@ -1492,7 +2048,10 @@
         "pn:digikey": "MMBT5551LT1GOSCT-ND",
         "pn:mouser": "637-MMBT5551",
         "pn:tme": "MMBT5551-DIO",
-        "pn:lcsc": "C41095"
+        "pn:lcsc": "C41095",
+        "pn:arrow-acna": "MMBT5551",
+        "pn:arrow-europe": "MMBT5551",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "Q26": {
         "value": "MMBT5551",
@@ -1500,7 +2059,10 @@
         "pn:digikey": "MMBT5551LT1GOSCT-ND",
         "pn:mouser": "637-MMBT5551",
         "pn:tme": "MMBT5551-DIO",
-        "pn:lcsc": "C41095"
+        "pn:lcsc": "C41095",
+        "pn:arrow-acna": "MMBT5551",
+        "pn:arrow-europe": "MMBT5551",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "Q10": {
         "value": "BCP56-16.115",
@@ -1508,7 +2070,10 @@
         "pn:digikey": "5399-BCP56-16CT-ND",
         "pn:mouser": "637-BCP56-16",
         "pn:tme": "BCP56-16T1G",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "BCP56-16,115",
+        "pn:arrow-europe": "BCP56-16,115",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "Q13": {
         "value": "BCP56-16.115",
@@ -1516,7 +2081,10 @@
         "pn:digikey": "5399-BCP56-16CT-ND",
         "pn:mouser": "637-BCP56-16",
         "pn:tme": "BCP56-16T1G",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "BCP56-16,115",
+        "pn:arrow-europe": "BCP56-16,115",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "Q12": {
         "value": "IRFP250NPBF",
@@ -1524,7 +2092,10 @@
         "pn:digikey": "IRFP250PBF-ND",
         "pn:mouser": "942-IRFP250NPBF",
         "pn:tme": "IRFP250NPBF",
-        "pn:lcsc": ""
+        "pn:lcsc": "IRFP250NPBF",
+        "pn:arrow-acna": "IRFP250NPBF",
+        "pn:arrow-europe": "IRFP250NPBF",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "Q14": {
         "value": "BC857C",
@@ -1532,7 +2103,10 @@
         "pn:digikey": "4878-BC857CCT-ND",
         "pn:mouser": "637-BC857C",
         "pn:tme": "BC857C-DIO",
-        "pn:lcsc": "C8666"
+        "pn:lcsc": "C8666",
+        "pn:arrow-acna": "BC857C",
+        "pn:arrow-europe": "BC857C",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "Q15": {
         "value": "IRFI9Z34GPBF",
@@ -1540,7 +2114,10 @@
         "pn:digikey": "IRFI9Z34GPBF-ND",
         "pn:mouser": "844-IRFI9Z34GPBF",
         "pn:tme": "IRFI9Z34GPBF",
-        "pn:lcsc": "C222460"
+        "pn:lcsc": "C222460",
+        "pn:arrow-acna": "IRFI9Z34GPBF",
+        "pn:arrow-europe": "IRFI9Z34GPBF",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "Q16": {
         "value": "PSMN0R9-25YLC",
@@ -1548,7 +2125,10 @@
         "pn:digikey": "1727-5292-1-ND",
         "pn:mouser": "771-PSMN0R925YLC115",
         "pn:tme": "PSMN0R9-25YLC.115",
-        "pn:lcsc": "C179450"
+        "pn:lcsc": "C179450",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "Q17": {
         "value": "PSMN0R9-25YLC",
@@ -1556,7 +2136,10 @@
         "pn:digikey": "1727-5292-1-ND",
         "pn:mouser": "771-PSMN0R925YLC115",
         "pn:tme": "PSMN0R9-25YLC.115",
-        "pn:lcsc": "C179450"
+        "pn:lcsc": "C179450",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "Q23": {
         "value": "2N7002",
@@ -1564,7 +2147,10 @@
         "pn:digikey": "T2N7002AKLMCT-ND",
         "pn:mouser": "757-T2N7002AKLM",
         "pn:tme": "2N7002LT1G",
-        "pn:lcsc": "C8545"
+        "pn:lcsc": "C8545",
+        "pn:arrow-acna": "2N7002",
+        "pn:arrow-europe": "2N7002",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "Q24": {
         "value": "2N7002",
@@ -1572,7 +2158,10 @@
         "pn:digikey": "T2N7002AKLMCT-ND",
         "pn:mouser": "757-T2N7002AKLM",
         "pn:tme": "2N7002LT1G",
-        "pn:lcsc": "C8545"
+        "pn:lcsc": "C8545",
+        "pn:arrow-acna": "2N7002",
+        "pn:arrow-europe": "2N7002",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "Q25": {
         "value": "2N7002",
@@ -1580,7 +2169,10 @@
         "pn:digikey": "T2N7002AKLMCT-ND",
         "pn:mouser": "757-T2N7002AKLM",
         "pn:tme": "2N7002LT1G",
-        "pn:lcsc": "C8545"
+        "pn:lcsc": "C8545",
+        "pn:arrow-acna": "2N7002",
+        "pn:arrow-europe": "2N7002",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "Q27": {
         "value": "FMMT493TA",
@@ -1588,7 +2180,10 @@
         "pn:digikey": "FMMT493CT-ND",
         "pn:mouser": "522-FMMT493TA",
         "pn:tme": "FMMT493TA",
-        "pn:lcsc": ""
+        "pn:lcsc": "C435889",
+        "pn:arrow-acna": "FMMT493TA",
+        "pn:arrow-europe": "FMMT493TA",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "Q28": {
         "value": "BT139B-600E",
@@ -1596,7 +2191,10 @@
         "pn:digikey": "1740-1290-1-ND",
         "pn:mouser": "771-BT139B-600E118",
         "pn:tme": "BT139B-600E.118",
-        "pn:lcsc": "C6533556"
+        "pn:lcsc": "C6533556",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "Q29": {
         "value": "PSMN013-60YL",
@@ -1604,7 +2202,10 @@
         "pn:digikey": "1727-2589-1-ND",
         "pn:mouser": "771-PSMN013-60YLX",
         "pn:tme": "PSMN013-60YLX",
-        "pn:lcsc": "C503662"
+        "pn:lcsc": "C503662",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "R1": {
         "value": "100R",
@@ -1612,7 +2213,10 @@
         "pn:digikey": "13-RC0603FR-10100RLCT-ND",
         "pn:mouser": "603-RC0603FR-100RL",
         "pn:tme": "CRCW0603100RFKTABC",
-        "pn:lcsc": "C22775"
+        "pn:lcsc": "C22775",
+        "pn:arrow-acna": "RC0603FR-100RL",
+        "pn:arrow-europe": "RC0603FR-100RL",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "R2": {
         "value": "100R",
@@ -1620,7 +2224,10 @@
         "pn:digikey": "13-RC0603FR-10100RLCT-ND",
         "pn:mouser": "603-RC0603FR-100RL",
         "pn:tme": "CRCW0603100RFKTABC",
-        "pn:lcsc": "C22775"
+        "pn:lcsc": "C22775",
+        "pn:arrow-acna": "RC0603FR-100RL",
+        "pn:arrow-europe": "RC0603FR-100RL",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "R3": {
         "value": "100R",
@@ -1628,7 +2235,10 @@
         "pn:digikey": "13-RC0603FR-10100RLCT-ND",
         "pn:mouser": "603-RC0603FR-100RL",
         "pn:tme": "CRCW0603100RFKTABC",
-        "pn:lcsc": "C22775"
+        "pn:lcsc": "C22775",
+        "pn:arrow-acna": "RC0603FR-100RL",
+        "pn:arrow-europe": "RC0603FR-100RL",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "R4": {
         "value": "100R",
@@ -1636,7 +2246,10 @@
         "pn:digikey": "13-RC0603FR-10100RLCT-ND",
         "pn:mouser": "603-RC0603FR-100RL",
         "pn:tme": "CRCW0603100RFKTABC",
-        "pn:lcsc": "C22775"
+        "pn:lcsc": "C22775",
+        "pn:arrow-acna": "RC0603FR-100RL",
+        "pn:arrow-europe": "RC0603FR-100RL",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "R5": {
         "value": "100R",
@@ -1644,7 +2257,10 @@
         "pn:digikey": "13-RC0603FR-10100RLCT-ND",
         "pn:mouser": "603-RC0603FR-100RL",
         "pn:tme": "CRCW0603100RFKTABC",
-        "pn:lcsc": "C22775"
+        "pn:lcsc": "C22775",
+        "pn:arrow-acna": "RC0603FR-100RL",
+        "pn:arrow-europe": "RC0603FR-100RL",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "R6": {
         "value": "100R",
@@ -1652,7 +2268,10 @@
         "pn:digikey": "13-RC0603FR-10100RLCT-ND",
         "pn:mouser": "603-RC0603FR-100RL",
         "pn:tme": "CRCW0603100RFKTABC",
-        "pn:lcsc": "C22775"
+        "pn:lcsc": "C22775",
+        "pn:arrow-acna": "RC0603FR-100RL",
+        "pn:arrow-europe": "RC0603FR-100RL",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "R7": {
         "value": "100R",
@@ -1660,7 +2279,10 @@
         "pn:digikey": "13-RC0603FR-10100RLCT-ND",
         "pn:mouser": "603-RC0603FR-100RL",
         "pn:tme": "CRCW0603100RFKTABC",
-        "pn:lcsc": "C22775"
+        "pn:lcsc": "C22775",
+        "pn:arrow-acna": "RC0603FR-100RL",
+        "pn:arrow-europe": "RC0603FR-100RL",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "R8": {
         "value": "100R",
@@ -1668,15 +2290,21 @@
         "pn:digikey": "13-RC0603FR-10100RLCT-ND",
         "pn:mouser": "603-RC0603FR-100RL",
         "pn:tme": "CRCW0603100RFKTABC",
-        "pn:lcsc": "C22775"
+        "pn:lcsc": "C22775",
+        "pn:arrow-acna": "RC0603FR-100RL",
+        "pn:arrow-europe": "RC0603FR-100RL",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
-      "R47": {
+      "R48": {
         "value": "100R",
         "footprint": "PCM_EEZ_passives:R_0603_1608Metric",
         "pn:digikey": "13-RC0603FR-10100RLCT-ND",
         "pn:mouser": "603-RC0603FR-100RL",
         "pn:tme": "CRCW0603100RFKTABC",
-        "pn:lcsc": "C22775"
+        "pn:lcsc": "C22775",
+        "pn:arrow-acna": "RC0603FR-100RL",
+        "pn:arrow-europe": "RC0603FR-100RL",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "R9": {
         "value": "10R",
@@ -1684,7 +2312,10 @@
         "pn:digikey": "311-10.0CRCT-ND",
         "pn:mouser": "603-RC0805FR-1010RP",
         "pn:tme": "SMD0805-10R-1%",
-        "pn:lcsc": "C17415"
+        "pn:lcsc": "C17415",
+        "pn:arrow-acna": "RC0805FR-0710RL",
+        "pn:arrow-europe": "RC0805FR-0710RL",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "R21": {
         "value": "10R",
@@ -1692,31 +2323,32 @@
         "pn:digikey": "311-10.0CRCT-ND",
         "pn:mouser": "603-RC0805FR-1010RP",
         "pn:tme": "SMD0805-10R-1%",
-        "pn:lcsc": "C17415"
+        "pn:lcsc": "C17415",
+        "pn:arrow-acna": "RC0805FR-0710RL",
+        "pn:arrow-europe": "RC0805FR-0710RL",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
-      "R33": {
+      "R34": {
         "value": "10R",
         "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
         "pn:digikey": "311-10.0CRCT-ND",
         "pn:mouser": "603-RC0805FR-1010RP",
         "pn:tme": "SMD0805-10R-1%",
-        "pn:lcsc": "C17415"
+        "pn:lcsc": "C17415",
+        "pn:arrow-acna": "RC0805FR-0710RL",
+        "pn:arrow-europe": "RC0805FR-0710RL",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
-      "R42": {
+      "R43": {
         "value": "10R",
         "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
         "pn:digikey": "311-10.0CRCT-ND",
         "pn:mouser": "603-RC0805FR-1010RP",
         "pn:tme": "SMD0805-10R-1%",
-        "pn:lcsc": "C17415"
-      },
-      "R147": {
-        "value": "10R",
-        "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
-        "pn:digikey": "311-10.0CRCT-ND",
-        "pn:mouser": "603-RC0805FR-1010RP",
-        "pn:tme": "SMD0805-10R-1%",
-        "pn:lcsc": "C17415"
+        "pn:lcsc": "C17415",
+        "pn:arrow-acna": "RC0805FR-0710RL",
+        "pn:arrow-europe": "RC0805FR-0710RL",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "R148": {
         "value": "10R",
@@ -1724,15 +2356,32 @@
         "pn:digikey": "311-10.0CRCT-ND",
         "pn:mouser": "603-RC0805FR-1010RP",
         "pn:tme": "SMD0805-10R-1%",
-        "pn:lcsc": "C17415"
+        "pn:lcsc": "C17415",
+        "pn:arrow-acna": "RC0805FR-0710RL",
+        "pn:arrow-europe": "RC0805FR-0710RL",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
-      "R151": {
+      "R149": {
         "value": "10R",
         "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
         "pn:digikey": "311-10.0CRCT-ND",
         "pn:mouser": "603-RC0805FR-1010RP",
         "pn:tme": "SMD0805-10R-1%",
-        "pn:lcsc": "C17415"
+        "pn:lcsc": "C17415",
+        "pn:arrow-acna": "RC0805FR-0710RL",
+        "pn:arrow-europe": "RC0805FR-0710RL",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
+      },
+      "R152": {
+        "value": "10R",
+        "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
+        "pn:digikey": "311-10.0CRCT-ND",
+        "pn:mouser": "603-RC0805FR-1010RP",
+        "pn:tme": "SMD0805-10R-1%",
+        "pn:lcsc": "C17415",
+        "pn:arrow-acna": "RC0805FR-0710RL",
+        "pn:arrow-europe": "RC0805FR-0710RL",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "R10": {
         "value": "10K",
@@ -1740,7 +2389,10 @@
         "pn:digikey": "311-10.0KCRCT-ND",
         "pn:mouser": "603-RC0805FR-0710KL",
         "pn:tme": "RC0805FR-1310KL",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "R14": {
         "value": "10K",
@@ -1748,7 +2400,10 @@
         "pn:digikey": "311-10.0KCRCT-ND",
         "pn:mouser": "603-RC0805FR-0710KL",
         "pn:tme": "RC0805FR-1310KL",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "R15": {
         "value": "10K",
@@ -1756,7 +2411,10 @@
         "pn:digikey": "311-10.0KCRCT-ND",
         "pn:mouser": "603-RC0805FR-0710KL",
         "pn:tme": "RC0805FR-1310KL",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "R18": {
         "value": "10K",
@@ -1764,15 +2422,21 @@
         "pn:digikey": "311-10.0KCRCT-ND",
         "pn:mouser": "603-RC0805FR-0710KL",
         "pn:tme": "RC0805FR-1310KL",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
-      "R24": {
+      "R22": {
         "value": "10K",
         "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
         "pn:digikey": "311-10.0KCRCT-ND",
         "pn:mouser": "603-RC0805FR-0710KL",
         "pn:tme": "RC0805FR-1310KL",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "R25": {
         "value": "10K",
@@ -1780,71 +2444,98 @@
         "pn:digikey": "311-10.0KCRCT-ND",
         "pn:mouser": "603-RC0805FR-0710KL",
         "pn:tme": "RC0805FR-1310KL",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
-      "R29": {
+      "R26": {
         "value": "10K",
         "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
         "pn:digikey": "311-10.0KCRCT-ND",
         "pn:mouser": "603-RC0805FR-0710KL",
         "pn:tme": "RC0805FR-1310KL",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
-      "R32": {
+      "R30": {
         "value": "10K",
         "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
         "pn:digikey": "311-10.0KCRCT-ND",
         "pn:mouser": "603-RC0805FR-0710KL",
         "pn:tme": "RC0805FR-1310KL",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
-      "R36": {
+      "R33": {
         "value": "10K",
         "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
         "pn:digikey": "311-10.0KCRCT-ND",
         "pn:mouser": "603-RC0805FR-0710KL",
         "pn:tme": "RC0805FR-1310KL",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
-      "R40": {
+      "R37": {
         "value": "10K",
         "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
         "pn:digikey": "311-10.0KCRCT-ND",
         "pn:mouser": "603-RC0805FR-0710KL",
         "pn:tme": "RC0805FR-1310KL",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
-      "R58": {
+      "R41": {
         "value": "10K",
         "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
         "pn:digikey": "311-10.0KCRCT-ND",
         "pn:mouser": "603-RC0805FR-0710KL",
         "pn:tme": "RC0805FR-1310KL",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
-      "R69": {
+      "R59": {
         "value": "10K",
         "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
         "pn:digikey": "311-10.0KCRCT-ND",
         "pn:mouser": "603-RC0805FR-0710KL",
         "pn:tme": "RC0805FR-1310KL",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
-      "R83": {
+      "R70": {
         "value": "10K",
         "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
         "pn:digikey": "311-10.0KCRCT-ND",
         "pn:mouser": "603-RC0805FR-0710KL",
         "pn:tme": "RC0805FR-1310KL",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
-      "R126": {
+      "R84": {
         "value": "10K",
         "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
         "pn:digikey": "311-10.0KCRCT-ND",
         "pn:mouser": "603-RC0805FR-0710KL",
         "pn:tme": "RC0805FR-1310KL",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "R127": {
         "value": "10K",
@@ -1852,7 +2543,10 @@
         "pn:digikey": "311-10.0KCRCT-ND",
         "pn:mouser": "603-RC0805FR-0710KL",
         "pn:tme": "RC0805FR-1310KL",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "R128": {
         "value": "10K",
@@ -1860,15 +2554,21 @@
         "pn:digikey": "311-10.0KCRCT-ND",
         "pn:mouser": "603-RC0805FR-0710KL",
         "pn:tme": "RC0805FR-1310KL",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
-      "R130": {
+      "R129": {
         "value": "10K",
         "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
         "pn:digikey": "311-10.0KCRCT-ND",
         "pn:mouser": "603-RC0805FR-0710KL",
         "pn:tme": "RC0805FR-1310KL",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "R131": {
         "value": "10K",
@@ -1876,23 +2576,32 @@
         "pn:digikey": "311-10.0KCRCT-ND",
         "pn:mouser": "603-RC0805FR-0710KL",
         "pn:tme": "RC0805FR-1310KL",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
-      "R133": {
+      "R132": {
         "value": "10K",
         "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
         "pn:digikey": "311-10.0KCRCT-ND",
         "pn:mouser": "603-RC0805FR-0710KL",
         "pn:tme": "RC0805FR-1310KL",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
-      "R140": {
+      "R134": {
         "value": "10K",
         "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
         "pn:digikey": "311-10.0KCRCT-ND",
         "pn:mouser": "603-RC0805FR-0710KL",
         "pn:tme": "RC0805FR-1310KL",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "R141": {
         "value": "10K",
@@ -1900,7 +2609,10 @@
         "pn:digikey": "311-10.0KCRCT-ND",
         "pn:mouser": "603-RC0805FR-0710KL",
         "pn:tme": "RC0805FR-1310KL",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "R142": {
         "value": "10K",
@@ -1908,7 +2620,21 @@
         "pn:digikey": "311-10.0KCRCT-ND",
         "pn:mouser": "603-RC0805FR-0710KL",
         "pn:tme": "RC0805FR-1310KL",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
+      },
+      "R143": {
+        "value": "10K",
+        "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
+        "pn:digikey": "311-10.0KCRCT-ND",
+        "pn:mouser": "603-RC0805FR-0710KL",
+        "pn:tme": "RC0805FR-1310KL",
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "R11": {
         "value": "1K8",
@@ -1916,7 +2642,10 @@
         "pn:digikey": "311-1.80KCRCT-ND",
         "pn:mouser": "603-RC0805FR-131K8L",
         "pn:tme": "SMD0805-1K8-1%",
-        "pn:lcsc": "C137579"
+        "pn:lcsc": "C137579",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "R13": {
         "value": "1K8",
@@ -1924,7 +2653,10 @@
         "pn:digikey": "311-1.80KCRCT-ND",
         "pn:mouser": "603-RC0805FR-131K8L",
         "pn:tme": "SMD0805-1K8-1%",
-        "pn:lcsc": "C137579"
+        "pn:lcsc": "C137579",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "R19": {
         "value": "1K8",
@@ -1932,7 +2664,10 @@
         "pn:digikey": "311-1.80KCRCT-ND",
         "pn:mouser": "603-RC0805FR-131K8L",
         "pn:tme": "SMD0805-1K8-1%",
-        "pn:lcsc": "C137579"
+        "pn:lcsc": "C137579",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "R16": {
         "value": "0R",
@@ -1940,15 +2675,10 @@
         "pn:digikey": "311-0.0HRCT-ND",
         "pn:mouser": "603-RC0603FR-070RL",
         "pn:tme": "RC0603FR-070RL",
-        "pn:lcsc": "C100044"
-      },
-      "R108": {
-        "value": "0R",
-        "footprint": "PCM_EEZ_passives:R_0603_1608Metric",
-        "pn:digikey": "311-0.0HRCT-ND",
-        "pn:mouser": "603-RC0603FR-070RL",
-        "pn:tme": "RC0603FR-070RL",
-        "pn:lcsc": "C100044"
+        "pn:lcsc": "C100044",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "R109": {
         "value": "0R",
@@ -1956,7 +2686,10 @@
         "pn:digikey": "311-0.0HRCT-ND",
         "pn:mouser": "603-RC0603FR-070RL",
         "pn:tme": "RC0603FR-070RL",
-        "pn:lcsc": "C100044"
+        "pn:lcsc": "C100044",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "R110": {
         "value": "0R",
@@ -1964,7 +2697,10 @@
         "pn:digikey": "311-0.0HRCT-ND",
         "pn:mouser": "603-RC0603FR-070RL",
         "pn:tme": "RC0603FR-070RL",
-        "pn:lcsc": "C100044"
+        "pn:lcsc": "C100044",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "R111": {
         "value": "0R",
@@ -1972,7 +2708,21 @@
         "pn:digikey": "311-0.0HRCT-ND",
         "pn:mouser": "603-RC0603FR-070RL",
         "pn:tme": "RC0603FR-070RL",
-        "pn:lcsc": "C100044"
+        "pn:lcsc": "C100044",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
+      },
+      "R112": {
+        "value": "0R",
+        "footprint": "PCM_EEZ_passives:R_0603_1608Metric",
+        "pn:digikey": "311-0.0HRCT-ND",
+        "pn:mouser": "603-RC0603FR-070RL",
+        "pn:tme": "RC0603FR-070RL",
+        "pn:lcsc": "C100044",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "R17": {
         "value": "100K",
@@ -1980,31 +2730,43 @@
         "pn:digikey": "RMCF0805FT100KCT-ND",
         "pn:mouser": "71-CRCW0805100KFKEAC",
         "pn:tme": "0805S8F1003T5E",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
-      "R23": {
+      "R24": {
         "value": "100K",
         "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
         "pn:digikey": "RMCF0805FT100KCT-ND",
         "pn:mouser": "71-CRCW0805100KFKEAC",
         "pn:tme": "0805S8F1003T5E",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
-      "R39": {
+      "R40": {
         "value": "100K",
         "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
         "pn:digikey": "RMCF0805FT100KCT-ND",
         "pn:mouser": "71-CRCW0805100KFKEAC",
         "pn:tme": "0805S8F1003T5E",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
-      "R136": {
+      "R137": {
         "value": "100K",
         "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
         "pn:digikey": "RMCF0805FT100KCT-ND",
         "pn:mouser": "71-CRCW0805100KFKEAC",
         "pn:tme": "0805S8F1003T5E",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "R20": {
         "value": "330R",
@@ -2012,63 +2774,76 @@
         "pn:digikey": "A129743CT-ND",
         "pn:mouser": "652-CR0805FX-3300ELF",
         "pn:tme": "0805S8F3300T5E",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
-      "R129": {
+      "R130": {
         "value": "330R",
         "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
         "pn:digikey": "A129743CT-ND",
         "pn:mouser": "652-CR0805FX-3300ELF",
         "pn:tme": "0805S8F3300T5E",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
-      "R22": {
+      "R23": {
         "value": "1R",
         "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
         "pn:digikey": "13-RC0805FR-131RLCT-ND",
         "pn:mouser": "603-RC0805FR-131RL",
         "pn:tme": "RC0805FR-131RL",
-        "pn:lcsc": "C7336808"
+        "pn:lcsc": "C7336808",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
-      "R115": {
+      "R116": {
         "value": "1R",
         "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
         "pn:digikey": "13-RC0805FR-131RLCT-ND",
         "pn:mouser": "603-RC0805FR-131RL",
         "pn:tme": "RC0805FR-131RL",
-        "pn:lcsc": "C7336808"
+        "pn:lcsc": "C7336808",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
-      "R30": {
+      "R31": {
         "value": "47K",
         "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
         "pn:digikey": "RHM47KKCT-ND",
         "pn:mouser": "603-RC0805FR-0747KL",
         "pn:tme": "RC0805FR-0747K",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
-      "R50": {
+      "R51": {
         "value": "47K",
         "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
         "pn:digikey": "RHM47KKCT-ND",
         "pn:mouser": "603-RC0805FR-0747KL",
         "pn:tme": "RC0805FR-0747K",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
-      "R63": {
+      "R64": {
         "value": "47K",
         "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
         "pn:digikey": "RHM47KKCT-ND",
         "pn:mouser": "603-RC0805FR-0747KL",
         "pn:tme": "RC0805FR-0747K",
-        "pn:lcsc": ""
-      },
-      "R90": {
-        "value": "47K",
-        "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
-        "pn:digikey": "RHM47KKCT-ND",
-        "pn:mouser": "603-RC0805FR-0747KL",
-        "pn:tme": "RC0805FR-0747K",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "R91": {
         "value": "47K",
@@ -2076,55 +2851,76 @@
         "pn:digikey": "RHM47KKCT-ND",
         "pn:mouser": "603-RC0805FR-0747KL",
         "pn:tme": "RC0805FR-0747K",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
-      "R144": {
+      "R92": {
         "value": "47K",
         "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
         "pn:digikey": "RHM47KKCT-ND",
         "pn:mouser": "603-RC0805FR-0747KL",
         "pn:tme": "RC0805FR-0747K",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
-      "R31": {
+      "R145": {
+        "value": "47K",
+        "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
+        "pn:digikey": "RHM47KKCT-ND",
+        "pn:mouser": "603-RC0805FR-0747KL",
+        "pn:tme": "RC0805FR-0747K",
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
+      },
+      "R32": {
         "value": "470R",
         "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
         "pn:digikey": "13-RC0805FR-13470RLCT-ND",
         "pn:mouser": "603-RC0805FR-13470RL",
         "pn:tme": "RC0805FR-07470R",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
-      "R48": {
+      "R49": {
         "value": "470R",
         "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
         "pn:digikey": "13-RC0805FR-13470RLCT-ND",
         "pn:mouser": "603-RC0805FR-13470RL",
         "pn:tme": "RC0805FR-07470R",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
-      "R54": {
+      "R55": {
         "value": "470R",
         "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
         "pn:digikey": "13-RC0805FR-13470RLCT-ND",
         "pn:mouser": "603-RC0805FR-13470RL",
         "pn:tme": "RC0805FR-07470R",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
-      "R34": {
+      "R35": {
         "value": "3K9",
         "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
         "pn:digikey": "A126369CT-ND",
         "pn:mouser": "279-CRGP0805F3K9",
         "pn:tme": "SMD0805-3K9-1%",
-        "pn:lcsc": ""
-      },
-      "R120": {
-        "value": "3K9",
-        "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
-        "pn:digikey": "A126369CT-ND",
-        "pn:mouser": "279-CRGP0805F3K9",
-        "pn:tme": "SMD0805-3K9-1%",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "R121": {
         "value": "3K9",
@@ -2132,39 +2928,54 @@
         "pn:digikey": "A126369CT-ND",
         "pn:mouser": "279-CRGP0805F3K9",
         "pn:tme": "SMD0805-3K9-1%",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
-      "R38": {
+      "R122": {
+        "value": "3K9",
+        "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
+        "pn:digikey": "A126369CT-ND",
+        "pn:mouser": "279-CRGP0805F3K9",
+        "pn:tme": "SMD0805-3K9-1%",
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
+      },
+      "R39": {
         "value": "15R",
         "footprint": "PCM_EEZ_passives:R_2010_5025Metric",
         "pn:digikey": "A129910CT-ND",
         "pn:mouser": "603-RC2010FK-0715RL",
         "pn:tme": "PWR10FTFQ0150",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
-      "R41": {
+      "R42": {
         "value": "1K",
         "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
         "pn:digikey": "311-1.00KCRCT-ND",
         "pn:mouser": "603-RC0805FR-071KL",
         "pn:tme": "RC0805FR-071K",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
-      "R49": {
+      "R50": {
         "value": "1K",
         "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
         "pn:digikey": "311-1.00KCRCT-ND",
         "pn:mouser": "603-RC0805FR-071KL",
         "pn:tme": "RC0805FR-071K",
-        "pn:lcsc": ""
-      },
-      "R55": {
-        "value": "1K",
-        "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
-        "pn:digikey": "311-1.00KCRCT-ND",
-        "pn:mouser": "603-RC0805FR-071KL",
-        "pn:tme": "RC0805FR-071K",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "R56": {
         "value": "1K",
@@ -2172,23 +2983,32 @@
         "pn:digikey": "311-1.00KCRCT-ND",
         "pn:mouser": "603-RC0805FR-071KL",
         "pn:tme": "RC0805FR-071K",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
-      "R60": {
+      "R57": {
         "value": "1K",
         "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
         "pn:digikey": "311-1.00KCRCT-ND",
         "pn:mouser": "603-RC0805FR-071KL",
         "pn:tme": "RC0805FR-071K",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
-      "R134": {
+      "R61": {
         "value": "1K",
         "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
         "pn:digikey": "311-1.00KCRCT-ND",
         "pn:mouser": "603-RC0805FR-071KL",
         "pn:tme": "RC0805FR-071K",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "R135": {
         "value": "1K",
@@ -2196,15 +3016,21 @@
         "pn:digikey": "311-1.00KCRCT-ND",
         "pn:mouser": "603-RC0805FR-071KL",
         "pn:tme": "RC0805FR-071K",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
-      "R137": {
+      "R136": {
         "value": "1K",
         "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
         "pn:digikey": "311-1.00KCRCT-ND",
         "pn:mouser": "603-RC0805FR-071KL",
         "pn:tme": "RC0805FR-071K",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "R138": {
         "value": "1K",
@@ -2212,23 +3038,32 @@
         "pn:digikey": "311-1.00KCRCT-ND",
         "pn:mouser": "603-RC0805FR-071KL",
         "pn:tme": "RC0805FR-071K",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
-      "R43": {
+      "R139": {
+        "value": "1K",
+        "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
+        "pn:digikey": "311-1.00KCRCT-ND",
+        "pn:mouser": "603-RC0805FR-071KL",
+        "pn:tme": "RC0805FR-071K",
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
+      },
+      "R44": {
         "value": "1K2",
         "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
         "pn:digikey": "311-1.20KCRCT-ND",
         "pn:mouser": "603-RC0805FR-071K2L",
         "pn:tme": "SMD0805-1K2-1%",
-        "pn:lcsc": "C114526"
-      },
-      "R44": {
-        "value": "220R",
-        "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
-        "pn:digikey": "RMCF0805FT220RCT-ND",
-        "pn:mouser": "603-RC0805FR-13220RL",
-        "pn:tme": "CRCW0805220RFKTABC",
-        "pn:lcsc": ""
+        "pn:lcsc": "C114526",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "R45": {
         "value": "220R",
@@ -2236,63 +3071,87 @@
         "pn:digikey": "RMCF0805FT220RCT-ND",
         "pn:mouser": "603-RC0805FR-13220RL",
         "pn:tme": "CRCW0805220RFKTABC",
-        "pn:lcsc": ""
-      },
-      "R57": {
-        "value": "220R",
-        "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
-        "pn:digikey": "RMCF0805FT220RCT-ND",
-        "pn:mouser": "603-RC0805FR-13220RL",
-        "pn:tme": "CRCW0805220RFKTABC",
-        "pn:lcsc": ""
-      },
-      "R86": {
-        "value": "220R",
-        "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
-        "pn:digikey": "RMCF0805FT220RCT-ND",
-        "pn:mouser": "603-RC0805FR-13220RL",
-        "pn:tme": "CRCW0805220RFKTABC",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "R46": {
+        "value": "220R",
+        "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
+        "pn:digikey": "RMCF0805FT220RCT-ND",
+        "pn:mouser": "603-RC0805FR-13220RL",
+        "pn:tme": "CRCW0805220RFKTABC",
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
+      },
+      "R58": {
+        "value": "220R",
+        "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
+        "pn:digikey": "RMCF0805FT220RCT-ND",
+        "pn:mouser": "603-RC0805FR-13220RL",
+        "pn:tme": "CRCW0805220RFKTABC",
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
+      },
+      "R87": {
+        "value": "220R",
+        "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
+        "pn:digikey": "RMCF0805FT220RCT-ND",
+        "pn:mouser": "603-RC0805FR-13220RL",
+        "pn:tme": "CRCW0805220RFKTABC",
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
+      },
+      "R47": {
         "value": "51K",
         "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
         "pn:digikey": "311-51.0KCRCT-ND",
         "pn:mouser": "603-RC0805FR-0751KL",
         "pn:tme": "SMD0805-51K-1%",
-        "pn:lcsc": "C107233"
+        "pn:lcsc": "C107233",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
-      "R149": {
+      "R150": {
         "value": "51K",
         "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
         "pn:digikey": "311-51.0KCRCT-ND",
         "pn:mouser": "603-RC0805FR-0751KL",
         "pn:tme": "SMD0805-51K-1%",
-        "pn:lcsc": "C107233"
+        "pn:lcsc": "C107233",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
-      "R51": {
+      "R52": {
         "value": "2K2",
         "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
         "pn:digikey": "311-2.20KCRCT-ND",
         "pn:mouser": "603-RC0805FR-072K2L",
         "pn:tme": "0805S8F2201T5E",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
-      "R59": {
+      "R60": {
         "value": "2K2",
         "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
         "pn:digikey": "311-2.20KCRCT-ND",
         "pn:mouser": "603-RC0805FR-072K2L",
         "pn:tme": "0805S8F2201T5E",
-        "pn:lcsc": ""
-      },
-      "R64": {
-        "value": "2K2",
-        "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
-        "pn:digikey": "311-2.20KCRCT-ND",
-        "pn:mouser": "603-RC0805FR-072K2L",
-        "pn:tme": "0805S8F2201T5E",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "R65": {
         "value": "2K2",
@@ -2300,7 +3159,10 @@
         "pn:digikey": "311-2.20KCRCT-ND",
         "pn:mouser": "603-RC0805FR-072K2L",
         "pn:tme": "0805S8F2201T5E",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "R66": {
         "value": "2K2",
@@ -2308,7 +3170,10 @@
         "pn:digikey": "311-2.20KCRCT-ND",
         "pn:mouser": "603-RC0805FR-072K2L",
         "pn:tme": "0805S8F2201T5E",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "R67": {
         "value": "2K2",
@@ -2316,39 +3181,54 @@
         "pn:digikey": "311-2.20KCRCT-ND",
         "pn:mouser": "603-RC0805FR-072K2L",
         "pn:tme": "0805S8F2201T5E",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
-      "R143": {
+      "R68": {
         "value": "2K2",
         "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
         "pn:digikey": "311-2.20KCRCT-ND",
         "pn:mouser": "603-RC0805FR-072K2L",
         "pn:tme": "0805S8F2201T5E",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
-      "R52": {
+      "R144": {
+        "value": "2K2",
+        "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
+        "pn:digikey": "311-2.20KCRCT-ND",
+        "pn:mouser": "603-RC0805FR-072K2L",
+        "pn:tme": "0805S8F2201T5E",
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
+      },
+      "R53": {
         "value": "16K",
         "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
         "pn:digikey": "311-16.0KCRCT-ND",
         "pn:mouser": "603-RC0805FR-0716KL",
         "pn:tme": "SMD0805-16K-1%",
-        "pn:lcsc": "C137588"
+        "pn:lcsc": "C137588",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
-      "R53": {
+      "R54": {
         "value": "750R",
         "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
         "pn:digikey": "A126385CT-ND",
         "pn:mouser": "71-CRCW0805750RFKEAC",
         "pn:tme": "CRCW0805750RFKTABC",
-        "pn:lcsc": "C17818"
-      },
-      "R124": {
-        "value": "750R",
-        "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
-        "pn:digikey": "A126385CT-ND",
-        "pn:mouser": "71-CRCW0805750RFKEAC",
-        "pn:tme": "CRCW0805750RFKTABC",
-        "pn:lcsc": "C17818"
+        "pn:lcsc": "C17818",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "R125": {
         "value": "750R",
@@ -2356,39 +3236,54 @@
         "pn:digikey": "A126385CT-ND",
         "pn:mouser": "71-CRCW0805750RFKEAC",
         "pn:tme": "CRCW0805750RFKTABC",
-        "pn:lcsc": "C17818"
+        "pn:lcsc": "C17818",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
-      "R61": {
+      "R126": {
+        "value": "750R",
+        "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
+        "pn:digikey": "A126385CT-ND",
+        "pn:mouser": "71-CRCW0805750RFKEAC",
+        "pn:tme": "CRCW0805750RFKTABC",
+        "pn:lcsc": "C17818",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
+      },
+      "R62": {
         "value": "6K8",
         "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
         "pn:digikey": "311-6.80KCRCT-ND",
         "pn:mouser": "603-RC0805FR-076K8L",
         "pn:tme": "SMD0805-6K8-1%",
-        "pn:lcsc": "C114550"
+        "pn:lcsc": "C114550",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
-      "R62": {
+      "R63": {
         "value": "3K",
         "footprint": "PCM_EEZ_passives:R_0603_1608Metric",
         "pn:digikey": "311-3.00KCRCT-ND",
         "pn:mouser": "603-RC0805FR-073KL",
         "pn:tme": "SMD0805-3K-1%",
-        "pn:lcsc": "C126350"
+        "pn:lcsc": "C126350",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
-      "R68": {
+      "R69": {
         "value": "6K2",
         "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
         "pn:digikey": "311-6.20KCRCT-ND",
         "pn:mouser": "603-RC0805FR-076K2L",
         "pn:tme": "-",
-        "pn:lcsc": "C114535"
-      },
-      "R122": {
-        "value": "6K2",
-        "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
-        "pn:digikey": "311-6.20KCRCT-ND",
-        "pn:mouser": "603-RC0805FR-076K2L",
-        "pn:tme": "-",
-        "pn:lcsc": "C114535"
+        "pn:lcsc": "C114535",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "R123": {
         "value": "6K2",
@@ -2396,39 +3291,54 @@
         "pn:digikey": "311-6.20KCRCT-ND",
         "pn:mouser": "603-RC0805FR-076K2L",
         "pn:tme": "-",
-        "pn:lcsc": "C114535"
+        "pn:lcsc": "C114535",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
-      "R71": {
+      "R124": {
+        "value": "6K2",
+        "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
+        "pn:digikey": "311-6.20KCRCT-ND",
+        "pn:mouser": "603-RC0805FR-076K2L",
+        "pn:tme": "-",
+        "pn:lcsc": "C114535",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
+      },
+      "R72": {
         "value": "2R2/2-3W",
         "footprint": "PCM_EEZ_passives:R_2512_6332Metric",
         "pn:digikey": "CRM2512-JW-2R2ELFCT-ND",
         "pn:mouser": "279-35222R2JT",
         "pn:tme": "WF25P2R2JTL",
-        "pn:lcsc": ""
-      },
-      "R72": {
-        "value": "7K5 0.1%",
-        "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
-        "pn:digikey": "YAG1974CT-ND",
-        "pn:mouser": "279-CPF0805B7K5E1",
-        "pn:tme": "AR05BTCW7501",
-        "pn:lcsc": ""
-      },
-      "R75": {
-        "value": "7K5 0.1%",
-        "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
-        "pn:digikey": "YAG1974CT-ND",
-        "pn:mouser": "279-CPF0805B7K5E1",
-        "pn:tme": "AR05BTCW7501",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "R73": {
-        "value": "36K 0.1%",
+        "value": "7K5 0.1%",
         "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
-        "pn:digikey": "YAG4886CT-ND",
-        "pn:mouser": "603-RT0805BRD0736K5L",
-        "pn:tme": "-",
-        "pn:lcsc": "C865431"
+        "pn:digikey": "YAG1974CT-ND",
+        "pn:mouser": "279-CPF0805B7K5E1",
+        "pn:tme": "AR05BTCW7501",
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
+      },
+      "R76": {
+        "value": "7K5 0.1%",
+        "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
+        "pn:digikey": "YAG1974CT-ND",
+        "pn:mouser": "279-CPF0805B7K5E1",
+        "pn:tme": "AR05BTCW7501",
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "R74": {
         "value": "36K 0.1%",
@@ -2436,15 +3346,21 @@
         "pn:digikey": "YAG4886CT-ND",
         "pn:mouser": "603-RT0805BRD0736K5L",
         "pn:tme": "-",
-        "pn:lcsc": "C865431"
+        "pn:lcsc": "C865431",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
-      "R76": {
-        "value": "750R 0.1%",
+      "R75": {
+        "value": "36K 0.1%",
         "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
-        "pn:digikey": "YAG4940CT-ND",
-        "pn:mouser": "603-RT0805BRD07750RL",
-        "pn:tme": "ERA6AEB751V",
-        "pn:lcsc": "C728656"
+        "pn:digikey": "YAG4886CT-ND",
+        "pn:mouser": "603-RT0805BRD0736K5L",
+        "pn:tme": "-",
+        "pn:lcsc": "C865431",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "R77": {
         "value": "750R 0.1%",
@@ -2452,15 +3368,21 @@
         "pn:digikey": "YAG4940CT-ND",
         "pn:mouser": "603-RT0805BRD07750RL",
         "pn:tme": "ERA6AEB751V",
-        "pn:lcsc": "C728656"
+        "pn:lcsc": "C728656",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
-      "R79": {
-        "value": "100K 0.1%",
+      "R78": {
+        "value": "750R 0.1%",
         "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
-        "pn:digikey": "YAG4808CT-ND",
-        "pn:mouser": "603-RT0805BRB07100KL",
-        "pn:tme": "RT0805BRD07100KL",
-        "pn:lcsc": "C122537"
+        "pn:digikey": "YAG4940CT-ND",
+        "pn:mouser": "603-RT0805BRD07750RL",
+        "pn:tme": "ERA6AEB751V",
+        "pn:lcsc": "C728656",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "R80": {
         "value": "100K 0.1%",
@@ -2468,23 +3390,32 @@
         "pn:digikey": "YAG4808CT-ND",
         "pn:mouser": "603-RT0805BRB07100KL",
         "pn:tme": "RT0805BRD07100KL",
-        "pn:lcsc": "C122537"
+        "pn:lcsc": "C122537",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
-      "R82": {
+      "R81": {
+        "value": "100K 0.1%",
+        "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
+        "pn:digikey": "YAG4808CT-ND",
+        "pn:mouser": "603-RT0805BRB07100KL",
+        "pn:tme": "RT0805BRD07100KL",
+        "pn:lcsc": "C122537",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
+      },
+      "R83": {
         "value": "1R 0.1%",
         "footprint": "PCM_EEZ_passives:R_1206_3216Metric",
         "pn:digikey": "1712-CPF1206B1R0E1CT-ND",
         "pn:mouser": "279-CPF1206B1R0E1",
         "pn:tme": "-",
-        "pn:lcsc": "C4106088"
-      },
-      "R84": {
-        "value": "24K 0.1%",
-        "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
-        "pn:digikey": "P24KBFCT-ND",
-        "pn:mouser": "667-ERA-6ARB243V",
-        "pn:tme": "-",
-        "pn:lcsc": "C136924"
+        "pn:lcsc": "C4106088",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "R85": {
         "value": "24K 0.1%",
@@ -2492,55 +3423,87 @@
         "pn:digikey": "P24KBFCT-ND",
         "pn:mouser": "667-ERA-6ARB243V",
         "pn:tme": "-",
-        "pn:lcsc": "C136924"
+        "pn:lcsc": "C136924",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
-      "R88": {
+      "R86": {
+        "value": "24K 0.1%",
+        "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
+        "pn:digikey": "P24KBFCT-ND",
+        "pn:mouser": "667-ERA-6ARB243V",
+        "pn:tme": "-",
+        "pn:lcsc": "C136924",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
+      },
+      "R89": {
         "value": "0R010",
         "footprint": "PCM_EEZ_passives:R_2512-4WIRE",
         "pn:digikey": "846-GMR100HJBFA10L0CT-ND",
         "pn:mouser": "755-GMR100HJBFA10L0",
         "pn:tme": "-",
-        "pn:lcsc": "-"
+        "pn:lcsc": "-",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
-      "R132": {
+      "R133": {
         "value": "4K7",
         "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
         "pn:digikey": "311-4.70KCRCT-ND",
         "pn:mouser": "603-RC0805FR-074K7L",
         "pn:tme": "0805S8F4701T5E",
-        "pn:lcsc": "C60816"
+        "pn:lcsc": "C60816",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
-      "R150": {
+      "R151": {
         "value": "4K7",
         "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
         "pn:digikey": "311-4.70KCRCT-ND",
         "pn:mouser": "603-RC0805FR-074K7L",
         "pn:tme": "0805S8F4701T5E",
-        "pn:lcsc": "C60816"
+        "pn:lcsc": "C60816",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
-      "R139": {
+      "R140": {
         "value": "6R2",
         "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
         "pn:digikey": "311-6.20CRCT-ND",
         "pn:mouser": "603-RC0805FR-076R2L",
         "pn:tme": "RC0805JR-076R2",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
-      "R145": {
+      "R146": {
         "value": "330K",
         "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
         "pn:digikey": "A126361CT-ND",
         "pn:mouser": "652-CR0805FX-3303ELF",
         "pn:tme": "0805S8F3303T5E",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
-      "R146": {
+      "R147": {
         "value": "86K6",
         "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
         "pn:digikey": "311-86.6KCRCT-ND",
         "pn:mouser": "603-RT0805FRE0786K6L",
         "pn:tme": "CRCW080586K6FKTABC",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "TR1": {
         "value": "EPP-150-48",
@@ -2548,7 +3511,10 @@
         "pn:digikey": "1866-LOP-200-48-ND",
         "pn:mouser": "709-LOP-200-48",
         "pn:tme": "LOP-200-48",
-        "pn:lcsc": "C5729605 or C28871933"
+        "pn:lcsc": "C5729605 or C28871933",
+        "pn:arrow-acna": "EPP-150-48",
+        "pn:arrow-europe": "EPP-150-48",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "TR2": {
         "value": "SRF0703-821M",
@@ -2556,7 +3522,10 @@
         "pn:digikey": "SRF0703-821MCT-ND",
         "pn:mouser": "652-SRF0703-821M",
         "pn:tme": "-",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "SRF0703-821M",
+        "pn:arrow-europe": "SRF0703-821M",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "X3": {
         "value": "B4PS-VH (LF)(SN)",
@@ -2564,7 +3533,10 @@
         "pn:digikey": "455-B4PS-VH-ND",
         "pn:mouser": "306-B4PS-VHLFSN",
         "pn:tme": "B4PS-VH",
-        "pn:lcsc": ""
+        "pn:lcsc": "",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "X5": {
         "value": "ZL263-20DG",
@@ -2572,7 +3544,10 @@
         "pn:digikey": "PPPC102LJBN-RC",
         "pn:mouser": "710-613020243121",
         "pn:tme": "ZL263-20DG",
-        "pn:lcsc": "C239361"
+        "pn:lcsc": "C239361",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "Y1": {
         "value": "ECS-163.84-10-33-JGN-TR",
@@ -2580,7 +3555,10 @@
         "pn:digikey": "535-9676-1-ND",
         "pn:mouser": "815-ABM8-16.3-10-1UT",
         "pn:tme": "-",
-        "pn:lcsc": "C17254510"
+        "pn:lcsc": "C17254510",
+        "pn:arrow-acna": "",
+        "pn:arrow-europe": "",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "ZD4": {
         "value": "BZX384-C15",
@@ -2588,7 +3566,10 @@
         "pn:digikey": "1727-BZX384-C15-QFCT-ND",
         "pn:mouser": "78-BZX384C15-E3-08",
         "pn:tme": "BZX384-C15.115",
-        "pn:lcsc": "C454989"
+        "pn:lcsc": "C454989",
+        "pn:arrow-acna": "BZX384C15",
+        "pn:arrow-europe": "BZX384C15",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "ZD5": {
         "value": "BZT52C6V2",
@@ -2596,7 +3577,10 @@
         "pn:digikey": "4878-BZT52C6V2CT-ND",
         "pn:mouser": "621-BZT52C6V2-13-F",
         "pn:tme": "BZT52C6V2-DC",
-        "pn:lcsc": "C397931"
+        "pn:lcsc": "C397931",
+        "pn:arrow-acna": "BZT52C6V2",
+        "pn:arrow-europe": "BZT52C6V2",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "ZD7": {
         "value": "P6SMB68A",
@@ -2604,7 +3588,10 @@
         "pn:digikey": "P6SMB68ABBCT-ND",
         "pn:mouser": "652-P6SMB68A",
         "pn:tme": "P6SMB68A-LF",
-        "pn:lcsc": "C126829"
+        "pn:lcsc": "C126829",
+        "pn:arrow-acna": "P6SMB68A",
+        "pn:arrow-europe": "P6SMB6.8A",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       },
       "ZD8": {
         "value": "MMSZ5230BT1G",
@@ -2612,7 +3599,10 @@
         "pn:digikey": "MMSZ4V7T1GOSCT-ND",
         "pn:mouser": "863-MMSZ5230BT1G",
         "pn:tme": "MMSZ5230BT1G",
-        "pn:lcsc": ""
+        "pn:lcsc": "C236191",
+        "pn:arrow-acna": "MMSZ5230BT1G",
+        "pn:arrow-europe": "MMSZ5230BT1G",
+        "custom:2a896d3c-d802-4611-a5d9-8873f61ed640": ""
       }
     }
   },
@@ -2620,13 +3610,21 @@
     "digikey",
     "mouser",
     "tme",
-    "lcsc"
+    "lcsc",
+    "arrow-europe",
+    "arrow-acna"
   ],
-  "customColumns": [],
+  "customColumns": [
+    {
+      "id": "2a896d3c-d802-4611-a5d9-8873f61ed640",
+      "name": "Comment",
+      "type": "text"
+    }
+  ],
   "manualSuppliers": [],
   "rows": [
     {
-      "id": "f7937bed-5084-4976-8e42-6ebcc9da1bf4",
+      "id": "4c8a4964-d6f3-4765-9597-fdf6c088e659",
       "reference": "C1,C2,C3,C4,C32,C59",
       "value": "1n",
       "qty": 6,
@@ -2634,13 +3632,16 @@
       "partNumbers": {
         "digikey": "1276-1018-1-ND",
         "mouser": "187-CL10B102KB8NNNC",
-        "tme": "C0805C102J5GAC",
-        "lcsc": "C1588"
+        "tme": "CL10B102KB8NNNC",
+        "lcsc": "C1588",
+        "arrow-acna": "C0805C102J5GAC",
+        "arrow-europe": "CL10B104KA8NNNC"
       },
-      "custom": {}
+      "custom": {},
+      "buyToBreak": true
     },
     {
-      "id": "eb031dd3-5069-495c-8b12-ce4e1f54a8b0",
+      "id": "1b468a9c-255d-4263-8d15-488cdc561354",
       "reference": "C5,C7,C8,C10,C16,C28,C31,C36,C41,C42,C68,C70,C72,C126",
       "value": "1u",
       "qty": 14,
@@ -2653,7 +3654,7 @@
       "custom": {}
     },
     {
-      "id": "1dad0496-dc9f-4244-8edf-bbcef7dec0d9",
+      "id": "f3449304-0ba5-47c4-aa30-bfbc3cfb6d5e",
       "reference": "C6,C9,C11,C12,C13,C15,C19,C20,C21,C22,C23,C25,C27,C33,C35,C37,C38,C39,C43,C45,C52,C73,C74,C76,C77,C78,C79,C88,C89,C107,C108,C110,C116,C123,C124,C125",
       "value": "100n",
       "qty": 36,
@@ -2662,12 +3663,15 @@
         "digikey": "1276-6717-1-ND",
         "mouser": "80-C0603C104M4R",
         "tme": "CL10B104KA8NNNC",
-        "lcsc": "C14663"
+        "lcsc": "C14663",
+        "arrow-acna": "CL10B104KA8NNNC",
+        "arrow-europe": "CL10B104KA8NNNC"
       },
-      "custom": {}
+      "custom": {},
+      "buyToBreak": true
     },
     {
-      "id": "2290c62f-a16e-47fe-af51-9616d74077ae",
+      "id": "edec17de-5db0-43f0-a99b-b0d959d74409",
       "reference": "C14",
       "value": "270n",
       "qty": 1,
@@ -2681,7 +3685,7 @@
       "custom": {}
     },
     {
-      "id": "6893c659-5f75-4641-9319-497df96871c4",
+      "id": "ffdf339a-301f-40f0-8504-ef17c2626c75",
       "reference": "C17,C18",
       "value": "10p",
       "qty": 2,
@@ -2690,12 +3694,14 @@
         "digikey": "1276-2149-1-ND",
         "mouser": "187-CL10C100CB8NNNC",
         "tme": "VJ0603A100JXACW1BC",
-        "lcsc": "C1634"
+        "lcsc": "C1634",
+        "arrow-acna": "CL10C100CB8NNNC",
+        "arrow-europe": "CL10C100CB8NNNC"
       },
       "custom": {}
     },
     {
-      "id": "f5962f0b-0522-4186-88ef-ea3b61e3992e",
+      "id": "85f506ac-2fd5-410c-9d34-b8de22a679bd",
       "reference": "C24,C26",
       "value": "2u2",
       "qty": 2,
@@ -2709,21 +3715,22 @@
       "custom": {}
     },
     {
-      "id": "ad304c5b-3526-46e5-af07-4067d594a9f4",
+      "id": "901e66ba-84f7-44fa-953e-eef303914159",
       "reference": "C34,C44,C119,C121,C122",
       "value": "4u7",
       "qty": 5,
       "footprint": "PCM_EEZ_passives:C_0805_2012Metric",
       "partNumbers": {
-        "digikey": "1276-2415-1-ND",
+        "digikey": "1276-CL21A475KACLRNCCT-ND",
         "mouser": "187-CL21A475KAQNNNE",
         "tme": "CL21A475KAQNNNE",
         "lcsc": "C1779"
       },
-      "custom": {}
+      "custom": {},
+      "buyToBreak": true
     },
     {
-      "id": "040b346e-a74b-40dd-ab8a-96552b94e1a1",
+      "id": "eeb9532d-3865-4555-96b4-924359322ad4",
       "reference": "C40,C120",
       "value": "22u",
       "qty": 2,
@@ -2737,7 +3744,7 @@
       "custom": {}
     },
     {
-      "id": "ab913566-c526-4254-99ff-09ac6174c202",
+      "id": "8275984c-3fb7-494b-9d4e-2a290971a9de",
       "reference": "C46,C48,C50,C105,C106",
       "value": "10n/200V",
       "qty": 5,
@@ -2746,12 +3753,13 @@
         "digikey": "311-4491-1-ND",
         "mouser": "603-C1206KRX7RABB103",
         "tme": "VJ1206Y103KXCTW1BC",
-        "lcsc": "C49652935"
+        "arrow-acna": "CC1206KRX7RABB103",
+        "arrow-europe": "CC1206KRX7RABB103"
       },
       "custom": {}
     },
     {
-      "id": "3425ad4d-bb3e-45ce-bda7-6dff362a7952",
+      "id": "ec78b8fd-b44b-4068-8ca8-f00493af1ac4",
       "reference": "C47,C60,C103",
       "value": "470n/100V",
       "qty": 3,
@@ -2765,7 +3773,7 @@
       "custom": {}
     },
     {
-      "id": "6e7ca4ab-efe3-4a5e-962b-c29d92769da4",
+      "id": "c2dc16f6-8059-4683-abe6-2c2ba98e3ce9",
       "reference": "C49,C112,C113",
       "value": "2u2",
       "qty": 3,
@@ -2778,7 +3786,7 @@
       "custom": {}
     },
     {
-      "id": "697fa6c6-d454-4886-ac72-3413b686d681",
+      "id": "bb562f0f-87fb-4e1e-adaa-946b58c9a4f7",
       "reference": "C51,C54,C69,C71,C80,C114,C115",
       "value": "10n",
       "qty": 7,
@@ -2788,10 +3796,11 @@
         "mouser": "710-885012207122",
         "tme": "GRM216R71H103KA01D"
       },
-      "custom": {}
+      "custom": {},
+      "buyToBreak": true
     },
     {
-      "id": "1beade0d-cae0-4dea-ac52-c1657f8f4ce9",
+      "id": "9540b9cd-a28b-463b-b4b8-f5a0ff26593c",
       "reference": "C53",
       "value": "15p",
       "qty": 1,
@@ -2804,7 +3813,7 @@
       "custom": {}
     },
     {
-      "id": "c9773c6d-5523-4c4e-b2f1-a19e5784f0a7",
+      "id": "565b040d-68df-4d00-a8ae-0332074ff90a",
       "reference": "C55,C87",
       "value": "150p",
       "qty": 2,
@@ -2817,7 +3826,7 @@
       "custom": {}
     },
     {
-      "id": "a5c3f986-5aa2-4baf-90c1-91b974a10b70",
+      "id": "45047de6-c7cc-497d-a23f-e62b7b2e2295",
       "reference": "C56,C57,C58,C75",
       "value": "4u7/100V",
       "qty": 4,
@@ -2830,7 +3839,7 @@
       "custom": {}
     },
     {
-      "id": "3eea84b6-5817-4918-9426-67bd0a72dafd",
+      "id": "61db949c-26af-4596-83e4-6869588c699d",
       "reference": "C61,C67",
       "value": "EEEFK1H470P",
       "qty": 2,
@@ -2839,12 +3848,14 @@
         "digikey": "PCE3815CT-ND",
         "mouser": "667-EEE-FK1H470P",
         "tme": "EEEFK1H470P",
-        "lcsc": "C278400"
+        "lcsc": "C278400",
+        "arrow-acna": "EEE-FK1H470P",
+        "arrow-europe": "EEE-FK1H470P"
       },
       "custom": {}
     },
     {
-      "id": "b7ee1c5d-4ed4-4aaf-928f-0fa078fc483b",
+      "id": "f15e377e-2d16-4f7f-a23d-ad368835ec77",
       "reference": "C62,C63,C64",
       "value": "10u",
       "qty": 3,
@@ -2857,7 +3868,7 @@
       "custom": {}
     },
     {
-      "id": "2cd4354e-c516-4b89-8b04-af7867a851d6",
+      "id": "066c13c2-b9f1-4b97-ad88-17a8db20e2aa",
       "reference": "C65",
       "value": "EEEFK1J101P",
       "qty": 1,
@@ -2866,12 +3877,14 @@
         "digikey": "PCE3819CT-ND",
         "mouser": "667-EEE-FK1J101P",
         "tme": "EEEFK1J101P",
-        "lcsc": "C128460"
+        "lcsc": "C128460",
+        "arrow-acna": "EEE-FK1J101P",
+        "arrow-europe": "EEE-FK1J101P"
       },
       "custom": {}
     },
     {
-      "id": "cfd195fe-1d52-4084-ae0a-ecad41fba00c",
+      "id": "fd7ee549-7048-4761-bf24-798b6f2f6dad",
       "reference": "C66",
       "value": "470p",
       "qty": 1,
@@ -2884,7 +3897,7 @@
       "custom": {}
     },
     {
-      "id": "8551003c-dd10-4fd3-bacc-b80f71ccf252",
+      "id": "25a163c3-b02e-4490-a0f1-7905a4d9dac1",
       "reference": "C81",
       "value": "6n8",
       "qty": 1,
@@ -2897,7 +3910,7 @@
       "custom": {}
     },
     {
-      "id": "c4c432bc-24f3-4396-9895-638a5aa73b49",
+      "id": "d275730b-57ac-4fc8-b0fd-c8c400fc2167",
       "reference": "C82,C109,C111",
       "value": "4n7",
       "qty": 3,
@@ -2910,7 +3923,7 @@
       "custom": {}
     },
     {
-      "id": "b651b4d2-f0dd-4bca-a5fc-c93a7af44c7e",
+      "id": "52e24d07-59a2-4409-b796-e8a5ba10b063",
       "reference": "C83",
       "value": "100p",
       "qty": 1,
@@ -2923,7 +3936,7 @@
       "custom": {}
     },
     {
-      "id": "d8e10b02-beb1-4d6a-b686-ce16c85aed1c",
+      "id": "e5b13b00-df5e-49ff-9325-d0f953c8388e",
       "reference": "C84,C85",
       "value": "2n2",
       "qty": 2,
@@ -2937,7 +3950,7 @@
       "custom": {}
     },
     {
-      "id": "0d856cbe-0278-44f2-99c6-b080ff1e82fe",
+      "id": "842de612-b8f1-40b8-99b6-92787279fde8",
       "reference": "C86,C118",
       "value": "330p",
       "qty": 2,
@@ -2950,21 +3963,23 @@
       "custom": {}
     },
     {
-      "id": "9b631f99-ca9b-4a59-a704-b390ac29317f",
+      "id": "7b337758-302f-4948-88e7-c9dafbea89af",
       "reference": "C104",
-      "value": "33u/50V poly.",
+      "value": "HHXD630ARA330MHA0G",
       "qty": 1,
       "footprint": "PCM_EEZ_passives:CAPAE830X1050N",
       "partNumbers": {
         "digikey": "565-HHXD630ARA330MHA0GCT-ND",
         "mouser": "661-XD630ARA330MHA0G",
         "tme": "-",
-        "lcsc": "C2157841"
+        "lcsc": "C2157841",
+        "arrow-acna": "HHXD630ARA330MHA0G",
+        "arrow-europe": "HHXD630ARA330MHA0G"
       },
       "custom": {}
     },
     {
-      "id": "c02030a6-1b64-46c4-abe7-3ca50a1a46ea",
+      "id": "4ff50f10-6430-414a-9e44-b073f7a12cf6",
       "reference": "C117",
       "value": "33p",
       "qty": 1,
@@ -2977,7 +3992,7 @@
       "custom": {}
     },
     {
-      "id": "4b92320d-bb70-40e1-9546-88077f5ede04",
+      "id": "26b0299f-9501-45e2-87a2-4c9d42abaa08",
       "reference": "D1,D2,D3,D4,D6,D7,D8,D9,D10,D11,D12,D13,D14,D18,D19",
       "value": "BAS316",
       "qty": 15,
@@ -2986,12 +4001,14 @@
         "digikey": "5399-BAS316CT-ND",
         "mouser": "637-BAS316WS-AQ",
         "tme": "BAS316-QX",
-        "lcsc": "C2128"
+        "lcsc": "C2128",
+        "arrow-acna": "BAS316",
+        "arrow-europe": "BAS316"
       },
       "custom": {}
     },
     {
-      "id": "8fc128f0-5905-4632-84d9-5c5eeef91ea2",
+      "id": "956885f3-c582-4a25-a232-3600c02ee549",
       "reference": "D5,D20,D21,D22,D23",
       "value": "SKL16",
       "qty": 5,
@@ -3000,12 +4017,15 @@
         "digikey": "RB160MM-60CT-ND",
         "mouser": "755-RB160MM-60TR",
         "tme": "SKL16-DIO",
-        "lcsc": "C323858"
+        "lcsc": "C323858",
+        "arrow-acna": "SKL16",
+        "arrow-europe": "SKL16"
       },
-      "custom": {}
+      "custom": {},
+      "buyToBreak": true
     },
     {
-      "id": "381b115c-98eb-490f-8a5e-f77772451909",
+      "id": "b1d16856-4dd2-4fdb-ac4d-fdb5440c4ec6",
       "reference": "F1",
       "value": "ZH32",
       "qty": 1,
@@ -3018,21 +4038,23 @@
       "custom": {}
     },
     {
-      "id": "a6159060-7a9e-48ca-867a-9cb2876cb109",
+      "id": "d869ef2f-1b2e-4a49-8d13-229139286f7e",
       "reference": "FB1,FB2,FB3",
-      "value": "60R@100MHz",
+      "value": "BLM18AG102SH1D",
       "qty": 3,
       "footprint": "PCM_EEZ_passives:BEAD0603",
       "partNumbers": {
         "digikey": "490-7809-1-ND",
         "mouser": "81-BLM18AG102SH1D",
         "tme": "BLM18AG102SH1D",
-        "lcsc": "C337877"
+        "lcsc": "C337877",
+        "arrow-acna": "BLM18AG102SH1D",
+        "arrow-europe": "BLM18AG102SH1D"
       },
       "custom": {}
     },
     {
-      "id": "c6cdd1e0-9160-4e5c-bcc5-d4945a733016",
+      "id": "044a977d-7cfd-420a-976c-9945e7b6639d",
       "reference": "IC1",
       "value": "ADS131A04IPBSR",
       "qty": 1,
@@ -3041,26 +4063,32 @@
         "digikey": "296-44202-1-ND",
         "mouser": "595-ADS131A04IPBSR",
         "tme": "-",
-        "lcsc": "C882747"
+        "lcsc": "C882747",
+        "arrow-acna": "ADS131A04IPBSR",
+        "arrow-europe": "ADS131A04IPBSR"
       },
       "custom": {}
     },
     {
-      "id": "ed39c179-d661-477c-b1a0-0fc40c19f28d",
+      "id": "9dc01d73-8c13-42bb-8317-228f50b2b970",
       "reference": "IC2,IC3",
-      "value": "ISO6762FDWR",
+      "value": "ISO7762DWR",
       "qty": 2,
       "footprint": "PCM_EEZ_SMD:DW16",
       "partNumbers": {
-        "digikey": "296-ISO6762FDWRCT-ND",
-        "mouser": "595-ISO6762FDWR",
+        "digikey": "296-ISO7762DWRCT-ND",
+        "mouser": "595-ISO7762QDWRQ1",
         "tme": "-",
-        "lcsc": "C5216396"
+        "lcsc": "C5216446",
+        "arrow-acna": "ISO7762DWR",
+        "arrow-europe": "ISO7762DWR"
       },
-      "custom": {}
+      "custom": {
+        "2a896d3c-d802-4611-a5d9-8873f61ed640": "Alternative: ISO6762FDWR"
+      }
     },
     {
-      "id": "2817baad-2fdc-43e7-82b0-8c978c9904c1",
+      "id": "9bba4dec-39a3-4b6d-909c-8cfb691b8672",
       "reference": "IC4",
       "value": "ISO6520DR",
       "qty": 1,
@@ -3069,12 +4097,14 @@
         "digikey": "296-ISO6520DRCT-ND",
         "mouser": "595-ISO6520DR",
         "tme": "-",
-        "lcsc": "C32273056"
+        "lcsc": "C32273056",
+        "arrow-acna": "ISO6520DR",
+        "arrow-europe": "ISO6520DR"
       },
       "custom": {}
     },
     {
-      "id": "e5e7d243-17d0-4cee-8db5-c40d1c856107",
+      "id": "f51fa77c-65aa-42ec-a1d4-85e41cf40fac",
       "reference": "IC5",
       "value": "STM32H523CCT6",
       "qty": 1,
@@ -3083,12 +4113,14 @@
         "digikey": "497-STM32H523CCT6-ND",
         "mouser": "511-STM32H523CCT6",
         "tme": "STM32H523CCT6",
-        "lcsc": "C44521823"
+        "lcsc": "C44521823",
+        "arrow-acna": "STM32H523CCT6",
+        "arrow-europe": "STM32H523CCT6"
       },
       "custom": {}
     },
     {
-      "id": "bd1fd9fa-0a67-4b11-99b7-039b5ccc3293",
+      "id": "f92861b5-321f-4932-a4d0-91413a6b4bf0",
       "reference": "IC6",
       "value": "M24C32-DFDW6TP",
       "qty": 1,
@@ -3097,12 +4129,14 @@
         "digikey": "497-16067-1-ND",
         "mouser": "511-M24C32-DFDW6TP",
         "tme": "M24C32-DFDW6TP",
-        "lcsc": "C2971426"
+        "lcsc": "C2971426",
+        "arrow-acna": "M24C32-DFDW6TP",
+        "arrow-europe": "M24C32-DFDW6TP"
       },
       "custom": {}
     },
     {
-      "id": "ea465476-ccbd-438a-9517-d903d36aad15",
+      "id": "f24f4c86-ad9e-48fd-9b5d-e5970a1ddf2f",
       "reference": "IC7",
       "value": "DAC8552IDGKR",
       "qty": 1,
@@ -3111,12 +4145,14 @@
         "digikey": "296-46082-1-ND",
         "mouser": "595-DAC8552IDGKR",
         "tme": "-",
-        "lcsc": "C136020"
+        "lcsc": "C136020",
+        "arrow-acna": "DAC8552IDGKR",
+        "arrow-europe": "DAC8552IDGKR"
       },
       "custom": {}
     },
     {
-      "id": "4268ef2c-97a9-45c4-a081-5aeed7b7e497",
+      "id": "6ddc70ff-7a20-4952-9092-066a72fd20b7",
       "reference": "IC8",
       "value": "74AUP1G74DC,125",
       "qty": 1,
@@ -3125,12 +4161,14 @@
         "digikey": "1727-74AUP1G74DC-Q100HCT-ND",
         "mouser": "771-AUP1GDC125",
         "tme": "74AUP1G74DC.125",
-        "lcsc": "C458192"
+        "lcsc": "C458192",
+        "arrow-acna": "74AUP1G74DC,125",
+        "arrow-europe": "74AUP1G74DC,125"
       },
       "custom": {}
     },
     {
-      "id": "98f385a0-ec85-474b-93d0-1bb097be8fb0",
+      "id": "4da0171a-99cb-4030-bc60-b1ab380e5200",
       "reference": "IC9",
       "value": "TMP126NDCKR",
       "qty": 1,
@@ -3139,12 +4177,14 @@
         "digikey": "296-TMP126NDCKRCT-ND",
         "mouser": "595-TMP126NDCKR",
         "tme": "TMP126NDCKR",
-        "lcsc": "C5219998"
+        "lcsc": "C5219998",
+        "arrow-acna": "TMP126NDCKR",
+        "arrow-europe": "TMP126NDCKR"
       },
       "custom": {}
     },
     {
-      "id": "ae5528f6-5f88-48c4-b107-200e38a9c19f",
+      "id": "bc8dd0c0-0c20-4ac9-bfe3-829756d258fa",
       "reference": "IC10",
       "value": "REF5025AIDR",
       "qty": 1,
@@ -3153,12 +4193,14 @@
         "digikey": "296-41382-1-ND",
         "mouser": "595-REF5025AIDGKR",
         "tme": "-",
-        "lcsc": "C11341"
+        "lcsc": "C11341",
+        "arrow-acna": "REF5025AIDR",
+        "arrow-europe": "REF5025AIDR"
       },
       "custom": {}
     },
     {
-      "id": "cbe5771c-2bd0-4e94-8431-140281b4cfe6",
+      "id": "fa511886-dd22-4c75-9780-235ea350df3c",
       "reference": "IC11",
       "value": "PCAL9722HNMP",
       "qty": 1,
@@ -3167,12 +4209,14 @@
         "digikey": "568-PCAL9722HNMPCT-ND",
         "mouser": "771-PCAL9722HNMP",
         "tme": "-",
-        "lcsc": "C24212503"
+        "lcsc": "C24212503",
+        "arrow-acna": "PCAL9722HNMP",
+        "arrow-europe": "PCAL9722HNMP"
       },
       "custom": {}
     },
     {
-      "id": "a95a9d9d-fdd5-49b1-858b-5bf4ea8dc772",
+      "id": "43f30fc0-bad0-428a-9074-c7f0510f45cb",
       "reference": "IC12",
       "value": "LM5145RGYR",
       "qty": 1,
@@ -3186,7 +4230,7 @@
       "custom": {}
     },
     {
-      "id": "2b5ae200-699a-4927-a9bb-79c51e4d98e3",
+      "id": "df2ee3d7-6a18-4f37-9852-03ba190c86cf",
       "reference": "IC13",
       "value": "LTC2050HVCS8#PBF",
       "qty": 1,
@@ -3200,7 +4244,7 @@
       "custom": {}
     },
     {
-      "id": "6ded7aee-c6bb-4f0f-8702-f481a2597eb8",
+      "id": "6e076c2f-fb05-4b2a-a698-e2974687d118",
       "reference": "IC14,IC15",
       "value": "TL072D",
       "qty": 2,
@@ -3214,7 +4258,7 @@
       "custom": {}
     },
     {
-      "id": "7e48efad-7cfa-4a81-9803-1dc352083b5f",
+      "id": "e3934914-ea6b-42dd-beac-e6d1bd2c5425",
       "reference": "IC16",
       "value": "SN74LVC1G3157DCK",
       "qty": 1,
@@ -3223,12 +4267,14 @@
         "digikey": "296-14909-1-ND",
         "mouser": "771-LVC1G3157GV125",
         "tme": "SN74LVC1G3157DCKR",
-        "lcsc": "C38663"
+        "lcsc": "C38663",
+        "arrow-acna": "SN74LVC1G3157DCKR",
+        "arrow-europe": "SN74LVC1G3157DCKR"
       },
       "custom": {}
     },
     {
-      "id": "180e9a36-43c3-4a42-aac7-1ec088806129",
+      "id": "c3663ec1-0ef2-4c96-a73d-7842f370f9b3",
       "reference": "IC22",
       "value": "LM293D",
       "qty": 1,
@@ -3237,12 +4283,14 @@
         "digikey": "LM293DR2GOSCT-ND",
         "mouser": "863-LM293DR2G",
         "tme": "LM293DR",
-        "lcsc": "C76509"
+        "lcsc": "C76509",
+        "arrow-acna": "LM293D",
+        "arrow-europe": "LM293D"
       },
       "custom": {}
     },
     {
-      "id": "f7ddf8f0-7d24-44b7-9e98-44de686cb55f",
+      "id": "570e0f88-c3c6-4e0b-8553-1e4abc0fd735",
       "reference": "IC23",
       "value": "MAX9141ESA",
       "qty": 1,
@@ -3251,12 +4299,14 @@
         "digikey": "MAX9141ESA+-ND",
         "mouser": "700-MAX9141ESA",
         "tme": "-",
-        "lcsc": "C3658498"
+        "lcsc": "C3658498",
+        "arrow-acna": "MAX9141ESA+",
+        "arrow-europe": "MAX9141ESA+"
       },
       "custom": {}
     },
     {
-      "id": "4f90a62a-e35c-4fe9-9746-1f08a4895dfc",
+      "id": "b120fbb7-5027-4428-afc3-962aacac4733",
       "reference": "IC24",
       "value": "TPS54060DGQ",
       "qty": 1,
@@ -3265,12 +4315,14 @@
         "digikey": "296-37148-1-ND",
         "mouser": "595-TPS54060DGQR",
         "tme": "-",
-        "lcsc": "C12382"
+        "lcsc": "C12382",
+        "arrow-acna": "TPS54060DGQ",
+        "arrow-europe": "TPS54060DGQ"
       },
       "custom": {}
     },
     {
-      "id": "a8447ee4-40ee-4152-9d86-661b7f8b8c29",
+      "id": "fe1f9978-a98e-4794-951e-231a8ac0b526",
       "reference": "IC25",
       "value": "MC79L05",
       "qty": 1,
@@ -3284,7 +4336,7 @@
       "custom": {}
     },
     {
-      "id": "7dec6ce3-249a-4860-8f56-f28fac3892d8",
+      "id": "cdebc6a8-416a-4b4b-8c0b-f6ad0fec7946",
       "reference": "IC26",
       "value": "MC78L05",
       "qty": 1,
@@ -3298,7 +4350,7 @@
       "custom": {}
     },
     {
-      "id": "06cd59f0-9d07-4316-a495-b7bbf0b0a550",
+      "id": "21d0cb49-87f3-43cd-823a-a8c08eb5db1f",
       "reference": "IC27",
       "value": "TPS7A2033PDBVR",
       "qty": 1,
@@ -3307,12 +4359,14 @@
         "digikey": "296-TPS7A2033PDBVRCT-ND",
         "mouser": "595-TPS7A0333DBVR",
         "tme": "TPS7A2033PDBVR",
-        "lcsc": "C2862740"
+        "lcsc": "C2862740",
+        "arrow-acna": "TPS7A2033PDBVR",
+        "arrow-europe": "TPS7A2033PDBVR"
       },
       "custom": {}
     },
     {
-      "id": "e8e2df31-f698-4a10-9457-5bea4cf9cad4",
+      "id": "b4a9a5d6-062c-4d88-87f2-02d12fe8995f",
       "reference": "J1",
       "value": "571-0500",
       "qty": 1,
@@ -3326,7 +4380,7 @@
       "custom": {}
     },
     {
-      "id": "9520d7d0-30bf-484d-bcaf-89ce7311701e",
+      "id": "6c3182de-11b6-4033-9b37-651ffb5a03be",
       "reference": "J2",
       "value": "571-0100",
       "qty": 1,
@@ -3340,7 +4394,7 @@
       "custom": {}
     },
     {
-      "id": "928114a7-91ea-48df-a943-52cba8cf78d0",
+      "id": "ed6f4f6e-3b43-426c-b79b-02c8a0732b98",
       "reference": "KK1,KK2",
       "value": "PCB-MB-01",
       "qty": 2,
@@ -3354,7 +4408,7 @@
       "custom": {}
     },
     {
-      "id": "43c73f20-e4b3-4072-a27b-6246b89521a8",
+      "id": "a70b7092-473f-4605-9f6b-07fbb0ddea5b",
       "reference": "KK3,KK4,KK5,KK6,KK7",
       "value": "M3X8/D7985B",
       "qty": 5,
@@ -3367,7 +4421,7 @@
       "custom": {}
     },
     {
-      "id": "dfa78760-0c52-46ef-bb44-9176029d1714",
+      "id": "a7c7947a-67e3-4ab8-848e-a63ea1f08e1a",
       "reference": "KK8",
       "value": "SK96/84SA",
       "qty": 1,
@@ -3376,12 +4430,14 @@
         "digikey": "5496-SK9684SA-ND",
         "mouser": "-",
         "tme": "SK96/84SA",
-        "lcsc": "-"
+        "lcsc": "-",
+        "arrow-acna": "SK 96 84 SA",
+        "arrow-europe": "SK 96 84 SA"
       },
       "custom": {}
     },
     {
-      "id": "dc0cffed-b647-4bfd-9a85-702d1a6e97fc",
+      "id": "e8cc0109-7dab-4680-b4bc-5274e6c1c484",
       "reference": "KK9",
       "value": "SP400-0.007-00-104",
       "qty": 1,
@@ -3394,7 +4450,7 @@
       "custom": {}
     },
     {
-      "id": "1a4a8c0b-0f77-4cc9-93c5-e52db82fa68b",
+      "id": "b4c196a4-b2b8-40e0-8cd5-627c4ae62977",
       "reference": "KK10",
       "value": "B3/BN2842",
       "qty": 1,
@@ -3407,7 +4463,7 @@
       "custom": {}
     },
     {
-      "id": "1bc21e32-cfe3-4939-8c34-6ad8ecaad240",
+      "id": "de18ec34-f114-4aa6-b4bc-ce5140d2cf3a",
       "reference": "KK11,KK12,KK13,KK14",
       "value": "M3X4/D7985",
       "qty": 4,
@@ -3420,7 +4476,7 @@
       "custom": {}
     },
     {
-      "id": "3848d686-78ea-43dd-9466-6dde826f5f1c",
+      "id": "14870cd2-1812-4520-811d-b71dc151a992",
       "reference": "L1",
       "value": "RN112-4-02-0M7",
       "qty": 1,
@@ -3428,12 +4484,14 @@
       "partNumbers": {
         "digikey": "817-2100-ND",
         "mouser": "631-RN112-4-02-0M7",
-        "tme": "-"
+        "tme": "-",
+        "arrow-acna": "RN112-4-02-0M7",
+        "arrow-europe": "RN112-4-02-0M7"
       },
       "custom": {}
     },
     {
-      "id": "fa348f01-477a-40f7-90b5-6e39a1bcf027",
+      "id": "6f3efc9f-08b8-4ba3-854e-8d3a7d42c900",
       "reference": "L2",
       "value": "ETQ-P4M100KFM",
       "qty": 1,
@@ -3441,12 +4499,15 @@
       "partNumbers": {
         "digikey": "P124167CT-ND",
         "mouser": "667-ETQ-P4M100KFM",
-        "tme": "-"
+        "tme": "-",
+        "lcsc": "C6617587",
+        "arrow-acna": "ETQ-P4M100KFM",
+        "arrow-europe": "ETQ-P4M100KFM"
       },
       "custom": {}
     },
     {
-      "id": "4edcf734-fb96-41ac-8a85-507f6ed44ea6",
+      "id": "ba703db3-9050-4498-b103-33e0b1af91d7",
       "reference": "L3",
       "value": "HPI0630-3R3",
       "qty": 1,
@@ -3459,7 +4520,7 @@
       "custom": {}
     },
     {
-      "id": "a8135817-8a3b-472d-9481-3cc20bb9fb61",
+      "id": "b88f75dc-8799-4fbd-99e7-387b1439993a",
       "reference": "LED2",
       "value": "WP42WUM/EGW",
       "qty": 1,
@@ -3467,12 +4528,15 @@
       "partNumbers": {
         "digikey": "754-1718-ND",
         "mouser": "604-WP42WUM/EGW",
-        "tme": "L-42WUM/1EGWT"
+        "tme": "L-42WUM/1EGWT",
+        "lcsc": "C8750275",
+        "arrow-acna": "WP42WUM/EGW",
+        "arrow-europe": "WP42WUM/EGW"
       },
       "custom": {}
     },
     {
-      "id": "dbf98090-e726-4622-a771-d58c613c91ea",
+      "id": "2a66eac4-fdfb-4253-aed8-58e5929708fe",
       "reference": "LED4",
       "value": "WP934MD/LYLID",
       "qty": 1,
@@ -3486,7 +4550,7 @@
       "custom": {}
     },
     {
-      "id": "aeecebaa-4580-4f1d-b4ed-e5ab3ed1ffbf",
+      "id": "151a49ed-aff4-4ebc-abdd-bd5eb31a6519",
       "reference": "Q1",
       "value": "BSS84",
       "qty": 1,
@@ -3495,12 +4559,14 @@
         "digikey": "BSS84LT1GOSCT-ND",
         "mouser": "863-BSS84LT1G",
         "tme": "BSS84LT1G",
-        "lcsc": "C82079"
+        "lcsc": "C82079",
+        "arrow-acna": "BSS84",
+        "arrow-europe": "BSS84"
       },
       "custom": {}
     },
     {
-      "id": "c3be3fd9-30a9-4eb5-b595-17b9dea2412d",
+      "id": "d93e7343-006b-4a31-864c-449f405af45a",
       "reference": "Q2",
       "value": "BSC117N08NS5ATMA1",
       "qty": 1,
@@ -3509,12 +4575,15 @@
         "digikey": "BSC117N08NS5ATMA1CT-ND",
         "mouser": "726-BSC117N08NS5ATMA",
         "tme": "BSC117N08NS5-INF-0",
-        "lcsc": "C3278730"
+        "lcsc": "C3278730",
+        "arrow-acna": "BSC117N08NS5ATMA1",
+        "arrow-europe": "BSC117N08NS5ATMA1"
       },
-      "custom": {}
+      "custom": {},
+      "buyToBreak": true
     },
     {
-      "id": "29230b4c-12b5-4b1f-9366-cefbb20d018e",
+      "id": "a617e4bb-b104-47a8-a708-06cdaf019e04",
       "reference": "Q3",
       "value": "BSC039N06NSATMA1",
       "qty": 1,
@@ -3523,12 +4592,14 @@
         "digikey": "BSC039N06NSATMA1CT-ND",
         "mouser": "726-BSC039N06NSATMA1",
         "tme": "BSC039N06NS",
-        "lcsc": "C6471340"
+        "lcsc": "C6471340",
+        "arrow-acna": "BSC039N06NSATMA1",
+        "arrow-europe": "BSC039N06NSATMA1"
       },
       "custom": {}
     },
     {
-      "id": "b798a70c-ae6f-4b09-8480-e084563057ad",
+      "id": "e90c2ae3-0460-436f-b75f-7fb45075c6aa",
       "reference": "Q5,Q8,Q9",
       "value": "MMBT5401",
       "qty": 3,
@@ -3537,12 +4608,14 @@
         "digikey": "MMBT5401-FDICT-ND",
         "mouser": "621-MMBT5401-F",
         "tme": "MMBT5401-DIO",
-        "lcsc": "C21488"
+        "lcsc": "C21488",
+        "arrow-acna": "MMBT5401LT1G",
+        "arrow-europe": "MMBT5401LT1G"
       },
       "custom": {}
     },
     {
-      "id": "9ce2eb6a-093f-45fc-9310-018c0054e61a",
+      "id": "e53cee80-e551-4df2-be8b-14ce62d3f2b7",
       "reference": "Q7,Q11,Q26",
       "value": "MMBT5551",
       "qty": 3,
@@ -3551,12 +4624,14 @@
         "digikey": "MMBT5551LT1GOSCT-ND",
         "mouser": "637-MMBT5551",
         "tme": "MMBT5551-DIO",
-        "lcsc": "C41095"
+        "lcsc": "C41095",
+        "arrow-acna": "MMBT5551",
+        "arrow-europe": "MMBT5551"
       },
       "custom": {}
     },
     {
-      "id": "9fe4282f-c1e6-46cb-ac95-0c2c026c0388",
+      "id": "bc2276a9-4226-4bce-92e4-f0e8dbbaf337",
       "reference": "Q10,Q13",
       "value": "BCP56-16.115",
       "qty": 2,
@@ -3564,12 +4639,14 @@
       "partNumbers": {
         "digikey": "5399-BCP56-16CT-ND",
         "mouser": "637-BCP56-16",
-        "tme": "BCP56-16T1G"
+        "tme": "BCP56-16T1G",
+        "arrow-acna": "BCP56-16,115",
+        "arrow-europe": "BCP56-16,115"
       },
       "custom": {}
     },
     {
-      "id": "ead37894-77be-4ed3-90e6-a47df8e00cf5",
+      "id": "4e208346-eee0-4a62-a63e-06ad73a6d653",
       "reference": "Q12",
       "value": "IRFP250NPBF",
       "qty": 1,
@@ -3577,12 +4654,15 @@
       "partNumbers": {
         "digikey": "IRFP250PBF-ND",
         "mouser": "942-IRFP250NPBF",
-        "tme": "IRFP250NPBF"
+        "tme": "IRFP250NPBF",
+        "lcsc": "C22378637",
+        "arrow-acna": "IRFP250NPBF",
+        "arrow-europe": "IRFP250NPBF"
       },
       "custom": {}
     },
     {
-      "id": "e7e3d694-771a-4d24-8604-7cce3ee1f0d7",
+      "id": "7e8f7768-cbe2-43c3-9641-27ce598124db",
       "reference": "Q14",
       "value": "BC857C",
       "qty": 1,
@@ -3591,12 +4671,14 @@
         "digikey": "4878-BC857CCT-ND",
         "mouser": "637-BC857C",
         "tme": "BC857C-DIO",
-        "lcsc": "C8666"
+        "lcsc": "C8666",
+        "arrow-acna": "BC857C",
+        "arrow-europe": "BC857C"
       },
       "custom": {}
     },
     {
-      "id": "bf49bbac-3528-495c-95da-d9cbbc8be15c",
+      "id": "794c91e6-7966-4e6e-8bec-a41ddcc249c8",
       "reference": "Q15",
       "value": "IRFI9Z34GPBF",
       "qty": 1,
@@ -3605,12 +4687,14 @@
         "digikey": "IRFI9Z34GPBF-ND",
         "mouser": "844-IRFI9Z34GPBF",
         "tme": "IRFI9Z34GPBF",
-        "lcsc": "C222460"
+        "lcsc": "C222460",
+        "arrow-acna": "IRFI9Z34GPBF",
+        "arrow-europe": "IRFI9Z34GPBF"
       },
       "custom": {}
     },
     {
-      "id": "0b2a1468-e89a-47a7-b569-94a1d2c79e73",
+      "id": "c4eddbda-9cc4-44d9-a093-fd0bf54139a1",
       "reference": "Q16,Q17",
       "value": "PSMN0R9-25YLC",
       "qty": 2,
@@ -3624,7 +4708,7 @@
       "custom": {}
     },
     {
-      "id": "4cad6268-76a4-486a-abfb-c20354c71400",
+      "id": "3aaf89c9-20e2-4a40-a2bb-d27e807b88f6",
       "reference": "Q23,Q24,Q25",
       "value": "2N7002",
       "qty": 3,
@@ -3633,12 +4717,14 @@
         "digikey": "T2N7002AKLMCT-ND",
         "mouser": "757-T2N7002AKLM",
         "tme": "2N7002LT1G",
-        "lcsc": "C8545"
+        "lcsc": "C8545",
+        "arrow-acna": "2N7002",
+        "arrow-europe": "2N7002"
       },
       "custom": {}
     },
     {
-      "id": "74b23cf9-6892-4417-8caf-e1bea9ec08b3",
+      "id": "20a22a74-3731-48e6-8bf4-c83408f39451",
       "reference": "Q27",
       "value": "FMMT493TA",
       "qty": 1,
@@ -3646,12 +4732,15 @@
       "partNumbers": {
         "digikey": "FMMT493CT-ND",
         "mouser": "522-FMMT493TA",
-        "tme": "FMMT493TA"
+        "tme": "FMMT493TA",
+        "lcsc": "C435889",
+        "arrow-acna": "FMMT493TA",
+        "arrow-europe": "FMMT493TA"
       },
       "custom": {}
     },
     {
-      "id": "32f70f4e-dddf-4e4f-a6db-137f99e35b54",
+      "id": "b5ba1b12-2e7f-48c7-b279-e446c5d2949f",
       "reference": "Q28",
       "value": "BT139B-600E",
       "qty": 1,
@@ -3665,7 +4754,7 @@
       "custom": {}
     },
     {
-      "id": "1bb445c9-98d6-4f22-95b9-a025399c4535",
+      "id": "666ad9cf-014c-4e01-9422-0c79f8aea3d6",
       "reference": "Q29",
       "value": "PSMN013-60YL",
       "qty": 1,
@@ -3679,8 +4768,8 @@
       "custom": {}
     },
     {
-      "id": "bbfe1389-be41-40c2-af9e-2361330f16c7",
-      "reference": "R1,R2,R3,R4,R5,R6,R7,R8,R47",
+      "id": "2b0eb1d9-08b9-4ba5-a6f9-4b687f2630f8",
+      "reference": "R1,R2,R3,R4,R5,R6,R7,R8,R48",
       "value": "100R",
       "qty": 9,
       "footprint": "PCM_EEZ_passives:R_0603_1608Metric",
@@ -3688,13 +4777,16 @@
         "digikey": "13-RC0603FR-10100RLCT-ND",
         "mouser": "603-RC0603FR-100RL",
         "tme": "CRCW0603100RFKTABC",
-        "lcsc": "C22775"
+        "lcsc": "C22775",
+        "arrow-acna": "RC0603FR-100RL",
+        "arrow-europe": "RC0603FR-100RL"
       },
-      "custom": {}
+      "custom": {},
+      "buyToBreak": true
     },
     {
-      "id": "2a608873-35fa-4bfc-b347-63bddac117d4",
-      "reference": "R9,R21,R33,R42,R147,R148,R151",
+      "id": "d3049042-b4df-4030-909e-097d6f0d8436",
+      "reference": "R9,R21,R34,R43,R148,R149,R152",
       "value": "10R",
       "qty": 7,
       "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
@@ -3702,25 +4794,29 @@
         "digikey": "311-10.0CRCT-ND",
         "mouser": "603-RC0805FR-1010RP",
         "tme": "SMD0805-10R-1%",
-        "lcsc": "C17415"
+        "lcsc": "C17415",
+        "arrow-acna": "RC0805FR-0710RL",
+        "arrow-europe": "RC0805FR-0710RL"
       },
-      "custom": {}
+      "custom": {},
+      "buyToBreak": true
     },
     {
-      "id": "74256516-d438-435e-8d04-130ea012677e",
-      "reference": "R10,R14,R15,R18,R24,R25,R29,R32,R36,R40,R58,R69,R83,R126,R127,R128,R130,R131,R133,R140,R141,R142",
+      "id": "f3084396-b3ec-4281-a12e-64a52621c833",
+      "reference": "R10,R14,R15,R18,R22,R25,R26,R30,R33,R37,R41,R59,R70,R84,R127,R128,R129,R131,R132,R134,R141,R142,R143",
       "value": "10K",
-      "qty": 22,
+      "qty": 23,
       "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
       "partNumbers": {
         "digikey": "311-10.0KCRCT-ND",
         "mouser": "603-RC0805FR-0710KL",
         "tme": "RC0805FR-1310KL"
       },
-      "custom": {}
+      "custom": {},
+      "buyToBreak": true
     },
     {
-      "id": "923a7575-2a72-4eac-bba4-b04cfbcf42ef",
+      "id": "5f1b562f-eea3-4f02-ac3f-571b33d42784",
       "reference": "R11,R13,R19",
       "value": "1K8",
       "qty": 3,
@@ -3731,11 +4827,12 @@
         "tme": "SMD0805-1K8-1%",
         "lcsc": "C137579"
       },
-      "custom": {}
+      "custom": {},
+      "buyToBreak": true
     },
     {
-      "id": "f3c5edb2-ec3f-4266-9ed6-61e561767a56",
-      "reference": "R16,R108,R109,R110,R111",
+      "id": "c5d4b4f2-e4b7-4778-a1fa-ecace39a3d73",
+      "reference": "R16,R109,R110,R111,R112",
       "value": "0R",
       "qty": 5,
       "footprint": "PCM_EEZ_passives:R_0603_1608Metric",
@@ -3745,11 +4842,12 @@
         "tme": "RC0603FR-070RL",
         "lcsc": "C100044"
       },
-      "custom": {}
+      "custom": {},
+      "buyToBreak": true
     },
     {
-      "id": "5826d38b-28e7-4398-814a-1b1cc331d3cc",
-      "reference": "R17,R23,R39,R136",
+      "id": "37a2f0bd-d35f-4244-93da-d6882ca83358",
+      "reference": "R17,R24,R40,R137",
       "value": "100K",
       "qty": 4,
       "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
@@ -3758,11 +4856,12 @@
         "mouser": "71-CRCW0805100KFKEAC",
         "tme": "0805S8F1003T5E"
       },
-      "custom": {}
+      "custom": {},
+      "buyToBreak": true
     },
     {
-      "id": "fb0d9c7f-916f-4954-9808-e236cfa8a8a3",
-      "reference": "R20,R129",
+      "id": "5246bfe8-fedd-414d-86d3-0f61c2daf2b1",
+      "reference": "R20,R130",
       "value": "330R",
       "qty": 2,
       "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
@@ -3771,11 +4870,12 @@
         "mouser": "652-CR0805FX-3300ELF",
         "tme": "0805S8F3300T5E"
       },
-      "custom": {}
+      "custom": {},
+      "buyToBreak": true
     },
     {
-      "id": "0f08d3a5-459f-4a0d-bca4-5321bffa3071",
-      "reference": "R22,R115",
+      "id": "24dd7e37-0e0a-4db7-8d58-76c49eb1ce0d",
+      "reference": "R23,R116",
       "value": "1R",
       "qty": 2,
       "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
@@ -3788,8 +4888,8 @@
       "custom": {}
     },
     {
-      "id": "b0debd77-2846-46dd-a583-2b207087ea2b",
-      "reference": "R30,R50,R63,R90,R91,R144",
+      "id": "23bca2fe-b795-492b-a6c2-6802494aa5c0",
+      "reference": "R31,R51,R64,R91,R92,R145",
       "value": "47K",
       "qty": 6,
       "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
@@ -3798,11 +4898,12 @@
         "mouser": "603-RC0805FR-0747KL",
         "tme": "RC0805FR-0747K"
       },
-      "custom": {}
+      "custom": {},
+      "buyToBreak": true
     },
     {
-      "id": "d3de7a50-5b3c-4d3f-8ec7-d3025ae87b11",
-      "reference": "R31,R48,R54",
+      "id": "c275adab-3985-4d68-b47a-05b4e9156968",
+      "reference": "R32,R49,R55",
       "value": "470R",
       "qty": 3,
       "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
@@ -3811,11 +4912,12 @@
         "mouser": "603-RC0805FR-13470RL",
         "tme": "RC0805FR-07470R"
       },
-      "custom": {}
+      "custom": {},
+      "buyToBreak": true
     },
     {
-      "id": "90367aec-a7cb-4a97-b403-e121acfd1462",
-      "reference": "R34,R120,R121",
+      "id": "027ab244-d2f6-4956-9f94-9ae1edaf77a7",
+      "reference": "R35,R121,R122",
       "value": "3K9",
       "qty": 3,
       "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
@@ -3824,11 +4926,12 @@
         "mouser": "279-CRGP0805F3K9",
         "tme": "SMD0805-3K9-1%"
       },
-      "custom": {}
+      "custom": {},
+      "buyToBreak": true
     },
     {
-      "id": "d3160bc8-a984-4af1-91ad-639d927b46fe",
-      "reference": "R38",
+      "id": "1b17f1d5-0e44-40f6-8e42-84cd37a4cb54",
+      "reference": "R39",
       "value": "15R",
       "qty": 1,
       "footprint": "PCM_EEZ_passives:R_2010_5025Metric",
@@ -3840,8 +4943,8 @@
       "custom": {}
     },
     {
-      "id": "ad9a993f-5dfd-4b1e-b18c-ca38484f6b1a",
-      "reference": "R41,R49,R55,R56,R60,R134,R135,R137,R138",
+      "id": "ac88ca8b-95ac-4926-91bb-4f99c640b50d",
+      "reference": "R42,R50,R56,R57,R61,R135,R136,R138,R139",
       "value": "1K",
       "qty": 9,
       "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
@@ -3850,11 +4953,12 @@
         "mouser": "603-RC0805FR-071KL",
         "tme": "RC0805FR-071K"
       },
-      "custom": {}
+      "custom": {},
+      "buyToBreak": true
     },
     {
-      "id": "6806e80c-1f50-4ad6-83c8-091d109f2426",
-      "reference": "R43",
+      "id": "713efb03-3a27-463f-9c23-9aaded32e11b",
+      "reference": "R44",
       "value": "1K2",
       "qty": 1,
       "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
@@ -3867,8 +4971,8 @@
       "custom": {}
     },
     {
-      "id": "3633f10b-9a73-4399-882a-bb0d31fb97bb",
-      "reference": "R44,R45,R57,R86",
+      "id": "1872c53a-50e9-4e1e-b62b-18f91f0a2b42",
+      "reference": "R45,R46,R58,R87",
       "value": "220R",
       "qty": 4,
       "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
@@ -3877,11 +4981,12 @@
         "mouser": "603-RC0805FR-13220RL",
         "tme": "CRCW0805220RFKTABC"
       },
-      "custom": {}
+      "custom": {},
+      "buyToBreak": true
     },
     {
-      "id": "a997929f-3e99-4564-a4e4-b0338e6eb7fc",
-      "reference": "R46,R149",
+      "id": "7fb7dedb-2433-4ab4-8403-dbb5cd5aba6c",
+      "reference": "R47,R150",
       "value": "51K",
       "qty": 2,
       "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
@@ -3894,8 +4999,8 @@
       "custom": {}
     },
     {
-      "id": "ba53cfd6-f294-4279-a275-64597465cc81",
-      "reference": "R51,R59,R64,R65,R66,R67,R143",
+      "id": "6c5d5372-bb1d-4aee-a283-78e18e2e24ce",
+      "reference": "R52,R60,R65,R66,R67,R68,R144",
       "value": "2K2",
       "qty": 7,
       "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
@@ -3904,11 +5009,12 @@
         "mouser": "603-RC0805FR-072K2L",
         "tme": "0805S8F2201T5E"
       },
-      "custom": {}
+      "custom": {},
+      "buyToBreak": true
     },
     {
-      "id": "b00926f7-cbfa-4a92-a5e5-119014dc0bd2",
-      "reference": "R52",
+      "id": "b7f6bf51-eff9-49f8-a4fe-27453cf89bf6",
+      "reference": "R53",
       "value": "16K",
       "qty": 1,
       "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
@@ -3921,8 +5027,8 @@
       "custom": {}
     },
     {
-      "id": "cc8aeb4d-d648-44be-be67-c3de974ecff4",
-      "reference": "R53,R124,R125",
+      "id": "8367ff8d-a5ae-4879-b6ad-3f853a6b96b1",
+      "reference": "R54,R125,R126",
       "value": "750R",
       "qty": 3,
       "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
@@ -3932,11 +5038,12 @@
         "tme": "CRCW0805750RFKTABC",
         "lcsc": "C17818"
       },
-      "custom": {}
+      "custom": {},
+      "buyToBreak": true
     },
     {
-      "id": "9fbb97ed-19ff-41e2-bf66-2df228f1c7a5",
-      "reference": "R61",
+      "id": "774633f2-3112-4e3f-a1a5-82e355d2ccfb",
+      "reference": "R62",
       "value": "6K8",
       "qty": 1,
       "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
@@ -3949,8 +5056,8 @@
       "custom": {}
     },
     {
-      "id": "a5328998-ef67-412b-9ed6-6e3883a799aa",
-      "reference": "R62",
+      "id": "e1861b36-b145-4063-8f4d-0f570b22394c",
+      "reference": "R63",
       "value": "3K",
       "qty": 1,
       "footprint": "PCM_EEZ_passives:R_0603_1608Metric",
@@ -3963,8 +5070,8 @@
       "custom": {}
     },
     {
-      "id": "340acf73-7a01-43fa-a2a2-9371028dffc8",
-      "reference": "R68,R122,R123",
+      "id": "554990cd-1d14-4576-b480-cca1ac723589",
+      "reference": "R69,R123,R124",
       "value": "6K2",
       "qty": 3,
       "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
@@ -3974,11 +5081,12 @@
         "tme": "-",
         "lcsc": "C114535"
       },
-      "custom": {}
+      "custom": {},
+      "buyToBreak": true
     },
     {
-      "id": "a4617464-87f2-4eca-b2ce-b9920c0a0bea",
-      "reference": "R71",
+      "id": "5e3cb431-fca5-4184-96b9-9053c5a397ee",
+      "reference": "R72",
       "value": "2R2/2-3W",
       "qty": 1,
       "footprint": "PCM_EEZ_passives:R_2512_6332Metric",
@@ -3990,8 +5098,8 @@
       "custom": {}
     },
     {
-      "id": "e23c48e5-a030-41c3-83e3-ad1161865610",
-      "reference": "R72,R75",
+      "id": "75266e93-ccf3-45a4-8f56-a54895d2afec",
+      "reference": "R73,R76",
       "value": "7K5 0.1%",
       "qty": 2,
       "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
@@ -4003,8 +5111,8 @@
       "custom": {}
     },
     {
-      "id": "9e3ddd70-6b85-40c2-92fe-f67199222a22",
-      "reference": "R73,R74",
+      "id": "f0016079-52e1-4d40-809d-62bd25892951",
+      "reference": "R74,R75",
       "value": "36K 0.1%",
       "qty": 2,
       "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
@@ -4017,8 +5125,8 @@
       "custom": {}
     },
     {
-      "id": "f2452298-8060-4e1e-9ba6-d3b4ca9e67a1",
-      "reference": "R76,R77",
+      "id": "a75e3e4f-7c89-49e7-a9d7-c8bffab6703c",
+      "reference": "R77,R78",
       "value": "750R 0.1%",
       "qty": 2,
       "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
@@ -4031,8 +5139,8 @@
       "custom": {}
     },
     {
-      "id": "8b7c3378-233d-4c30-94c4-96126e821fea",
-      "reference": "R79,R80",
+      "id": "12034cd1-9747-44d8-ac44-7765be6996b7",
+      "reference": "R80,R81",
       "value": "100K 0.1%",
       "qty": 2,
       "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
@@ -4045,8 +5153,8 @@
       "custom": {}
     },
     {
-      "id": "fb742f8f-ef0b-4d89-ac06-070cc0b80b9a",
-      "reference": "R82",
+      "id": "cfbdf460-42ad-49fb-b5c4-1e3a1d429e4b",
+      "reference": "R83",
       "value": "1R 0.1%",
       "qty": 1,
       "footprint": "PCM_EEZ_passives:R_1206_3216Metric",
@@ -4059,8 +5167,8 @@
       "custom": {}
     },
     {
-      "id": "403dbe58-364f-4328-9fb8-03f49d0a7275",
-      "reference": "R84,R85",
+      "id": "88bd30fe-3be6-4648-b31f-3a353511d0d0",
+      "reference": "R85,R86",
       "value": "24K 0.1%",
       "qty": 2,
       "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
@@ -4073,8 +5181,8 @@
       "custom": {}
     },
     {
-      "id": "458681a9-95dc-430e-ac5f-190b1d154663",
-      "reference": "R88",
+      "id": "ab503764-35a8-42f6-88f8-6f4f5af5be1e",
+      "reference": "R89",
       "value": "0R010",
       "qty": 1,
       "footprint": "PCM_EEZ_passives:R_2512-4WIRE",
@@ -4087,8 +5195,8 @@
       "custom": {}
     },
     {
-      "id": "9fc8d4a5-b667-4550-b513-0680e702dda9",
-      "reference": "R132,R150",
+      "id": "d7b9f797-75a7-4620-b96c-9a56da394b01",
+      "reference": "R133,R151",
       "value": "4K7",
       "qty": 2,
       "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
@@ -4101,8 +5209,8 @@
       "custom": {}
     },
     {
-      "id": "749cfbe6-90a5-47eb-8164-9fc02156b7a6",
-      "reference": "R139",
+      "id": "35a73951-54cf-4f36-b23a-3894b24c74b5",
+      "reference": "R140",
       "value": "6R2",
       "qty": 1,
       "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
@@ -4114,8 +5222,8 @@
       "custom": {}
     },
     {
-      "id": "c65b9fbb-d415-4e53-b3a9-eff1e1f816be",
-      "reference": "R145",
+      "id": "9154e251-993b-419b-8b2a-7b6edc8a585a",
+      "reference": "R146",
       "value": "330K",
       "qty": 1,
       "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
@@ -4127,8 +5235,8 @@
       "custom": {}
     },
     {
-      "id": "98290165-75db-49d7-b7ff-2dd8eb40c6d3",
-      "reference": "R146",
+      "id": "a481d29e-dec3-44bb-be83-2e2288428593",
+      "reference": "R147",
       "value": "86K6",
       "qty": 1,
       "footprint": "PCM_EEZ_passives:R_0805_2012Metric",
@@ -4140,7 +5248,7 @@
       "custom": {}
     },
     {
-      "id": "e4551041-34f1-4fa0-a2b4-9e5c09d72421",
+      "id": "8299db83-dcaa-4a92-bc7a-3f72712a0a19",
       "reference": "TR1",
       "value": "EPP-150-48",
       "qty": 1,
@@ -4149,12 +5257,14 @@
         "digikey": "1866-LOP-200-48-ND",
         "mouser": "709-LOP-200-48",
         "tme": "LOP-200-48",
-        "lcsc": "C5729605 or C28871933"
+        "lcsc": "C5729605 or C28871933",
+        "arrow-acna": "EPP-150-48",
+        "arrow-europe": "EPP-150-48"
       },
       "custom": {}
     },
     {
-      "id": "32b83e3d-600a-4484-8c17-85c57c46c30e",
+      "id": "9b013beb-230c-46e4-ab30-da857da3c572",
       "reference": "TR2",
       "value": "SRF0703-821M",
       "qty": 1,
@@ -4162,12 +5272,14 @@
       "partNumbers": {
         "digikey": "SRF0703-821MCT-ND",
         "mouser": "652-SRF0703-821M",
-        "tme": "-"
+        "tme": "-",
+        "arrow-acna": "SRF0703-821M",
+        "arrow-europe": "SRF0703-821M"
       },
       "custom": {}
     },
     {
-      "id": "f4770bb8-7f83-4b42-bf6e-2a1aa0374ca9",
+      "id": "65170460-b63e-4cd6-bd64-5a147e767bd8",
       "reference": "X3",
       "value": "B4PS-VH (LF)(SN)",
       "qty": 1,
@@ -4180,7 +5292,7 @@
       "custom": {}
     },
     {
-      "id": "f10b613b-f30e-4568-8543-5e08c5f23a34",
+      "id": "f75242c9-f8f4-4b6e-9093-e4f91d0dfc4e",
       "reference": "X5",
       "value": "ZL263-20DG",
       "qty": 1,
@@ -4194,7 +5306,7 @@
       "custom": {}
     },
     {
-      "id": "8692b6d0-e600-430d-a159-206a324fe7fd",
+      "id": "3eebd147-666d-4b8b-abef-b506121cd057",
       "reference": "Y1",
       "value": "ECS-163.84-10-33-JGN-TR",
       "qty": 1,
@@ -4208,7 +5320,7 @@
       "custom": {}
     },
     {
-      "id": "92926db4-7643-4acb-8274-b583f3d16157",
+      "id": "b864f64e-9b89-42d0-ad0a-26a8c85d1667",
       "reference": "ZD4",
       "value": "BZX384-C15",
       "qty": 1,
@@ -4217,12 +5329,14 @@
         "digikey": "1727-BZX384-C15-QFCT-ND",
         "mouser": "78-BZX384C15-E3-08",
         "tme": "BZX384-C15.115",
-        "lcsc": "C454989"
+        "lcsc": "C454989",
+        "arrow-acna": "BZX384C15",
+        "arrow-europe": "BZX384C15"
       },
       "custom": {}
     },
     {
-      "id": "f8cff3f2-0d56-432c-b056-5ee40c25405b",
+      "id": "0c699486-6094-4b3b-bf7a-f1e3ca7ef424",
       "reference": "ZD5",
       "value": "BZT52C6V2",
       "qty": 1,
@@ -4231,12 +5345,14 @@
         "digikey": "4878-BZT52C6V2CT-ND",
         "mouser": "621-BZT52C6V2-13-F",
         "tme": "BZT52C6V2-DC",
-        "lcsc": "C397931"
+        "lcsc": "C397931",
+        "arrow-acna": "BZT52C6V2",
+        "arrow-europe": "BZT52C6V2"
       },
       "custom": {}
     },
     {
-      "id": "7d148aa3-ba0d-4fda-9782-f5ff93711dd2",
+      "id": "cfe452d5-8cd4-42f0-b543-ea490f5e646e",
       "reference": "ZD7",
       "value": "P6SMB68A",
       "qty": 1,
@@ -4245,12 +5361,14 @@
         "digikey": "P6SMB68ABBCT-ND",
         "mouser": "652-P6SMB68A",
         "tme": "P6SMB68A-LF",
-        "lcsc": "C126829"
+        "lcsc": "C126829",
+        "arrow-acna": "P6SMB68A",
+        "arrow-europe": "P6SMB6.8A"
       },
       "custom": {}
     },
     {
-      "id": "8b169288-30b4-4048-842f-918aeb27ba0e",
+      "id": "dabc3a5a-b1cd-4086-a9da-2b4d029899e5",
       "reference": "ZD8",
       "value": "MMSZ5230BT1G",
       "qty": 1,
@@ -4258,7 +5376,10 @@
       "partNumbers": {
         "digikey": "MMSZ4V7T1GOSCT-ND",
         "mouser": "863-MMSZ5230BT1G",
-        "tme": "MMSZ5230BT1G"
+        "tme": "MMSZ5230BT1G",
+        "lcsc": "C236191",
+        "arrow-acna": "MMSZ5230BT1G",
+        "arrow-europe": "MMSZ5230BT1G"
       },
       "custom": {}
     }
