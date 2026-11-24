@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-11-05")
+		(date "2026-11-24")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -14095,7 +14095,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "01c89b6a-2bd9-4a74-ac46-89b285063a94")
-		(property "Reference" "C97"
+		(property "Reference" "C95"
 			(at 70.739 113.919 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14247,7 +14247,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/5ecda23e-3d86-4b9b-8d83-de3653395b33"
-					(reference "C97")
+					(reference "C95")
 					(unit 1)
 					(variant
 						(name "Basic")
@@ -14269,7 +14269,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "04d0df53-e7f5-4cd9-a128-b738b2ded2f6")
-		(property "Reference" "C100"
+		(property "Reference" "C98"
 			(at 88.519 167.259 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14421,7 +14421,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/5ecda23e-3d86-4b9b-8d83-de3653395b33"
-					(reference "C100")
+					(reference "C98")
 					(unit 1)
 					(variant
 						(name "Basic")
@@ -15206,7 +15206,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1260f395-8d76-4d21-b1ef-df97413d83ce")
-		(property "Reference" "C95"
+		(property "Reference" "C93"
 			(at 56.134 119.634 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15358,7 +15358,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/5ecda23e-3d86-4b9b-8d83-de3653395b33"
-					(reference "C95")
+					(reference "C93")
 					(unit 1)
 					(variant
 						(name "Basic")
@@ -16115,7 +16115,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1e9e9195-d503-49a5-8302-eb319225bc07")
-		(property "Reference" "JP12"
+		(property "Reference" "JP10"
 			(at 50.165 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16223,7 +16223,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/5ecda23e-3d86-4b9b-8d83-de3653395b33"
-					(reference "JP12")
+					(reference "JP10")
 					(unit 1)
 				)
 			)
@@ -17779,7 +17779,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "37596fe3-be86-460e-916c-b03265047532")
-		(property "Reference" "C106"
+		(property "Reference" "C104"
 			(at 223.774 69.469 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17953,7 +17953,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/5ecda23e-3d86-4b9b-8d83-de3653395b33"
-					(reference "C106")
+					(reference "C104")
 					(unit 1)
 				)
 			)
@@ -18240,7 +18240,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3b39021e-4f7b-4997-a274-a8b254310712")
-		(property "Reference" "C105"
+		(property "Reference" "C103"
 			(at 223.774 56.769 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18414,7 +18414,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/5ecda23e-3d86-4b9b-8d83-de3653395b33"
-					(reference "C105")
+					(reference "C103")
 					(unit 1)
 				)
 			)
@@ -21259,7 +21259,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "74817dd8-a79d-4ab7-8e13-3e7af70ba561")
-		(property "Reference" "C104"
+		(property "Reference" "C102"
 			(at 156.845 55.245 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21433,7 +21433,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/5ecda23e-3d86-4b9b-8d83-de3653395b33"
-					(reference "C104")
+					(reference "C102")
 					(unit 1)
 				)
 			)
@@ -22175,7 +22175,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "852f49d5-4f87-4666-9f24-704971e6afa8")
-		(property "Reference" "C98"
+		(property "Reference" "C96"
 			(at 70.739 129.159 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22327,7 +22327,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/5ecda23e-3d86-4b9b-8d83-de3653395b33"
-					(reference "C98")
+					(reference "C96")
 					(unit 1)
 					(variant
 						(name "Basic")
@@ -23217,7 +23217,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "91e9281d-11dd-48cb-b048-6941c6670b86")
-		(property "Reference" "C96"
+		(property "Reference" "C94"
 			(at 67.945 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23369,7 +23369,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/5ecda23e-3d86-4b9b-8d83-de3653395b33"
-					(reference "C96")
+					(reference "C94")
 					(unit 1)
 					(variant
 						(name "Basic")
@@ -23591,7 +23591,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "96b968f1-fb86-4f39-a9d5-1b3d7b2263f6")
-		(property "Reference" "C101"
+		(property "Reference" "C99"
 			(at 109.855 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23743,7 +23743,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/5ecda23e-3d86-4b9b-8d83-de3653395b33"
-					(reference "C101")
+					(reference "C99")
 					(unit 1)
 					(variant
 						(name "Basic")
@@ -24381,7 +24381,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a27d1eaf-81ea-4cb7-89a3-efa880587fe7")
-		(property "Reference" "C102"
+		(property "Reference" "C100"
 			(at 117.475 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24533,7 +24533,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/5ecda23e-3d86-4b9b-8d83-de3653395b33"
-					(reference "C102")
+					(reference "C100")
 					(unit 1)
 					(variant
 						(name "Basic")
@@ -26851,7 +26851,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c5158e03-5323-4a7e-9771-ace109e05e91")
-		(property "Reference" "JP11"
+		(property "Reference" "JP9"
 			(at 50.8 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26959,7 +26959,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/5ecda23e-3d86-4b9b-8d83-de3653395b33"
-					(reference "JP11")
+					(reference "JP9")
 					(unit 1)
 				)
 			)
@@ -27684,7 +27684,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dd4c5225-1bba-4500-b0bc-2487526b48b5")
-		(property "Reference" "C99"
+		(property "Reference" "C97"
 			(at 88.519 129.159 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27836,7 +27836,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/5ecda23e-3d86-4b9b-8d83-de3653395b33"
-					(reference "C99")
+					(reference "C97")
 					(unit 1)
 					(variant
 						(name "Basic")
@@ -28243,7 +28243,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e62dfcae-6e97-4f31-b592-8f96b79c096e")
-		(property "Reference" "C94"
+		(property "Reference" "C92"
 			(at 38.354 119.634 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28395,7 +28395,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/5ecda23e-3d86-4b9b-8d83-de3653395b33"
-					(reference "C94")
+					(reference "C92")
 					(unit 1)
 					(variant
 						(name "Basic")
@@ -28749,7 +28749,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f0b702ca-9269-46f3-92f0-6ecf936e8789")
-		(property "Reference" "C103"
+		(property "Reference" "C101"
 			(at 149.225 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28901,7 +28901,7 @@
 		(instances
 			(project "EEZ DIB DCP405plus"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/5ecda23e-3d86-4b9b-8d83-de3653395b33"
-					(reference "C103")
+					(reference "C101")
 					(unit 1)
 				)
 			)
